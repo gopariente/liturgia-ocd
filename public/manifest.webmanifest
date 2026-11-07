@@ -1,0 +1,16 @@
+{
+  "name": "Liturgia de las Horas · Carmelitas Descalzos",
+  "short_name": "Liturgia OCD",
+  "description": "Liturgia de las Horas con el Calendario propio de la Orden de los Carmelitas Descalzos.",
+  "lang": "es",
+  "start_url": "./#/hoy",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4ECDF",
+  "theme_color": "#3B2618",
+  "icons": [
+    {"src": "img/icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "img/icono-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "img/icono-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
