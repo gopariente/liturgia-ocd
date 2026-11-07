@@ -326,8 +326,34 @@
       : [verso('V. Dios mío, ven en mi auxilio.'), verso('R. Señor, date prisa en socorrerme.'), h('p', {}, GLORIA + (aleluya ? ' Aleluya.' : ''))];
     if (hora.id === 'completas') inicio.push(R('Examen de conciencia'), ind('Se recomienda un breve examen de conciencia en silencio.'));
 
-    const cuerpo = [R('Himno'), pend('Himno — ' + (propio ? (propio.comun || 'del común') : 'del salterio') + '. En preparación.'),
-      R('Salmodia'), pend('Antífonas y salmos — ' + salterio + '. En preparación.')];
+    const estrofas = (txt) => txt.split(/\n\s*\n/).map((x) => h('p', { class: 'estrofa' }, x));
+    const salmo = (s, antExtra) => {
+      const ant = s.ant || antExtra;
+      return [ant ? verso('Ant. ' + ant) : null, h('h3', {}, s.titulo), s.subtitulo ? h('p', { class: 'fuente centro' }, s.subtitulo) : null,
+        ...estrofas(s.texto), s.sinGloria ? null : h('p', {}, GLORIA), ant ? verso('Ant. ' + ant) : null];
+    };
+    let cuerpo;
+    const esDomingo = L.dow(fecha) === 0;
+    if (hora.id === 'intermedia') {
+      // Salmodia complementaria (válida cualquier día). En solemnidad en domingo: salmo 117 del domingo I.
+      const comp = await json('data/salterio/complementaria.json');
+      const menor = estado.menor || (new Date().getHours() < 12 ? 'tercia' : new Date().getHours() < 15 ? 'sexta' : 'nona');
+      const H = comp.horas[menor];
+      const elegir = h('div', { class: 'chips', role: 'group', 'aria-label': 'Hora menor' }, Object.entries(comp.horas).map(([k, v]) =>
+        h('button', { type: 'button', class: 'chip', 'aria-pressed': String(k === menor), onclick: () => { estado.menor = k; vistaOficio(fechaISO, horaId, forzado); } }, v.nombre)));
+      const salmos = (esDomingo && p.grado === 'S') ? comp.domingo_I.salmos : H.salmos;
+      cuerpo = [elegir, R('Himno'), ...estrofas(H.himnos[0]),
+        R('Salmodia' + (salmos === H.salmos ? ' complementaria' : ' · domingo I')), ...salmos.flatMap((s) => salmo(s))];
+    } else if (hora.id === 'laudes' && (p.grado === 'S' || p.grado === 'F' || (esDomingo && t.salterio === 1))) {
+      const ld = await json('data/salterio/laudes-domingo-1.json');
+      const ants = (propio && propio.ant_laudes) || [];
+      cuerpo = [R('Himno'), pend('Himno ' + (propio ? (propio.comun ? 'del común' : 'propio') : 'del domingo I') + '. En preparación.'),
+        R('Salmodia · domingo I'), ants.length ? null : ind('Antífonas del propio o del común (en preparación).'),
+        ...ld.salmos.flatMap((s, i) => salmo(s, ants[i]))];
+    } else {
+      cuerpo = [R('Himno'), pend('Himno — ' + (propio ? (propio.comun || 'del común') : 'del salterio') + '. En preparación.'),
+        R('Salmodia'), pend('Antífonas y salmos — ' + salterio + '. En preparación.')];
+    }
 
     if (hora.id === 'lectura') {
       cuerpo.push(R('Primera lectura'), pend('Lectura bíblica del propio del tiempo. En preparación.'));
@@ -344,7 +370,7 @@
         R('Preces'), pend('Preces del día. En preparación.'),
         R('Padre nuestro'), h('p', {}, PADRENUESTRO));
     } else if (hora.id === 'intermedia') {
-      cuerpo.push(R('Lectura breve'), pend('Lectura breve de Tercia, Sexta o Nona. En preparación.'));
+      cuerpo.push(R('Lectura breve'), pend('Lectura breve y versículo del día. En preparación.'));
     } else {
       cuerpo.push(R('Lectura breve, responsorio y cántico de Simeón'), pend('En preparación.'));
     }
@@ -415,7 +441,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, 'Acerca de'),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, 'Versión 0.1'))
+        h('p', { class: 'nota' }, 'Versión 0.2'))
     );
   }
 
