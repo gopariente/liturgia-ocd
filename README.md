@@ -17,8 +17,11 @@ public/                  ← lo que se publica (raíz del sitio)
   sw.js                  modo sin conexión
   data/calendario-propio-ocd.json   calendario propio (fuente: Curia General OCD)
   data/calendario-general.json      solemnidades y fiestas universales
-  data/textos/MM-DD.json            oficio propio de cada celebración
-  calendario-ocd.ics     suscripción al calendario completo
+  data/regiones.json                países: variantes OCD «en las casas de…» y calendarios nacionales
+  data/textos/<idioma>/MM-DD.json   oficio propio de cada celebración
+  data/salterio/<idioma>/           salterio y salmodia complementaria
+  i18n/<idioma>.json                textos de pantalla
+  calendario-ocd*.ics    suscripción al calendario (general y uno por país)
   _headers               cabeceras de seguridad (Cloudflare Pages)
 scripts/
   convertir_docs.py      convierte los .doc/.docx de la Orden a data/textos
@@ -43,6 +46,30 @@ Probar en la computadora: `python3 -m http.server -d public 8080` y abrir http:/
 3. Revisar los JSON generados en `public/data/textos/` antes de publicar.
 
 El título, la fecha y el grado **siempre salen del calendario** (`calendario-propio-ocd.json`), no del documento.
+
+## Versiones por país
+
+El usuario elige su país en Ajustes. El día se calcula en capas:
+
+1. Calendario romano general (`calendario-general.json`).
+2. Calendario nacional (`regiones.json → nacionales`) y traslados (Ascensión o Corpus en jueves).
+3. Calendario propio OCD (`calendario-propio-ocd.json`).
+4. Variantes OCD por país (`regiones.json → variantes_ocd`), según el Calendario propio vigente.
+
+Cada variante cambia el grado (`grado`), el nombre (`nombre`), traslada la fecha (`mover_a`) o agrega una celebración (`agregar`).
+Los calendarios nacionales están incompletos: deben verificarse con cada conferencia episcopal antes de publicarlos.
+
+## Idiomas
+
+- Pantalla: copiar `i18n/es.json` a `i18n/<código>.json`, traducir y sumar el idioma en `IDIOMAS` (`js/app.js`).
+- Textos litúrgicos: misma estructura en `data/textos/<código>/` y `data/salterio/<código>/`.
+- Los nombres de los días y tiempos litúrgicos que arma `js/liturgia.js` todavía están en español.
+
+## Textos comunes y derechos de autor
+
+El salterio, el ordinario, los comunes y el propio del tiempo son universales, pero cada traducción oficial tiene titular
+(español: Conferencia Episcopal Española; inglés: ICEL; latín: Libreria Editrice Vaticana). Solo se cargan en este
+repositorio público los textos propios de la Orden y los que se publiquen con autorización del titular.
 
 ## Pendiente (próximas versiones)
 

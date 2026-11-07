@@ -8,9 +8,15 @@
 
   // ---------- Preferencias (solo en este dispositivo) ----------
   const PREF = 'liturgia-ocd:pref';
+  // País por defecto según el idioma del navegador (es-AR → ar); si no coincide, calendario general.
+  function paisPorDefecto() {
+    const m = (navigator.language || '').toLowerCase().match(/-([a-z]{2})$/);
+    return m ? m[1] : 'general';
+  }
   function leerPref() {
-    try { return Object.assign({ texto: 19, tema: 'auto', aviso: 'manana' }, JSON.parse(localStorage.getItem(PREF) || '{}')); }
-    catch (e) { return { texto: 19, tema: 'auto', aviso: 'manana' }; }
+    const def = { texto: 19, tema: 'auto', aviso: 'manana', pais: paisPorDefecto(), idioma: 'es' };
+    try { return Object.assign(def, JSON.parse(localStorage.getItem(PREF) || '{}')); }
+    catch (e) { return def; }
   }
   function guardarPref(p) { try { localStorage.setItem(PREF, JSON.stringify(p)); } catch (e) { /* modo privado */ } }
   function aplicarPref(p) {
@@ -20,6 +26,18 @@
   }
   let pref = leerPref();
   aplicarPref(pref);
+
+  // ---------- Idiomas ----------
+  // Textos de pantalla en i18n/<idioma>.json. Para sumar un idioma: copiar es.json, traducirlo y agregarlo aquí.
+  const IDIOMAS = [['es', 'Español']];
+  let TXT = {};
+  const tx = (k) => TXT[k] || k;
+  async function cargarIdioma() {
+    try { TXT = await json('i18n/' + pref.idioma + '.json'); }
+    catch (e) { pref.idioma = 'es'; TXT = await json('i18n/es.json'); }
+    document.documentElement.lang = pref.idioma;
+    for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = tx(el.dataset.i18n);
+  }
 
   // ---------- Utilidades de DOM ----------
   function h(tag, attrs, ...hijos) {
@@ -61,30 +79,38 @@
     return r.json();
   }
   async function cargarDatos() {
-    if (!estado.datos) {
-      const [ocd, general] = await Promise.all([json('data/calendario-propio-ocd.json'), json('data/calendario-general.json')]);
-      estado.datos = { ocd, general };
+    if (!estado.base) {
+      const [ocd, general, regiones] = await Promise.all([json('data/calendario-propio-ocd.json'), json('data/calendario-general.json'), json('data/regiones.json')]);
+      estado.base = { ocd, general };
+      estado.regiones = regiones;
+    }
+    if (!estado.datos || estado.datos.pais !== pref.pais) {
+      if (!estado.regiones.paises[pref.pais]) pref.pais = 'general';
+      estado.datos = L.aplicarRegion(estado.base, estado.regiones, pref.pais);
     }
     return estado.datos;
   }
+  // El texto propio se guarda con la fecha del calendario general (aunque un país la traslade).
+  const claveTexto = (c) => c.fechaOriginal || c.fecha;
   async function texto(mmdd) {
-    if (!estado.textos.has(mmdd)) {
+    const clave = pref.idioma + '/' + mmdd;
+    if (!estado.textos.has(clave)) {
       let t = null;
-      try { t = await json('data/textos/' + mmdd + '.json'); } catch (e) { t = null; }
-      estado.textos.set(mmdd, t);
+      try { t = await json('data/textos/' + clave + '.json'); } catch (e) { t = null; }
+      estado.textos.set(clave, t);
     }
-    return estado.textos.get(mmdd);
+    return estado.textos.get(clave);
   }
   const celebracionOCD = (mmdd) => estado.datos.ocd.celebraciones.filter((c) => c.fecha === mmdd);
 
   // ---------- Horas ----------
   const HORAS = [
-    { id: 'lectura', nombre: 'Oficio de lectura', sub: 'A cualquier hora' },
-    { id: 'laudes', nombre: 'Laudes', sub: 'Oración de la mañana' },
-    { id: 'intermedia', nombre: 'Hora intermedia', sub: 'Tercia · Sexta · Nona' },
-    { id: 'visperas', nombre: 'Vísperas', sub: 'Oración de la tarde' },
-    { id: 'completas', nombre: 'Completas', sub: 'Antes del descanso' }
+    { id: 'lectura' }, { id: 'laudes' }, { id: 'intermedia' }, { id: 'visperas' }, { id: 'completas' }
   ];
+  for (const x of HORAS) {
+    Object.defineProperty(x, 'nombre', { get: () => tx('hora_' + x.id) });
+    Object.defineProperty(x, 'sub', { get: () => tx('hora_' + x.id + '_sub') });
+  }
   function horaActual() {
     const hr = new Date().getHours();
     if (hr >= 5 && hr < 10) return 'laudes';
@@ -142,14 +168,14 @@
           h('span', { class: 'fecha' }, r.fechaTexto),
           h('a', { class: 'icono-boton', href: '#/dia/' + siguiente, 'aria-label': 'Día siguiente' }, icono('adelante'))),
         h('img', { src: 'img/escudo.svg', alt: 'Escudo de la Orden de los Carmelitas Descalzos', width: 112, height: 146 }),
-        h('h1', {}, 'Liturgia de las Horas'),
-        h('span', { class: 'orden' }, 'Orden de los Carmelitas Descalzos')),
+        h('h1', {}, tx('titulo')),
+        h('span', { class: 'orden' }, tx('orden'))),
       h('section', { class: 'seccion' },
         tituloDia, ...alternativas, ...omitidasOCD,
         ...r.notas.map((n) => h('p', { class: 'nota' }, n)),
-        !esHoy ? h('a', { class: 'boton claro', href: '#/hoy' }, 'Volver a hoy') : null),
-      h('section', { class: 'seccion', 'aria-labelledby': 'rezar' }, h('h2', { class: 'etiqueta', id: 'rezar' }, 'Rezar'), horas),
-      h('section', { class: 'seccion', 'aria-labelledby': 'prox' }, h('h2', { class: 'etiqueta', id: 'prox' }, 'Próximas celebraciones de la Orden'), ...prox)
+        !esHoy ? h('a', { class: 'boton claro', href: '#/hoy' }, tx('volverHoy')) : null),
+      h('section', { class: 'seccion', 'aria-labelledby': 'rezar' }, h('h2', { class: 'etiqueta', id: 'rezar' }, tx('rezar')), horas),
+      h('section', { class: 'seccion', 'aria-labelledby': 'prox' }, h('h2', { class: 'etiqueta', id: 'prox' }, tx('proximas')), ...prox)
     );
   }
 
@@ -162,7 +188,7 @@
       ['Propio de la Orden (santoral)', '#/calendario']
     ];
     pintar(
-      cabeceraSimple('Índice'),
+      cabeceraSimple(tx('indice')),
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, 'Libro de las Horas'),
         ...libro.map(([n, href]) => href
@@ -203,7 +229,7 @@
     const buscador = h('input', { class: 'buscar', type: 'search', id: 'buscar', placeholder: 'Ej.: Teresa, Elías, mártires', autocomplete: 'off',
       oninput: (e) => { filtro = e.target.value.trim(); render(); } });
     pintar(
-      cabeceraSimple('Calendario propio', 'Orden de los Carmelitas Descalzos'),
+      cabeceraSimple(tx('calendarioPropio'), tx('orden')),
       h('section', { class: 'seccion' },
         h('label', { class: 'etiqueta', for: 'buscar' }, 'Buscar santo o celebración'), buscador, chips),
       lista
@@ -217,7 +243,7 @@
     const cels = celebracionOCD(mmdd);
     if (!cels.length) return noEncontrado();
     const c = cels[0];
-    const txt = await texto(mmdd);
+    const txt = await texto(claveTexto(c));
     const iniciales = c.nombre.replace(/^(San|Santa|Santos|Santas|Beato|Beata|Beatos|Beatas|Bienaventurada)\s+/i, '')
       .split(/\s+/).filter((w) => /^[A-ZÁÉÍÓÚÑ]/.test(w)).slice(0, 2).map((w) => w[0]).join('');
     const [m, d] = mmdd.split('-').map(Number);
@@ -232,15 +258,16 @@
       h('div', { class: 'titulo-santo' },
         h('span', { class: 'etiqueta' }, d + ' de ' + L.MESES[m - 1] + ' · ' + GR[c.grado]),
         h('h1', {}, c.nombre),
+        c.variante ? h('p', { class: 'nota' }, tx('varianteDe') + ' ' + estado.regiones.paises[pref.pais].nombre + (c.fechaOriginal ? ' (' + tx('enGeneral') + ' ' + Number(c.fechaOriginal.slice(3)) + ' de ' + L.MESES[Number(c.fechaOriginal.slice(0, 2)) - 1] + ')' : '') + '.') : null,
         impedida ? h('p', { class: 'nota' }, 'En ' + proxima.getUTCFullYear() + ' coincide con ' + r.principal.nombre + ' y no se celebra.') : null),
       h('section', { class: 'seccion' },
         txt && txt.vida ? [h('h2', { class: 'etiqueta' }, 'Su vida'), h('p', { class: 'prosa' }, txt.vida)]
           : h('p', { class: 'nota' }, 'La reseña de esta celebración todavía no fue cargada.'),
         txt ? h('a', { class: 'boton claro', href: '#/oficio/' + L.iso(proxima) + '/lectura/' + mmdd }, 'Rezar su oficio propio') : null),
       h('section', { class: 'seccion', 'aria-labelledby': 'rec' },
-        h('h2', { class: 'etiqueta', id: 'rec' }, 'Recordatorio anual'),
+        h('h2', { class: 'etiqueta', id: 'rec' }, tx('recordatorio')),
         h('div', { class: 'dos' },
-          h('a', { class: 'boton', href: urlGoogle(c), target: '_blank', rel: 'noopener noreferrer' }, 'Google Calendar'),
+          h('a', { class: 'boton', href: urlGoogle(c), target: '_blank', rel: 'noopener noreferrer' }, tx('google')),
           h('button', { class: 'boton claro', type: 'button', onclick: () => { descargarICS(c); salida.hidden = false; salida.textContent = 'Archivo descargado: ábralo para agregarlo a su calendario.'; } }, 'Apple / Outlook (.ics)')),
         h('p', { class: 'nota' }, 'El aviso llega a las ' + (pref.aviso === 'vispera' ? '19:00 de la víspera' : '7:00 del día') + '. Puede cambiarlo en Ajustes.'),
         salida,
@@ -284,9 +311,10 @@
   }
   function botonesSuscripcion() {
     const https = location.protocol === 'https:';
+    const archivo = pref.pais === 'general' ? 'calendario-ocd.ics' : 'calendario-ocd-' + pref.pais + '.ics';
     return h('div', { class: 'dos' },
-      https ? h('a', { class: 'boton punteado', href: 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + 'calendario-ocd.ics' }, 'Suscribirme al calendario') : null,
-      h('a', { class: 'boton punteado', href: 'calendario-ocd.ics', download: 'calendario-ocd.ics' }, 'Descargar calendario (.ics)'));
+      https ? h('a', { class: 'boton punteado', href: 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + archivo }, tx('suscribirme')) : null,
+      h('a', { class: 'boton punteado', href: archivo, download: archivo }, tx('descargarIcs')));
   }
 
   // ---------- Vista: Oficio ----------
@@ -303,7 +331,7 @@
     // Desde la ficha de un santo se puede abrir su oficio propio aunque ese día no se celebre.
     const elegido = forzado ? celebracionOCD(forzado)[0] : null;
     const p = elegido ? Object.assign({ origen: 'ocd' }, elegido) : r.principal;
-    const propio = p.origen === 'ocd' ? await texto(p.fecha) : null;
+    const propio = p.origen === 'ocd' ? await texto(claveTexto(p)) : null;
     const t = r.tiempo;
     const aleluya = t.clave !== 'cuaresma' && t.clave !== 'santa' && t.clave !== 'triduo';
     const salterio = t.salterio ? 'semana ' + L.romano(t.salterio) + ' del salterio, ' + L.DIAS[L.dow(fecha)] : t.nombre;
@@ -336,7 +364,7 @@
     const esDomingo = L.dow(fecha) === 0;
     if (hora.id === 'intermedia') {
       // Salmodia complementaria (válida cualquier día). En solemnidad en domingo: salmo 117 del domingo I.
-      const comp = await json('data/salterio/complementaria.json');
+      const comp = await json('data/salterio/' + pref.idioma + '/complementaria.json');
       const menor = estado.menor || (new Date().getHours() < 12 ? 'tercia' : new Date().getHours() < 15 ? 'sexta' : 'nona');
       const H = comp.horas[menor];
       const elegir = h('div', { class: 'chips', role: 'group', 'aria-label': 'Hora menor' }, Object.entries(comp.horas).map(([k, v]) =>
@@ -345,7 +373,7 @@
       cuerpo = [elegir, R('Himno'), ...estrofas(H.himnos[0]),
         R('Salmodia' + (salmos === H.salmos ? ' complementaria' : ' · domingo I')), ...salmos.flatMap((s) => salmo(s))];
     } else if (hora.id === 'laudes' && (p.grado === 'S' || p.grado === 'F' || (esDomingo && t.salterio === 1))) {
-      const ld = await json('data/salterio/laudes-domingo-1.json');
+      const ld = await json('data/salterio/' + pref.idioma + '/laudes-domingo-1.json');
       const ants = (propio && propio.ant_laudes) || [];
       cuerpo = [R('Himno'), pend('Himno ' + (propio ? (propio.comun ? 'del común' : 'propio') : 'del domingo I') + '. En preparación.'),
         R('Salmodia · domingo I'), ants.length ? null : ind('Antífonas del propio o del común (en preparación).'),
@@ -414,7 +442,8 @@
   }
 
   // ---------- Vista: Ajustes ----------
-  function vistaAjustes() {
+  async function vistaAjustes() {
+    await cargarDatos();
     const rango = h('input', { type: 'range', id: 'tam', min: 15, max: 28, step: 1, value: pref.texto,
       oninput: (e) => { pref.texto = Number(e.target.value); aplicarPref(pref); guardarPref(pref); } });
     const temas = [['auto', 'Automático'], ['claro', 'Claro'], ['oscuro', 'Oscuro']];
@@ -428,20 +457,28 @@
     }
     render();
     pintar(
-      cabeceraSimple('Ajustes'),
+      cabeceraSimple(tx('ajustes')),
       h('section', { class: 'seccion' },
         h('div', { class: 'ajuste' }, h('label', { for: 'tam' }, 'Tamaño del texto de los oficios'), rango,
           h('p', { class: 'muestra' }, 'Señor, ábreme los labios, y mi boca proclamará tu alabanza.')),
         h('div', { class: 'ajuste' }, h('span', { id: 'tema', class: 'etiqueta' }, 'Apariencia'), grupoTema),
-        h('div', { class: 'ajuste' }, h('span', { id: 'aviso', class: 'etiqueta' }, 'Hora de los recordatorios'), grupoAviso)),
+        h('div', { class: 'ajuste' }, h('span', { id: 'aviso', class: 'etiqueta' }, tx('horaRecordatorios')), grupoAviso),
+        h('div', { class: 'ajuste' }, h('label', { for: 'pais', class: 'etiqueta' }, tx('pais')),
+          h('select', { id: 'pais', class: 'buscar', onchange: async (e) => { pref.pais = e.target.value; guardarPref(pref); await cargarDatos(); } },
+            Object.entries(estado.regiones.paises).map(([k, v]) => h('option', { value: k, selected: k === pref.pais }, v.nombre))),
+          h('p', { class: 'nota' }, tx('paisNota'))),
+        h('div', { class: 'ajuste' }, h('label', { for: 'idioma', class: 'etiqueta' }, tx('idioma')),
+          h('select', { id: 'idioma', class: 'buscar', onchange: async (e) => { pref.idioma = e.target.value; guardarPref(pref); await cargarIdioma(); vistaAjustes(); } },
+            IDIOMAS.map(([k, n]) => h('option', { value: k, selected: k === pref.idioma }, n))),
+          h('p', { class: 'nota' }, tx('idiomaNota')))),
       h('section', { class: 'seccion' },
-        h('h2', { class: 'etiqueta' }, 'Privacidad'),
+        h('h2', { class: 'etiqueta' }, tx('privacidad')),
         h('p', { class: 'nota' }, 'Esta app no tiene cuentas, publicidad ni estadísticas. No envía datos personales a ningún lado: sus preferencias quedan solo en este dispositivo.'),
         h('button', { class: 'boton punteado', type: 'button', onclick: () => { try { localStorage.removeItem(PREF); } catch (e) {} pref = leerPref(); aplicarPref(pref); vistaAjustes(); } }, 'Borrar mis preferencias')),
       h('section', { class: 'seccion' },
-        h('h2', { class: 'etiqueta' }, 'Acerca de'),
+        h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, 'Versión 0.2'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.3'))
     );
   }
 
@@ -472,7 +509,7 @@
       else if (v === 'calendario') { marcarSeccion('calendario'); await vistaCalendario(/^\d{2}$/.test(a || '') ? a : null); }
       else if (v === 'santo' && MMDD.test(a)) { marcarSeccion('calendario'); await vistaSanto(a); }
       else if (v === 'oficio' && ISO.test(a)) { marcarSeccion('hoy'); await vistaOficio(a, b, MMDD.test(partes[3] || '') ? partes[3] : null); }
-      else if (v === 'ajustes') { marcarSeccion('ajustes'); vistaAjustes(); }
+      else if (v === 'ajustes') { marcarSeccion('ajustes'); await vistaAjustes(); }
       else noEncontrado();
     } catch (e) {
       pintar(h('p', { class: 'aviso' }, 'No se pudieron cargar los datos. Revise la conexión e intente de nuevo.'));
@@ -480,7 +517,7 @@
     }
   }
   window.addEventListener('hashchange', rutear);
-  rutear();
+  cargarIdioma().catch(() => {}).then(rutear);
 
   // ---------- Modo sin conexión ----------
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {

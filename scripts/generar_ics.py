@@ -27,17 +27,54 @@ def plegar(linea: str) -> str:
     return "\r\n ".join(partes)
 
 
-lineas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Liturgia OCD//Calendario propio//ES",
-          "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Calendario propio OCD",
-          "X-WR-TIMEZONE:UTC", "REFRESH-INTERVAL;VALUE=DURATION:P7D"]
-for c in cal["celebraciones"]:
+REG = json.loads((RAIZ / "public/data/regiones.json").read_text(encoding="utf-8"))
+
+
+def con_region(pais):
+    info = REG["paises"][pais]
+    cels = [dict(c) for c in cal["celebraciones"]]
+    for v in REG["variantes_ocd"]:
+        if v["grupo"] not in info["grupos"]:
+            continue
+        if v.get("agregar"):
+            cels.append({"fecha": v["fecha"], "nombre": v["nombre"], "grado": v["grado"]})
+            continue
+        for c in cels:
+            if c["fecha"] == v["fecha"]:
+                if v.get("mover_a"):
+                    c["fecha"] = v["mover_a"]
+                if v.get("grado"):
+                    c["grado"] = v["grado"]
+                if v.get("nombre"):
+                    c["nombre"] = v["nombre"]
+                break
+    return sorted(cels, key=lambda c: c["fecha"]), info["nombre"]
+
+
+def generar(pais):
+    cels, nombre = con_region(pais)
+    titulo = "Calendario propio OCD" + ("" if pais == "general" else " · " + nombre)
+    lineas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Liturgia OCD//Calendario propio//ES",
+              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", plegar("X-WR-CALNAME:" + esc(titulo)),
+              "X-WR-TIMEZONE:UTC", "REFRESH-INTERVAL;VALUE=DURATION:P7D"]
+    for c in cels:
+        lineas += evento(c)
+    lineas.append("END:VCALENDAR")
+    archivo = "calendario-ocd.ics" if pais == "general" else f"calendario-ocd-{pais}.ics"
+    (RAIZ / "public" / archivo).write_text("\r\n".join(lineas) + "\r\n", encoding="utf-8")
+    return archivo, len(cels)
+
+
+def evento(c):
     mm, dd = c["fecha"].split("-")
     uid = f"ocd-{c['fecha']}-{hashlib.sha1(c['nombre'].encode()).hexdigest()[:10]}@liturgia-ocd"
-    lineas += ["BEGIN:VEVENT", f"UID:{uid}", "DTSTAMP:20260101T000000Z",
+    return ["BEGIN:VEVENT", f"UID:{uid}", "DTSTAMP:20260101T000000Z",
                f"DTSTART;VALUE=DATE:2026{mm}{dd}", "RRULE:FREQ=YEARLY", "TRANSP:TRANSPARENT",
                plegar("SUMMARY:" + esc(c["nombre"])),
                plegar("DESCRIPTION:" + esc(GRADOS[c["grado"]] + " · Calendario propio de los Carmelitas Descalzos")),
                "END:VEVENT"]
-lineas.append("END:VCALENDAR")
-(RAIZ / "public/calendario-ocd.ics").write_text("\r\n".join(lineas) + "\r\n", encoding="utf-8")
-print(f"{len(cal['celebraciones'])} celebraciones → public/calendario-ocd.ics")
+
+
+for pais in REG["paises"]:
+    archivo, n = generar(pais)
+    print(f"{n:3d} celebraciones → public/{archivo}")

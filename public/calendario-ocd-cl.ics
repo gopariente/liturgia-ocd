@@ -1,0 +1,489 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Liturgia OCD//Calendario propio//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendario propio OCD · Chile
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+BEGIN:VEVENT
+UID:ocd-01-04-d0ebbcc350@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260104
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Ciriaco Elías de la Sagrada Familia Chavara\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-01-08-1dba496376@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260108
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Pedro Tomás\, obispo
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-01-09-a73ffbfc5e@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260109
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Andrés Corsini\, obispo
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-01-27-ea2ce8e6de@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260127
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Enrique de Ossó y Cervelló\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-02-04-ba9264967b@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260204
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beato María Eugenio del Niño Jesús Grialou\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-02-24-8352fc0fc1@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260224
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Josefa Naval Girbés\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-04-17-08305600e0@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260417
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beato Bautista Spagnoli\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-04-18-4c3e604a09@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260418
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María de la Encarnación Avrillot\, religiosa
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-04-23-6f3413b45b@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260423
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Teresa María de la Cruz Manetti\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-04-28-c6badcc162@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260428
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María Felicia de Jesús Sacramentado Guggiari Echeverría\, 
+ virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-05-04-044f6c242a@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260504
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beatos Ángel María Prat Hostench\, Lucas de San José Tristany Pu
+ jol\, presbíteros\, y compañeros\, mártires
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-05-16-8369ca73fe@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260516
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Simón Stock\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-05-22-1a24dad6a0@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260522
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Joaquina de Vedruna\, religiosa
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-05-25-618805e6e9@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260525
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa María Magdalena del Verbo Encarnado de' Pazzi\, virgen
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-05-29-80c91e7f12@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260529
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Elías de San Clemente Fracasso\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-06-07-88ac061590@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260607
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Ana de San Bartolomé\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-06-12-18fa82b9fc@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260612
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beatos Alfonso María del Espíritu Santo Mazurek\, presbítero\, y
+  compañeros\, mártires
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-06-14-08fce3f188@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260614
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Eliseo\, profeta
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-06-14-d70e850b04@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260614
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María Cándida de la Eucaristía Barba\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-06-26-5de0580a86@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260626
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María Josefina de Jesús Crucificado Catanea\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-12-86e55f8d59@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260712
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santos Luis Martin y María Celia Guérin\, esposos
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-13-89a5f9d5be@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260713
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Teresa de Jesús (de los Andes) Fernández Solar\, virgen
+DESCRIPTION:Fiesta · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-16-f6b7c1d188@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260716
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Bienaventurada Virgen María del Monte Carmelo\, Patrona y Titular 
+ de la Orden
+DESCRIPTION:Solemnidad · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-17-e29db85c6f@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260717
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santas Teresa de San Agustín Lidoine y compañeras\, vírgenes y m
+ ártires
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-20-3879176bdf@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260720
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Elías\, Padre nuestro\, profeta
+DESCRIPTION:Fiesta · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-23-8877799e3d@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260723
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Bienaventurada Virgen María\, Madre de la Divina Gracia
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-24-1a2b54dcd9@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260724
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beatas María Pilar de San Francisco de Borja Martínez García\, M
+ aría Sagrario de San Luis Gonzaga Moragas Cantarero y compañeras\, vírg
+ enes y mártires
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-27-8a1434b975@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260727
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Tito Brandsma\, presbítero y mártir
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-07-28-70c34a5cb7@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260728
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beato Juan Soreth\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-08-07-e700bf362d@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260807
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Alberto de Trápani\, presbítero
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-08-09-fc65f343f0@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260809
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Teresa Benedicta de la Cruz Stein\, virgen y mártir
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-08-18-751a7a4435@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260818
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beatos Leonardo Duverneuil\, Miguel Luis Brulard\, Huberto de San C
+ laudio Cagnot\, presbíteros\, y compañeros\, mártires
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-08-25-b05e653da6@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260825
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa María de Jesús Crucificado Baouardy\, virgen
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-08-26-55ea85ad76@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260826
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Transverberación del corazón de santa Teresa de Jesús\, madre nu
+ estra
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-09-01-5843bc64aa@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260901
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Teresa Margarita del Sagrado Corazón de Jesús Redi\, virgen
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-09-11-7ea170cc32@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260911
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María de Jesús López de Rivas\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-09-17-0bd16ce022@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260917
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Alberto de Jerusalén\, obispo y legislador de la Orden
+DESCRIPTION:Fiesta · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-10-01-094d20e9eb@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Teresa del Niño Jesús\, virgen y doctora de la Iglesia
+DESCRIPTION:Fiesta · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-10-15-3bf056b6cf@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261015
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Teresa de Jesús\, Madre nuestra\, virgen y doctora de la Igl
+ esia
+DESCRIPTION:Solemnidad · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-10-30-92c9769811@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261030
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María Teresa de San José Tauscher\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-05-e9b4eafb99@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261105
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Francisca de Amboise\, religiosa
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-06-90cb3740b3@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261106
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Nuño de Santa María Álvares Pereira\, religioso
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-07-1cee5dcb00@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261107
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beato Francisco de Jesús María José Palau y Quer\, presbítero
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-08-af15505dff@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261108
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa Isabel de la Santísima Trinidad Catez\, virgen
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-14-14ae2852a1@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261114
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Todos los Santos de la Orden
+DESCRIPTION:Fiesta · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-15-ee58326165@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261115
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Conmemoración de todos los difuntos de la Orden
+DESCRIPTION:Conmemoración · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-19-a2a493be91@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261119
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Rafael de San José Kalinowski\, presbítero
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-25-7ea8d318b8@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261125
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata Ana de Jesús\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-11-29-4f00b3ae7c@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261129
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beatos Dionisio de la Natividad\, presbítero\, y Redento de la Cru
+ z\, religioso\, mártires
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-12-11-dad01a1163@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261211
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Santa María Maravillas de Jesús Pidal y Chico de Guzmán\, virgen
+DESCRIPTION:Memoria · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-12-14-bc5e180882@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261214
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:San Juan de la Cruz\, Padre nuestro\, presbítero y doctor de la Ig
+ lesia
+DESCRIPTION:Solemnidad · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+BEGIN:VEVENT
+UID:ocd-12-16-1aa845473a@liturgia-ocd
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261216
+RRULE:FREQ=YEARLY
+TRANSP:TRANSPARENT
+SUMMARY:Beata María de los Ángeles Fontanella\, virgen
+DESCRIPTION:Memoria libre · Calendario propio de los Carmelitas Descalzos
+END:VEVENT
+END:VCALENDAR
