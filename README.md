@@ -36,6 +36,9 @@ scripts/
    - Build command: *(vacío)*
    - Output directory: `public`
 3. Opcional: conectar un dominio propio en Cloudflare.
+4. Verificar que la app **Cloudflare Workers and Pages** de GitHub tenga acceso a este repositorio
+   (GitHub → Settings → Applications → Cloudflare Workers and Pages → Configure → Repository access).
+   Sin ese acceso, los cambios unidos a `main` no se publican.
 
 Probar en la computadora: `python3 -m http.server -d public 8080` y abrir http://localhost:8080
 
