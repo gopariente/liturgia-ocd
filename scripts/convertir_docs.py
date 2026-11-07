@@ -20,7 +20,7 @@ from xml.etree import ElementTree as ET
 
 RAIZ = Path(__file__).resolve().parent.parent
 CAL = RAIZ / "public" / "data" / "calendario-propio-ocd.json"
-SALIDA = RAIZ / "public" / "data" / "textos"
+SALIDA = RAIZ / "public" / "data" / "textos" / "es"  # una carpeta por idioma
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 

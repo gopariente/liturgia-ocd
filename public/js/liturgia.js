@@ -62,15 +62,16 @@
   }
 
   // Celebraciones móviles (país: Argentina — Ascensión y Corpus en domingo).
-  function moviles(y) {
+  // opciones: { ascension_jueves, corpus_jueves } según el país.
+  function moviles(y, op = {}) {
     const P = pascua(y), adv = adviento1(y);
     const lista = [
       { fecha: bautismo(y), nombre: 'Bautismo del Señor', grado: 'F', rango: 5, color: 'blanco' },
-      { fecha: sumar(P, 42), nombre: 'Ascensión del Señor', grado: 'S', rango: 2, color: 'blanco' },
+      { fecha: sumar(P, op.ascension_jueves ? 39 : 42), nombre: 'Ascensión del Señor', grado: 'S', rango: 2, color: 'blanco' },
       { fecha: sumar(P, 49), nombre: 'Domingo de Pentecostés', grado: 'S', rango: 2, color: 'rojo' },
       { fecha: sumar(P, 50), nombre: 'Bienaventurada Virgen María, Madre de la Iglesia', grado: 'M', rango: 10, color: 'blanco' },
       { fecha: sumar(P, 56), nombre: 'Santísima Trinidad', grado: 'S', rango: 3, color: 'blanco' },
-      { fecha: sumar(P, 63), nombre: 'Santísimo Cuerpo y Sangre de Cristo', grado: 'S', rango: 3, color: 'blanco' },
+      { fecha: sumar(P, op.corpus_jueves ? 60 : 63), nombre: 'Santísimo Cuerpo y Sangre de Cristo', grado: 'S', rango: 3, color: 'blanco' },
       { fecha: sumar(P, 68), nombre: 'Sagrado Corazón de Jesús', grado: 'S', rango: 3, color: 'blanco' },
       { fecha: sumar(P, 69), nombre: 'Inmaculado Corazón de la Virgen María', grado: 'M', rango: 10, color: 'blanco' },
       { fecha: sumar(adv, -7), nombre: 'Jesucristo, Rey del Universo', grado: 'S', rango: 3, color: 'blanco' },
@@ -161,7 +162,7 @@
     const k = mmdd(fecha), y = fecha.getUTCFullYear();
     const lista = [];
     for (const c of datos.general.fijas) if (c.fecha === k) lista.push(Object.assign({ origen: 'general' }, c));
-    for (const c of moviles(y)) if (iso(c.fecha) === iso(fecha)) lista.push(Object.assign({}, c, { fecha: k }));
+    for (const c of moviles(y, datos.opciones)) if (iso(c.fecha) === iso(fecha)) lista.push(Object.assign({}, c, { fecha: k }));
     for (const c of datos.ocd.celebraciones) {
       if (c.fecha === k) lista.push(Object.assign({ origen: 'ocd', rango: RANGO_OCD[c.grado] }, c));
     }
@@ -233,6 +234,32 @@
     };
   }
 
+  // Aplica las variantes de un país sobre los calendarios base (sin modificar los originales).
+  function aplicarRegion(base, regiones, pais) {
+    const info = (regiones && regiones.paises[pais]) || { grupos: [] };
+    const ocd = base.ocd.celebraciones.map((c) => Object.assign({}, c));
+    for (const v of (regiones ? regiones.variantes_ocd : [])) {
+      if (!info.grupos.includes(v.grupo)) continue;
+      if (v.agregar) { ocd.push({ fecha: v.fecha, nombre: v.nombre, grado: v.grado, doc: v.doc || null, variante: v.grupo }); continue; }
+      const c = ocd.find((x) => x.fecha === v.fecha);
+      if (!c) continue;
+      if (v.mover_a) { c.fechaOriginal = c.fecha; c.fecha = v.mover_a; }
+      if (v.grado) c.grado = v.grado;
+      if (v.nombre) c.nombre = v.nombre;
+      c.variante = v.grupo;
+    }
+    ocd.sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const nac = (regiones && regiones.nacionales[pais]) || [];
+    const fijas = base.general.fijas.filter((g) => !nac.some((n) => n.fecha === g.fecha))
+      .concat(nac.map((n) => Object.assign({ nacional: true }, n)));
+    return {
+      ocd: Object.assign({}, base.ocd, { celebraciones: ocd }),
+      general: Object.assign({}, base.general, { fijas }),
+      opciones: { ascension_jueves: !!info.ascension_jueves, corpus_jueves: !!info.corpus_jueves },
+      pais
+    };
+  }
+
   // Próximas celebraciones propias de la Orden a partir de una fecha.
   function proximasOCD(desde, datos, cantidad = 3) {
     const res = [];
@@ -246,6 +273,6 @@
 
   root.Liturgia = {
     GRADOS, MESES, DIAS, f, sumar, dif, dow, mmdd, iso, desdeISO, hoyLocal, romano,
-    pascua, adviento1, bautismo, sagradaFamilia, moviles, tiempo, resolver, proximasOCD
+    pascua, adviento1, bautismo, sagradaFamilia, moviles, tiempo, resolver, proximasOCD, aplicarRegion
   };
 })(typeof window !== 'undefined' ? window : globalThis);
