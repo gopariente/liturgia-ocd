@@ -30,12 +30,19 @@
     const m = (navigator.language || '').toLowerCase().match(/-([a-z]{2})$/);
     return m ? m[1] : 'general';
   }
+  // El país solo se guarda si la persona lo eligió en Ajustes; si no, se recalcula en cada visita.
   function leerPref() {
     const def = { texto: 19, tema: 'auto', aviso: 'manana', pais: paisPorDefecto(), idioma: 'es' };
-    try { return Object.assign(def, JSON.parse(localStorage.getItem(PREF) || '{}')); }
-    catch (e) { return def; }
+    let guardado = {};
+    try { guardado = JSON.parse(localStorage.getItem(PREF) || '{}') || {}; } catch (e) { guardado = {}; }
+    if (!guardado.paisElegido) delete guardado.pais;
+    return Object.assign(def, guardado);
   }
-  function guardarPref(p) { try { localStorage.setItem(PREF, JSON.stringify(p)); } catch (e) { /* modo privado */ } }
+  function guardarPref(p) {
+    const copia = Object.assign({}, p);
+    if (!copia.paisElegido) delete copia.pais;
+    try { localStorage.setItem(PREF, JSON.stringify(copia)); } catch (e) { /* modo privado */ }
+  }
   function aplicarPref(p) {
     document.documentElement.style.setProperty('--texto', p.texto + 'px');
     if (p.tema === 'auto') document.documentElement.removeAttribute('data-tema');
@@ -396,8 +403,10 @@
         R('Salmodia · domingo I'), ants.length ? null : ind('Antífonas del propio o del común (en preparación).'),
         ...ld.salmos.flatMap((s, i) => salmo(s, ants[i]))];
     } else {
-      cuerpo = [R('Himno'), pend('Himno — ' + (propio ? (propio.comun || 'del común') : 'del salterio') + '. En preparación.'),
-        R('Salmodia'), pend('Antífonas y salmos — ' + salterio + '. En preparación.')];
+      cuerpo = [R('Himno'), pend('Himno — ' + (propio ? (propio.comun || 'del común').replace(/\.$/, '') : 'del salterio') + '. En preparación.'),
+        R('Salmodia'),
+        pend('Los salmos de hoy (' + salterio + ') todavía no están cargados en la app. Los salmos completos ya disponibles están en la Hora intermedia y, en solemnidades y fiestas, en Laudes.'),
+        h('a', { class: 'boton claro', href: '#/oficio/' + fechaISO + '/intermedia' + (forzado ? '/' + forzado : '') }, tx('hora_intermedia'))];
     }
 
     if (hora.id === 'lectura') {
@@ -481,7 +490,7 @@
         h('div', { class: 'ajuste' }, h('span', { id: 'tema', class: 'etiqueta' }, 'Apariencia'), grupoTema),
         h('div', { class: 'ajuste' }, h('span', { id: 'aviso', class: 'etiqueta' }, tx('horaRecordatorios')), grupoAviso),
         h('div', { class: 'ajuste' }, h('label', { for: 'pais', class: 'etiqueta' }, tx('pais')),
-          h('select', { id: 'pais', class: 'buscar', onchange: async (e) => { pref.pais = e.target.value; guardarPref(pref); await cargarDatos(); } },
+          h('select', { id: 'pais', class: 'buscar', onchange: async (e) => { pref.pais = e.target.value; pref.paisElegido = true; guardarPref(pref); await cargarDatos(); } },
             Object.entries(estado.regiones.paises).map(([k, v]) => h('option', { value: k, selected: k === pref.pais }, v.nombre))),
           h('p', { class: 'nota' }, tx('paisNota'))),
         h('div', { class: 'ajuste' }, h('label', { for: 'idioma', class: 'etiqueta' }, tx('idioma')),
@@ -495,7 +504,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.4'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.4.1'))
     );
   }
 

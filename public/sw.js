@@ -1,5 +1,5 @@
 /* Modo sin conexión: guarda la app y los datos ya consultados. */
-const VERSION = 'liturgia-ocd-v0.4';
+const VERSION = 'liturgia-ocd-v0.4.1';
 const BASE = [
   './', 'index.html', 'css/app.css', 'js/liturgia.js', 'js/app.js', 'manifest.webmanifest',
   'img/escudo.svg', 'img/icono.svg', 'img/icono-192.png', 'data/calendario-propio-ocd.json', 'data/calendario-general.json', 'data/regiones.json', 'i18n/es.json', 'data/salterio/es/complementaria.json', 'data/salterio/es/laudes-domingo-1.json'
