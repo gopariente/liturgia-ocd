@@ -9,7 +9,7 @@
     },
     {
       "t": "fuente",
-      "x": "De Las Moradas de santa Teresa de Jesús, virgen y doctora de la Iglesia.  (6M7,10-13;2M1,12;B.A.C.,212 (1962),406-407.356)"
+      "x": "De Las Moradas de santa Teresa de Jesús, virgen y doctora de la Iglesia. (6M7,10-13;2M1,12;B.A.C.,212 (1962),406-407.356)"
     },
     {
       "t": "titulo",
@@ -33,7 +33,7 @@
     },
     {
       "t": "rubrica",
-      "x": "Responsorio · Cf.Col.2,2.3.6.7"
+      "x": "Responsorio · Cf. Col.2,2.3.6.7"
     },
     {
       "t": "verso",
@@ -44,7 +44,7 @@
       "x": "V. Vivid, pues, según Cristo Jesús; enraizados y edificados en el. * En el cual están ocultos."
     }
   ],
-  "oracion": "Oh Dios, que otorgaste a la beata Maria de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor.",
+  "oracion": "Oh Dios, que otorgaste a la beata María de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor.",
   "ant_benedictus": "Bendito sea Dios, que nos ha bendecido en la persona de Cristo con toda clase de bienes espirituales y celestiales.",
   "ant_magnificat": "Estad alegres cuando compartís los padecimientos",
   "horas": {
@@ -79,7 +79,7 @@
       },
       {
         "t": "rubrica",
-        "x": "RESPONSORIO Cf.Col.2,2.3.6.7"
+        "x": "RESPONSORIO Cf. Col.2,2.3.6.7"
       },
       {
         "t": "verso",
@@ -129,11 +129,11 @@
       },
       {
         "t": "rubrica",
-        "x": "ORACION"
+        "x": "ORACIÓN"
       },
       {
         "t": "estrofa",
-        "x": "Oh Dios, que otorgaste a la beata Maria de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor."
+        "x": "Oh Dios, que otorgaste a la beata María de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor."
       }
     ],
     "visperas": [
@@ -167,7 +167,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amén."
       },
       {
         "t": "verso",

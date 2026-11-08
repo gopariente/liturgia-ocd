@@ -1,6 +1,6 @@
 {
   "fecha": "10-15",
-  "vida": "Nace en Avila el 28 de marzo de 1515, Entra en la Encarnación el 2 de noviembre de 1535. Funda en Avila el primer monasterio de Carmelitas descalzas con el titulo de San José el 24 de agosto de 1562. Inaugura el primer convento de frailes contemplativos en Duruelo el 28 de noviembre de 1568. Llegara a fundar 32 casas. Hija de la Iglesia, muere en Alba de Tormes el 4 de octubre de 1582. Gracias a sus obras –entre las que destacan el Libro de la Vida, El Camino de perfección, Las Moradas y las Fundaciones- ha ejercido en el pueblo de Dios un luminoso y fecundo magisterio, que Pablo VI iba a reconocer solemnemente, declarándola doctora de  la Iglesia universal el 27 de septiembre de 1970. Teresa, nuestra madre, maestra de oración en el pueblo de Dios y fundadora del Carmelo Teresiano,  se nos presenta en la Liturgia de este día con toda su belleza espiritual. A través de los textos del  Oficio, el recuerdo de la Santa se transforma en alabanza a Dios que la enriqueció tan sin medida, y en plegaria ferviente pidiendo por la santidad de la Iglesia. Palabra de Dios y palabras de Teresa, entrelazadas, forman el texto de la Liturgia de las horas. En comunión espiritual con su madre, el Carmelo ofrece hoy el sacrificio de alabanza como eco de la voz glorificadota de quien vive ya en las Moradas de la casa del Padre. I Vísperas",
+  "vida": "Nace en Ávila el 28 de marzo de 1515, Entra en la Encarnación el 2 de noviembre de 1535. Funda en Ávila el primer monasterio de Carmelitas descalzas con el titulo de San José el 24 de agosto de 1562. Inaugura el primer convento de frailes contemplativos en Duruelo el 28 de noviembre de 1568. Llegara a fundar 32 casas. Hija de la Iglesia, muere en Alba de Tormes el 4 de octubre de 1582. Gracias a sus obras –entre las que destacan el Libro de la Vida, El Camino de perfección, Las Moradas y las Fundaciones- ha ejercido en el pueblo de Dios un luminoso y fecundo magisterio, que Pablo VI iba a reconocer solemnemente, declarándola doctora de la Iglesia universal el 27 de septiembre de 1970. Teresa, nuestra madre, maestra de oración en el pueblo de Dios y fundadora del Carmelo Teresiano, se nos presenta en la Liturgia de este día con toda su belleza espiritual. A través de los textos del Oficio, el recuerdo de la Santa se transforma en alabanza a Dios que la enriqueció tan sin medida, y en plegaria ferviente pidiendo por la santidad de la Iglesia. Palabra de Dios y palabras de Teresa, entrelazadas, forman el texto de la Liturgia de las horas. En comunión espiritual con su madre, el Carmelo ofrece hoy el sacrificio de alabanza como eco de la voz glorificadota de quien vive ya en las Moradas de la casa del Padre. I Vísperas",
   "comun": "",
   "lectura": [
     {
@@ -88,7 +88,7 @@
       "x": "Apartarnos del amor de Cristo *Cuando aparezca."
     }
   ],
-  "oracion": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la perfección; Concédenos alimentarnos siempre con su  celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor.",
+  "oracion": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la perfección; Concédenos alimentarnos siempre con su celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor.",
   "ant_benedictus": "Al que me ama lo amara mi Padre y lo",
   "ant_magnificat": "No perdais la calma. En la casa de Mi Padre hay muchas moradas, y me voy a prepararos sitio.",
   "horas": {
@@ -243,7 +243,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amén."
       },
       {
         "t": "rubrica",
@@ -663,7 +663,7 @@
       },
       {
         "t": "estrofa",
-        "x": "asi residirá en mi la fuerza de Cristo. *Porque cuando soy débil, entonces soy fuerte."
+        "x": "así residirá en mi la fuerza de Cristo. *Porque cuando soy débil, entonces soy fuerte."
       },
       {
         "t": "verso",
@@ -675,7 +675,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Jesucristo que me dio esta consigna: “De aquí en\nAdelante miraras mi honra, como verdadera esposa mia”"
+        "x": "Jesucristo que me dio esta consigna: “De aquí en\nAdelante miraras mi honra, como verdadera esposa mía”"
       },
       {
         "t": "rubrica",
@@ -691,7 +691,7 @@
       },
       {
         "t": "estrofa",
-        "x": "El nos instruirá en sus caminos,\nY marcharemos por sus sendas;\nPorque de Sion saldrá la ley,\nDe Jerusalén la palabra del Señor."
+        "x": "El nos instruirá en sus caminos,\nY marcharemos por sus sendas;\nPorque de Sión saldrá la ley,\nDe Jerusalén la palabra del Señor."
       },
       {
         "t": "rubrica",
@@ -735,7 +735,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Jesucristo que me dio esta consigna: “De aquí en\nadelante miraras mi honra, como verdadera esposa mia”"
+        "x": "Jesucristo que me dio esta consigna: “De aquí en\nadelante miraras mi honra, como verdadera esposa mía”"
       },
       {
         "t": "estrofa",
@@ -893,7 +893,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Si queréis que esté holgando,\nquiero por amor holgar.\nSi me mandáis trabajar,\nmorir quiero trabajando.\nDecid, ¿dónde, cómo y cuándo?\nDecid, dulce Amor, decid:\n¿qué mandáis hacer de mí? Amen"
+        "x": "Si queréis que esté holgando,\nquiero por amor holgar.\nSi me mandáis trabajar,\nmorir quiero trabajando.\nDecid, ¿dónde, cómo y cuándo?\nDecid, dulce Amor, decid:\n¿qué mandáis hacer de mí? Amén"
       },
       {
         "t": "rubrica",
@@ -949,7 +949,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Angeles del Señor, bendecid al Señor;\ncielos, bendecid al Señor."
+        "x": "Ángeles del Señor, bendecid al Señor;\ncielos, bendecid al Señor."
       },
       {
         "t": "estrofa",
@@ -1493,7 +1493,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Si en las manos tengo a vos\ncon regalos soberanos,\nya estamos juntos los dos,\npues que Dios esta en mis manos,\ny yo en las manos de Dios. Amen."
+        "x": "Si en las manos tengo a vos\ncon regalos soberanos,\nya estamos juntos los dos,\npues que Dios esta en mis manos,\ny yo en las manos de Dios. Amén."
       },
       {
         "t": "rubrica",
@@ -1669,7 +1669,7 @@
       },
       {
         "t": "rubrica",
-        "x": "Oracion"
+        "x": "Oración"
       },
       {
         "t": "estrofa",

@@ -1,42 +1,748 @@
 {
-  "fuente": "Calendario Romano General — solo solemnidades y fiestas (las memorias se agregan en una próxima versión)",
-  "nota": "rango según la Tabla de los días litúrgicos: 2 = Navidad/Epifanía, 3 = solemnidades generales, 5 = fiestas del Señor, 7 = fiestas de la Virgen y de los santos",
+  "fuente": "Calendario Romano General — solemnidades, fiestas, memorias obligatorias y algunas libres",
+  "nota": "rango según la Tabla de los días litúrgicos: 2 Navidad/Epifanía, 3 solemnidades, 5 fiestas del Señor, 7 fiestas de la Virgen y santos, 10 memorias obligatorias, 12 memorias libres. Si el propio OCD tiene una celebración ese día, la memoria general no se celebra.",
   "fijas": [
-    {"fecha": "01-01", "nombre": "Santa María, Madre de Dios", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "01-06", "nombre": "Epifanía del Señor", "grado": "S", "rango": 2, "color": "blanco"},
-    {"fecha": "01-25", "nombre": "Conversión de San Pablo, apóstol", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "02-02", "nombre": "Presentación del Señor", "grado": "F", "rango": 5, "color": "blanco"},
-    {"fecha": "02-22", "nombre": "Cátedra de San Pedro, apóstol", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "03-19", "nombre": "San José, esposo de la Virgen María", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "03-25", "nombre": "Anunciación del Señor", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "04-25", "nombre": "San Marcos, evangelista", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "05-03", "nombre": "Santos Felipe y Santiago, apóstoles", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "05-14", "nombre": "San Matías, apóstol", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "05-31", "nombre": "Visitación de la Virgen María", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "06-24", "nombre": "Natividad de San Juan Bautista", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "06-29", "nombre": "Santos Pedro y Pablo, apóstoles", "grado": "S", "rango": 3, "color": "rojo"},
-    {"fecha": "07-03", "nombre": "Santo Tomás, apóstol", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "07-22", "nombre": "Santa María Magdalena", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "07-25", "nombre": "Santiago, apóstol", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "08-06", "nombre": "Transfiguración del Señor", "grado": "F", "rango": 5, "color": "blanco"},
-    {"fecha": "08-10", "nombre": "San Lorenzo, diácono y mártir", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "08-15", "nombre": "Asunción de la Virgen María", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "08-24", "nombre": "San Bartolomé, apóstol", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "09-08", "nombre": "Natividad de la Virgen María", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "09-14", "nombre": "Exaltación de la Santa Cruz", "grado": "F", "rango": 5, "color": "rojo"},
-    {"fecha": "09-21", "nombre": "San Mateo, apóstol y evangelista", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "09-29", "nombre": "Santos Arcángeles Miguel, Gabriel y Rafael", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "10-18", "nombre": "San Lucas, evangelista", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "10-28", "nombre": "Santos Simón y Judas, apóstoles", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "11-01", "nombre": "Todos los Santos", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "11-02", "nombre": "Conmemoración de todos los fieles difuntos", "grado": "C", "rango": 3, "color": "morado"},
-    {"fecha": "11-09", "nombre": "Dedicación de la Basílica de Letrán", "grado": "F", "rango": 5, "color": "blanco"},
-    {"fecha": "11-30", "nombre": "San Andrés, apóstol", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "12-08", "nombre": "Inmaculada Concepción de la Virgen María", "grado": "S", "rango": 3, "color": "blanco"},
-    {"fecha": "12-12", "nombre": "Nuestra Señora de Guadalupe, patrona de América", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "12-25", "nombre": "Natividad del Señor", "grado": "S", "rango": 2, "color": "blanco"},
-    {"fecha": "12-26", "nombre": "San Esteban, protomártir", "grado": "F", "rango": 7, "color": "rojo"},
-    {"fecha": "12-27", "nombre": "San Juan, apóstol y evangelista", "grado": "F", "rango": 7, "color": "blanco"},
-    {"fecha": "12-28", "nombre": "Santos Inocentes, mártires", "grado": "F", "rango": 7, "color": "rojo"}
+    {
+      "fecha": "01-01",
+      "nombre": "Santa María, Madre de Dios",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-02",
+      "nombre": "Santos Basilio Magno y Gregorio Nacianceno, obispos y doctores",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-03",
+      "nombre": "Santísimo Nombre de Jesús",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-06",
+      "nombre": "Epifanía del Señor",
+      "grado": "S",
+      "rango": 2,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-17",
+      "nombre": "San Antonio, abad",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-21",
+      "nombre": "Santa Inés, virgen y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "01-24",
+      "nombre": "San Francisco de Sales, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-25",
+      "nombre": "Conversión de San Pablo, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-26",
+      "nombre": "Santos Timoteo y Tito, obispos",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-28",
+      "nombre": "Santo Tomás de Aquino, presbítero y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "01-31",
+      "nombre": "San Juan Bosco, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-02",
+      "nombre": "Presentación del Señor",
+      "grado": "F",
+      "rango": 5,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-05",
+      "nombre": "Santa Águeda, virgen y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "02-06",
+      "nombre": "Santos Pablo Miki y compañeros, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "02-10",
+      "nombre": "Santa Escolástica, virgen",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-11",
+      "nombre": "Nuestra Señora de Lourdes",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-14",
+      "nombre": "Santos Cirilo, monje, y Metodio, obispo",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-22",
+      "nombre": "Cátedra de San Pedro, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "02-23",
+      "nombre": "San Policarpo, obispo y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "03-07",
+      "nombre": "Santas Perpetua y Felicidad, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "03-17",
+      "nombre": "San Patricio, obispo",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "03-19",
+      "nombre": "San José, esposo de la Virgen María",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "03-25",
+      "nombre": "Anunciación del Señor",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "04-07",
+      "nombre": "San Juan Bautista de La Salle, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "04-11",
+      "nombre": "San Estanislao, obispo y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "04-25",
+      "nombre": "San Marcos, evangelista",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "04-29",
+      "nombre": "Santa Catalina de Siena, virgen y doctora",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "05-02",
+      "nombre": "San Atanasio, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "05-03",
+      "nombre": "Santos Felipe y Santiago, apóstoles",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "05-13",
+      "nombre": "Nuestra Señora de Fátima",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "05-14",
+      "nombre": "San Matías, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "05-26",
+      "nombre": "San Felipe Neri, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "05-31",
+      "nombre": "Visitación de la Virgen María",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "06-01",
+      "nombre": "San Justino, mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "06-03",
+      "nombre": "Santos Carlos Lwanga y compañeros, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "06-05",
+      "nombre": "San Bonifacio, obispo y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "06-11",
+      "nombre": "San Bernabé, apóstol",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "06-13",
+      "nombre": "San Antonio de Padua, presbítero y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "06-21",
+      "nombre": "San Luis Gonzaga, religioso",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "06-24",
+      "nombre": "Natividad de San Juan Bautista",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "06-28",
+      "nombre": "San Ireneo, obispo, mártir y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "06-29",
+      "nombre": "Santos Pedro y Pablo, apóstoles",
+      "grado": "S",
+      "rango": 3,
+      "color": "rojo"
+    },
+    {
+      "fecha": "07-03",
+      "nombre": "Santo Tomás, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "07-11",
+      "nombre": "San Benito, abad",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "07-15",
+      "nombre": "San Buenaventura, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "07-22",
+      "nombre": "Santa María Magdalena",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "07-25",
+      "nombre": "Santiago, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "07-26",
+      "nombre": "Santos Joaquín y Ana, padres de la Virgen María",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "07-29",
+      "nombre": "Santos Marta, María y Lázaro",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "07-31",
+      "nombre": "San Ignacio de Loyola, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-01",
+      "nombre": "San Alfonso María de Ligorio, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-04",
+      "nombre": "San Juan María Vianney, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-06",
+      "nombre": "Transfiguración del Señor",
+      "grado": "F",
+      "rango": 5,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-08",
+      "nombre": "Santo Domingo de Guzmán, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-10",
+      "nombre": "San Lorenzo, diácono y mártir",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "08-11",
+      "nombre": "Santa Clara, virgen",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-14",
+      "nombre": "San Maximiliano María Kolbe, presbítero y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "08-15",
+      "nombre": "Asunción de la Virgen María",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-20",
+      "nombre": "San Bernardo, abad y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-21",
+      "nombre": "San Pío X, papa",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-22",
+      "nombre": "Santa María Virgen, Reina",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-24",
+      "nombre": "San Bartolomé, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "08-27",
+      "nombre": "Santa Mónica",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-28",
+      "nombre": "San Agustín, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "08-29",
+      "nombre": "Martirio de San Juan Bautista",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-03",
+      "nombre": "San Gregorio Magno, papa y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-08",
+      "nombre": "Natividad de la Virgen María",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-13",
+      "nombre": "San Juan Crisóstomo, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-14",
+      "nombre": "Exaltación de la Santa Cruz",
+      "grado": "F",
+      "rango": 5,
+      "color": "rojo"
+    },
+    {
+      "fecha": "09-15",
+      "nombre": "Nuestra Señora de los Dolores",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-16",
+      "nombre": "Santos Cornelio, papa, y Cipriano, obispo, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "09-20",
+      "nombre": "Santos Andrés Kim Taegon, Pablo Chong Hasang y compañeros, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "09-21",
+      "nombre": "San Mateo, apóstol y evangelista",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "09-23",
+      "nombre": "San Pío de Pietrelcina, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-27",
+      "nombre": "San Vicente de Paúl, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-29",
+      "nombre": "Santos Arcángeles Miguel, Gabriel y Rafael",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "09-30",
+      "nombre": "San Jerónimo, presbítero y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "10-02",
+      "nombre": "Santos Ángeles Custodios",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "10-04",
+      "nombre": "San Francisco de Asís",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "10-07",
+      "nombre": "Nuestra Señora del Rosario",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "10-17",
+      "nombre": "San Ignacio de Antioquía, obispo y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "10-18",
+      "nombre": "San Lucas, evangelista",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "10-22",
+      "nombre": "San Juan Pablo II, papa",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "10-28",
+      "nombre": "Santos Simón y Judas, apóstoles",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "11-01",
+      "nombre": "Todos los Santos",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-02",
+      "nombre": "Conmemoración de todos los fieles difuntos",
+      "grado": "C",
+      "rango": 3,
+      "color": "morado"
+    },
+    {
+      "fecha": "11-04",
+      "nombre": "San Carlos Borromeo, obispo",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-09",
+      "nombre": "Dedicación de la Basílica de Letrán",
+      "grado": "F",
+      "rango": 5,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-10",
+      "nombre": "San León Magno, papa y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-11",
+      "nombre": "San Martín de Tours, obispo",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-12",
+      "nombre": "San Josafat, obispo y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "11-17",
+      "nombre": "Santa Isabel de Hungría, religiosa",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-21",
+      "nombre": "Presentación de la Virgen María",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "11-22",
+      "nombre": "Santa Cecilia, virgen y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "11-24",
+      "nombre": "Santos Andrés Dung-Lac y compañeros, mártires",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "11-30",
+      "nombre": "San Andrés, apóstol",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "12-03",
+      "nombre": "San Francisco Javier, presbítero",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-07",
+      "nombre": "San Ambrosio, obispo y doctor",
+      "grado": "M",
+      "rango": 10,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-08",
+      "nombre": "Inmaculada Concepción de la Virgen María",
+      "grado": "S",
+      "rango": 3,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-09",
+      "nombre": "San Juan Diego Cuauhtlatoatzin",
+      "grado": "ML",
+      "rango": 12,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-12",
+      "nombre": "Nuestra Señora de Guadalupe, patrona de América",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-13",
+      "nombre": "Santa Lucía, virgen y mártir",
+      "grado": "M",
+      "rango": 10,
+      "color": "rojo"
+    },
+    {
+      "fecha": "12-25",
+      "nombre": "Natividad del Señor",
+      "grado": "S",
+      "rango": 2,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-26",
+      "nombre": "San Esteban, protomártir",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    },
+    {
+      "fecha": "12-27",
+      "nombre": "San Juan, apóstol y evangelista",
+      "grado": "F",
+      "rango": 7,
+      "color": "blanco"
+    },
+    {
+      "fecha": "12-28",
+      "nombre": "Santos Inocentes, mártires",
+      "grado": "F",
+      "rango": 7,
+      "color": "rojo"
+    }
   ]
 }
