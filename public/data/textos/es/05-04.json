@@ -1,7 +1,7 @@
 {
   "fecha": "05-04",
-  "vida": "Los Beatos Mártires que celebramos cayeron víctima del odio a la fe cristiana durante la Segunda República y la posterior Guerra Civil española, entre los años 1934, 1936 y 1937. Manifestaron hasta el martirio su amor a Jesucristo, su fidelidad a la Iglesia Católica y su intercesión ante Dios por todo el mundo. Antes de morir perdonaron a quienes les perseguían. Los mártires no consiguieron la gloria sólo para sí mismos. Su sangre, que empapó la tierra, fue riego que produjo fecundidad y abundancia de frutos. Por eso es necesario conservar la memoria de los mártires. Entre los casi quinientos mártires que hoy celebramos recordamos en el Carmelo a: -Lucas de San José y catorce compañeros, miembros de la comunidad carmelitana de Barcelona. -Eusebio del Niño Jesús y quince compañeros, miembros de la comunidad carmelitana de Toledo. –Eufrasio del Niño Jesús, martirizado el 12 de octubre de 1934, durante la revolución asturiana que precedió a la Guerra Civil española. -Las hermanas Esperanza de la cruz y tres compañeras, carmelitas misioneras en Barcelona. -Madre Apolonia del Santísimo Sacramento, carmelita de la caridad. El martirio es el signo más auténtico de la Iglesia de Jesucristo: una Iglesia formada por hombres, frágiles y pecadores, pero que saben dar testimonio de su fe vigorosa y de su amor incondicional a Jesucristo, anteponiéndolo incluso a la propia vida. Dado que los mártires son personas de todos los ámbitos sociales, que han pasado su existencia haciendo el bien y que han sufrido y han muerto renunciando a salvar su vida y perdonando a quienes los maltratan, nos sitúan ante una realidad que supera lo humano, y que nos invita a reconocer la fuerza y la gracia de Dios actuando en la debilidad de la historia humana.",
-  "comun": "",
+  "vida": "En una única celebración, ambas Órdenes de los Hermanos de la Bienaventurada Virgen María del Monte Carmelo celebran a sus mártires que, en diferentes lugares de España, dieron su testimonio con ocasión de la larga y sangrienta persecución religiosa por odio a la fe (1936-1939): el P. Ángel María Prat Hostench, O. Carm., asesinado con su comunidad en Tàrrega en 1936; el P. Lucas de San José Tristany Pujol, O. C. D., asesinado con sus hermanos en Barcelona el mismo año; esta memoria incluye asimismo los grupos de Lleida, Tarragona, Toledo, Terrassa, Olot, etc. La multitud de obispos, presbíteros diocesanos, religiosos de varias órdenes y laicos fue beatificada en parte (498 mártires) por Benedicto XVI el 28 de octubre de 2007 y en parte (522 mártires) por Francisco el 13 de octubre de 2013.",
+  "comun": "Del Común de varios mártires.",
   "lectura": [
     {
       "t": "rubrica",
@@ -9,76 +9,120 @@
     },
     {
       "t": "fuente",
-      "x": "De los escritos de los Beatos Carmelitas Teresianos, mártires en Toledo"
+      "x": "De los escritos del beato José María Mateos Carballido, presbítero y mártir"
+    },
+    {
+      "t": "fuente",
+      "x": "(El Santo Escapulario 33 [1936], 135-137)"
+    },
+    {
+      "t": "titulo",
+      "x": "La historia de la Iglesia está escrita con la sangre de sus mártires"
     },
     {
       "t": "texto",
-      "x": "¡Qué grande es el amor y que tan importante papel desempeña en el hogar de una familia verdaderamente cristiana! Él es el que hace callar la voz del egoísmo. Él, el que destruye el amor propio: enemigos que hacen desaparecer en el hogar la paz y esa franqueza familiar, que tanto consuelo traen a los corazones. El amor entre unos y otros es el que deshace la tempestad, que, a veces, se levanta, queriendo traer la desesperación a las almas, por el fracaso en los negocios, por falta que se tiene hasta de las cosas más necesarias, y la más de las veces por flaquezas que, más o menos, todos tenemos y que debemos soportar los unos a los otros… Ámense y ayúdense mutuamente en todo y verán qué alegre se les hace la vida y qué fácil de sobrellevar las dificultades que en ella se presentan."
+      "x": "Es una innegable verdad que en el ejercicio se forma el atleta, que mediante él robustece sus miembros y se hace fuerte e invencible para la lucha. Que el oro se purifica en el crisol y que, mientras más se purifica, mejor queda para con él modelar objetos preciosos."
     },
     {
       "t": "texto",
-      "x": "Por lo que a mí respecta, lo principal ya está hecho: mi profesión solemne. ¡Qué consuelo se experimenta al pensar seriamente que se deja el mundo para siempre por seguir a Cristo Jesús que es el camino, la verdad y la vida, que lleva a la vida eterna (Jn 14,6). Trabajemos un poquito por ganar el cielo, todo lo demás pasa con celeridad espantosa. Yo no he hecho más que pasar de soldado de la patria a soldado de Cristo, y este Capitán es tan amable y tan bueno, que ya se puede militar con agrado bajo su bandera. “Mi yugo es suave y mi carga ligera” dice él mismo (Mt 11, 30). Jamás he sentido en el año de servicio la paz y el contento que se experimenta a veces en el convento; ya dijo que la paz que Él da no la puede dar el mundo (Jn 14,27)."
+      "x": "Algo así le sucede al corazón humano, oro precioso que al fundirse en el crisol de la tribulación se dignifica, forjándose en él los hombres santos y los héroes. Y algo así sucede también en el cuerpo místico de la Iglesia; la persecución hace surgir en ella flores insospechadas, virtudes no vistas, heroísmos sin precedente. Por eso su divino fundador le anunció que sería perseguida en todos los tiempos: Seréis odiados de todos por mi causa. Os entregarán a los tribunales y os azotarán en sus sinagogas. Os harán comparecer ante gobernadores y reyes por mi causa, para dar testimonio ante ellos y los paganos."
     },
     {
       "t": "texto",
-      "x": "¿Más consejos? Para llegar a la cumbre de la santidad tenemos que subir por los caminos del sacrificio, y dejar al Señor que gobierne nuestra vida y esclarezca el camino que más pronto nos lleve al monte de perfección. Por lejos que nos creamos de la deseada cumbre, si Dios nos guía estaremos más cerca que siguiendo nuestros equivocados juicios. Dios es el “camino” para las almas que de veras lo buscan. Dejarse conducir por la mano amorosa de Dios, sin pensar en lo pasado, ni en lo futuro, en lo próspero ni en lo adverso, juzgando que lo que Dios nos da es lo más conveniente, es signo de virtud consumada. El verse unido con Dios no puede por menos de regocijar el alma, y por consiguiente, cuantos menos obstáculos impidan que esa unión se llegue a alcanzar lo más perfecta posible, más satisfacción ha de experimentar en sí mismo."
+      "x": "Y a los golpes del ariete de la persecución se forjó la Iglesia con sus mártires y sus vírgenes, sus santos y sus doctores, hasta llegar a ser el prodigio que, después de diecinueve siglos, aparece a las miradas de amigos y enemigos como la obra admirablemente divina de su Divino fundador."
     },
     {
       "t": "texto",
-      "x": "Procuremos ser más santos: la salvación ha de estar sólo en la santidad. ¡Cuán incierto es el porvenir que nos espera! ¿Será la era de los martirios? Hermanos, demos gracias a Dios, porque ha querido elegirnos para el martirio. ¡Qué suerte morir por Dios!"
+      "x": "Desde su origen, la Iglesia ha venido siendo cincelada por ese buril de la persecución, que a cada golpe que le ha sido asestado ha puesto una piedra preciosa en los muros siempre inconmovibles de ese hermoso edificio."
     },
     {
       "t": "texto",
-      "x": "Qué la Resurrección del Señor sea el símbolo de la nuestra a vida más perfecta, y que la nuestra sea como la del Señor."
+      "x": "Con la sangre de sus mártires se han escrito las páginas de su historia y, desde su aparición hasta hoy, no ha habido siglo alguno en que no haya dado ella su floración."
+    },
+    {
+      "t": "texto",
+      "x": "Así nació la Iglesia; y regada por la sangre de tantos inocentes, corrió por su místico cuerpo aquella savia tan rica y generosa que le hizo producir las más hermosas flores de ciencia, virtud, heroísmo y santidad."
+    },
+    {
+      "t": "texto",
+      "x": "Así nació, y al correr de los siglos pudo observarse que aquellas espinas de la persecución no le faltaron nunca. Pero aquellos golpes no hacían otra cosa que dar nuevo vigor a aquel árbol bendito, que después de cada persecución aparecía más frondoso, como al brotar la primavera muestra su lozanía el árbol que recibió la acertada mano del podador."
+    },
+    {
+      "t": "texto",
+      "x": "Ante los acontecimientos de los últimos meses, ¿cuál es nuestro deber? Orar y amar. He ahí los dos medios más poderosos que pueden hacer renacer la paz entre los hombres. Orar mucho, que la oración nos dará fortaleza para confesar a Cristo y no volverle cobardemente las espaldas. Y amar, que tanto odio solo puede ahogarse con una efusión grande de caridad; la Iglesia solo tiene para sus enemigos aquellas palabras que salidas de labios del Divino agonizante del Calvario fueron su más hermoso testamento: “Padre, perdónalos”; ella abre sus brazos de Madre amorosa para todos sus hijos, aun para aquellos que la persiguen y a todos dice: “Padre, perdónalos”."
+    },
+    {
+      "t": "texto",
+      "x": "Ante el peligro de una nueva persecución, no desmayemos. Cristo estará siempre con nosotros, y por rudo que sea el combate, saldremos de él purificados y la Iglesia recogerá nuevas flores entre los pliegues de su túnica nuevamente teñida con la sangre de sus hijos."
     },
     {
       "t": "rubrica",
-      "x": "Responsorio · San Cipriano, Carta 58"
+      "x": "Responsorio · 2 Tm 4, 7-8a; cf. Flp 3, 8a. 10"
     },
     {
       "t": "verso",
-      "x": "R. Dios nos contempla, Cristo y sus ángeles nos miran, mientras luchamos por la fe. *Que dignidad tan grande, qué felicidad tan plena es luchar bajo la mirada de Dios y ser coronados por Cristo."
+      "x": "R. He combatido el noble combate, he acabado la carrera, he conservado la fe. * Por lo demás, me está reservada la corona de la justicia, que el Señor, juez justo, me dará en aquel día, aleluya."
     },
     {
       "t": "verso",
-      "x": "V. Revistámonos de fuerza y preparémonos para la lucha con un espíritu indoblegable, con una fe sincera, con una entrega total."
+      "x": "V. Todo lo considero pérdida para conocerlo a él, y la fuerza de su resurrección, y la comunión con sus padecimientos, muriendo su misma muerte. * Por lo demás, me está reservada la corona de la justicia, que el Señor, juez justo, me dará en aquel día, aleluya."
+    },
+    {
+      "t": "rubrica",
+      "x": "O bien"
+    },
+    {
+      "t": "fuente",
+      "x": "De los escritos del beato Lucas de San José, presbítero y mártir"
+    },
+    {
+      "t": "fuente",
+      "x": "(Las palabras del Crucifijo, Tarragona-Barcelona 1928, pp. 65-69)"
+    },
+    {
+      "t": "titulo",
+      "x": "La ley del perdón resplandece en los mártires"
+    },
+    {
+      "t": "texto",
+      "x": "La gran ley del perdón, promulgada ya desde el principio de la predicación evangélica en la cumbre de la montaña de las Bienaventuranzas, y tan solemnemente confirmada en la cruz, nos señala a todos el camino recto y seguro de la bienaventuranza eterna, y crea, para que los hombres la puedan gustar ya acá en la tierra, una fuente de felicidad y concordia. Desciende hasta lo más íntimo de la conciencia humana, y la revuelve toda, atacando hasta sus más hondas raíces al egoísmo venenoso y destructor de toda dicha y de toda armonía entre las almas."
+    },
+    {
+      "t": "texto",
+      "x": "Esta sublime doctrina del Redentor nos impone a todos, como un precepto formal y necesario para salvarnos, el perdón sincero de cuantas injurias graves se nos hayan inferido. Y, como una condición indispensable para la paz interior y para conseguir algún grado de perfección evangélica, nos impone también a todos una benévola, total y sincera indulgencia para todas y cada una de las muchas y variadas deficiencias de nuestros prójimos."
+    },
+    {
+      "t": "texto",
+      "x": "Y, por consiguiente, la gran ley del perdón evangélico se impone no solo a quienes tengan ante sí formales enemigos, de quienes hayan recibido graves injurias, o les conste que les tienen verdaderamente mala voluntad, sino que nos alcanza a todos, cualquiera que sea nuestro estado o condición, pues no hay nadie que poco o mucho no se haya sentido alguna vez ofendido o molestado."
+    },
+    {
+      "t": "texto",
+      "x": "Esta ley puede tener aplicación cada día y cada hora de nuestra vida práctica, así en las intimidades domésticas como en las relaciones sociales; lo mismo en lo más secreto y retirado de los claustros que en medio del torbellino de negocios temporales."
+    },
+    {
+      "t": "texto",
+      "x": "Pues el santo Evangelio, idealmente bello como es en todo, resulta siempre simplicísimo y práctico, porque se adapta a todas las modalidades de la vida real de cada uno. Pero, entre todos los preceptos evangélicos, este del perdón de los enemigos es de los más eminentemente prácticos, porque, penetrando hasta lo más recóndito de la conciencia humana, llega hasta los repliegues más secretos del corazón, donde tan bien se suele esconder y ocultar el más sutil egoísmo. Lo descubre, lo pone de manifiesto ante la propia conciencia de cada hombre que quiere conocerse. Y así esta ley admirable pretende intervenir en todos nuestros actos para informarlos, así los religiosos como los sociales: los religiosos, pues sabemos que Dios no los acepta si se los ofrecemos acariciando amarguras o resentimientos fraternos en nuestra alma; y los sociales, porque este precepto nos recuerda que seremos tratados por Dios como nosotros tratemos a nuestros hermanos."
+    },
+    {
+      "t": "texto",
+      "x": "En esta grande escuela del Crucifijo aprendieron su admirable ciencia y recibieron su fortaleza los santos todos y los mártires que supieron vivir sin maldecir a nadie y morir contentos orando por los que les hacían verter su sangre generosa."
+    },
+    {
+      "t": "texto",
+      "x": "Fecundísima y creadora fue esta sublime palabra de Jesucristo, pues ella despertó, y despierta todavía ahora en muchísimas almas, sentimientos admirables que antes el mundo no había conocido. Ella enseñó a tantos millones de mártires de todas condiciones a morir con la sonrisa en su rostro y la plegaria en sus labios, orando por los mismos verdugos que los atormentaban."
+    },
+    {
+      "t": "rubrica",
+      "x": "Responsorio · Mt 5, 43-45; Jn 13, 15"
     },
     {
       "t": "verso",
-      "x": "R. Que dignidad tan grande, qué felicidad tan plena es luchar bajo la mirada de Dios y ser coronados por Cristo."
+      "x": "R. Habéis oído que se dijo: «“Amarás a tu prójimo” y aborrecerás a tu enemigo». Pero yo os digo: amad a vuestros enemigos y rezad por los que os persiguen, * para que seáis hijos de vuestro Padre celestial, aleluya."
+    },
+    {
+      "t": "verso",
+      "x": "V. Os he dado ejemplo para que lo que yo he hecho con vosotros, vosotros también lo hagáis. * Para que seáis hijos de vuestro Padre celestial, aleluya."
     }
   ],
-  "oracion": "Dios clemente y rico en bondad, que llamaste a estos hijos tuyos Lucas de San José y sus Compañeros a servirte en el Carmelo y los regalaste la gracia del martirio, concédenos, por su intercesión, la bienaventuranza de dar testimonio de tu evangelio de paz y de amor. Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, y es Dios por los siglos de los siglos.",
-  "horas": {
-    "lectura": [
-      {
-        "t": "rubrica",
-        "x": "Segunda lectura"
-      },
-      {
-        "t": "estrofa",
-        "x": "De los escritos de los Beatos Carmelitas Teresianos, mártires en Toledo"
-      },
-      {
-        "t": "estrofa",
-        "x": "¡Qué grande es el amor y que tan importante papel desempeña en el hogar de una familia verdaderamente cristiana! Él es el que hace callar la voz del egoísmo. Él, el que destruye el amor propio: enemigos que hacen desaparecer en el hogar la paz y esa franqueza familiar, que tanto consuelo traen a los corazones. El amor entre unos y otros es el que deshace la tempestad, que, a veces, se levanta, queriendo traer la desesperación a las almas, por el fracaso en los negocios, por falta que se tiene hasta de las cosas más necesarias, y la más de las veces por flaquezas que, más o menos, todos tenemos y que debemos soportar los unos a los otros… Ámense y ayúdense mutuamente en todo y verán qué alegre se les hace la vida y qué fácil de sobrellevar las dificultades que en ella se presentan.\nPor lo que a mí respecta, lo principal ya está hecho: mi profesión solemne. ¡Qué consuelo se experimenta al pensar seriamente que se deja el mundo para siempre por seguir a Cristo Jesús que es el camino, la verdad y la vida, que lleva a la vida eterna (Jn 14,6). Trabajemos un poquito por ganar el cielo, todo lo demás pasa con celeridad espantosa. Yo no he hecho más que pasar de soldado de la patria a soldado de Cristo, y este Capitán es tan amable y tan bueno, que ya se puede militar con agrado bajo su bandera. “Mi yugo es suave y mi carga ligera” dice él mismo (Mt 11, 30). Jamás he sentido en el año de servicio la paz y el contento que se experimenta a veces en el convento; ya dijo que la paz que Él da no la puede dar el mundo (Jn 14,27).\n¿Más consejos? Para llegar a la cumbre de la santidad tenemos que subir por los caminos del sacrificio, y dejar al Señor que gobierne nuestra vida y esclarezca el camino que más pronto nos lleve al monte de perfección. Por lejos que nos creamos de la deseada cumbre, si Dios nos guía estaremos más cerca que siguiendo nuestros equivocados juicios. Dios es el “camino” para las almas que de veras lo buscan. Dejarse conducir por la mano amorosa de Dios, sin pensar en lo pasado, ni en lo futuro, en lo próspero ni en lo adverso, juzgando que lo que Dios nos da es lo más conveniente, es signo de virtud consumada. El verse unido con Dios no puede por menos de regocijar el alma, y por consiguiente, cuantos menos obstáculos impidan que esa unión se llegue a alcanzar lo más perfecta posible, más satisfacción ha de experimentar en sí mismo.\nProcuremos ser más santos: la salvación ha de estar sólo en la santidad. ¡Cuán incierto es el porvenir que nos espera! ¿Será la era de los martirios? Hermanos, demos gracias a Dios, porque ha querido elegirnos para el martirio. ¡Qué suerte morir por Dios!\nQué la Resurrección del Señor sea el símbolo de la nuestra a vida más perfecta, y que la nuestra sea como la del Señor."
-      },
-      {
-        "t": "rubrica",
-        "x": "Responsorio San Cipriano, Carta 58"
-      },
-      {
-        "t": "verso",
-        "x": "R. Dios nos contempla, Cristo y sus ángeles nos miran, mientras luchamos por la fe. *Que dignidad tan grande, qué felicidad tan plena es luchar bajo la mirada de Dios y ser coronados por Cristo."
-      },
-      {
-        "t": "verso",
-        "x": "V. Revistámonos de fuerza y preparémonos para la lucha con un espíritu indoblegable, con una fe sincera, con una entrega total."
-      },
-      {
-        "t": "verso",
-        "x": "R. Que dignidad tan grande, qué felicidad tan plena es luchar bajo la mirada de Dios y ser coronados por Cristo."
-      }
-    ]
-  }
+  "oracion": "Dios todopoderoso y eterno, que a los beatos Ángel María, Lucas de San José y compañeros, has concedido llegar a la cima del Carmelo por medio del martirio, haz que, por su intercesión, vivamos siempre con sabiduría y ardor, dando testimonio de la realeza de Cristo. Él, que vive y reina contigo en la unidad del Espíritu Santo y es Dios por los siglos de los siglos."
 }
