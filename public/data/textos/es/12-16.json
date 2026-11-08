@@ -46,5 +46,147 @@
   ],
   "oracion": "Señor, tú que te complaces en habitar en los limpios y sinceros de corazón; concédenos, por intercesión de la Beata María de los Ángeles, vivir siempre en gracia ante tus ojos, para que tengas en nosotros tu morada. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "El amor de Dios es gloriosa sabiduría,",
-  "ant_magnificat": "Aunque camine por cañadas oscuras,"
+  "ant_magnificat": "Aunque camine por cañadas oscuras,",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Camino de perfección de santa Teresa de Jesús, virgen y doctora de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "El amor de Dios, si de veras es amor, es imposible esconderse"
+      },
+      {
+        "t": "estrofa",
+        "x": "Quien de veras aman a Dios, todo lo bueno aman, todo lo bueno quieren, todo lo bueno favorecen, todo lo bueno loan, con los buenos se juntan siempre y los favorecen y defienden. No aman sino verdades y cosa que sea digna de amar. ¿Pensáis que es posible quien muy de veras ama a Dios amar vanidades? Ni puede, ni riquezas, ni cosas del mundo, de deleites, ni honras; ni tiene contiendas ni envidias. Todo porque no pretende otra cosa sino contentar al Amado. Andan muriendo porque los ame, y así ponen la vida en entender cómo le agradarán más. ¿Esconderse? -¡Oh, que el amor de Dios, si de veras es amor, es imposible! Si no, mirad un San Pablo, una Magdalena: en tres días el uno comenzó a entenderse que estaba enfermo de amor; éste fue San Pablo. La Magdalena desde el primer día, ¡y cuán bien entendido! Que esto tiene, que hay más o menos; y así se da a entender como la fuerza que tiene el amor: si es poco, dase a entender poco; y si es mucho, mucho; mas poco o mucho, como haya amor de Dios, siempre se entiende."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿y habíase de poder encubrir un amor tan fuerte, tan justo, que siempre va creciendo, que no ve cosa para dejar de amar, fundado sobre tal cimiento como es ser pagado con otro amor, que ya no puede dudar de él por estar mostrado tan al descubierto, con tan grandes dolores y trabajos y derramamiento de sangre, hasta perder la vida, porque no nos quedase ninguna duda de este amor?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Plega a Su Majestad nos le dé antes que nos saque de esta vida, porque será gran cosa a la hora de la muerte ver que vamos a ser juzgadas de quien habemos amado sobre todas las cosas. Seguras podremos ir con el pleito de nuestras deudas. No será ir a tierra extraña, sino propia, pues es a la de quien tanto amamos y nos ama."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Sal 144,19-20am8,28a"
+      },
+      {
+        "t": "verso",
+        "x": "R. El Señor satisface los deseos de sus fieles, escucha sus gritos, y los salva."
+      },
+      {
+        "t": "verso",
+        "x": "* El Señor guarda a los que lo aman."
+      },
+      {
+        "t": "verso",
+        "x": "V. Sabemos que a los que aman a Dios todo les sirve para el bien. * El Señor."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus El amor de Dios es gloriosa sabiduría,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y primicia de la sabiduría es el temor de Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus El amor de Dios es gloriosa sabiduría,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y primicia de la sabiduría es el temor de Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, tú que te complaces en habitar en los limpios y sinceros de corazón; concédenos, por intercesión de la Beata María de los Ángeles, vivir siempre en gracia ante tus ojos, para que tengas en nosotros tu morada. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Aunque camine por cañadas oscuras,"
+      },
+      {
+        "t": "estrofa",
+        "x": "nada temo, porque tu vas conmigo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Aunque camine por cañadas oscuras,"
+      },
+      {
+        "t": "estrofa",
+        "x": "nada temo, porque tu vas conmigo."
+      },
+      {
+        "t": "estrofa",
+        "x": "."
+      }
+    ]
+  }
 }

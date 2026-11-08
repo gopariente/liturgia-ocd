@@ -90,5 +90,1591 @@
   ],
   "oracion": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la perfección; Concédenos alimentarnos siempre con su  celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor.",
   "ant_benedictus": "Al que me ama lo amara mi Padre y lo",
-  "ant_magnificat": "No perdais la calma. En la casa de Mi Padre hay muchas moradas, y me voy a prepararos sitio."
+  "ant_magnificat": "No perdais la calma. En la casa de Mi Padre hay muchas moradas, y me voy a prepararos sitio.",
+  "horas": {
+    "primeras_visperas": [
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Vivo sin vivir en mí,\ny tan alta vida espero,\nque muero porque no muero.\n\nVivo ya fuera de mí,\ndespués que muero de amor;\nporque vivo en el Señor,\nque me quiso para sí:\ncuando el corazón le di\npuso en él este letrero,\nque muero porque no muero.\n\nEsta divina prisión,\ndel amor en que yo vivo,\nha hecho a Dios mi cautivo,\ny libre mi corazón;\ny causa en mí tal pasión\nver a Dios mi prisionero,\nque muero porque no muero.\n\n¡Ay, qué larga es esta vida!\n¡Qué duros estos destierros,\nesta cárcel, estos hierros\nen que el alma está metida!\nSólo esperar la salida\nme causa dolor tan fiero,\nque muero porque no muero.\n\n¡Ay, qué vida tan amarga\ndo no se goza el Señor!\nPorque si es dulce el amor,\nno lo es la esperanza larga:\nquíteme Dios esta carga,\nmás pesada que el acero,\nque muero porque no muero.\n\nSólo con la confianza\nvivo de que he de morir,\nporque muriendo el vivir\nme asegura mi esperanza;\nmuerte do el vivir se alcanza,\nno te tardes, que te espero,\nque muero porque no muero.\n\nMira que el amor es fuerte;\nvida, no me seas molesta,\nmira que sólo me resta,\npara ganarte perderte.\nVenga ya la dulce muerte,\nel morir venga ligero\nque muero porque no muero.\n\nAquella vida de arriba,\nque es la vida verdadera,\nhasta que esta vida muera,\nno se goza estando viva:\nmuerte, no me seas esquiva;\nviva muriendo primero,\nque muero porque no muero.\n\nVida, ¿qué puedo yo darle\na mi Dios que vive en mí,\nsi no es el perderte a ti,\npara merecer ganarle?\nQuiero muriendo alcanzarle,\npues tanto a mi Amado quiero,\nque muero porque no muero."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmodia"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1. La explicación de tus palabras ilumina,"
+      },
+      {
+        "t": "estrofa",
+        "x": "da inteligencia a los ignorantes."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 112"
+      },
+      {
+        "t": "estrofa",
+        "x": "Alabad, siervos del Señor,\nalabad el nombre del Señor.\nBendito sea el nombre del Señor,\nahora y por siempre:\nde la salida del sol hasta su ocaso,\nalabado sea el nombre del Señor.\nEl Señor se eleva sobre todos los pueblos,\nsu gloria sobre los cielos.\n¿Quién como el Señor, Dios nuestro,\nque se eleva en su trono\ny se abaja para mirar\nal cielo y a la tierra?\nLevanta del polvo al desvalido,\nalza de la basura al pobre,\npara sentarlo con los príncipes,\nlos príncipes de su pueblo;\na la estéril le da un puesto en la casa,\ncomo madre feliz de hijos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1. La explicación de tus palabras ilumina, da"
+      },
+      {
+        "t": "estrofa",
+        "x": "inteligencia a los ignorantes."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Los pueblos contaran su sabiduría, y la"
+      },
+      {
+        "t": "estrofa",
+        "x": "Iglesia anunciara su alabanza."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 145"
+      },
+      {
+        "t": "estrofa",
+        "x": "Alaba, alma mía, al Señor:\nalabaré al Señor mientras viva,\ntañeré para mi Dios mientras exista.\nNo confiéis en los príncipes,\nseres de polvo que no pueden salvar;\nexhalan el espíritu y vuelven al polvo,\nese día perecen sus planes.\nDichoso a quien auxilia el Dios de Jacob,\nel que espera en el Señor, su Dios,\nque hizo el cielo y la tierra,\nel mar y cuanto hay en él;\nque mantiene su fidelidad perpetuamente,\nque hace justicia a los oprimidos,\nque da pan a los hambrientos.\nEl Señor liberta a los cautivos,\nel Señor abre los ojos al ciego,\nel Señor endereza a los que ya se doblan,\nel Señor ama a los justos.\nEl Señor guarda a los peregrinos,\nsustenta al huérfano y a la viuda\ny trastorna el camino de los malvados.\nEl Señor reina eternamente,\ntu Dios, Sión, de edad en edad"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Los pueblos contaran su sabiduría, y la"
+      },
+      {
+        "t": "estrofa",
+        "x": "Iglesia anunciara su alabanza."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Dios le concedió una sabiduría e inteligencia"
+      },
+      {
+        "t": "estrofa",
+        "x": "extraordinarias, y una mente tan abierta como las playas\njunto al mar."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico Ef 1,3-10"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea Dios,\nPadre de nuestro Señor Jesucristo,\nque nos ha bendecido en la persona de Cristo\ncon toda clase de bienes espirituales y celestiales."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él nos eligió en la persona de Cristo,\nantes de crear el mundo,\npara que fuésemos santos\ne irreprochables ante él por el amor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él nos ha destinado en la persona de Cristo,\npor pura iniciativa suya, a ser sus hijos,\npara que la gloria de su gracia,\nque tan generosamente nos ha concedido en su\nquerido Hijo, redunde en alabanza suya."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por este Hijo, por su sangre, hemos recibido\nla redención, el perdón de los pecados.\nEl tesoro de su gracia, sabiduría y prudencia\nha sido un derroche para con nosotros,\ndándonos a conocer el misterio de su voluntad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Este es el plan que había proyectado realizar\npor Cristo cuando llegase el momento culminante:\nrecapitular en Cristo todas las cosas del cielo y de\nla tierra."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Dios le concedió una sabiduría e inteligencia"
+      },
+      {
+        "t": "estrofa",
+        "x": "extraordinarias, y una mente tan abierta como las playas\njunto al mar."
+      },
+      {
+        "t": "rubrica",
+        "x": "Lectura Breve 1Co. 2,6-9"
+      },
+      {
+        "t": "estrofa",
+        "x": "Sin embargo, hablamos de sabiduría entre los perfectos, pero no de sabiduría de este mundo ni de los príncipes de este mundo, abocados a la ruina; sino que hablamos de una sabiduría de Dios, misteriosa, escondida, destinada por Dios desde antes de los siglos para gloria nuestra, desconocida de todos los príncipes de este mundo - pues de haberla conocido no hubieran crucificado al Señor de la Gloria -. Más bien, como dice la Escritura, anunciamos: “ lo que ni el ojo vio, ni el oído oyó, ni al corazón del hombre llegó, lo que Dios preparó para los que le aman.”"
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio Breve"
+      },
+      {
+        "t": "verso",
+        "x": "R. En la Iglesia *Le da la palabra. En la Iglesia"
+      },
+      {
+        "t": "verso",
+        "x": "V. Le da. Gloria al Padre. En la Iglesia"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Santa madre Teresa, luz de la iglesia santa,"
+      },
+      {
+        "t": "estrofa",
+        "x": "enséñanos el camino de perfección para que\nlleguemos con Cristo a las moradas eternas."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "Preces"
+      },
+      {
+        "t": "estrofa",
+        "x": "Al celebrar la santidad y sabiduría de Teresa de Jesús,\nnuestra madre, invoquemos a Dios, por medio de\nCristo que ha querido ser nuestro hermano y amigo,\nY digámosle:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, venga a nosotros tu reino"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que enseñaste a Teresa a encontrar en Cristo la\nfuente de la vida verdadera,\n-haz que, escuchando al que es la palabra, lleguemos\na beber el agua de la vida eterna."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que diste a Teresa en Cristo libro vivo y camino\nde santidad,\n-ayudanos a descubrir a Cristo en la oración, para\nque unidos a El, recorramos el camino de perfección\nhasta la meta."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que con Cristo y el Espíritu Santo pones tu morada\nen cuantos te aman y cumplen tu palabra,\n-haznos cada día mas sensibles a la caridad que se a\nderramado en nuestros corazones con el Espíritu\nSanto."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has hecho de Cristo cabeza y fundamento de\nla Iglesia,\n-haz que, enraizados en la fe y el amor, vivamos y\nmuramos, como nuestra santa madre, al servicio\nde la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has glorificado a Cristo, sentándolo a tu derecha\ncomo nuestro Mediador,\n-concede a nuestros hermanos difuntos que reinen\ncon el eternamente."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro..........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la\nperfección; Concédenos alimentarnos siempre con su celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor."
+      }
+    ],
+    "invitatorio": [
+      {
+        "t": "verso",
+        "x": "Ant. Venid, adoremos al Señor, fuente de la"
+      },
+      {
+        "t": "estrofa",
+        "x": "Sabiduría."
+      }
+    ],
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh hermosura que excedéis\na todas las hermosuras!\nSin herir dolor hacéis,\ny sin dolor deshacéis,\nel amor de las criaturas.\n\nOh ñudo que así juntáis\ndos cosas tan desiguales,\nno sé por qué os desatáis,\npues atado fuerza dais\na tener por bien los males.\n\nJuntáis quien no tiene ser\ncon el Ser que no se acaba;\nsin acabar acabáis,\nsin tener que amar amáis,\nengrandecéis nuestra nada."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmodia"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 Mi alma tiene sed de Dios, del Dios vivo:"
+      },
+      {
+        "t": "estrofa",
+        "x": "¿cuándo entrare a ver el rostro de Dios?"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 41"
+      },
+      {
+        "t": "estrofa",
+        "x": "Como busca la cierva\ncorrientes de agua,\nasí mi alma te busca\na ti, Dios mío;\ntiene Sed de Dios,\ndel Dios vivo:\n¿cuándo entraré a ver\nel rostro de Dios?\nLas lágrimas son mi pan\nnoche y día.\nmientras todo el día me repiten:\n\"¿Dónde está tu Dios?\"\nRecuerdo otros tiempos,\ny desahogo mi alma conmigo:\ncómo marchaba a la cabeza del grupo,\nhacia la casa de Dios,\nentre cantos de júbilo y alabanza,\nen el bullicio de la fiesta.\n¿Por qué te acongojas, alma mía,\npor qué te me turbas?\nEspera en Dios que volverás a alabarlo:\n\"Salud de mi rostro, Dios mío\".\nCuando mi alma se acongoja,\nte recuerdo\ndesde el Jordán y el Hermón\ny el Monte Menor.\nUna sima grita a otra sima\ncon voz de cascadas:\ntus torrentes y tus olas\nme han arrollado.\nDe día el Señor\nme hará misericordia,\nde noche cantaré la alabanza\ndel Dios de mi vida.\nDiré a Dios: \"Roca mía,\n¿por qué me olvidas?\n¿Por qué voy andando, sombrío,\nhostigado por mi enemigo?\"\nSe me rompen los huesos\npor las burlas del adversario;\ntodo el día me preguntan:\n\"¿Dónde está tu Dios?\"\n¿Por qué te acongojas, alma mía,\npor qué te me turbas?\nEspera en Dios que volverás a alabarlo:\n\"Salud de mi rostro, Dios mío\"."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 Mi alma tiene sed de Dios, del Dios vivo:"
+      },
+      {
+        "t": "estrofa",
+        "x": "¿cuándo entrare a ver el rostro de Dios?"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Grande eres, Señor; incalculable, tu"
+      },
+      {
+        "t": "estrofa",
+        "x": "grandeza: ¿quién contara tu inmensa bondad\nY tus maravillas?"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 144"
+      },
+      {
+        "t": "rubrica",
+        "x": "I"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te ensalzaré, Dios mío, mi rey;\nbendeciré tu nombre por siempre jamás.\nDía tras día, te bendeciré\ny alabaré tu nombre por siempre jamás.\nGrande es el Señor, merece toda alabanza,\nes incalculable su grandeza;\nuna generación pondera tus obras a la otra,\ny le cuenta tus hazañas.\nAlaban ellos la gloria de tu majestad,\ny yo repito tus maravillas;\nencarecen ellos tus temibles proezas,\ny yo narro tus grandes acciones;\ndifunden la memoria de tu inmensa bondad,\ny aclaman tus victorias.\nEl Señor es clemente y misericordioso,\nlento a la cólera y rico en piedad;\nel Señor es bueno con todos,\nes cariñoso con todas sus criaturas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Grande eres, Señor; incalculable, tu"
+      },
+      {
+        "t": "estrofa",
+        "x": "Grandeza: ¿quién contara tu inmensa bondad\nY tus maravillas?"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Cerca esta el Señor de los que lo invocan"
+      },
+      {
+        "t": "estrofa",
+        "x": "Sinceramente: su reino no tiene fin."
+      },
+      {
+        "t": "rubrica",
+        "x": "II"
+      },
+      {
+        "t": "estrofa",
+        "x": "Que todas tus criaturas te den gracias, Señor,\nque te bendigan tus fieles;\nque proclamen la gloria de tu reinado,\nque hablen de tus hazañas;\nexplicando tus hazañas a los hombres,\nla gloria y majestad de tu reinado.\nTu reinado es un reinado perpetuo,\ntu gobierno va de edad en edad.\nEl Señor es fiel a sus palabras,\nbondadoso en todas sus acciones.\nEl Señor sostiene a los que van a caer,\nendereza a los que ya se doblan.\nLos ojos de todos te están aguardando,\ntú les das la comida a su tiempo;\nabres tú la mano,\ny sacias de favores a todo viviente.\nEl Señor es justo en todos sus caminos,\nes bondadoso en todas sus acciones;\ncerca está el Señor de los que lo invocan,\nde los que lo invocan sinceramente.\nSatisface los deseos de sus fieles,\nescucha sus gritos, y los salva.\nEl Señor guarda a los que lo aman,\npero destruye a los malvados.\nPronuncie mi boca la alabanza del Señor,\ntodo viviente bendiga su santo nombre\npor siempre jamás."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Cerca esta el Señor de los que lo invocan"
+      },
+      {
+        "t": "estrofa",
+        "x": "Sinceramente: su reino no tiene fin."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tu, Señor, estas cerca."
+      },
+      {
+        "t": "verso",
+        "x": "R. Y todos tus mandatos son estables"
+      },
+      {
+        "t": "rubrica",
+        "x": "Primera Lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Carta del apóstol san Pablo a los Filipenses\n3,8-21"
+      },
+      {
+        "t": "estrofa",
+        "x": "Sublime conocimiento de Cristo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Juzgo que todo es pérdida ante la sublimidad del conocimiento de Cristo Jesús, mi Señor, por quien perdí todas las cosas, y las tengo por basura para ganar a Cristo, y ser hallado en él, no con la justicia mía, la que viene de la Ley, sino la que viene por la fe de Cristo, la justicia que viene de Dios, apoyada en la fe, y conocerle a él, el poder de su resurrección y la comunión en sus padecimientos hasta hacerme semejante a él en su muerte, tratando de llegar a la resurrección de entre los muertos.\nNo que lo tenga ya conseguido o que sea ya perfecto, sino que continúo mi carrera por si consigo alcanzarlo, habiendo sido yo mismo alcanzado por Cristo Jesús.\nYo, hermanos, no creo haberlo alcanzado todavía. Pero una cosa hago: olvido lo que dejé atrás y me lanzo a lo que está por delante, corriendo hacia la meta, para alcanzar el premio a que Dios me llama desde lo alto en Cristo Jesús.\nAsí pues, todos los perfectos tengamos estos sentimientos, y si en algo sentís de otra manera, también eso os lo declarará Dios. Por lo demás, desde el punto a donde hayamos llegado, sigamos adelante. Hermanos, sed imitadores míos, y fijaos en los que viven según el modelo que tenéis en nosotros.\nPorque muchos viven según os dije tantas veces, y ahora os lo repito con lágrimas, como enemigos de la cruz de Cristo,\ncuyo final es la perdición, cuyo Dios es el vientre, y cuya gloria está en su vergüenza, que no piensan más que en las cosas de la tierra.\nPero nosotros somos ciudadanos del cielo, de donde esperamos como Salvador al Señor Jesucristo, el cual transfigurará este miserable cuerpo nuestro en un cuerpo glorioso como el suyo, en virtud del poder que tiene de someter a sí todas las cosas."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio Col 3, 3b-4; Cf. Rm 8, 38b-39b"
+      },
+      {
+        "t": "verso",
+        "x": "R. Vuestra vida esta con Cristo escondida en Dios."
+      },
+      {
+        "t": "verso",
+        "x": "*Cuando aparezca Cristo, vida nuestra, entonces"
+      },
+      {
+        "t": "estrofa",
+        "x": "también vosotros apareceréis, juntamente con el,\nen la gloria."
+      },
+      {
+        "t": "verso",
+        "x": "V. Ni muerte, ni vida, ni criatura alguna podrá"
+      },
+      {
+        "t": "estrofa",
+        "x": "Apartarnos del amor de Cristo *Cuando aparezca."
+      },
+      {
+        "t": "rubrica",
+        "x": "Segunda Lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Libro de la Vida de santa Teresa de Jesús,\nVirgen y doctora de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "(22 6-7.12.14;B.A.C. 212 (1962) 89.91)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, nuestro amigo y dechado"
+      },
+      {
+        "t": "estrofa",
+        "x": "Con tan buen amigo presente, con tan buen capitán que se puso en lo primero en el padecer, todo se puede sufrir: es ayuda y da esfuerzo; nunca falta; es amigo verdadero. Y veo yo claro, y he visto después, que para contentar a Dios y que nos haga grandes mercedes, quiere sea por manos de esta Humanidad sacratísima, en quien dijo Su Majestad se deleita."
+      },
+      {
+        "t": "estrofa",
+        "x": "Muy muy muchas veces lo he visto por experiencia. Hámelo dicho el Señor. He visto claro que por esta puerta hemos de entrar, si queremos nos muestre la soberana Majestad grandes secretos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Así que vuestra merced, señor, no quiera otro camino, aunque esté en la cumbre de contemplación; por aquí va seguro."
+      },
+      {
+        "t": "estrofa",
+        "x": "Este Señor nuestro es por quien nos vienen todos los bienes. El le enseñará. Mirando su vida, es el mejor dechado."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Qué más queremos de un tan buen amigo al lado, que no nos dejará en los. trabajos y tribulaciones, como hacen los del mundo? Bienaventurado quien de verdad le amare y siempre le trajere cabe sí."
+      },
+      {
+        "t": "estrofa",
+        "x": "Miremos al glorioso San Pablo, que no parece se le caía de la boca siempre Jesús, como quien le tenía bien en el corazón. Yo he mirado con cuidado, después que esto he entendido, de algunos santos, grandes contemplativos, y no iban por otro camino. San Francisco da muestra de ello en las llagas; San Antonio de Padua, el Niño; San Bernardo se deleitaba en la Humanidad; Santa Catalina de Sena... otros muchos que vuestra merced sabrá mejor que yo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Con libertad se ha de andar en este camino, puestos en las manos de Dios. Si Su Majestad nos quisiere subir a ser de los de su cámara y secreto, ir de buena gana."
+      },
+      {
+        "t": "estrofa",
+        "x": "Siempre que se piense de Cristo, nos acordemos del amor con que nos hizo tantas mercedes y cuán grande nos le mostró Dios en darnos tal prenda del que nos tiene; que amor saca amor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Procuremos ir mirando esto siempre y despertándonos para amar; porque si una vez nos hace el Señor merced que se nos imprima en el corazón este amor, sernos ha todo fácil y obraremos muy en breve y muy sin trabajo"
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio Flp. 1, 21;2Co 12,9b"
+      },
+      {
+        "t": "verso",
+        "x": "R. Para mi la vida es Cristo,*Y una ganancia el morir."
+      },
+      {
+        "t": "verso",
+        "x": "V. Muy a gusto presumo de mis debilidades, porque"
+      },
+      {
+        "t": "estrofa",
+        "x": "Así residirá en mi la fuerza de Cristo.*Y una ganancia."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Camino de perfección de santa Teresa de Jesús,\nVirgen y doctora de la Iglesia"
+      },
+      {
+        "t": "estrofa",
+        "x": "(Cod. V,40,1-3;41,7-9;B.A.C. 212 (1962), 310-311.316)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Los que de veras aman a Dios todo lo bueno aman"
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues, buen Maestro nuestro, dadnos algún remedio cómo vivir sin mucho sobresalto en guerra tan peligrosa. El que podemos tener, hijas, y nos dio Su Majestad es «amor y temor»; que el amor nos hará apresurar los pasos; el temor nos hará ir mirando adónde ponemos los pies para no caer por amino adonde hay tanto en que tropezar como caminamos todos los que vivimos. Y con esto a buen seguro que no seamos engañadas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Diréisme que en qué veréis que tenéis estas dos virtudes tan grandes. Y tenéis razón, porque cosa muy cierta y determinada no la puede haber; porque siéndolo de que tenemos amor, lo estaremos de que estamos en gracia. Mas mirad, hermanas: hay unas señales que parece los ciegos las ven; no están secretas; aunque no queráis entenderlas, ellas dan voces que hacen mucho ruido, porque no son muchos los que con perfección las tienen, y así se señalan más. ¡Como quien no dice nada: amor y temor de Dios! Son dos castillos fuertes, desde donde se da guerra al mundo y a los demonios."
+      },
+      {
+        "t": "estrofa",
+        "x": "Quien de veras aman a Dios, todo lo bueno aman, todo lo bueno quieren, todo lo bueno favorecen, todo lo bueno loan, con los buenos se juntan siempre y los favorecen y defienden. No aman sino verdades y cosa que sea digna de amar. ¿Pensáis que es posible quien muy de veras ama a Dios amar vanidades? Ni puede, ni riquezas, ni cosas del mundo, de deleites, ni honras; ni tiene contiendas ni envidias. Todo porque no pretende otra cosa sino contentar al Amado. Andan muriendo porque los ame, y así ponen la vida en entender cómo le agradarán más. ¿Esconderse? -¡Oh, que el amor de Dios, si de veras es amor, es imposible! Si no, mirad un San Pablo, una Magdalena: en tres días el uno comenzó a entenderse que estaba enfermo de amor; éste fue San Pablo. La Magdalena desde el primer día, ¡y cuán bien entendido! Que esto tiene, que hay más o menos; y así se da a entender como la fuerza que tiene el amor: si es poco, dase a entender poco; y si es mucho, mucho; mas poco o mucho, como haya amor de Dios, siempre se entiende."
+      },
+      {
+        "t": "estrofa",
+        "x": "Así que, hermanas, todo lo que pudiereis sin ofensa de Dios procurad ser afables y entender de manera con todas las personas que os trataren, que amen vuestra conversación y deseen vuestra manera de vivir y tratar y no se atemoricen y amedrenten de la virtud. A religiosas importa mucho esto: mientras más santas, más conversables con sus hermanas, y que aunque sintáis mucha pena si no van sus pláticas todas como vos las querríais hablar, nunca os extrañéis de ellas, si queréis aprovechar y ser amada. Que es lo que mucho hemos de procurar: ser afables y agradar y contentar a las personas que tratamos, en especial a nuestras hermanas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Así que, hijas mías, procurad entender de Dios en verdad que no mira a tantas menudencias como vosotras pensáis, y no dejéis que se os encoja el ánima y el ánimo, que se podrán perder muchos bienes. La intención recta, la voluntad determinada, como tengo dicho, de no ofender a Dios. No dejéis arrinconar vuestra alma, que en lugar de procurar santidad sacará muchas imperfecciones que el demonio le pondrá por otras vías y, como he dicho, no aprovechará a sí y a las otras tanto como pudiera."
+      },
+      {
+        "t": "estrofa",
+        "x": "Veis aquí cómo con estas dos cosas -amor y temor de Dios-podemos ir por este camino sosegados y quietos"
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio sal 110 10ª; 1Jn 4,16b; Flp 4.8ª9ª"
+      },
+      {
+        "t": "verso",
+        "x": "R. Primicia de la sabiduría es el temor del Señor.*"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios es amor, y quien permanece en el amor\nPermanece en Dios, y Dios en el."
+      },
+      {
+        "t": "verso",
+        "x": "V. Todo lo que es verdadero, noble, justo, puro, amable, laudable; lo que aprendisteis, recibisteis, oisteis y visteis en mi, ponedlo por obra. * Dios es amor."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las Moradas de santa Teresa de Jesús,\nvirgen y doctora de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "(1M1;1-3.5.7.; B.A.C.,212 (1962), 346-347)"
+      },
+      {
+        "t": "estrofa",
+        "x": "El alma, morada de Dios"
+      },
+      {
+        "t": "estrofa",
+        "x": "Estando hoy suplicando a nuestro Señor hablase por mí, porque yo no atinaba a cosa que decir ni cómo comenzar a cumplir esta obediencia, se me ofreció lo que ahora diré, para comenzar con algún fundamento: que es considerar nuestra alma como un castillo todo de un diamante o muy claro cristal, adonde hay muchos aposentos, así como en el cielo hay muchas moradas. Que si bien lo consideramos, hermanas, no es otra cosa el alma del justo sino un paraíso adonde dice El tiene sus deleites."
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues ¿qué tal os parece que será el aposento adonde un Rey tan poderoso, tan sabio, tan limpio, tan lleno de todos los bienes se deleita? No hallo yo cosa con que comparar la gran hermosura de un alma y la gran capacidad; y verdaderamente apenas deben llegar nuestros entendimientos, por agudos que fuesen, a comprenderla, así como no pueden llegar a considerar a Dios, pues El mismo dice que nos crió a su imagen y semejanza. Pues si esto es, como lo es, no hay para qué nos cansar en querer comprender la hermosura de este castillo; porque puesto que hay la diferencia de él a Dios que del Criador a la criatura, pues es criatura, basta decir Su Majestad que es hecha a su imagen para que apenas podamos entender la gran dignidad y hermosura del ánima."
+      },
+      {
+        "t": "estrofa",
+        "x": "No es pequeña lástima y confusión que, por nuestra culpa, no entendamos a nosotros mismos ni sepamos quién somos. ¿No sería gran ignorancia, hijas mías, que preguntasen a uno quién es, y no se conociese ni supiese quién fue su padre ni su madre ni de qué tierra?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues si esto sería gran bestialidad, sin comparación es mayor la que hay en nosotras cuando no procuramos saber qué cosa somos, sino que nos detenemos en estos cuerpos, y así a bulto, porque lo hemos oído y porque nos lo dice la fe, sabemos que tenemos almas. Mas qué bienes puede haber en esta alma o quién está dentro en esta alma o el gran valor de ella, pocas veces lo consideramos; y así se tiene en tan poco procurar con todo cuidado conservar su hermosura: todo se nos va en la grosería del engaste o cerca de este castillo, que son estos cuerpos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues consideremos que este castillo tiene -como he dicho-muchas moradas, unas en lo alto, otras embajo, otras a los lados; y en el centro y mitad de todas éstas tiene la más principal, que es adonde pasan las cosas de mucho secreto entre Dios y el alma."
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues tornando a nuestro hermoso y deleitoso castillo, hemos de ver cómo podremos entrar en él.\nParece que digo algún disparate; porque si este castillo es el ánima claro está que no hay para qué entrar, pues se es él mismo; como parecería desatino decir a uno que entrase en una pieza estando ya dentro. –"
+      },
+      {
+        "t": "estrofa",
+        "x": "Mas habéis de entender que va mucho de estar a estar; que hay muchas almas que se están en la ronda del castillo que es adonde están los que le guardan, y que no se les da nada de entrar dentro ni saben qué hay en aquel tan precioso lugar ni quién está dentro ni aun qué piezas tiene. Ya habréis oído en algunos libros de oración aconsejar al alma que entre dentro de sí; pues esto mismo es."
+      },
+      {
+        "t": "estrofa",
+        "x": "Porque, a cuanto yo puedo entender, la puerta para entrar en este castillo es la oración"
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio Cf. Ap 21, 10b-11;Jn 14,23b"
+      },
+      {
+        "t": "verso",
+        "x": "R. El Señor me enseño la ciudad santa, Jerusalén,"
+      },
+      {
+        "t": "estrofa",
+        "x": "que bajaba del cielo envuelta en la gloria de Dios y\nresplandeciente como piedra preciosa. * Esta es la morada De Dios con los hombres."
+      },
+      {
+        "t": "verso",
+        "x": "V. El que me ama guardara mi palabra; y mi Padre lo amara, y vendremos a el, y haremos morada en el. *Esta es la morada."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del libro de las Fundaciones de santa Teresa de Jesús,\nVirgen y doctora de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "(C18,4-5;27,21; B.A.C., 212 (1962), 545,578)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Teresa de Jesús, andariega de Dios."
+      },
+      {
+        "t": "estrofa",
+        "x": "No pongo en estas fundaciones los grandes trabajos de los caminos, con fríos, con soles, con nieves, que venía vez no cesarnos en todo el día de nevar, otras perder el camino, otras con hartos males y calenturas, porque, gloria a Dios, de ordinario es tener yo poca salud, sino que veía claro que nuestro Señor me daba esfuerzo. Porque me acaecía algunas veces que se trataba de fundación, hallarme con tantos males y dolores, que yo me congojaba mucho, porque me parecía que aun para estar en la celda sin acostarme no estaba; y tornarme a nuestro Señor, quejándome a Su Majestad y diciéndole que cómo quería hiciese lo que no podía, y después, aunque con trabajo, Su Majestad daba fuerzas, y con el hervor que me ponía y el cuidado, parece que me olvidaba de mí."
+      },
+      {
+        "t": "estrofa",
+        "x": "A lo que ahora me acuerdo nunca dejé fundación por miedo del trabajo, aunque de los caminos, en especial largos, sentía gran contradicción; mas en comenzándolos a andar me parecía poco, viendo en servicio de quién se hacía y considerando que en aquella casa se había de alabar el Señor y haber Santísimo Sacramento. Esto es particular consuelo para mí, ver una iglesia más, cuando me acuerdo de las muchas que quitan los luteranos: no sé qué trabajos, por grandes que fuesen, se habían de temer a trueco de tan gran bien para la cristiandad; que aunque muchos no lo advertimos, estar Jesucristo, verdadero Dios y verdadero hombre, como está en el Santísimo Sacramento en muchas partes, gran consuelo nos había de ser."
+      },
+      {
+        "t": "estrofa",
+        "x": "También algunas veces me daban contento las grandes contradicciones y dichos que en este andar a fundar ha habido, con buena intención unos, otros por otros fines. Mas tan gran alegría como de esto sentí no me acuerdo, por trabajo que me venga, haberla sentido. Que yo confieso que en otro tiempo cualquiera cosa de las tres que me vinieron juntas, fuera harto trabajo para mí. Creo fue mi gozo principal parecerme que, pues las criaturas me pagaban así, que tenía contento al Criador. Porque tengo entendido que el que le tomare por cosas de la tierra o dichos de alabanzas de los hombres, está muy engañado; dejado de la poca ganancia que en esto hay, una cosa les parece hoy, otra mañana; de lo que una vez dicen bien, presto tornan a decir mal. Bendito seáis Vos, Dios y Señor mío, que sois inmutable por siempre jamás, amén. Quien os sirviere hasta el fin, vivirá sin fin, en vuestra eternidad."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio 2Co 12,9b-10"
+      },
+      {
+        "t": "verso",
+        "x": "R. muy a gusto presumo de mis debilidades, porque"
+      },
+      {
+        "t": "estrofa",
+        "x": "asi residirá en mi la fuerza de Cristo. *Porque cuando soy débil, entonces soy fuerte."
+      },
+      {
+        "t": "verso",
+        "x": "V. Por eso vivo contento en medio de mis debilidades, de los insultos, las privaciones, las persecuciones y las dificultades sufridas por Cristo. *Porque cuando soy débil."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Ardo en celo por la honra de mi Esposo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Jesucristo que me dio esta consigna: “De aquí en\nAdelante miraras mi honra, como verdadera esposa mia”"
+      },
+      {
+        "t": "rubrica",
+        "x": "Cantico I Is.2, 2-3"
+      },
+      {
+        "t": "estrofa",
+        "x": "Al final de los días estará firme\nEl monte de la casa del Señor,\nEn la cima de los montes,\nEncumbrado sobre las montañas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hacia el confluirán los gentiles\nCaminaran pueblos numerosos.\nDirán:”Venid subamos al monte del Señor,\nA la casa del Dios de Jacob”."
+      },
+      {
+        "t": "estrofa",
+        "x": "El nos instruirá en sus caminos,\nY marcharemos por sus sendas;\nPorque de Sion saldrá la ley,\nDe Jerusalén la palabra del Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico II Is 61, 10-62,3"
+      },
+      {
+        "t": "estrofa",
+        "x": "Desbordo de gozo con el Señor,\ny me alegro con mi Dios:\nporque me ha vestido un traje de gala\ny me ha envuelto en un manto de triunfo,\ncomo novio que se pone le corona,\no novia que se adorna con sus joyas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Como el suelo echa sus brotes,\ncomo un jardín hace brotar sus semillas,\nasí el Señor hará brotar la justicia\ny los himnos ante todos los pueblos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por amor de Sión no callaré,\npor amor de Jerusalén no descansaré,\nhasta que rompa la aurora de su justicia,\ny su salvación llamee como antorcha."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los pueblos verán tu justicia,\ny los reyes tu gloria;\nte pondrán un nombre nuevo,\npronunciado por la boca del Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Serás corona fúlgida en la mano del Señor\ny diadema real en la palma de tu Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico III Is 62, 4-7"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ya no te llamarán «Abandonada»,\nni a tu tierra «Devastada»;\na ti te llamarán «Mi favorita»,\ny a tu tierra «Desposada»,\nporque el Señor te prefiere a ti,\ny tu tierra tendrá marido."
+      },
+      {
+        "t": "estrofa",
+        "x": "Como un joven se casa con su novia,\nasí te desposa el que te construyó;\nla alegría que encuentra el marido con su esposa,\nla encontrará tu Dios contigo.\nSobre tus murallas, Jerusalén,\nhe colocado centinelas:\nnunca callan, ni de día ni de noche;\nlos que se lo recordáis al Señor\nno os déis descanso;\nNo le déis descanso\nhasta que la establezca,\nhasta que haga de Jerusalén\nla admiración de la tierra."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Ardo en celo por la honra de mi Esposo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Jesucristo que me dio esta consigna: “De aquí en\nadelante miraras mi honra, como verdadera esposa mia”"
+      },
+      {
+        "t": "estrofa",
+        "x": "EVANGELIO JN. 14, 1-11a"
+      },
+      {
+        "t": "estrofa",
+        "x": "En aquel tiempo, dijo Jesús a sus discípulos:\n\"No se turbe vuestro corazón. Creéis en Dios: creed también en mí. En la casa de mi Padre hay muchas mansiones; si no, os lo habría dicho; porque voy a prepararos un lugar.\nY cuando haya ido y os haya preparado un lugar, volveré y os tomaré conmigo, para que donde esté yo estéis también vosotros. Y adonde yo voy sabéis el camino.\"\nLe dice Tomás: \"Señor, no sabemos a dónde vas, ¿cómo podemos saber el camino?\"\nLe dice Jesús: \"Yo soy el Camino, la Verdad y la Vida. Nadie va al Padre sino por mí. Si me conocéis a mí, conoceréis también a mi Padre; desde ahora lo conocéis y lo habéis visto.\"\nLe dice Felipe: \"Señor, muéstranos al Padre y nos basta.\"\nLe dice Jesús: \"¿Tanto tiempo hace que estoy con vosotros y no me conoces Felipe? El que me ha visto a mí, ha visto al Padre. ¿Cómo dices tú: \"Muéstranos al Padre\"? ¿No crees que yo estoy en el Padre y el Padre está en mí? Las palabras que os digo, no las digo por mi cuenta; el Padre que permanece en mí es el que realiza las obras.\nCreedme: yo estoy en el Padre y el Padre está en mí"
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "JN. 4, 5-15a"
+      },
+      {
+        "t": "estrofa",
+        "x": "Llega, pues, a una ciudad de Samaria llamada Sicar, cerca de la heredad que Jacob dio a su hijo José.\nAllí estaba el pozo de Jacob. Jesús, como se había fatigado del camino, estaba sentado junto al pozo. Era alrededor de la hora sexta.\nLlega una mujer de Samaria a sacar agua. Jesús le dice: \"Dame de beber.\"\nPues sus discípulos se habían ido a la ciudad a comprar comida. Le dice a la mujer samaritana:\n\"¿Cómo tú, siendo judío, me pides de beber a mí, que soy una mujer samaritana?\" (Porque los judíos no se tratan con los samaritanos.)\nJesús le respondió: \"Si conocieras el don de Dios, y quién es el que te dice: \"Dame de beber\", tú le habrías pedido a él, y él te habría dado agua viva.\"\nLe dice la mujer: \"Señor, no tienes con qué sacarla, y el pozo es hondo; ¿de dónde, pues, tienes esa agua viva?\n¿Es que tú eres más que nuestro padre Jacob, que nos dio el pozo, y de él bebieron él y sus hijos y sus ganados?\"\nJesús le respondió: \"Todo el que beba de esta agua, volverá a tener sed; pero el que beba del agua que yo le dé, no tendrá sed jamás, sino que el agua que yo le dé se convertirá en él en fuente de agua que brota para vida eterna.\"\nLe dice la mujer: \"Señor, dame de esa agua."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien: Jn 7,14-18.37-39, como en la misa de la solemnidad"
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno Te Deum"
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, oh Dios, te alabamos,\na ti, Señor, te reconocemos."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, eterno Padre,\nte venera toda la creación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los Ángeles todos,\nlos cielos y todas las potestades te honran."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los querubines y serafines\nte cantan sin cesar:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Santo, Santo, Santo es el Señor,\nDios del Universo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los cielos y la tierra están llenos\nde la majestad de tu gloria."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti te ensalza\nel glorioso coro de los apóstoles,\nla multitud admirable de los profetas,\nel blanco ejército de los mártires."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti la Iglesia santa,\nextendida por toda la tierra,\nte proclama:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Padre de inmensa majestad,\nHijo único y verdadero, digno de adoración,\nEspíritu Santo, Defensor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Rey de la gloria, Cristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Hijo único del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, para liberar al hombre,\naceptaste la condición humana\nsin deseñar el seno de la Virgen."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, rotas las cadenas de la muerte,\nabriste a los creyentes el reino del cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú te sientas a la derecha de Dios\nen la gloria del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Creemos que un día\nhas de venir como juez."
+      },
+      {
+        "t": "estrofa",
+        "x": "Te rogamos, pues,\nque vengas en ayuda de tus siervos,\na quienes redimiste con tu preciosa sangre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Haz que en la gloria eterna\nnos asociemos a tus santos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Lo que sigue puede omitirse"
+      },
+      {
+        "t": "verso",
+        "x": "V. Salva a tu pueblo, Señor, y bendice tu heredad."
+      },
+      {
+        "t": "verso",
+        "x": "R. Sé su pastor y ensálzalo eternamente."
+      },
+      {
+        "t": "verso",
+        "x": "V. Día tras día te bendecimos"
+      },
+      {
+        "t": "verso",
+        "x": "R. y alabamos tu nombre para siempre, por eternidad de eternidades."
+      },
+      {
+        "t": "verso",
+        "x": "V. Dígnate, Señor, en este día guárdanos del pecado."
+      },
+      {
+        "t": "verso",
+        "x": "R. Ten piedad de nosotros, Señor, ten piedad de nosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "de ti."
+      },
+      {
+        "t": "verso",
+        "x": "R. En ti, Señor, confié, no me veré defraudado para siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración como en Laudes"
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Vuestra soy, para Vos nací,\n¿qué mandáis hacer de mí?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Veis aquí mi corazón,\nyo le pongo en vuestra palma,\nmi cuerpo, mi vida y alma,\nmis entrañas y afición;\ndulce Esposo y redención,\npues por vuestra me ofrecí:\n¿qué mandáis hacer de mí?\n\nDadme muerte, dadme vida:\ndad salud o enfermedad,\nhonra o deshonra me dad,\ndadme guerra o paz crecida,\nflaqueza o fuerza cumplida,\nque a todo digo que sí:\n¿qué mandáis hacer de mí?\n\nDadme riqueza o pobreza,\ndad consuelo o desconsuelo,\ndadme alegría o tristeza,\ndadme infierno o dadme cielo,\nvida dulce, sol sin velo,\npues del todo me rendí:\n¿qué mandáis hacer de mí?\n\nSi queréis, dadme oración,\nsi no, dadme sequedad,\nsi abundancia y devoción,\ny si no esterilidad.\nSoberana Majestad,\nsólo hallo paz aquí:\n¿qué mandáis hacer de mi?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Si queréis que esté holgando,\nquiero por amor holgar.\nSi me mandáis trabajar,\nmorir quiero trabajando.\nDecid, ¿dónde, cómo y cuándo?\nDecid, dulce Amor, decid:\n¿qué mandáis hacer de mí? Amen"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmodia"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Mi alma esta sedienta de ti; mi carne tiene ansia de ti."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMO 62, 2-9"
+      },
+      {
+        "t": "estrofa",
+        "x": "El alma sedienta de Dios\nOh Dios, tú eres mi Dios, por ti madrugo,\nmi alma está sedienta de ti;\nmi carne tiene ansia de ti,\ncomo tierra reseca, agostada, sin agua."
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Cómo te contemplaba en el santuario\nviendo tu fuerza y tu gloria!\nTu gracia vale más que la vida,\nte alabarán mis labios."
+      },
+      {
+        "t": "estrofa",
+        "x": "Toda mi vida te bendeciré\ny alzaré las manos invocándote.\nMe saciaré como de enjundia y de manteca,\ny mis labios te alabarán jubilosos."
+      },
+      {
+        "t": "estrofa",
+        "x": "En el lecho me acuerdo de ti\ny velando medito en ti,\nporque fuiste mi auxilio,\ny a la sombra de tus alas canto con júbilo;\nmi alma está unida a ti,\ny tu diestra me sostiene."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Mi alma esta sedienta de ti; mi carne tiene ansia de ti."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Que todas tus criaturas te den gracias,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor; que te bendigan tus fieles."
+      },
+      {
+        "t": "rubrica",
+        "x": "CÁNTICO DE LOS TRES JÓVENES\n(Dn 3,57-88.56)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Toda la creación alabe al Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Criaturas todas del Señor, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Angeles del Señor, bendecid al Señor;\ncielos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Aguas del espacio, bendecid al Señor;\nejércitos del Señor, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sol y luna, bendecid al Señor;\nastros del cielo, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Lluvia y rocío, bendecid al Señor;\nvientos todos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Fuego y calor, bendecid al Señor;\nfríos y heladas, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Rocíos y nevadas, bendecid al Señor;\ntémpanos y hielos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Escarchas y nieves, bendecid al Señor;\nnoche y día, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Luz y tinieblas, bendecid al Señor;\nrayos y nubes, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendiga la tierra al Señor,\nensálcelo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Montes y cumbres, bendecid al Señor;\ncuanto germina en la tierra, bendiga al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Manantiales, bendecid al Señor;\nmares y ríos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cetáceos y peces, bendecid al Señor;\naves del cielo, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Fieras y ganados, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hijos de los hombres, bendecid al Señor;\nbendiga Israel al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sacerdotes del Señor, bendecid al Señor;\nsiervos del Señor, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Almas y espíritus justos, bendecid al Señor;\nsantos y humildes de corazón, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ananías, Azarías y Misael, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendigamos al Padre y al Hijo con el Espíritu Santo,\nensalcémoslo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito el Señor en la bóveda del cielo,\nalabado y glorioso y ensalzado por los siglos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Que todas tus criaturas te den gracias,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor; que te bendigan tus fieles."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 He cantado, Señor, tus misericordias en la"
+      },
+      {
+        "t": "estrofa",
+        "x": "Asamblea de los fieles."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMO 149"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cantad al Señor un cántico nuevo,\nresuene su alabanza en la asamblea de los fieles;\nque se alegre Israel por su Creador,\nlos hijos de Sión por su Rey."
+      },
+      {
+        "t": "estrofa",
+        "x": "Alabad su nombre con danzas,\ncantadle con tambores y cítaras;\nporque el Señor ama a su pueblo\ny adorna con la victoria a los humildes.\nQue los fieles festejen su gloria\ny canten jubilosos en filas:\ncon vítores a Dios en la boca\ny espadas de dos filos en las manos:"
+      },
+      {
+        "t": "estrofa",
+        "x": "para tomar venganza de los pueblos\ny aplicar el castigo a las naciones,\nsujetando a los reyes con argollas,\na los nobles con esposas de hierro."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ejecutar la sentencia dictada\nes un honor para todos sus fieles."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 He cantado, Señor, tus misericordias en la"
+      },
+      {
+        "t": "estrofa",
+        "x": "Asamblea de los fieles."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE 2 Co 4 5-7"
+      },
+      {
+        "t": "estrofa",
+        "x": "No nos predicamos a nosotros mismos, sino a Cristo Jesús como Señor, y a nosotros como siervos vuestros por Jesús. Pues el mismo Dios que dijo:”De las tinieblas brille la luz,” ha hecho brillar la luz en nuestros corazones, para irradiar el conocimiento de la gloria de Dios que está en la faz de Cristo.\nPero llevamos este tesoro en recipientes de barro para que aparezca que una fuerza tan extraordinaria es de Dios y no de nosotros."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio breve"
+      },
+      {
+        "t": "verso",
+        "x": "R. Oigo en mi corazón;* Buscad mi rostro"
+      },
+      {
+        "t": "verso",
+        "x": "V. Tu rostro buscare, Señor. * Buscad mi rostro."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre. Oigo"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Bened. Al que me ama lo amara mi Padre y lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Amare yo, y me mostrare a el."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Al que me ama lo amara mi Padre y lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Amare yo, y me mostrare a el."
+      },
+      {
+        "t": "rubrica",
+        "x": "Preces"
+      },
+      {
+        "t": "estrofa",
+        "x": "Aclamemos con jubilo a Cristo, Señor de la gloria y\nCorona de todos los santos que nos concedes hoy\nCelebrar la solemnidad de santa Teresa, nuestra\nMadre, y digámosle:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te alabamos Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, fuente de vida y de santidad, que has\nMostrado en tus santos las maravillas de tu amor,\n-queremos cantar hoy tus misericordias con\nNuestra madre Teresa de Jesús."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la\nperfección; Concédenos alimentarnos siempre con su celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor."
+      }
+    ],
+    "intermedia": [
+      {
+        "t": "rubrica",
+        "x": "Tercia"
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "rubrica",
+        "x": "I"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu poder multiplica\nla eficacia del hombre,\ny crece cada día, entre sus manos,\nla obra de tus manos.\n\nNos señalaste un trozo de la viña\ny nos dijiste: \"Venid y trabajad\".\n\nNos mostraste una mesa vacía\ny nos dijiste: \"Llenadla de pan\".\n\nNos presentaste un campo de batalla\ny nos dijiste: \"Construid la paz\".\n\nNos sacaste al desierto con el alba\ny nos dijiste: \"Levantad la ciudad\".\n\nPusiste una herramienta en nuestras manos\ny nos dijiste: \"Es tiempo de crear\".\n\nEscucha a mediodía el rumor del trabajo\ncon que el hombre se afana en tu heredad.\n\nGloria al Padre, y al Hijo, y al Espíritu Santo.\nPor los siglos. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "II"
+      },
+      {
+        "t": "estrofa",
+        "x": "El mundo brilla de alegría.\nSe renueva la faz de la tierra.\nGloria al Padre, y al Hijo, y al Espíritu\nSanto.\n\nEsta es la hora\nen que rompe el Espíritu\nel techo de la tierra,\ny una lengua de fuego innumerable\npurifica, renueva, enciende, alegra\nlas entrañas del mundo.\n\nEsta es la fuerza\nque pone en pie a la Iglesia\nen medio de las plazas\ny levanta testigos en el pueblo,\npara hablar con palabras como espadas\ndelante de los jueces.\n\nLlama profunda,\nque escrutas e iluminas\nel corazón del hombre:\nrestablece la fe con tu noticia,\ny el amor ponga en vela la esperanza,\nhasta que el Señor vuelva."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.1 Llame al Señor, y el me respondio)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 119"
+      },
+      {
+        "t": "estrofa",
+        "x": "En mi aflicción llamé al Señor,\ny El me respondió.\nLíbrame, Señor, de los labios mentirosos,\nde la lengua traidora.\n¿Qué te va a dar o mandarte Dios,\nlengua traidora?\nFlechas de arquero,\nafiladas con ascuas de retama.\n¡Ay de mí, desterrado en Masac,\nacampado en Cadar!\nDemasiado llevo viviendo\ncon los que odian la paz;\ncuando yo digo: \"Paz\",\nellos dicen: \"Guerra\"."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.1 Llame al Señor, y el me respondió)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.2 El Señor guarde tus entradas y salidas)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmo 120\n\nLevanto mis ojos a los montes:\n¿de dónde me vendrá el auxilio?\nEl auxilio me viene del Señor,\nque hizo el cielo y la tierra.\nNo permitirá que resbale tu pie,\ntu guardián no duerme;\nno duerme ni reposa\nel guardián de Israel.\nEl Señor te aguarda a su sombra,\nestá a tu derecha;\nde día el sol no te hará daño,\nni la luna de noche.\nEl Señor te guarda de todo mal,\nél guarda tu alma;\nel Señor guarda tus entradas y salidas,\nahora y por siempre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.2 El Señor guarde tus entradas y salidas)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.3 Me he alegrado por lo que me dijeron)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmo 121\n\n¡Qué alegría cuando me dijeron:\n\"Vamos a la casa del Señor\"!\nYa están pisando nuestros pies\ntus umbrales, Jerusalén.\nJerusalén está fundada\ncomo ciudad bien compacta.\nAllá suben las tribus,\nlas tribus del Señor,\nsegún la costumbre de Israel,\na celebrar el nombre del Señor;\nen ella están los tribunales de justicia,\nen el palacio de David.\nDesead la paz a Jerusalén:\n\"Vivan seguros los que te aman,\nhaya paz dentro de tus muros,\nseguridad en tus palacios\".\nPor mis hermanos y compañeros,\nvoy a decir: \"La paz contigo\".\nPor la casa del Señor, nuestro Dios,\nte deseo todo bien."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Cuando tu vayas a orar entra en tu cuarto,"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cierra la puerta y ora a tu Padre que esta en lo\nEscondido.\n(Ant.3 Me he alegrado por lo que me dijeron)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Lectura Breve Ap. 3,20"
+      },
+      {
+        "t": "estrofa",
+        "x": "Mira que estoy a la puerta llamando. Si alguien\nOye y me abre, entrare y comeremos juntos."
+      },
+      {
+        "t": "verso",
+        "x": "V. Cantare la alabanza del Dios de mi vida."
+      },
+      {
+        "t": "verso",
+        "x": "R. Diré a Dios: Tu eres mi roca."
+      },
+      {
+        "t": "rubrica",
+        "x": "Sexta"
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te está cantando el martillo,\ny rueda en tu honor la rueda.\nPuede que la luz no pueda\nlibrar del humo su brillo.\n¡Qué sudoroso y sencillo\nte pones a mediodía,\nDios de esta dura porfía\nde estar sin pausa creando,\ny verte necesitando\ndel hombre más cada día!\n\nQuien diga que Dios ha muerto\nque salga a la luz y vea\nsi el mundo es o no tarea\nde un Dios que sigue despierto.\nYa no es su sitio el desierto\nni la montaña se esconde;\ndecid, si preguntan dónde,\nque Dios está -sin mortaja-\nen donde un hombre trabaja\ny un corazón le responde. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca.\n(Ant.1 Tu que habitas en el cielo, ten misericordia\nde nosotros.)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 122\n\nA ti levanto mis ojos,\na ti que habitas en el cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Como están los ojos de los esclavos\nfijos en las manos de sus señores,\ncomo están los ojos de la esclava\nfijos en las manos de su señora,\nasí están nuestros ojos\nen el Señor, Dios nuestro,\nesperando su misericordia.\nMisericordia, Señor, misericordia,\nque estamos saciados de desprecios;\nnuestra alma está saciada\ndel sarcasmo de los satisfechos,\ndel desprecio de los orgullosos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca\n(Ant.1 Tu que habitas en el cielo, ten misericordia\nde nosotros.)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca\n(Ant.2 Nuestro auxilio es el nombre del Señor)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 123"
+      },
+      {
+        "t": "estrofa",
+        "x": "Si el Señor no hubiera estado de nuestra parte\n-que lo diga Israel-,\nsi el Señor no hubiera estado de nuestra parte,\ncuando nos asaltaban los hombres,\nnos habrían tragado vivos:\ntanto ardía su ira contra nosotros.\nNos habrían arrollado las aguas,\nllegándonos el torrente hasta el cuello;\nnos habrían llegado hasta el cuello\nlas aguas espumantes.\nBendito el Señor, que no nos entregó\nen presa a sus dientes;\nhemos salvado la vida, como un pájaro\nde la trampa del cazador:\nla trampa se rompió, y escapamos.\nNuestro auxilio es el nombre del Señor,\nque hizo el cielo y la tierra."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca\n(Ant.2 Nuestro auxilio es el nombre del Señor)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca\n(Ant 3 El Señor rodea a su pueblo ahora y por siempre)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmo 124\n\nLos que confían en el Señor son como el monte Sión:\nno tiembla, está asentado para siempre.\nJerusalén está rodeada de montañas,\ny el Señor rodea a su pueblo\nahora y por siempre.\nNo pesará el cetro de los malvados\nsobre el lote de los justos,\nno sea que los justos extiendan\nsu mano a la maldad.\nSeñor, concede bienes a los buenos,\na los sinceros de corazón;\ny a los que se desvían por sendas tortuosas,\nque los rechace el Señor con los malhechores.\n¡Paz a Israel!"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Estad siempre alegres en el Señor; os lo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Repito, estad alegres. El Señor esta cerca\n(Ant.3 El Señor rodea a su pueblo ahora y por siempre)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Lectura Breve 1Ts5, 16-18"
+      },
+      {
+        "t": "estrofa",
+        "x": "Estad siempre alegres. Sed constantes en orar. En\nToda ocasión tened la Acción de Gracias: esta es la voluntad de Dios en Cristo Jesús respecto a vosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Me enseñaras el sendero de la vida."
+      },
+      {
+        "t": "verso",
+        "x": "R. Me saciaras de gozo en tu presencia."
+      },
+      {
+        "t": "rubrica",
+        "x": "Nona"
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "rubrica",
+        "x": "I"
+      },
+      {
+        "t": "estrofa",
+        "x": "Fuerza tenaz, firmeza de las cosas,\ninmóvil en ti mismo;\norigen de la luz, eje del mundo\ny norma de su giro:\n\nconcédenos tu luz en una tarde\nsin muerte ni castigo,\nla luz que se prolonga tras la muerte\ny dura por los siglos. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "II"
+      },
+      {
+        "t": "estrofa",
+        "x": "Fundamento de todo lo que existe,\nde tu pueblo elegido eterna roca,\nde los tiempos Señor, que prometiste\ndar tu vigor al que con fe te invoca.\n\nMira al hombre que es fiel y no te olvida,\ntu Espíritu, tu paz háganlo fuerte\npara amarte y servirte en esta vida\ny gozarte después de santa muerte.\n\nJesús, Hijo del Padre, ven aprisa\nen este atardecer que se avecina,\nserena claridad y dulce brisa\nserá tu amor que todo lo domina. Amén"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant.1 El Señor ha estado grande con nosotros, y estamos alegres)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 125"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cuando el Señor cambió la suerte de Sión,\nnos parecía soñar:\nla boca se nos llenaba de risas,\nla lengua de cantares.\nHasta los gentiles decían:\n\"El Señor ha estado grande con ellos\".\nEl Señor ha estado grande con nosotros,\ny estamos alegres.\nQue el Señor cambie nuestra suerte,\ncomo los torrentes de Negueb.\nLos que sembraban con lágrimas\ncosechan entre cantares.\nAl ir, iba llorando,\nllevando la semilla;\nal volver, vuelve cantando,\ntrayendo sus gavillas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant.1 El Señor ha estado grande con nosotros, y estamos alegres)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant.2 El Señor nos construya la casa y nos guarde la ciudad)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmo 126\n\nSi el Señor no construye la casa,\nen vano se cansan los albañiles;\nsi el Señor no guarda la ciudad,\nen vano vigilan los centinelas.\nEs inútil que madruguéis,\nque veléis hasta muy tarde,\nque comáis el pan de vuestros sudores:\n¡Dios lo da a sus amigos mientras duermen!\nLa herencia que da el Señor son los hijos;\nsu salario, el fruto del vientre:\nson saetas en manos de un guerrero\nlos hijos de la juventud.\nDichoso el hombre que llena\ncon ellas su aljaba:\nNo quedará derrotado cuando litigue\ncon su adversario en la plaza."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant.2 El Señor nos construya la casa y nos guarde la ciudad)"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant.3 Dichoso el que teme al Señor)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 127"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichoso el que teme al Señor\ny sigue sus caminos.\nComerás del fruto de tu trabajo,\nserás dichoso, te irá bien;\ntu mujer, como parra fecunda,\nen medio de tu casa;\ntus hijos, como renuevos de olivo,\nalrededor de tu mesa:\nésta es la bendición del hombre\nque teme al Señor.\nQue el Señor te bendiga desde Sión,\nque veas la prosperidad de Jerusalén\ntodos los días de tu vida;\nque veas a los hijos de tus hijos.\n¡Paz a Israel!"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Realizando la verdad en el amor, hagamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Crecer todas las cosas hacia Cristo.\n(Ant. 3 Dichoso el que teme al Señor)"
+      },
+      {
+        "t": "rubrica",
+        "x": "Lectura Breve"
+      },
+      {
+        "t": "estrofa",
+        "x": "Me alegre muchísimo cuando llegaron unos\nHermanos y nos hablaron de tu sinceridad, de cómo\nProcedes en la verdad. No puedo tener mayor alegría que enterarme de que mis hijos proceden con sinceridad."
+      },
+      {
+        "t": "verso",
+        "x": "V. Servid al Señor en la verdad."
+      },
+      {
+        "t": "verso",
+        "x": "R. El que realiza la verdad se acerca a la luz."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Soberano, esposo mió,\nya voy, dejadme llegar;\nno me deis, Señor, desvio,\npara que entre en vuestro mar\neste pequeñuelo río."
+      },
+      {
+        "t": "estrofa",
+        "x": "Si vos los brazos me dais,\nyo os doy el alma en despojos,\ny pues ya me la sacáis,\nvolved, mi Cristo, los ojos\na quien el alma lleváis."
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues el corazón os di,\ndenme esas llagas consuelo;\nentre el alma por ahí,\npues son las puertas del cielo,\nque se abrieron para mí."
+      },
+      {
+        "t": "estrofa",
+        "x": "De esta postrera despedida\nyo no temo el dolor fuerte,\nsi con vos, mi Cristo, asida\na la hora de la muerte\ntengo en mis manos la vida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Si en las manos tengo a vos\ncon regalos soberanos,\nya estamos juntos los dos,\npues que Dios esta en mis manos,\ny yo en las manos de Dios. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmodia"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 El Señor me enseño la ciudad santa,"
+      },
+      {
+        "t": "estrofa",
+        "x": "envuelta en la gloria de Dios y resplandeciente\ncomo Piedra preciosa."
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmo 121\n\n¡Qué alegría cuando me dijeron:\n\"Vamos a la casa del Señor\"!\nYa están pisando nuestros pies\ntus umbrales, Jerusalén.\nJerusalén está fundada\ncomo ciudad bien compacta.\nAllá suben las tribus,\nlas tribus del Señor,\nsegún la costumbre de Israel,\na celebrar el nombre del Señor;\nen ella están los tribunales de justicia,\nen el palacio de David.\nDesead la paz a Jerusalén:\n\"Vivan seguros los que te aman,\nhaya paz dentro de tus muros,\nseguridad en tus palacios\".\nPor mis hermanos y compañeros,\nvoy a decir: \"La paz contigo\".\nPor la casa del Señor, nuestro Dios,\nte deseo todo bien."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 El Señor me enseño la ciudad santa,"
+      },
+      {
+        "t": "estrofa",
+        "x": "envuelta en la gloria de Dios y resplandeciente\ncomo Piedra preciosa."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Esta es la morada de Dios con los hombres:"
+      },
+      {
+        "t": "estrofa",
+        "x": "acampará entre ellos"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 126"
+      },
+      {
+        "t": "estrofa",
+        "x": "Si el Señor no construye la casa,\nen vano se cansan los albañiles;\nsi el Señor no guarda la ciudad,\nen vano vigilan los centinelas.\nEs inútil que madruguéis,\nque veléis hasta muy tarde,\nque comáis el pan de vuestros sudores:\n¡Dios lo da a sus amigos mientras duermen!\nLa herencia que da el Señor son los hijos;\nsu salario, el fruto del vientre:\nson saetas en manos de un guerrero\nlos hijos de la juventud.\nDichoso el hombre que llena\ncon ellas su aljaba:\nNo quedará derrotado cuando litigue\ncon su adversario en la plaza."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Esta es la morada de Dios con los hombres:"
+      },
+      {
+        "t": "estrofa",
+        "x": "acampará entre ellos"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.3 Completo en mi carne los dolores de"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, sufriendo por su cuerpo que es la Iglesia."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cantico Col. 1, 12-20"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gracias al Padre que os ha hecho aptos para participar en la herencia de los santos en la luz. El nos libró del poder de las tinieblas y nos trasladó al Reino del Hijo de su amor, en quien tenemos la redención: el perdón de los pecados.\nEl es Imagen de Dios invisible, primogénito de toda la creación, porque en él fueron creadas todas las cosas, en los cielos y en la tierra, las visibles y las invisibles, los Tronos, las dominaciones, los Principados, las Potestades: todo fue creado por él y para él, él existe con anterioridad a todo, y todo tiene en él su consistencia. El es también la Cabeza del Cuerpo, de la Iglesia:El es el Principio, el Primogénito de entre los muertos, para que sea él el primero en todo, pues Dios tuvo a bien hacer residir en él toda la Plenitud, y reconciliar por él y para él todas las cosas, pacificando, mediante la sangre de su cruz, lo que hay en la tierra y en los cielos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.3 Completo en mi carne los dolores de"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, sufriendo por su cuerpo que es la Iglesia."
+      },
+      {
+        "t": "rubrica",
+        "x": "Lectura breve"
+      },
+      {
+        "t": "estrofa",
+        "x": "Judas 20-21.24-25"
+      },
+      {
+        "t": "estrofa",
+        "x": "Pero vosotros, queridos, edificándoos sobre vuestra santísima fe y orando en el Espíritu Santo, manteneos en la caridad de Dios, aguardando la misericordia de nuestro Señor Jesucristo para vida eterna. Al que es capaz de guardaros inmunes de caída y de presentaros sin tacha ante su gloria con alegría, al Dios único, nuestro Salvador, por medio de Jesucristo, nuestro Señor, gloria, majestad, fuerza y poder antes de todo tiempo, ahora y por todos los siglos. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio Breve"
+      },
+      {
+        "t": "verso",
+        "x": "R. Vosotros sois *Templo de Dios vivo. Vosotros sois."
+      },
+      {
+        "t": "verso",
+        "x": "V. Y el Espíritu de Dios habita en vosotros. * Templo de Dios vivo. Gloria al Padre. Vosotros sois."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnif. No perdais la calma. En la casa de Mi Padre hay muchas moradas, y me voy a prepararos sitio."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Santa madre Teresa, mira desde el cielo a esta tu familia\nY cuida de ella con amor; corona la obra que un día\nemprendiste en la tierra."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi salvador;\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones,\nporque el Poderoso ha hecho obras grandes\npor mí: su nombre es santo\ny su misericordia llega a sus fieles\nde generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo:\ndispersa a los soberbios de corazón,\nderriba del trono a los poderosos\ny enaltece a los humildes,\na los hambrientos los colma de bienes\ny a los ricos los despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel, su siervo, acordándose de\nsu misericordia -como lo había prometido\na nuestros padres-en favor de Abraham\ny su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "Preces"
+      },
+      {
+        "t": "estrofa",
+        "x": "Glorifiquemos a Cristo que amo a su Iglesia y se\nentrego por ella para consagrarla. Pidámosle que\nsu Esposa sea siempre santa e inmaculada, y\ndigámosle confiadamente:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, protege a tu Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que eres la cabeza de la Iglesia,\n-haz que tus fieles, unidos a ti por la fe y el amor,\nse sientan miembros de tu cuerpo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has establecido la Iglesia sobre el ministerio\nde Pedro y los apóstoles,\n-por intersección de Santa Teresa, nuestra madre,\nbendice al Papa N. y a todos los obispos de la\nIglesia universal."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has elegido con inmenso amor a los sacerdotes,\npara que sean luz de tu Iglesia y alimenten a tu\npueblo con los sacramentos,\n-haz que tus ministros sagrados brillen, conforme a\nlos deseos de Teresa, por su santidad y sabiduría."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has suscitado en la Iglesia la familia del\nCarmelo Teresiano para perpetuar el carisma de su\nFundadora.\n-Concede a todos los carmelitas la gracia de ser\nHerederos del espíritu de oración y del celo\nApostólico de su madre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que anhelas que todos cuantos creen en ti lleguen\nA la unidad perfecta,\n-infunde en los cristianos el espíritu ecuménico,\nPara que sean uno, como tú lo pediste al Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que has muerto por nuestros pecados y has\nResucitado para nuestra justificación,\n-otorga a nuestros hermanos difuntos que esperan\nLa revelación de tu gloria, el gozo de la Pascua\nEterna en la comunión de los santos."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro………."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oracion"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que por medio de tu Espíritu Santo, has suscitado a santa Teresa de Jesús, nuestra Madre, para enseñar a tu Iglesia el camino de la\nperfección; Concédenos alimentarnos siempre con su celestial doctrina, para que crezca en nosotros el deseo de la verdadera santidad. Por nuestro Señor."
+      }
+    ]
+  }
 }

@@ -68,5 +68,61 @@
       "x": "hacia lo que esta por delante, corro hacia la meta, para"
     }
   ],
-  "oracion": "Dios misericordioso, alegría de los santos, que inflamaste el corazón juvenil de Santa Teresa de los Andes con el fuego del amor virginal a Cristo y a su Iglesia, y la hiciste testigo gozoso de la caridad aun en medio de los sufrimientos. Concédenos, por su intercesión, que, inundados por la dulzura de tu espíritu, proclamemos en el mundo, de palabra y de obra, el evangelio del amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+  "oracion": "Dios misericordioso, alegría de los santos, que inflamaste el corazón juvenil de Santa Teresa de los Andes con el fuego del amor virginal a Cristo y a su Iglesia, y la hiciste testigo gozoso de la caridad aun en medio de los sufrimientos. Concédenos, por su intercesión, que, inundados por la dulzura de tu espíritu, proclamemos en el mundo, de palabra y de obra, el evangelio del amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De los escritos espirituales de santa Teresa de Jesús"
+      },
+      {
+        "t": "estrofa",
+        "x": "(Diario y cartas, Los Andes, 1983,373,359.376) Santa Teresa de los Andes."
+      },
+      {
+        "t": "estrofa",
+        "x": "Solo Jesús es hermoso"
+      },
+      {
+        "t": "estrofa",
+        "x": "“Sólo Jesús es hermoso. El sólo puede hacerme gozar. Lo llamo, lo lloro, lo busco dentro de mi alma. Quiero que Jesús me triture interiormente para ser hostia pura donde El pueda descansar. Quiero estar sedienta de amor para que otras almas posean ese amor. Que yo muera a las criaturas y a mí misma para que El viva en mí.\n¿Hay algo bueno, bello, verdadero que podamos concebir que en Jesús no esté? Sabiduría, para la cual no hay nada secreto; poder, para el cual nada existe imposible; justicia, que lo hace encarnarse para satisfacer por el pecado; providencia, que siempre vela y sostiene; misericordia, que jamás deja de perdonar; bondad, que olvida las ofensas de sus criaturas; amor, que reúne todas las ternuras de una madre, del hermano, del esposo y que, haciéndolo salir del abismo de su grandeza, lo liga estrechamente a sus criaturas; belleza, que extasía... ¿Qué otra cosa imaginas que no esté en este Hombre- Dios?\n¿Temes acaso que el abismo de la grandeza de Dios y el de tu nada jamás podrán unirse? Existe en El el amor; y esta pasión lo hizo encarnarse para que, viendo un Hombre-Dios, no temieran acercarse a El. Esta pasión hízolo convertirse en pan, para poder asimilar y hacer desaparecer nuestra nada en su Ser infinito. Esta pasión le hizo dar su vida, muriendo muerte de cruz.\n¿Temes acercarte a El? Míralo rodeado por los niños. Los acaricia, los estrecha contra su corazón. Míralo en medio de su rebaño fiel, cargando sobre sus hombros a la oveja infiel. Míralo sobre la tumba de Lázaro. Y oye lo que dice a Magdalena: Mucho se le ha perdonado porque ha amado mucho. ¿Qué descubres en estos rasgos del Evangelio, sino un corazón bueno, dulce, tierno, compasivo, un corazón, en fin, de un Dios?\nEl es mi riqueza infinita, mi beatitud, mi cielo”."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO"
+      },
+      {
+        "t": "verso",
+        "x": "R Todo lo estimo perdida comparado con la excelencia"
+      },
+      {
+        "t": "estrofa",
+        "x": "del conocimiento de Cristo Jesús, mi Señor; continua\nmi carrera por si consigo alcanzarlo.* Habiendo sido\nyo misma alcanzada por Cristo Jesús."
+      },
+      {
+        "t": "verso",
+        "x": "V. Olvidándome de lo que queda atrás y lanzándome"
+      },
+      {
+        "t": "estrofa",
+        "x": "hacia lo que esta por delante, corro hacia la meta, para\nganar el premio, al que Dios desde arriba me llama."
+      },
+      {
+        "t": "verso",
+        "x": "*Habiendo sido yo."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios misericordioso, alegría de los santos, que inflamaste el corazón juvenil de Santa Teresa de los Andes con el fuego del amor virginal a Cristo y a su Iglesia, y la hiciste testigo gozoso de la caridad aun en medio de los sufrimientos. Concédenos, por su intercesión, que, inundados por la dulzura de tu espíritu, proclamemos en el mundo, de palabra y de obra, el evangelio del amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

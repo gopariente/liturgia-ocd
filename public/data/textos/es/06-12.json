@@ -52,5 +52,49 @@
       "x": "V/. Si a mí me han perseguido, también a vosotros os perseguirán. \"Estad alegres y contentos."
     }
   ],
-  "oracion": "Padre todopoderoso, que concediste al mártir beato Alfonso María, presbítero, pelear el combate de la fe hasta el derramamiento de su sangre; te rogamos que su intercesión nos ayude a soportar por tu amor la adversidad y a caminar con valentía hacia ti, fuente de toda vida. Por nuestro Señor."
+  "oracion": "Padre todopoderoso, que concediste al mártir beato Alfonso María, presbítero, pelear el combate de la fe hasta el derramamiento de su sangre; te rogamos que su intercesión nos ayude a soportar por tu amor la adversidad y a caminar con valentía hacia ti, fuente de toda vida. Por nuestro Señor.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las alocuciones de Juan Pablo II, papa."
+      },
+      {
+        "t": "estrofa",
+        "x": "(Jan Pawel II. Przenówieniz i homilie, Michalineum 1999. pp.242-243)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichosos los perseguidos por causa de la justicia"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichosos los perseguidos por causa de la justicia, porque de ellos es el Reino de los cielos. Esta bienaventuranza, de manera especial, pone ante nuestros ojos los hechos ocurridos en la Parasceve. Cristo, como un malhechor, primero fue condenado a muerte, y luego crucificado. En el Calvario parecía que el Padre había abandonado a su Hijo y lo había entregado además al escarnio de los hombres.\nEntonces el Evangelio, que Cristo había predicado, fue sometido a una experiencia radical: ¿No es el Rey de Israel?; que baje ahora de la cruz y le creeremos; así vociferaban los testigos presenciales de aquel hecho. Cristo no bajó de la cruz, sino que quiso permanecer fiel a su Evangelio. Soportó la injusticia de los hombres, ya que sólo así podía realizar la justificación del hombre. Pero ellos deseaban que ante todo se cumpliesen en Cristo estas palabras del Sermón de la Montaña: Dichosos vosotros cuando os insulten y os persigan y os calumnien de cualquier modo por mi causa. Estad alegres y contentos, porque vuestra recompensa será grande en el cielo, que de la misma manera persiguieron a los profetas anteriores a vosotros.\n¿A quiénes más se refieren estas palabras? Se refieren a muchos, a muchísimos hombres, a los que en el decurso de la historia de la humanidad les fue dado sufrir la persecución por causa de la justicia. Sabemos que los tres primeros siglos después de Cristo estuvieron marcados por persecuciones inhumanas, sobre todo bajo el poder de algunos emperadores romanos, desde Nerón hasta Diocleciano. Y si bien es cierto que desde el tiempo de la promulgación del llamado Edicto de Milán cesaron las persecuciones, no lo es menos que en distintos momentos de la historia y en multitud de lugares se reprodujeron.\nNuestro siglo, nuestro siglo XX, nos legó también escrito un largo y cruento martirologio. Yo mismo, en los veinte años de mi pontificado, elevé al honor de los altares numerosas legiones de mártires: japoneses, franceses, vietnamitas, españoles, mejicanos... ¡Y cuántos mártires hubo en el tiempo de la segunda guerra mundial, así como durante la dictadura del comunismo totalitario! Sufrían y daban la vida en los campos de exterminio hitlerianos o comunistas... Ahora ha llegado el tiempo de que recordemos y veneremos también a todas estas víctimas. \"Son ciertamente mártires desconocidos, como so/dados desconocidos de la gran gesta de Dios\" -según escribí en la Carta Apostólica Tertio millenio adveniente (n. 37)-. Y resulta oportuno hablar de ellos en Polonia, ya que esta tierra tuvo el privilegio de una participación excepcional en este martirologio contemporáneo. Estos mártires se nos proponen como ejemplo que imitar; sepamos sacar fuerza de su sangre para afrontar el sacrificio diario, sacrificio que debemos ofrendar a Dios desde nuestra vida. Son un paradigma para nosotros, a fin que también, como ellos, podamos dar con valentía testimonio de fidelidad a la cruz de Cristo.\nMe alegro de haber tenido el honor de proclamar beato, junto con otros ciento siete mártires, también al padre Alfonso María Mazurek, que primero fue alumno y luego benemérito formador en el Seminario Menor adosado al convento de los carmelitas descalzos. Por cierto que tuve ocasión de tratar personalmente con este testigo de Cristo, quien el año 1944, siendo prior del convento de Czerna, selló su fidelidad a Dios con una muerte cruel. Con veneración me arrodillo ante sus reliquias, que reposan en la iglesia de San José en Colle y doy gracias a Dios por el don de In vida, martirio y santidad de este excelente religioso."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Cfr. Mt 5. 11-12; Jn 15-20"
+      },
+      {
+        "t": "verso",
+        "x": "R/. Dichosos vosotros cuando os insulten y os persigan y os calumnien de cualquier modo por mi causa. \"Estad alegres y contentos, porque vuestra recompensa será grande en el cielo."
+      },
+      {
+        "t": "verso",
+        "x": "V/. Si a mí me han perseguido, también a vosotros os perseguirán. \"Estad alegres y contentos."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Padre todopoderoso, que concediste al mártir beato Alfonso María, presbítero, pelear el combate de la fe hasta el derramamiento de su sangre; te rogamos que su intercesión nos ayude a soportar por tu amor la adversidad y a caminar con valentía hacia ti, fuente de toda vida. Por nuestro Señor."
+      }
+    ]
+  }
 }

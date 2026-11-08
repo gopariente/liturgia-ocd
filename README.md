@@ -73,6 +73,8 @@ Los calendarios nacionales están incompletos: deben verificarse con cada confer
 El salterio, el ordinario, los comunes y el propio del tiempo son universales, pero cada traducción oficial tiene titular
 (español: Conferencia Episcopal Española; inglés: ICEL; latín: Libreria Editrice Vaticana). Solo se cargan en este
 repositorio público los textos propios de la Orden y los que se publiquen con autorización del titular.
+Los oficios de `data/textos/` provienen de los documentos del propio de la Orden, que incluyen himnos, salmos y lecturas
+tal como figuran en esos libros.
 
 ## Pendiente (próximas versiones)
 

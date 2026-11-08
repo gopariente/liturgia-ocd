@@ -64,5 +64,439 @@
       "x": "R/ Honra a tu padre y a tu madre, como es justo."
     }
   ],
-  "oracion": "Señor Dios, que has dado a los santos Luis y Celia Martin la gracia de santificarse como esposos y padres; concédenos por su intercesión saber amarte y servirte fielmente, pues la santidad de sus vidas es un ejemplo para cada uno de nosotros. Por Jesucristo…."
+  "oracion": "Señor Dios, que has dado a los santos Luis y Celia Martin la gracia de santificarse como esposos y padres; concédenos por su intercesión saber amarte y servirte fielmente, pues la santidad de sus vidas es un ejemplo para cada uno de nosotros. Por Jesucristo….",
+  "horas": {
+    "invitatorio": [
+      {
+        "t": "verso",
+        "x": "Ant. Venid adoremos al Señor en la celebración de los santos Luis y Celia"
+      }
+    ],
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Grande misterio de amor\nmisterio de Dios,\nel que a los dos los unió\ny ya no son dos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Un solo canto entonarán\nla misma senda pisarán\ny el mismo pan los unirá\nen comunión de hogar."
+      },
+      {
+        "t": "estrofa",
+        "x": "Como una Alianza de luz\nque viene de Dios\nserán los dos, de los dos,\nmisterio de amor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Con alegría y dolor\nlos dos rezarán\nuna plegaria de amor\ny fidelidad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los salmos se toman del día correspondiente."
+      },
+      {
+        "t": "verso",
+        "x": "V. Que llegue a tu presencia el meditar de mi corazón."
+      },
+      {
+        "t": "verso",
+        "x": "R. Señor, roca mía y redentor mío."
+      },
+      {
+        "t": "rubrica",
+        "x": "Primera Lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la carta del Apóstol San Pablo a los Efesios 5, 21-6, 4"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ténganse mutuamente respeto en honor a Cristo. Que las mujeres respeten a sus maridos como si se tratase del Señor; pues el marido es cabeza de la mujer, como Cristo es cabeza y al mismo tiempo salvador del cuerpo, que es la Iglesia. Y como la Iglesia es dócil a Cristo, así también deben serlo plenamente las mujeres a sus maridos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Maridos, amen a sus mujeres como Cristo amó a la Iglesia y se entregó a sí mismo por ella para consagrarla a Dios, purificándola por medio del agua y la palabra. Se preparó así una Iglesia esplendorosa, sin mancha ni arruga ni cosa parecida; una Iglesia santa e inmaculada."
+      },
+      {
+        "t": "estrofa",
+        "x": "Igualmente, los maridos deben amar a sus mujeres como a su propio cuerpo. El que ama a su mujer, a sí mismo se ama; pues nadie odia a su propio cuerpo, antes bien lo alimenta y lo cuida como hace Cristo con su Iglesia, que es su cuerpo, del cual nosotros somos miembros."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por eso dejará el hombre a su padre y a su madre para unirse a su mujer, y llegarán a ser los dos uno sólo. Gran misterio es éste, que yo relaciono con la unión de Cristo y de la Iglesia. En resumen, que cada uno ame a su mujer como se ama a sí mismo, y que la mujer respete al marido."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hijos, obedezcan a sus padres como es justo que lo hagan los creyentes. Honra a tu padre y a tu madre; tal es el primer mandamiento que lleva consigo una promesa, a saber: para que seas feliz y goces de larga vida en la tierra."
+      },
+      {
+        "t": "estrofa",
+        "x": "Y ustedes, padres, no irriten a sus hijos, sino edúquenlos, corríjanlos y enséñenles tal como lo haría el Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio"
+      },
+      {
+        "t": "verso",
+        "x": "R/ Hijos obedezcan a sus padres en el Señor. Honra a tu padre y a tu madre, como es justo."
+      },
+      {
+        "t": "verso",
+        "x": "V/ Jesús bajó con María y José, regresó a Nazaret y siguió bajo su autoridad."
+      },
+      {
+        "t": "verso",
+        "x": "R/ Honra a tu padre y a tu madre, como es justo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Segunda Lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "De Historia de un Alma de Santa Teresa del Niño Jesús"
+      },
+      {
+        "t": "estrofa",
+        "x": "[A mi madre querida Inés de Jesús] Los recuerdos que voy a evocar son también vuestros, pues a vuestro lado se deslizó mi infancia, y tuve la dicha de pertenecer a unos padres incomparables, que nos rodearon de los mismos cuidados y cariños. ¡Qué se dignen ellos de bendecir a la flor más pequeña de sus hijos, y que la ayuden a cantar las misericordias divinas!..."
+      },
+      {
+        "t": "estrofa",
+        "x": "Quería Jesús sin duda, en su amor, hacerme conocer a la madre incomparable que me había dado, y a la que su divina mano quería a toda prisa coronar en el cielo...Dios se ha complacido en rodearme siempre de amor. Mis primeros recuerdos guardan la huella de las más tiernas sonrisas y caricias...Pero si el Señor puso mucho amor en torno a mi vida, se dignó también conceder a mi pequeño corazón un natural amoroso y sensible. Amaba yo mucho a papá y a mamá, y les demostraba de mil maneras mi ternura."
+      },
+      {
+        "t": "estrofa",
+        "x": "!Qué rápido pasaron los años soleados de mi primera infancia! Pero también !qué dulce huella dejaron en mi alma! Recuerdo con agrado los días en que papá nos llevaba al Pabellón. Hasta los más pequeños detalles conservo grabados en el corazón...Recuerdo, sobre todo, los paseos del domingo, en los que siempre nos acompañaba mamá..."
+      },
+      {
+        "t": "estrofa",
+        "x": "Conservo todavía en mi corazón todos los detalles de la enfermedad de nuestra querida madre. Me acuerdo, sobre todo, de las últimas semanas que pasó en la tierra. La pobrecita mamá estaba ya demasiado enferma para comer los frutos de la tierra. Ya sólo en el cielo se saciaría de la gloria de Dios, y bebería con Jesús el vino misterioso del que habló en su última cena, diciendo que lo compartiría con nosotros en el reino de su Padre. Quedó también grabada en mi alma la ceremonia emocionante de la extremaunción. Aún me parece ver el lugar que yo ocupaba, al lado de Celina. Estábamos las cinco colocadas por orden de edad. Y nuestro pobrecito padre también estaba allí, sollozando..."
+      },
+      {
+        "t": "estrofa",
+        "x": "!El corazón, ya tan cariñoso, de papá había añadido al amor que poseía un amor verdaderamente maternal!... No puedo decir cuánto amaba a papá, todo en él me causaba admiración."
+      },
+      {
+        "t": "estrofa",
+        "x": "He aquí con cuánta fe aceptó papá la separación de su reinecita. Se la anunció a sus amigos de Alençon en estos términos: « Queridísimos amigos !Teresa, mi reinecita, entró ayer en el Carmelo!... Sólo Dios puede exigir tal sacrificio... No me tengáis lástima, pues mi corazón rebosa de alegría.»"
+      },
+      {
+        "t": "estrofa",
+        "x": "Era, pues, hora de que un servidor tan fiel recibiese el premio de sus trabajos. Era justo que su salario fuera parecido al que Dios dio al Rey del cielo, su Hijo único... Papá acababa de hacer a Dios donación de un altar [para la catedral de Lisieux], él mismo fue la víctima escogida para ser inmolada en su ara santa juntamente con el Cordero sin mancha."
+      },
+      {
+        "t": "estrofa",
+        "x": "Nuestro padre querido bebería la más amarga, la más humillante de todas las copas !!!Ese día ya no dije que podía sufrir todavía más!!! Las palabras no pueden expresar nuestras angustias, por eso, no intentaré describirlas. Un día, en el cielo, nos gustará hablar de nuestras gloriosas tribulaciones. ¿No nos gozamos ya ahora de haberlas sufrido? Sí, los tres años de martirio de papá me parecen los más amables, los más fructuosos años de toda nuestra vida. No los cambiaría por todos los éxtasis y revelaciones de los santos. Mi corazón rebosa de gratitud al pensar en este tesoro inestimable, capaz de despertar una santa envidia aun en los mismos ángeles de la corte celestial."
+      },
+      {
+        "t": "estrofa",
+        "x": "El 29 de julio del año pasado, Dios rompió las ataduras mortales de su incomparable servidor, llamándole a la recompensa eterna."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio"
+      },
+      {
+        "t": "verso",
+        "x": "R/ El amor es fuerte como la muerte, la pasión es implacable como el abismo. Sus llamas son llamas que queman, es un fuego divino los torrentes no puede extinguir el amor."
+      },
+      {
+        "t": "verso",
+        "x": "V/ No hay amor más grande que el dar la vida por sus amigos."
+      },
+      {
+        "t": "verso",
+        "x": "R/ Los torrentes no pueden extinguir el amor."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las correspondencias de santa Celia Martin"
+      },
+      {
+        "t": "estrofa",
+        "x": "[Estoy lejos de mi esposo] « Como los peces que saca del agua; que ya no están más en su medio y perecen. Lo mismo sucedería conmigo si mi estancia [aquí en Lisieux con las niñas] se prolongara mucho. Me siento incomoda, no estoy para nada a gusto, lo que influye físicamente y ya estoy casi enferma. Sin embargo, reflexiono e intento animarme; estoy contigo, en espíritu, todo el día; me digo: « él hace tal cosa en este momento » Ansío estar cerca de ti, mi querido Luis; te amo con todo mi corazón, y siento que mi afecto todavía aumenta por la privación de tu presencia que tanto sufro; sería imposible para mí vivir lejos de ti. (…) Regresamos el miércoles por la tarde, a las siete y media. !Todavía me parece tan lejos!"
+      },
+      {
+        "t": "estrofa",
+        "x": "Con él soy siempre muy feliz. [Luis] hace mi vida dulce. Mi esposo es un santo, le deseo uno igual a todas las mujeres. Eso es lo que deseo para ellas. Ni entre cien se encontraría uno igual de bueno. Me siento tan feliz al pensar que lo volveré a ver, que ya no puedo trabajar. No me arrepiento de haberme casado."
+      },
+      {
+        "t": "estrofa",
+        "x": "Si el buen Dios me concediera la gracia de poder amamantar [a Teresa], sería un placer criarla. Me encantan los niños, y nací para tenerlos, pero pronto llegará el final. Prefiero morir que separarme de ellos. [Dentro de poco] cumpliré cuarenta años, es la edad de ser abuela. !Es un trabajo tan dulce ocuparse de los nietos! Si no tendría otra cosa que hacer, sería la mujer más feliz del mundo. Pero, es necesario que su padre y yo trabajemos para que tengan su dote, sino, cuando crezcan, no estarán contentas de nosotros."
+      },
+      {
+        "t": "estrofa",
+        "x": "Yo también, desearía ser santa, pero no sé por dónde comenzar; hay tanto por hacer que me quedo sólo con el deseo. Digo a menudo durante el día: « !Mi Dios, cómo quisiera ser santa! » Y después, no hago ninguna obra. Pero es el mejor momento para que me ocupe de ello..."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es necesario, mis queridas niñas, que me vaya al rezo de Vísperas, para rezar por nuestros queridos difuntos. Vendrá el día en que ustedes lo harán por mí, pero debo hacer todo de mi parte para no tener tanta necesidad de sus oraciones. Quiero ser santa, no será fácil, la piedra es dura y hay todavía mucho que esculpir."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio"
+      },
+      {
+        "t": "verso",
+        "x": "R/ Estén alegres, busquen la perfección, anímense unos a otros, estén de acuerdo entre ustedes y vivan la paz. Canten al Señor y celébrenlo de todo corazón."
+      },
+      {
+        "t": "verso",
+        "x": "V/ Sea cual sea tu trabajo hazlo con amor, para el Señor y no para complacer a los hombres."
+      },
+      {
+        "t": "verso",
+        "x": "R/ Canten al Señor y celébrenlo de todo corazón."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios, que has dado a los santos Luis y Celia Martin la gracia de santificarse como esposos y padres; concédenos por su intercesión saber amarte y servirte fielmente, pues la santidad de sus vidas es un ejemplo para cada uno de nosotros. Por Jesucristo…."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Finísimo fue el lino con que ella\nfue tejiendo, a lo largo de su vida,\nesa historia de amor que la hace bella\na los ojos de Dios y bendecida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Supo trenzar con tino los amores\ndel cielo y de la tierra, y santamente\nhizo altar del telar de sus labores,"
+      },
+      {
+        "t": "rubrica",
+        "x": "oración desgranada lentamente."
+      },
+      {
+        "t": "estrofa",
+        "x": "Mujer fuerte, florecida en amor santo,\nllenó el hogar de paz y joven vida,\nsu dulce fortalece fue su encanto,\nla fuerza de su amor, la fe vivida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Una escuela de fe fue su regazo,\ntodos fueron dichosos a su vera,\nsu muerte en el Señor fue un tierno abrazo,\nsu vida será eterna primavera."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los salmos se toman del día correspondiente."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Tb 8, 5b - 7"
+      },
+      {
+        "t": "estrofa",
+        "x": "“Bendito seas, Dios de nuestros padres y bendito sea tu nombre por los siglos de los siglos. Que te bendigan los cielos y todas tus creaturas por los siglos de los siglos. Tú creaste a Adán y le diste a Eva como ayuda y apoyo, y de ambos procede todo el género humano. Tú dijiste: ‘No es bueno que el hombre esté solo. Voy a hacer a alguien como él, para que lo ayude’ ”. “Ahora, Señor, si yo tomo por esposa a esta hermana mía, no es por satisfacer mis pasiones, sino por un fin honesto. Compadécete, Señor, de ella y de mí y haz que los dos juntos vivamos felices hasta la vejez”."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "V. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tú creaste a Adán y le diste a Eva como ayuda y apoyo."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "V. Gloria al Padre, y al Hijo, y al Espíritu Santo."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "rubrica",
+        "x": "CANTICO EVANGELICO"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Dejará el hombre a su padre y a su madre, y se unirá a su mujer y serán los dos una sola carne."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Elevemos nuestras súplicas al Padre que ha querido hacer alianza nupcial con su pueblo y digámosle confiadamente"
+      },
+      {
+        "t": "estrofa",
+        "x": "Por tu amor esponsal, escúchanos Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te alabamos Señor por tu Iglesia que es una, santa, católica y apostólica\n- que ella sea siempre la esposa fiel de Jesucristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que has querido unir al hombre y a la mujer en alianza nupcial\n- concede la gracia del Espíritu Santo a todos los matrimonios para que su unión sea signo del amor de Jesucristo a la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que eres el Dios fiel a la alianza\n- Concede a los matrimonios permanecer unidos en las alegrías y en las penas, en la salud y en la enfermedad, todos los días de la vida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que has querido que Jesús viviera en el hogar de José y María\n- Concede a las familias el amor, la salud y el pan de cada día."
+      },
+      {
+        "t": "estrofa",
+        "x": "Se pueden añadir algunas intenciones"
+      },
+      {
+        "t": "estrofa",
+        "x": "Como miembros de la familia de Dios, dirijamos al Padre la oración que Jesús nos enseño"
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios, que has dado a los santos Luis y Celia Martin la gracia de santificarse como esposos y padres; concédenos por su intercesión saber amarte y servirte fielmente, pues la santidad de sus vidas es un ejemplo para cada uno de nosotros. Por Jesucristo…."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Juntos marchamos a ti,\nhacia tu altar, hacia el amor.\nTú mantendrás nuestra unión\nen la salud y en el dolor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que enseñaste a los hombres a amar,\nven con nosotros, comparte el hogar.\nDios con nosotros en torno al altar."
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios con nosotros en torno al hogar.\nUn mismo cuerpo, un mismo manjar,\nuna familia de amor y unidad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los salmos se toman del día correspondiente."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE 1 Cor 13, 4 - 8a"
+      },
+      {
+        "t": "estrofa",
+        "x": "El amor es comprensivo, el amor es servicial y no tiene envidia; el amor no es presumido ni se envanece; no es grosero ni egoísta; no se irrita ni guarda rencor; no se alegra con la injusticia, sino que goza con la verdad. El amor disculpa sin límites, confía sin límites, espera sin límites, soporta sin límites. El amor dura por siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "V. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tú creaste a Adán y le diste a Eva como ayuda y apoyo."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito sea tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "V. Gloria al Padre, y al Hijo, y al Espíritu Santo."
+      },
+      {
+        "t": "verso",
+        "x": "R. Bendito seas, Dios, y bendito sea tu nombre."
+      },
+      {
+        "t": "rubrica",
+        "x": "CANTICO EVANGELICO"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Gran misterio es éste, que yo relaciono con la unión de Cristo y de la Iglesia."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Elevemos nuestras súplicas al Padre que ha querido hacer alianza nupcial con su pueblo y digámosle confiadamente"
+      },
+      {
+        "t": "estrofa",
+        "x": "Por tu amor esponsal, escúchanos Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te alabamos Señor por tu Iglesia que es una, santa, católica y apostólica\n- que ella sea siempre la esposa fiel de Jesucristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que has querido unir al hombre y a la mujer en alianza nupcial\n- concede la gracia del Espíritu Santo a todos los matrimonios para que su unión sea signo del amor de Jesucristo a la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que eres el Dios fiel a la alianza\n- Concede a los matrimonios permanecer unidos en las alegrías y en las penas, en la salud y en la enfermedad, todos los días de la vida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que has querido que Jesús viviera en el hogar de José y María\n- Concede a las familias el amor, la salud y el pan de cada día."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que das la vida eterna a los que en creen en tu amor\n- Abre las puertas del cielo a nuestros familiares que han muerto en la esperanza de la resurrección."
+      },
+      {
+        "t": "estrofa",
+        "x": "Se pueden añadir algunas intenciones"
+      },
+      {
+        "t": "estrofa",
+        "x": "Como miembros de la familia de Dios, dirijamos al Padre la oración que Jesús nos enseño"
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios, que has dado a los santos Luis y Celia Martin la gracia de santificarse como esposos y padres; concédenos por su intercesión saber amarte y servirte fielmente, pues la santidad de sus vidas es un ejemplo para cada uno de nosotros. Por Jesucristo…."
+      }
+    ]
+  }
 }

@@ -36,7 +36,15 @@ def leer(path: Path) -> list[str]:
         root = ET.fromstring(z.read("word/document.xml"))
     lineas = []
     for p in root.iter(W + "p"):
-        lineas.append("".join(t.text or "" for t in p.iter(W + "t")))
+        partes = []
+        for el in p.iter():
+            if el.tag == W + "t":
+                partes.append(el.text or "")
+            elif el.tag in (W + "br", W + "cr"):
+                partes.append("\n")   # salto de renglón dentro del párrafo (versos)
+            elif el.tag == W + "tab":
+                partes.append(" ")
+        lineas.append("".join(partes))
     return lineas
 
 
@@ -75,8 +83,63 @@ def canonizar(texto: str, nombre: str) -> str:
     return texto
 
 
+# ---- Oficio completo por hora (himnos, salmodia, lecturas, preces...) ----
+HORAS = [
+    ("primeras_visperas", r"^(i|primeras) visperas\b"),
+    ("visperas", r"^(ii |segundas )?visperas\b"),
+    ("lectura", r"^(oficio de lecturas?|oficio de vigilia)\b"),
+    ("laudes", r"^laudes\b"),
+    ("intermedia", r"^hora intermedia\b"),
+    ("completas", r"^completas\b"),
+    ("invitatorio", r"^invitatorio\b"),
+]
+FIN_HORAS = r"^(misa\b|antifona de entrada|liturgia de la palabra|oracion sobre las ofrendas|prefacio)"
+RUBRICAS = (r"^(himno|salmodia|salmo\b|cantico|primera lectura|segunda lectura|responsorio|lectura breve|preces|"
+            r"oracion|oremos|padre nuestro|benedictus|magnificat|nunc dimittis|te deum|o bien|tercia|sexta|nona|"
+            r"i|ii|iii|conclusion|bendicion)\b")
+VERSO = re.compile(r"^(Ant\.?\s|Ant\.?\d|R\.|V\.|R/|V/|R\s|V\s|\*)")
+
+
+def horas_completas(lineas_crudas):
+    horas, actual, buf = {}, None, []
+
+    def cerrar():
+        if actual and buf:
+            horas.setdefault(actual, []).append({"t": "estrofa", "x": "\n".join(buf)})
+        buf.clear()
+
+    for crudo in lineas_crudas:
+        l = "\n".join(re.sub(r"[ \t]+", " ", x).strip() for x in crudo.replace("\u00a0", " ").split("\n")).strip()
+        n = norm(l)
+        if not l:
+            cerrar()
+            continue
+        h = next((k for k, rx in HORAS if re.match(rx, n)), None)
+        if h and len(l) < 60:
+            cerrar()
+            actual = h
+            continue
+        if re.match(FIN_HORAS, n):
+            cerrar()
+            actual = None
+            continue
+        if actual is None:
+            continue
+        if re.match(RUBRICAS, n) and len(l) < 70 and not VERSO.match(l):
+            cerrar()
+            horas.setdefault(actual, []).append({"t": "rubrica", "x": l})
+        elif VERSO.match(l):
+            cerrar()
+            horas.setdefault(actual, []).append({"t": "verso", "x": l})
+        else:
+            buf.append(l)
+    cerrar()
+    return {k: v for k, v in horas.items() if any(b["t"] != "rubrica" for b in v)}
+
+
 def convertir(path: Path, cel: dict) -> dict:
-    lineas = [l.strip() for l in leer(path)]
+    crudas = leer(path)
+    lineas = [re.sub(r"\s*\n\s*", " ", l).strip() for l in crudas]
     estado, buf = "encabezado", []
     hechos = set()
     datos = {"fecha": cel["fecha"], "vida": "", "comun": "", "lectura": [], "oracion": ""}
@@ -162,6 +225,9 @@ def convertir(path: Path, cel: dict) -> dict:
     if partes["magnificat"]:
         datos["ant_magnificat"] = partes["magnificat"][0]
 
+    horas = horas_completas(crudas)
+    if horas:
+        datos["horas"] = horas
     texto = json.dumps(datos, ensure_ascii=False)
     return json.loads(canonizar(texto, cel["nombre"]))
 

@@ -3,5 +3,61 @@
   "vida": "Peregrinos aun en la tierra, viven en obsequio de Jesucristo y a los que, salidos ya de este mundo, esperan la visión gloriosa de Dios, como antes los congrego aquí abajo un idéntico amor a Cristo y un mismo servicio a la Virgen Maria. La plegaria común de la Orden implora del Señor misericordia para todos los hermanos difuntos, a fin de que, por intercesión de Maria, signo de esperanza cierta y de consuelo, lleguen cuanto antes a la Casa del Padre.",
   "comun": "",
   "lectura": [],
-  "oracion": "Señor, gloria de tus siervos fieles, concede a nuestros hermanos difuntos con quienes nos une el mismo bautismo y la misma vocación en el Carmelo, la gracia de contemplarte eternamente a ti, que eres su creador y redentor, como premio de su vida consagrada al servicio de Cristo y de la Virgen Maria, Por nuestro Señor."
+  "oracion": "Señor, gloria de tus siervos fieles, concede a nuestros hermanos difuntos con quienes nos une el mismo bautismo y la misma vocación en el Carmelo, la gracia de contemplarte eternamente a ti, que eres su creador y redentor, como premio de su vida consagrada al servicio de Cristo y de la Virgen Maria, Por nuestro Señor.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "verso",
+        "x": "Ant. Dios enjugara las lagrimas de sus ojos. Ya no habrá muerte, ni luto, ni llanto, ni dolor. Porque el primer mundo ha pasado."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico I Sb. 3, 1-6"
+      },
+      {
+        "t": "estrofa",
+        "x": "En cambio, las almas de los justos están en las manos de Dios y no les alcanzará tormento alguno. A los ojos de los insensatos pareció que habían muerto; se tuvo por quebranto su salida, y su partida de entre nosotros por completa destrucción; pero ellos están en la paz. Aunque, a juicio de los hombres, hayan sufrido castigos, su esperanza estaba llena de inmortalidad; por una corta corrección recibirán largos beneficios. pues Dios los sometió a prueba y los halló dignos de sí; como oro en el crisol los probó y como holocausto los aceptó"
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico II Sb. 3, 7-9"
+      },
+      {
+        "t": "estrofa",
+        "x": "El día de su visita resplandecerán, y como chispas en rastrojo correrán.\n8 Juzgarán a las naciones y dominarán a los pueblos y sobre ellos el Señor reinará eternamente.\n9 Los que en él confían entenderán la verdad y los que son fieles permanecerán junto a él en el amor, porque la gracia y la misericordia son para sus santos y su visita para sus elegidos."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico III Sb. 10, 17-21"
+      },
+      {
+        "t": "estrofa",
+        "x": "Pagó a los santos el salario de sus trabajos; los guió por un camino maravilloso, fue para ellos cobertura durante el día y lumbre de estrellas durante la noche;\nles abrió paso por el mar Rojo y los condujo a través de las inmensas aguas, mientras a sus enemigos los sumergió y luego los hizo saltar de las profundidades del abismo.\nDe este modo los justos despojaron a los impíos; entonaron cantos, Señor, a tu santo Nombre y unánimes celebraron tu mano protectora, porque la Sabiduría abrió la boca de los mudos e hizo claras las lenguas de los pequeñuelos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Evangelio Jn. 12, 23-26"
+      },
+      {
+        "t": "estrofa",
+        "x": "Jesús les respondió: \"Ha llegado la hora de que sea glorificado el Hijo de hombre. En verdad, en verdad os digo: si el grano de trigo no cae en tierra y muere, queda él solo; pero si muere, da mucho fruto.\nEl que ama su vida, la pierde; y el que odia su vida en este mundo, la guardará para una vida eterna. Si alguno me sirve, que me siga, y donde yo esté, allí estará también mi servidor. Si alguno me sirve, el Padre le honrará."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien: Jn. 14, 1-6"
+      },
+      {
+        "t": "estrofa",
+        "x": "\"No se turbe vuestro corazón. Creéis en Dios: creed también en mí.\nEn la casa de mi Padre hay muchas mansiones; si no, os lo habría dicho; porque voy a prepararos un lugar. Y cuando haya ido y os haya preparado un lugar, volveré y os tomaré conmigo, para que donde esté yo estéis también vosotros. Y adonde yo voy sabéis el camino.\"\nLe dice Tomás: \"Señor, no sabemos a dónde vas, ¿cómo podemos saber el camino?\" Le dice Jesús: \"Yo soy el Camino, la Verdad y la Vida. Nadie va al Padre sino por mí."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, gloria de tus siervos fieles, concede a nuestros hermanos difuntos con quienes nos une el mismo bautismo y la misma vocación en el Carmelo, la gracia de contemplarte eternamente a ti, que eres su creador y redentor, como premio de su vida consagrada al servicio de Cristo y de la Virgen Maria, Por nuestro Señor."
+      }
+    ]
+  }
 }

@@ -50,5 +50,145 @@
   ],
   "oracion": "Señor, Padre Santo, que elegiste a santa Teresa y a sus hermanas carmelitas para que, fortalecidas con la gracia de tu Espíritu Santo, llegaran desde la soledad del Carmelo hasta la palma del martirio; concedenos que te amemos con fidelidad y lleguemos, como ellas, hasta la contemplación de tu belleza en el cielo. Por nuestro Señor.",
   "ant_benedictus": "Vírgenes sensatas, preparad vuestras lámparas:",
-  "ant_magnificat": "Vírgenes del Señor, soportasteis múltiples"
+  "ant_magnificat": "Vírgenes del Señor, soportasteis múltiples",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Camino de perfección de santa Teresa de Jesús, virgen y doctora de la Iglesia\n(Cod V.12,1-3;B.A.C.,212 (1962), 218-219)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Trabajo grande parece todo, y con razón, porque es guerra contra nosotros mismos; mas comenzándose a obrar, obra Dios tanto en el alma y hacela tantas mercedes, que todo le parece poco cuanto se puede hacer en esta vida. Y pues hacemos los mas, que es dar la libertad por amor de Dios, poniéndola en otro poder, ¿por que nos hemos de detener en mortificar lo interior, pues en esto esta el ir todo estotro mucho mas meritorio y perfecto, y después obrarlo con mas suavidad y descanso? Esto se adquiere con ir poco a poco, no haciendo nuestra voluntad y apetito, aun en cosas menudas, hasta acabar de rendir el cuerpo al espíritu."
+      },
+      {
+        "t": "estrofa",
+        "x": "Torno a decir que esta el todo o gran parte en perder cuidado de nosotros mismos y nuestro regalo; que quien de verdad comienza servir al Señor, lo menos que le puede ofrecer es la vida; pues le ha dado su voluntad, ¿Qué teme? Claro está que, si es verdadero religioso y verdadero orador y pretende gozar regalos de Dios, que no ha de volver las espaldas a desear morir por el y pasar martirio. Pues ¿Ya no sabéis que la vida del buen religioso y que quiere ser de los allegados amigos de Dios, es un largo martirio? Largo, porque para compararle a los que de presto los degollaban, puedese llamar largo, mas toda es corta la vida y algunas cortisimas. ¿Y que sabemos si seremos de tan corta, que desde una hora o momento que nos determinemos a servir del todo a Dios, se acabe? Posible seria, que en fin, todo lo que tiene fin no hay que hacer caso de ello, y pensando que cada hora es la postrera, ¿Quién no la trabajara?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Pues creedme que pensar esto es lo mas seguro. Por eso mostrémonos a contradecir en todo nuestra voluntad; que si traéis cuidado, sin saber como, poco a poco os hallareis en la cumbre."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO"
+      },
+      {
+        "t": "verso",
+        "x": "R. Alegraos, en la medida que compartís los padecimientos de Cristo,"
+      },
+      {
+        "t": "verso",
+        "x": "*Para que, cuando se manifieste, reboséis de gozo."
+      },
+      {
+        "t": "verso",
+        "x": "V. Si os ultrajan por el nombre de Cristo, dichosos vosotros."
+      },
+      {
+        "t": "verso",
+        "x": "*Para que, cuando se manifieste."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Bened. Vírgenes sensatas, preparad vuestras lámparas:"
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Que llega el esposo, salid a recibirlo!"
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Bened. Vírgenes sensatas, preparad vuestras lámparas:"
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Que llega el esposo, salid a recibirlo!"
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Padre Santo, que elegiste a santa Teresa y a sus hermanas carmelitas para que, fortalecidas con la gracia de tu Espíritu Santo, llegaran desde la soledad del Carmelo hasta la palma del martirio; concedenos que te amemos con fidelidad y lleguemos, como ellas, hasta la contemplación de tu belleza en el cielo. Por nuestro Señor."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Vírgenes del Señor, soportasteis múltiples"
+      },
+      {
+        "t": "estrofa",
+        "x": "combates y sufrimientos; alegraos eternamente en el Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Vírgenes del Señor, soportasteis múltiples"
+      },
+      {
+        "t": "estrofa",
+        "x": "combates y sufrimientos; alegraos eternamente en el Señor."
+      }
+    ]
+  }
 }

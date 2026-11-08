@@ -46,5 +46,137 @@
   ],
   "oracion": "Oh Dios, que otorgaste a la beata Maria de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor.",
   "ant_benedictus": "Bendito sea Dios, que nos ha bendecido en la persona de Cristo con toda clase de bienes espirituales y celestiales.",
-  "ant_magnificat": "Estad alegres cuando compartís los padecimientos"
+  "ant_magnificat": "Estad alegres cuando compartís los padecimientos",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De Las Moradas de santa Teresa de Jesús, virgen y doctora de la Iglesia. (6M7,10-13;2M1,12;B.A.C.,212 (1962),406-407.356)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ninguno subirá a mi Padre sino por mi"
+      },
+      {
+        "t": "estrofa",
+        "x": "Llamo yo meditación al discurrir mucho con el entendimiento de esta manera: comenzamos a pensar en la merced que nos hizo Dios en darnos a su único Hijo, y no paramos allí, sino vamos adelante a los misterios de toda su gloriosa vida; o comenzamos en la oración del Huerto, y no para el entendimiento hasta que esta puesto en la cruz; o tomamos un pasote la Pasión, digamos como el prendimiento, y andamos en este misterio considerando por menudo las cosas que hay que pensar en el y que sentir, así de la traición de Judas, como de la huida de los Apóstoles y todo lo demás. Y es admirable y muy meritoria oración."
+      },
+      {
+        "t": "estrofa",
+        "x": "No es posible que pierda memoria el alma que ha recibido tanto de Dios, de muestras de amor tan preciosas, porque son vivas centellas para encenderla mas en el que tiene a nuestro Señor. Y se detiene en estos misterios y los trae presentes muchas veces, en especial cuando los celebra la Iglesia católica."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es larga la vida y hay en ella muchos trabajos, y hemos menester mirar a nuestro dechado Cristo como los paso, para llevarlos con perfección. Es muy buena compañía el buen Jesús para no nos apartar de ella y su Sacratísima Madre, y gusta mucho de que nos dolamos de sus penas."
+      },
+      {
+        "t": "estrofa",
+        "x": "El mismo Señor dice: Ninguno subirá a mi Padre sino por mi y quien me ve a mi, ve a mi Padre. Pues si nunca le miramos, ni consideramos lo que le debemos y la muerte que paso por nosotros, no se como le podemos conocer ni hacer obras en su servicio. Porque la fe sin ellas y sin ir llegadas al valor de los merecimientos de Jesucristo, Bien nuestro, ¿Qué valor pueden tener, ni quien nos despertara a amar a este Señor? Plega a su Majestad nos de a entender lo mucho que le costamos y como no es mas el siervo que el Señor; y que hemos menester obrar para gozar su gloria, y que para esto no es necesario orar, para no andar siempre en tentación."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Cf.Col.2,2.3.6.7"
+      },
+      {
+        "t": "verso",
+        "x": "R. Que vuestros corazones reciban animo y, unidos íntimamente en el amor, alcancen toda su riqueza en la plena inteligencia y perfecto conocimiento del Misterio de Dios, que es Cristo * En el cual están ocultos todos los tesoros de la sabiduría y de la ciencia."
+      },
+      {
+        "t": "verso",
+        "x": "V. Vivid, pues, según Cristo Jesús; enraizados y edificados en el. * En el cual están ocultos."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "estrofa",
+        "x": "Antífona del Benedictus. Bendito sea Dios, que nos ha bendecido en la persona de Cristo con toda clase de bienes espirituales y celestiales."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "estrofa",
+        "x": "Antífona del Benedictus. Bendito sea Dios, que nos ha bendecido\nen la persona de Cristo con toda clase de bienes espirituales y celestiales."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que otorgaste a la beata Maria de Jesús el don de la contemplación de los misterios de tu Hijo, hasta reflejar en si misma la imagen de su amor; concédenos, por su intercesión, una fe que busque en todo a Jesús, y un amor que lo haga presente entre nosotros. Por nuestro Señor."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat. Estad alegres cuando compartís los padecimientos"
+      },
+      {
+        "t": "estrofa",
+        "x": "de Cristo, para que, cuando se manifieste su gloria, reboséis de gozo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat. Estad alegres cuando compartís los padecimientos"
+      },
+      {
+        "t": "estrofa",
+        "x": "de Cristo, para que, cuando se manifieste su gloria, reboséis de gozo."
+      }
+    ]
+  }
 }
