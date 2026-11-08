@@ -54,5 +54,27 @@
   ],
   "oracion": "Señor, tú concediste a la Beata María de la Encarnación, insigne propagadora del Carmelo Teresiano, una fortaleza singular para servirte en los diversos estados de la vida cristiana y superar todas las dificultades; haz que también nosotros sepamos vencer todo obstáculo y nos mantengamos fieles en tu servicio, amándote con corazón sincero. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "Si pedís algo al Padre en mi nombre, os lo dará, dice el Señor, Aleluya.",
-  "ant_magnificat": "Mirad que no he trabajado para mi solo, sino para todos los que buscan la verdad. Aleluya."
+  "ant_magnificat": "Mirad que no he trabajado para mi solo, sino para todos los que buscan la verdad. Aleluya.",
+  "horas": {
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant Bened. Si pedís algo al Padre en mi nombre, os lo dará, dice el Señor, Aleluya."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, tú concediste a la Beata María de la Encarnación, insigne propagadora del Carmelo Teresiano, una fortaleza singular para servirte en los diversos estados de la vida cristiana y superar todas las dificultades; haz que también nosotros sepamos vencer todo obstáculo y nos mantengamos fieles en tu servicio, amándote con corazón sincero. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnif. Mirad que no he trabajado para mi solo, sino para todos los que buscan la verdad. Aleluya."
+      }
+    ]
+  }
 }

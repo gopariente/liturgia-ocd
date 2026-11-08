@@ -56,5 +56,65 @@
       "x": "V. Revistámonos de fuerza y preparémonos para la lucha con un espíritu indoblegable, con una fe sincera, con una total entrega.*Que dignidad."
     }
   ],
-  "oracion": "Señor, Dios nuestro, que a los beatos Juan Bautista, Miguel Luís, Santiago, sacerdotes y compañeros mártires, diste la gracia de la fidelidad y del perdón en los momentos de sufrimiento y de prueba; concédenos, por su intercesión, vivir siempre fieles a tu Iglesia y abiertos a la reconciliación con nuestros hermanos. Por nuestro Señor Jesucristo."
+  "oracion": "Señor, Dios nuestro, que a los beatos Juan Bautista, Miguel Luís, Santiago, sacerdotes y compañeros mártires, diste la gracia de la fidelidad y del perdón en los momentos de sufrimiento y de prueba; concédenos, por su intercesión, vivir siempre fieles a tu Iglesia y abiertos a la reconciliación con nuestros hermanos. Por nuestro Señor Jesucristo.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "estrofa",
+        "x": "De las Decisiones redactadas por los sacerdotes prisioneros de la nave “Les deux asocies”"
+      },
+      {
+        "t": "estrofa",
+        "x": "Llevaron en silencio la cruz que les fue impuesta"
+      },
+      {
+        "t": "estrofa",
+        "x": "No se preocuparan de las inquietudes inútiles de su puesta en libertad, sino que trataran de aprovechar el tiempo de su detención, meditando en sus años pasados, tomando santas resoluciones para el futuro, con el fin de encontrar, en la cautividad de sus cuerpos, la libertad de sus almas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Si Dios permitiera que recobrasen, total o parcialmente, esta libertad, por la cual suspira la naturaleza, evitaran el abandonarse a un júbilo desmesurado, cuando se enteren de la noticia. Conservando un ánimo sereno, demostraran que han sufrido, sin murmurar, la cruz que se les impuso, y que estaban aun dispuestos a soportarlas más largo tiempo, con valor y como verdaderos cristianos que no se dejan abatir por la adversidad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Si se tratase de devolverles sus efectos personales, no mostraran ninguna avidez por reclamarlos; sino que harán con modestia y estricta verdad la declaración que se les pudiera requerir; recibirán, sin lamentarse, lo que se les diere: acostumbrados, como deberían estar, a despreciar los bienes de la tierra y a contentarse con poco, a ejemplo de los apóstoles."
+      },
+      {
+        "t": "estrofa",
+        "x": "No satisfarán la curiosidad de los que pudieran encontrar en el camino; no responderán a las preguntas vanas sobre su pasado; les harán entrever que has soportado pacientemente sus sufrimientos, sin descender a detalles, y sin mostrar ningún resentimiento contra los que han sido los autores y los instrumentos (de los malos tratos)."
+      },
+      {
+        "t": "estrofa",
+        "x": "Guardaran el silencio mas inviolable y absoluto sobre los defectos de sus hermanos y sobre las debilidades en las que estos hayan podido caer debido a su dolorosa situación, su mal estado de salud y la larga duración de su castigo; conservaran la misma caridad hacia todos aquellos cuya opinión religiosa sea diferente a la suya; evitaran todo sentimiento de dureza o animosidad, dándose por contentos de compadecerlos interiormente, y esforzándose en llevarlos al camino de la verdad con su dulzura y moderación."
+      },
+      {
+        "t": "estrofa",
+        "x": "No mostraran ningún pesar por la perdida de sus bienes, ninguna prisa por recuperarlos, ningún resentimiento contra los que los detentan."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora, tendrán un solo corazón y una sola alma, sin acepción de personas, y sin mostrar desvío hacia ninguno de los hermanos con ningún pretexto. No se entrometerán en las novedades políticas, contentándose con rezar por la prosperidad de su patria y prepararse para una vida nueva, si Dios permitiera que vuelvan a sus hogares, y convertirse allí en motivo de edificación y modelo de virtud para las gentes, por su alejamiento del mundo, su asiduidad en la oración y su amor al recogimiento y la piedad."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO S. Cipriano, carta 58"
+      },
+      {
+        "t": "verso",
+        "x": "R. Dios nos contempla, Cristo y sus ángeles nos miran, mientras luchamos por la fe.*Que dignidad tan grande, que felicidad tan plena es luchar bajo la mirada de Dios y ser coronados por Cristo."
+      },
+      {
+        "t": "verso",
+        "x": "V. Revistámonos de fuerza y preparémonos para la lucha con un espíritu indoblegable, con una fe sincera, con una total entrega.*Que dignidad."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oremos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios nuestro, que a los beatos Juan Bautista, Miguel Luís, Santiago, sacerdotes y compañeros mártires, diste la gracia de la fidelidad y del perdón en los momentos de sufrimiento y de prueba; concédenos, por su intercesión, vivir siempre fieles a tu Iglesia y abiertos a la reconciliación con nuestros hermanos. Por nuestro Señor Jesucristo."
+      }
+    ]
+  }
 }

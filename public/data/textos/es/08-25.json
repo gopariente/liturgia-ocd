@@ -40,5 +40,45 @@
       "x": "V. Nadie podrá arrebatarte la palma de la virginidad, ni separarte del amor del Hijo de Dios.*Que mereciste."
     }
   ],
-  "oracion": "Oh Dios, Padre de misericordia y de consuelo, que has introducido en la contemplación de los misterios de tu Hijo a santa María, hija humilde de Tierra Santa, y la has hecho testigo de la caridad y el gozo del Espíritu Santo; concédenos, por su intercesión, que, asociados a los sufrimientos de Cristo, rebosemos de alegría venturosa en la manifestación de tu gloria. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+  "oracion": "Oh Dios, Padre de misericordia y de consuelo, que has introducido en la contemplación de los misterios de tu Hijo a santa María, hija humilde de Tierra Santa, y la has hecho testigo de la caridad y el gozo del Espíritu Santo; concédenos, por su intercesión, que, asociados a los sufrimientos de Cristo, rebosemos de alegría venturosa en la manifestación de tu gloria. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA:"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las catequesis de san Cirilo de Jerusalén, obispo\n(catequesis 16, Sobre el Espíritu Santo. 1,12.16:PG33,392.940)"
+      },
+      {
+        "t": "estrofa",
+        "x": "El Espíritu Santo produce múltiples efectos"
+      },
+      {
+        "t": "estrofa",
+        "x": "El Espíritu Santo, siendo uno y de un modo único, y también indivisible, distribuye la gracia «a cada uno en particular según su voluntad» (cf. 1 Cor 12,11). Y del mismo modo que un árbol seco produce brotes al recibir agua, así también el alma pecadora, cuando por la conversión ha sido agraciada por el don del Espíritu Santo, produce los racimos del Espíritu Santo. Y aunque él es uno y único, obra sin embargo, por voluntad de Dios y en nombre de Cristo, efectos múltiples: se sirve de la lengua de uno para la sabiduría e ilustra la mente de otro con el don de profecía; a éste le concede el poder de expulsar demonios y a aquel el don de interpretar la Sagrada Escritura; de alguno fortalece la temperancia y a otro le enseña lo referente a la misericordia; a otros les enseña a ayunar o a soportar los ejercicios de la vida ascética; a otros, a despreciar las cosas del cuerpo, y hay a quien prepara para el martirio. El es diverso en cada uno, pero nunca es distinto de sí mismo.\nEn primer lugar, su venida tiene lugar en la mansedumbre y con suavidad, y se le percibe con esa suavidad y con fragancia, pues su yugo es muy ligero. Avisan de su llegada los rayos brillantes de luz y de ciencia. Viene con los sentimientos de una auténtico protector. Viene a salvar, sanar, enseñar, advertir, fortalecer, consolar y a iluminar la mente: en primer lugar, la de aquel que le acoge y, después, sus obras y las de los demás. Y del mismo modo que quien estaba en tinieblas anteriormente, al mirar luego al sol, de repente recibe la luz en su ojo corporal y distingue lo que antes no veía con claridad, así es aquel que ha sido considerado digno del don del Espíritu Santo: se ilumina su ánimo y, colocándose más allá de lo humano, ve ahora lo que ignoraba. Postrado su cuerpo en tierra, su alma contempla los cielos como en un espejo"
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO"
+      },
+      {
+        "t": "verso",
+        "x": "R. ¡Que agraciada eres, virgen de Cristo,*Que mereciste la corona del Señor, la corona de la virginidad perpetua!"
+      },
+      {
+        "t": "verso",
+        "x": "V. Nadie podrá arrebatarte la palma de la virginidad, ni separarte del amor del Hijo de Dios.*Que mereciste."
+      },
+      {
+        "t": "rubrica",
+        "x": "OREMOS"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, Padre de misericordia y de consuelo, que has introducido en la contemplación de los misterios de tu Hijo a santa María, hija humilde de Tierra Santa, y la has hecho testigo de la caridad y el gozo del Espíritu Santo; concédenos, por su intercesión, que, asociados a los sufrimientos de Cristo, rebosemos de alegría venturosa en la manifestación de tu gloria. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

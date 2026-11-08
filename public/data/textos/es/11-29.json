@@ -52,5 +52,89 @@
       "x": "os perseguirán. * El que pierda."
     }
   ],
-  "oracion": "Señor Dios nuestro, que concediste a los mártires Dionisio y Redento el honor y la gracia de dar su vida por el nombre de Cristo; infúndenos tu gracia, ya que somos débiles, y a ejemplo de aquellos que murieron por ti con valentía, haz que sepamos mantenernos fieles para dar testimonio de tu amor con nuestra vida. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+  "oracion": "Señor Dios nuestro, que concediste a los mártires Dionisio y Redento el honor y la gracia de dar su vida por el nombre de Cristo; infúndenos tu gracia, ya que somos débiles, y a ejemplo de aquellos que murieron por ti con valentía, haz que sepamos mantenernos fieles para dar testimonio de tu amor con nuestra vida. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Subida del Monte Carmelo de san Juan de la Cruz, presbítero y doctor de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "(Lib 2 Cap 7, 4-5.7.8.9 B.A.C- 15 1960"
+      },
+      {
+        "t": "estrofa",
+        "x": "El autentico amante de la abnegación y de la cruz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Si alguno quiere seguir mi camino, niéguese a si mismo y tome su cruz y sígame. Porque el que quisiere salvar su alma, perderla ha; pero el que por mi la perdiere, ganarla ha.\n¡Oh, quien pudiera aquí ahora dar a entender y a ejercitar y gustar que cosa sea este consejo que nos da aquí nuestro Salvador de negarnos a nosotros mismos, para que vieran los espirituales cuán diferente es el modo que en este camino deben llevar del que muchos de ellos piensan! Que entienden que basta cualquiera manera de retiramiento y reformación en las cosas; y otros se contentan con en alguna manera ejercitarse en las virtudes y continuar la oración y seguir la mortificación, mas no llegan a la desnudez y pobreza, o enajenación o pureza espiritual, que todo es una, que aquí nos aconseja el Señor; porque todavía antes andan a cebar y vestir su naturaleza de consolaciones y sentimientos espirituales que a desnudarla y negarla en eso y esotro por Dios En lo cual, espiritualmente, se hacen enemigos de la cruz de Cristo; porque el verdadero espíritu antes busca lo desabrido en Dios que lo sabroso, y más se inclina al padecer que al consuelo, y más a carecer de todo bien por Dios que a poseerle, y a las sequedades y aflicciones que a las dulces comunicaciones, sabiendo que esto es seguir a Cristo y negarse a sí mismo, y esotro, por ventura, buscarse a sí mismo en Dios, lo cual es harto contrario al amor. si el hombre se determina a sujetarse a llevar esta cruz, que es un determinarse de veras a querer hallar y llevar trabajo en todas las cosas por Dios, en todas ellas hallará grande alivio y suavidad Porque el aprovechar no se halla sino imitando a Cristo, que es el camino y la verdad y la vida, y ninguno viene al Padre sino por el este camino es morir a nuestra naturaleza."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Mt,16, 24b-25b;Jn 15, 20b"
+      },
+      {
+        "t": "verso",
+        "x": "R. El que quiera venirse conmigo, que se niegue a si mismo"
+      },
+      {
+        "t": "estrofa",
+        "x": ", que se cargue con su cruz y me siga."
+      },
+      {
+        "t": "verso",
+        "x": "* El que pierda por mi su vida, la encontrara."
+      },
+      {
+        "t": "verso",
+        "x": "V. Si a mi me han perseguido, también a vosotros"
+      },
+      {
+        "t": "estrofa",
+        "x": "os perseguirán. * El que pierda."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "estrofa",
+        "x": "Del común de santos mártires"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichosos vosotros cuando os persigan por mi causa.\nEstad alegres y contentos, pues vuestra recompensa\nserá grande en el cielo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que concediste a los mártires Dionisio y Redento el honor y la gracia de dar su vida por el nombre de Cristo; infúndenos tu gracia, ya que somos débiles, y a ejemplo de aquellos que murieron por ti con valentía, haz que sepamos mantenernos fieles para dar testimonio de tu amor con nuestra vida. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "estrofa",
+        "x": "Del común de santos mártires"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Durante su vida amaron a Cristo y le imitaron en la muerte; por eso reinan con el para siempre."
+      }
+    ]
+  }
 }

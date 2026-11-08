@@ -396,9 +396,15 @@
     const bloques = (lista) => lista.map((b) => b.t === 'rubrica' ? R(b.x) : b.t === 'fuente' ? h('p', { class: 'fuente' }, b.x)
       : b.t === 'titulo' ? h('h3', {}, b.x) : b.t === 'verso' ? verso(b.x) : h('p', {}, b.x));
 
+    // Oficio propio completo cargado desde los documentos de la Orden (rúbricas, versos y estrofas).
+    function bloquesHora(lista) {
+      return lista.map((b) => b.t === 'rubrica' ? R(b.x.replace(/\s{2,}/g, ' · '))
+        : b.t === 'verso' ? verso(b.x) : h('p', { class: 'estrofa' }, b.x));
+    }
     const inicio = (hora.id === 'lectura' || hora.id === 'laudes')
       ? [R('Invitatorio (si es la primera hora del día)'), verso('V. Señor, ábreme los labios.'), verso('R. Y mi boca proclamará tu alabanza.'),
-        pend('Salmo invitatorio y antífona: en preparación.'), R('Si no se dijo el invitatorio'),
+        ...(propio && propio.horas && propio.horas.invitatorio ? bloquesHora(propio.horas.invitatorio) : [pend('Salmo invitatorio y antífona: en preparación.')]),
+        R('Si no se dijo el invitatorio'),
         verso('V. Dios mío, ven en mi auxilio.'), verso('R. Señor, date prisa en socorrerme.'), h('p', {}, GLORIA + (aleluya ? ' Aleluya.' : ''))]
       : [verso('V. Dios mío, ven en mi auxilio.'), verso('R. Señor, date prisa en socorrerme.'), h('p', {}, GLORIA + (aleluya ? ' Aleluya.' : ''))];
     if (hora.id === 'completas') inicio.push(R('Examen de conciencia'), ind('Se recomienda un breve examen de conciencia en silencio.'));
@@ -461,6 +467,26 @@
     if (hora.id === 'completas') cuerpo.push(R('Bendición'), h('p', {}, 'El Señor todopoderoso nos conceda una noche tranquila y una santa muerte. Amén.'),
       R('Antífona final de la Virgen'), pend('Salve u otra antífona mariana. En preparación.'));
     else if (hora.id === 'laudes' || hora.id === 'visperas') cuerpo.push(R('Conclusión'), h('p', {}, 'El Señor nos bendiga, nos guarde de todo mal y nos lleve a la vida eterna.'), verso('R. Amén.'));
+
+    const propioHora = propio && propio.horas && propio.horas[hora.id];
+    const completo = propioHora && propioHora.some((b) => b.t === 'rubrica' && /^himno/i.test(b.x));
+    if (completo && hora.id !== 'intermedia') {
+      const nodos = bloquesHora(propioHora);
+      const tieneSalmos = propioHora.some((b) => b.t === 'rubrica' && /^(salmo|c[aá]ntico|salmodia)/i.test(b.x));
+      if (hora.id === 'laudes' && !tieneSalmos && (p.grado === 'S' || p.grado === 'F')) {
+        // Los salmos y el cántico se toman del domingo I: se insertan después del himno.
+        const ld = await json('data/salterio/' + pref.idioma + '/laudes-domingo-1.json');
+        let i = propioHora.findIndex((b) => b.t === 'rubrica' && /^himno/i.test(b.x)) + 1;
+        while (i < propioHora.length && !(propioHora[i].t === 'rubrica' && !/^(himno|i|ii|iii|o bien)\b/i.test(propioHora[i].x))) i++;
+        nodos.splice(i, 0, R('Salmodia · domingo I'), ...ld.salmos.flatMap((s) => salmo(s)));
+      }
+      const tieneOracion = propioHora.some((b, i) => b.t === 'rubrica' && /^(oraci[oó]n|oremos)/i.test(b.x) && propioHora[i + 1] && propioHora[i + 1].t !== 'rubrica');
+      cuerpo = nodos;
+      if (!tieneOracion && propio.oracion) cuerpo.push(R('Oración'), h('p', {}, propio.oracion), verso('R. Amén.'));
+      if (hora.id === 'laudes' || hora.id === 'visperas') cuerpo.push(R('Conclusión'), h('p', {}, 'El Señor nos bendiga, nos guarde de todo mal y nos lleve a la vida eterna.'), verso('R. Amén.'));
+    } else if (completo && hora.id === 'intermedia') {
+      cuerpo.push(R('Propio de la Orden'), ...bloquesHora(propioHora));
+    }
 
     const herramientas = h('div', { class: 'herramientas' },
       h('button', { class: 'icono-boton borde', type: 'button', 'aria-label': 'Achicar letra', onclick: () => cambiarTexto(-2) }, 'A−'),

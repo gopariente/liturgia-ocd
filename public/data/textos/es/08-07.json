@@ -58,5 +58,93 @@
   ],
   "oracion": "Señor, Padre Santo, que hiciste de San Alberto un modelo de oración y de pureza y un fiel servidor de la Virgen María; concédenos revestirnos de sus virtudes para participar dignamente en el banquete eterno de la gloria. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén",
   "ant_benedictus": "La boca del justo expone la sabiduría, su lengua explica el derecho, porque lleva en su corazón la ley de su Dios.",
-  "ant_magnificat": "Dichosos los limpios de corazón porque ellos verán a Dios."
+  "ant_magnificat": "Dichosos los limpios de corazón porque ellos verán a Dios.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "Himno"
+      },
+      {
+        "t": "estrofa",
+        "x": "Vosotros sois luz del mundo\ny ardiente sal de la tierra\nciudad esbelta en el monte,\nfermento en la masa nueva."
+      },
+      {
+        "t": "estrofa",
+        "x": "Vosotros sois los sarmientos\ny yo la Vid verdadera.\nSi el Padre poda las ramas,\nmas fruto llevan las cepas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Vosotros sois la abundancia\ndel reino que ya se acerca;\nlos doce mil señalados\nque no caerán en la siega."
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Dichosos porque sois limpios\ny ricos en la pobreza,\ny es vuestro el reino que solo\nse gana con la violencia! Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Institución de los primeros monjes\n(Lib. I, cap.2;AnOC 3 (1914-1916-), 348-349)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Escóndete junto al torrente Carit"
+      },
+      {
+        "t": "estrofa",
+        "x": "El Señor dirigió la palabra a Elías: Vete de aquí hacia el Oriente y escóndete junto al torrente Carit, que queda cerca del Jordán. Allí beberás del torrente.\nFijémonos en este mandato salvador, cuyo cumplimiento inspiro a Elías el Espíritu Santo, y en esta codiciada promesa, a cuya consecución lo alentó. Nosotros, los monjes ermitaños, debemos reflexionar sobre el sentido místico de cada una de estas palabras con tanta más atención, cuanto que en ellas se contiene cabalmente la instrucción o regla para alcanzar la perfección y el fin de la vida religiosa solitaria."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ya se sabe que son dos los fines de la vocación eremítica. El primero, que podemos lograr con la ayuda de la gracia, mediante nuestro propio esfuerzo y el ejercicios de las virtudes, consiste en ofrecer a Dios un corazón santo y limpio de toda mancha actual de pecado. Lo conseguimos de hecho, cuando, perfectos ya, moramos escondidos en el Carit, o sea, en aquel amor que, conforme al dicho del Sabio, cubre todas las faltas. Precisamente Yahvé, en su designio de conducir a Elías hasta esa meta, le ordeno: Escóndete junto al torrente Carit."
+      },
+      {
+        "t": "estrofa",
+        "x": "El segundo fin a que aspira el eremita es pura dadiva del Señor y lleva consigo el gustar de algún modo en el corazón y experimentar en el espíritu el poder de la presencia divina y la suavidad de la gloria eterna, ya en esta vida, sin aguardar otra. Lo que se da a entender con la frase: “beber del torrente de las delicias de Dios”. Yahvé prometió a Elías el disfrute de este fin cuando le dijo: Allí beberás del torrente."
+      },
+      {
+        "t": "estrofa",
+        "x": "El monje ha de abrazar la vida profética y eremitita, movido por este doble fin, como lo insinúa el profeta: En una tierra reseca, agostada y sin agua, me he presentado, Señor, ante ti como en el santuario, para contemplar tu poder y tu gloria. El anacoreta, por el hecho de haber escogido vivir en una tierra reseca, agostada y sin agua para presentarse ante Dios como en el santuario-el de su corazón limpio de pecado-, pone de manifiesto el primer fin de la vida solitaria que entraña la ofrenda a Dios de un corazón santo o limpio de todo pecado actual. Con la intención expresada en las palabras: para contemplar tu poder y tu gloria, indica a las claras el segundo fin de su vocación, que consiste en experimentar de algún modo o contemplar místicamente con los ojos del corazón el poder de la presencia divina, y en paladear la dulzura anticipada de la vida eterna."
+      },
+      {
+        "t": "estrofa",
+        "x": "Se llega a la primera de estas metas-la pureza de corazón-, mediante la ascesis y la practica de la virtud, con el auxilio de la gracia. Se gana la segunda-el conocimiento experimental del poder divino y de la gloria celestial-con la limpieza de corazón y la plenitud del amor, ya que el mismo Señor promete: Al que me ama lo amara mi Padre, y lo amare yo y me mostrare a el."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Jn. 15,15b.9b.16b."
+      },
+      {
+        "t": "verso",
+        "x": "R. A vosotros os llamo amigos porque todo lo que he oído a mi Padre os lo he dado a conocer*Permaneced en mi amor."
+      },
+      {
+        "t": "verso",
+        "x": "V. Os he destinado para que vayáis y deis fruto, y vuestro fruto dure,*Permaneced en mi amor."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus La boca del justo expone la sabiduría, su lengua explica el derecho, porque lleva en su corazón la ley de su Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Padre Santo, que hiciste de San Alberto un modelo de oración y de pureza y un fiel servidor de la Virgen María; concédenos revestirnos de sus virtudes para participar dignamente en el banquete eterno de la gloria. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén"
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Dichosos los limpios de corazón porque ellos verán a Dios."
+      }
+    ]
+  }
 }

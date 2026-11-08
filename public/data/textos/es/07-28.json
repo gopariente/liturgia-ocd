@@ -54,5 +54,69 @@
   ],
   "oracion": "Haz, Señor, que nos asista con su oración el Beato Juan Soreth, renovador providencial de la vida consagrada y promotor de la fundación de las carmelitas; que él nos alcance con sus méritos la gracia de una fidelidad cada vez mayor en el seguimiento de Cristo y en la imitación de la Virgen María. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "Se fiel hasta la muerte, y te daré la corona de la vida.",
-  "ant_magnificat": "El hombre de fe fortifico su ciudad, y en los días de los impíos afirmo la piedad."
+  "ant_magnificat": "El hombre de fe fortifico su ciudad, y en los días de los impíos afirmo la piedad.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Exposición parentética sobre la Regla carmelitana\ndel beato Juan Soreth, presbítero. (Tex.15,cap.4;ed.Paris1625,191-192)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Aprende de Cristo la manera de amarle"
+      },
+      {
+        "t": "estrofa",
+        "x": "Querido hermano: Aprende de Cristo la manera de amarle. Aprende a amarle tiernamente con todo el corazón, discretamente con toda el alma, firmemente con todas las fuerzas. Amale tiernamente para evitar seducciones, discretamente para precaver engaños, firmemente para superar abatimientos, de lo contrario, te verías apartado del amor de Dios y atraído por la vanidad del mundo y los placeres sensuales. En lugar de tan bajos deleites, sea Cristo Sabiduría quien te seduzca para que puedas resistir las sugestiones del espíritu del error y la mentira. Sea Cristo Verdad quien te ilumine para no dejarte desalentar por las contrariedades. Sea Cristo, Poder de Dios, quien te conforte."
+      },
+      {
+        "t": "estrofa",
+        "x": "Afirma san Basilio que nos sentimos unidos por lazos de afecto y obligación con las personas que nos han hecho algún favor. Y ¿Quién nos ha colmado tanto como Dios de bienes y favores? “Por eso-añade el santo- siento un inefable amor de Dios, mas fácil de percibir que de expresar”. Ya que el Señor ha sembrado en nosotros la semilla de las virtudes, exige también, sin duda, su fructificación. Por consiguiente, que la caridad de Cristo inflame tu celo, su sabiduría te lo ilumine, su firmeza te lo consolide. Sea tu celo ardiente, discreto, indomable, así ni adolecerá de tibieza, ni le faltara discernimiento. Ama, pues, al Señor tu Dios con el rebosante afecto de tu corazón. Amalo con toda la vigilante discreción de tu alma o entendimiento. Amalo, además, con todas las fuerzas, hasta perder el miedo a la muerte por su amor. Que nuestro Señor Jesucristo embriague de suave ternura tu afectividad, y así te ahuyente los dulces incentivos de la vida carnal, y un deleite supere a otro deleite. Pero que al mismo tiempo sea Cristo luz elemental para tu entendimiento y norte para tu corazón, con lo que lograras no solo prevenirte contra las trampas engañosas de los herejes y defender tu fe de sus ardides, sino también evitar cautamente un celo excesivo e indiscreto en el trato con los demás."
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios es Sabiduría y quiere que se le ame tiernamente, si, pero también avisadamente; de otra manera el espíritu del error podría con demasiada facilidad burlar tu celo. Si no tienes en cuenta lo que parece aconsejar el buen sentido, te pesara, pues el astuto enemigo no utiliza estratagema mas hábil para desalojar el amor del corazón, que la de hacerte andar en el amor con pauso incauto e irreflexivo. Tu amor, por otra parte, ha de ser recio y firme, sin plegarse ante las amenazas ni sucumbir bajo las dificultades. Ama con todo el corazón, quien resiste a los halagos. Ama con toda el alma, quien se mantiene inabordable a las seducciones del error. Ama con todas las fuerzas,\nquien no se abate por las ofensas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Luego se dice en la Regla, como sacando una consecuencia: Y al prójimo como a vosotros mismos, sobreentiéndase, améis. Quien ama a Dios que ame también a su prójimo, pues quien no ama a su hermano, al que ve, no puede amar a Dios, al que no ve."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1Jn 5,3;3,24ª"
+      },
+      {
+        "t": "verso",
+        "x": "R. En esto consiste el amor de Dios: en que guardemos sus mandamientos,*Y sus mandamientos no son pesados."
+      },
+      {
+        "t": "verso",
+        "x": "V. Quien guarda sus mandamientos permanece en Dios y Dios en el.*Y sus mandamientos."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus. Se fiel hasta la muerte, y te daré la corona de la vida."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Haz, Señor, que nos asista con su oración el Beato Juan Soreth, renovador providencial de la vida consagrada y promotor de la fundación de las carmelitas; que él nos alcance con sus méritos la gracia de una fidelidad cada vez mayor en el seguimiento de Cristo y en la imitación de la Virgen María. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat El hombre de fe fortifico su ciudad, y en los días de los impíos afirmo la piedad."
+      }
+    ]
+  }
 }

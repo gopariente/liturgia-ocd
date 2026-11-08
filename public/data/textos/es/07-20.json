@@ -54,5 +54,1033 @@
   ],
   "oracion": "Señor, Dios de nuestros padres en la fe, que concediste al profeta Elías vivir siempre en tu presencia, inflamado por el celo de tu gloria; concédenos buscar siempre tu rostro y ser en el mundo testigos de tu amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "¡Señor Dios de Abraham, Isaac e Israel! Que se vea hoy que tu eres el Dios de Israel y yo tu siervo.",
-  "ant_magnificat": "Hablo Dios antiguamente a nuestros padres por los profetas. Ahora, en esta etapa final, nos ha hablado por el Hijo, al que ha nombrado heredero de todo."
+  "ant_magnificat": "Hablo Dios antiguamente a nuestros padres por los profetas. Ahora, en esta etapa final, nos ha hablado por el Hijo, al que ha nombrado heredero de todo.",
+  "horas": {
+    "invitatorio": [
+      {
+        "t": "verso",
+        "x": "Ant. Venid, adoremos al Dios vivo que nos hablo por los profetas."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 94"
+      },
+      {
+        "t": "estrofa",
+        "x": "Venid, aclamemos al Señor,\ndemos vítores a la Roca que nos salva;\nentremos a su presencia dándole gracias,\naclamándolo con cantos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Porque el Señor es un Dios grande,\nsoberano de todos los dioses:\ntiene en su mano las simas de la tierra,\nson suyas las cumbres de los montes;\nsuyo es el mar, porque El lo hizo,\nla tierra firme que modelaron sus manos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Entrad, postrémonos por tierra,\nbendiciendo al Señor, creador nuestro.\nPorque El es nuestro Dios,\ny nosotros su pueblo,\nel rebaño que El guía."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ojala escuchéis hoy su voz:\n\"No endurezcáis el corazón como en Meribá,\ncomo el día de Masá en el desierto;\ncuando vuestros padres me pusieron a prueba\ny me tentaron, aunque habían visto mis obras."
+      },
+      {
+        "t": "estrofa",
+        "x": "Durante cuarenta años\naquella generación me asqueó, y dije:\n\"Es un pueblo de corazón extraviado,\nque no reconoce mi camino;\npor eso he jurado en mi cólera\nque no entrarán en mi descanso\"\n-------------------------------------------------------------------"
+      }
+    ],
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Era un incendio rojo la cumbre del Carmelo\ncuando Elías lanzaba su voz hacia la altura.\nPor sus ojos de llama se derrumbaba el cielo,\ny el celo del Señor se hizo quemadura."
+      },
+      {
+        "t": "estrofa",
+        "x": "Profetas de Baal han rezado al Profeta,\ny el fuego de Yahvé ha acudido a su grito.\nSu espíritu vibraba con brillo de saeta\ny aprisiono el torrente del poder infinito."
+      },
+      {
+        "t": "estrofa",
+        "x": "Y vino el fuego hiriente y abraso piedra y agua,\nholocausto y altar. Precipito los vientos\ndel celo y de la ira. Era una ardiente fragua\nel pecho del Profeta de encendidos alientos."
+      },
+      {
+        "t": "estrofa",
+        "x": "La espada vengadora tomo vigor de arquero.\nUna pasión de sangre empurpuro la cumbre.\nEl torrente Cison era un ascua de acero\ny su suelo manaba una fuente de lumbre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Batió sus alas negras en vuelo la venganza\ny se cernió su sombra de muerte en el desierto.\nInmensos arenales de odio, en donde avanza\nun Profeta sin alma por un camino incierto."
+      },
+      {
+        "t": "estrofa",
+        "x": "Y descendió el consuelo. La angélica presencia\nle conforto en su ruta hasta Horeb. Tembloroso,\nsupo de Dios que se hizo gozosa transparencia\nen un silbo del aire delgado y amoroso. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Basta ya, Señor; quitame la vida pues"
+      },
+      {
+        "t": "estrofa",
+        "x": "yo no valgo mas que mis padres."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 10"
+      },
+      {
+        "t": "estrofa",
+        "x": "Al Señor me acojo, ¿por qué me decís:\n\"escapa como un pájaro al monte,\nporque los malvados tensan el arco,\najustan las saetas a la cuerda,\npara disparar en la sombra contra los buenos?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cuando fallan los cimientos,\n¿qué podrá hacer el justo?\""
+      },
+      {
+        "t": "estrofa",
+        "x": "Pero el Señor está en su templo santo,\nel Señor tiene su trono en el cielo,\nsus ojos están observando,\nsus pupilas examinan a los hombres."
+      },
+      {
+        "t": "estrofa",
+        "x": "El Señor examina a inocentes y culpables,\ny al que ama la violencia El lo odia.\nHará llover sobre los malvados ascuas y azufre,\nles tocará en suerte un viento huracanado."
+      },
+      {
+        "t": "estrofa",
+        "x": "Porque el Señor es justo y ama la justicia:\nlos buenos verán su rostro."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Basta ya, Señor; quítame la vida pues yo"
+      },
+      {
+        "t": "estrofa",
+        "x": "no valgo más que mis padres."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 El ángel del Señor le dijo “Levántate, come,"
+      },
+      {
+        "t": "estrofa",
+        "x": "que el camino es superior a tus fuerzas”."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 27,1-3,6-960"
+      },
+      {
+        "t": "estrofa",
+        "x": "A tí, Señor, te invoco;\nRoca mía, no seas sordo a mi voz;\nque, si no me escuchas, seré igual\nque los que bajan a la fosa."
+      },
+      {
+        "t": "estrofa",
+        "x": "Escucha mi voz suplicante\ncuando te pido auxilio,\ncuando alzo las manos\nhacia tu santuario."
+      },
+      {
+        "t": "estrofa",
+        "x": "No me arrebates con los malvados\nni con los malhechores,\nque hablan de paz con el prójimo,\npero llevan la maldad en el corazón."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito el Señor, que escuchó\nmi voz suplicante;\nel Señor es mi fuerza y mi escudo:\nen él confía mi corazón;\nme socorrió, y mi corazón se alegra\ny le canta agradecido."
+      },
+      {
+        "t": "estrofa",
+        "x": "El Señor es fuerza para su pueblo,\napoyo y salvación para su Ungido.\nSalva a tu pueblo y bendice tu heredad,\nsé su pastor y llévalos siempre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 El ángel del Señor le dijo “Levántate, come,"
+      },
+      {
+        "t": "estrofa",
+        "x": "que el camino es superior a tus fuerzas”."
+      },
+      {
+        "t": "verso",
+        "x": "Ant 3 Elías comió y bebió, y con la fuerza de aquel"
+      },
+      {
+        "t": "estrofa",
+        "x": "alimento camino hasta el monte de Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 29"
+      },
+      {
+        "t": "estrofa",
+        "x": "Te ensalzaré, Señor, porque me has librado\ny no has dejado que mis enemigos se rían de mí."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios mío, a ti grité,\ny tú me sanaste.\nSeñor, sacaste mi vida del abismo,\nme hiciste revivir cuando bajaba a la fosa."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tañed para el Señor, fieles suyos,\ndad gracias a su nombre santo;\nsu cólera dura un instante;\nsu bondad, de por vida;\nal atardecer nos invita el llanto;\npor la mañana, el júbilo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Yo pensaba muy seguro:\n\"no vacilaré jamás\".\nTu bondad, Señor, me aseguraba\nel honor y la fuerza;\npero escondiste tu rostro,\ny quedé desconcertado."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, Señor, llamé, supliqué a mi Dios:\n\"¿qué ganas con mi muerte,\ncon que yo baje a la fosa?"
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Te va a dar gracias el polvo,\no va a proclamar tu lealtad?\nEscucha, Señor, y ten piedad de mí;\nSeñor, socórreme\"."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cambiaste mi luto en danzas,\nme desataste el sayal y me has vestido de fiesta;\nte cantará mi alma sin callarse.\nSeñor, Dios mío, te daré gracias por siempre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant 3 Elías comió y bebió, y con la fuerza de aquel"
+      },
+      {
+        "t": "estrofa",
+        "x": "alimento camino hasta el monte de Dios."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tu eres un hombre de Dios"
+      },
+      {
+        "t": "verso",
+        "x": "R Y la palabra del Señor en tu boca es verdad.."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRIMERA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del primer libro de los Reyes 19,4-9ª, 11-14ª"
+      },
+      {
+        "t": "estrofa",
+        "x": "En aquellos días, continuo Elías por el desierto, una jornada de camino, y al final se sentó bajo una retama. Entonces se deseó la muerte y exclamó:\n-\"¡Basta ya, Señor! ¡Quítame la vida, porque yo no valgo más que mis padres!\".\nSe acostó y se quedó dormido bajo la retama. Pero un ángel lo tocó y le dijo: --\"¡Levántate, come!\".\nÉl miró y vio que había a su cabecera una galleta cocida sobre piedras calientes y un jarro de agua. Comió, bebió y se acostó de nuevo.\nPero el Ángel del Señor volvió otra vez, lo tocó y le dijo:\n- \"¡Levántate, come, porque todavía te queda mucho por caminar!\".\nElías se levantó, comió y bebió, y fortalecido por ese alimento caminó cuarenta días y cuarenta noches hasta la montaña de Dios, el Horeb.\nAllí, entró en la gruta y pasó la noche El Señor le dijo:\n- \"Sal y quédate de pie en la montaña, delante del Señor\". Y en ese momento el Señor pasaba. Sopló un viento huracanado que partía las montañas y resquebrajaba las rocas delante del Señor. Pero el Señor no estaba en el viento. Después del viento, hubo un terremoto. Pero el Señor no estaba en el terremoto.\nDespués del terremoto, se encendió un fuego. Pero el Señor no estaba en el fuego. Después del fuego, se oyó el rumor de una brisa suave.\nAl oírla, Elías se cubrió el rostro con su manto, salió y se quedó de pie a la entrada de la gruta. Entonces le llegó una voz, que decía:\n- \"¿Qué haces aquí, Elías?\".\nÉl respondió:\n-\"Me consumo de celo por el Señor, el Dios de los ejércitos”"
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1R 17,2-3ª,5ª,3b,4"
+      },
+      {
+        "t": "verso",
+        "x": "R El Señor dirigió la palabra a Elías: Vete de aquí hacia el Oriente.*Elías hizo lo que le mando el Señor."
+      },
+      {
+        "t": "verso",
+        "x": "V. Escóndete junto al torrente Carit. Bebe del torrente, y yo mandare a los cuervos que te lleven allí la comida.*Elías hizo lo que le mando el Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del libro del Eclesiástico 48,1-11"
+      },
+      {
+        "t": "estrofa",
+        "x": "Después surgió como un fuego el profeta Elías, su palabra quemaba como una antorcha. Él atrajo el hambre sobre ellos y con su celo los diezmó. Por la palabra del Señor, cerró el cielo, y también hizo caer tres veces fuego de lo alto."
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Qué glorioso te hiciste, Elías, con tus prodigios! ¿Quién puede jactarse de ser igual a ti?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú despertaste a un hombre de la muerte y de la morada de los muertos, por la palabra de Altísimo. Tú precipitaste a reyes en la ruina y arrojaste de su lecho a hombres insignes; tú escuchaste un reproche en el Sinaí y en el Horeb una sentencia de condenación; tú ungiste reyes para ejercer la venganza y profetas para ser tus sucesores"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú fuiste arrebatado en un torbellino de fuego por un carro con caballos de fuego."
+      },
+      {
+        "t": "estrofa",
+        "x": "De ti está escrito que en los castigos futuros aplacarás la ira antes que estalle,\npara hacer volver el corazón de los padres hacia los hijos y restablecer las tribus de Jacob."
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Felices los que te verán y los que se durmieron en el amor, porque también nosotros poseeremos la vida!"
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1R 17,2-3ª,5ª,3b,4"
+      },
+      {
+        "t": "verso",
+        "x": "R El Señor dirigió la palabra a Elías: Vete de aquí hacia el Oriente.*Elías hizo lo que le mando el Señor."
+      },
+      {
+        "t": "verso",
+        "x": "V. Escóndete junto al torrente Carit. Bebe del torrente, y yo mandare a los cuervos que te lleven allí la comida.*Elías hizo lo que le mando el Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Homilía sobre el profeta Ezequiel, de San Gregorio Magno, papa."
+      },
+      {
+        "t": "estrofa",
+        "x": "Contemplación mística de la Majestad de Dios"
+      },
+      {
+        "t": "estrofa",
+        "x": "A menudo el alma, durante la divina contemplación, se eleva tan alto, que llega a saborear gozosamente por vía imaginaria algo de aquella libertad eterna que ni el ojo vio, ni el oído oyó; pero vencida por el peso de la condición mortal vuelve a caer en lo hondo y se siente como aherrojada con las cadenas de su reclusión. El alma que contempla los goces e su verdadera libertad se acerca instintivamente hacia la puerta buscando la salida, pero no puede aun evadirse."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por eso cuando el pueblo hebreo, liberado de la esclavitud de Egipto, veía la columna de nube mientras hablaba el Señor, cada uno “estaba” a la puerta de su tienda y “adoraba”."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es un hecho que estamos donde ponemos los ojos del alma. Así Elías pudo decir; Vive Yahvé, Dios de Israel, en cuya presencia estoy. En efecto, el profeta estaba donde había puesto su corazón. Y ¿qué otra cosa significa ver el pueblo la columna de nube y estar cada uno a la puerta de su tienda y adorar, sino que el alma humana cuando contempla, aunque solo sea confusamente en un espejo, las sublimes realidades celestes, abandona ya el encierro de su mansión corporal en alas de un levantado pensamiento, y adora humildemente al Dios, cuyo poder admira merced a una ilustración del espíritu, pero cuya esencia no puede ver todavía?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Si se nos detalla que Elías al escuchar la voz de Dios que le hablaba, se situó a la boca de su cueva y se cubrió el rostro, es porque el hombre, cuando le resuena en el alma la voz de la sabiduría eterna a través de la gracia de la contemplación, ya no se halla del todo en la cueva, pues el espíritu se ve entonces libre de los cuidados del cuerpo, sino que esta junto a la salida, pensando en dejar el estrecho recinto de la carne mortal."
+      },
+      {
+        "t": "estrofa",
+        "x": "Pero es preciso que quien esta junto a la boca de la cueva y percibe la palabra de Dios en el oído del corazón, se cubra el rostro, porque cuando llegamos a la comprensión de profundo misterios con la luz de la gracia divina, tanto mas hemos de humillar siempre a nuestros propios ojos, cuanto más regalada sea nuestra elevación mística, de manera que procuremos no estimarnos mas de lo que conviene, sino estimarnos moderadamente, no sea que, por la curiosa indagación de las cosas invisibles, nos distraigamos, o pretendamos buscar destellos corpóreos en una naturaleza espiritual. Aplicar el oído y cubrirse el rostro significa escuchar mentalmente la voz de un Ser superior dentro de nosotros y, sin embargo, apartar los ojos del corazón de toda especie corporal, evitando que el alma se imagine nada corpóreo en aquel Ser omnipresente e incircunscripto al mismo tiempo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por tanto, queridos hermanos, nosotros que, mediante la muerte, resurrección y ascensión de nuestro redentor, hemos llegado a conocer los goces del mundo futuro; nosotros, que creemos en la aparición de sus ángeles-nuestros conciudadanos- para dar testimonio de su divinidad, suspiremos por nuestro Rey, anhelemos la compañía de esos conciudadanos, conocidos nuestros, y, mientras permanecemos en este edificio de la santa Iglesia, pongamos los ojos en la puerta de salida. Volvamos las espaldas del alma a esta corruptible vida mortal. Orientemos el rostro del corazón hacia la libertad de la patria celeste. Pero mirad: aun son demasiadas las preocupaciones terrenas que nos esclavizan. Entonces, ya que no podemos abandonar definitivamente nuestra cueva, mantengámonos, al menos, junto a la boca, listos para partir venturosamente un día por la gracia de nuestro Salvador, que vive y reina con el Padre en la unidad del Espíritu Santo, y es Dios por los siglos de los siglos. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1R 19,11ª.13b.12."
+      },
+      {
+        "t": "verso",
+        "x": "R. El Señor dijo a Elías:*Sal y aguarda al Señor en el monte."
+      },
+      {
+        "t": "verso",
+        "x": "V. Elías salio a la entrada de la gruta, y el Señor paso y se"
+      },
+      {
+        "t": "estrofa",
+        "x": "escucho un susurro.*Sal y aguarda."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Cántico espiritual de san Juan de la Cruz,\npresbítero y doctor de la Iglesia"
+      },
+      {
+        "t": "estrofa",
+        "x": "(red. B9 canc. 14,12.14-15;BAC 15 1960 883-884"
+      },
+      {
+        "t": "estrofa",
+        "x": "El silbo de los aires amorosos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Por los aires amorosos se entienden aquí las virtudes y gracias del amado, las cuales, mediante la dicha unión del Esposo, embisten en el alma y amorosísima mente se comunican y tocan en la sustancia de ella. Y al silbo de estos aires llama una subidísima y sabrosísima inteligencia de Dios y de sus virtudes, la cual redunda en el entendimiento del toque que hacen estas virtudes de Dios en la sustancia del alma; que este es el más subido deleite que hay en todo lo demás que gusta el alma aquí."
+      },
+      {
+        "t": "estrofa",
+        "x": "Porque este toque de Dios satisface grandemente y regala la sustancia del alma, cumpliendo suavemente su apetito, que era de verse en la tal unión, llama a la dicha unión o toques aires amorosos; porque amorosa y dulcemente se le comunican las virtudes del Amado en el, de lo cual se deriva en el entendimiento el silbo de ka inteligencia. Y llámale silbo porque, así como el silbo de aire causado se entra agudamente en el vasillo del oído, así esta sutilísima y delicada inteligencia se entra con admirable sabor y deleite en lo intimo de la sustancia del alma, que es muy mayor deleite que todos los demás."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por significar este silbo la dicha inteligencia sustancial, piensan algunos teólogos que vio nuestro padre Elías a Dios en aquel silbo de aire delgado que sintió en el monte a la boca de su cueva. Allí le llama la Escritura silbo de aire delgado, porque de la sutil y delicada comunicación del espíritu le nacía la inteligencia en el entendimiento; y aquí le llama el alma silbo de aires amorosos, porque de la amorosa comunicación de las virtudes de su Amado le redunda en el entendimiento, y por eso le llama silbo de aires amorosos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Este divino silbo que entra por el oído del alma, no solamente es sustancia entendida, sino también descubrimiento de verdades de la Divinidad y revelación de secretos suyos ocultos; porque, ordinariamente, las veces que en la Escritura divina se halla alguna comunicación de Dios, que se dice entrar por el oído, se halla ser manifestación de estas verdades desnudas en el entendimiento o revelación de secretos de Dios; las cuales son revelaciones o visiones puramente espirituales, que solamente se dan al alma, sin servicio y ayuda de los sentidos; y así es muy alto y cierto esto que se dice comunicar Dios por el oído. Que por eso para dar a entender san Pablo la alteza de su revelación (vino a decir): Oí palabras secretas que al hombre no es lícito hablar. En lo cual se piensa que vio a Dios también, como nuestro padre Elías en el silbo. Porque así como la fe, como también dice san Pablo es por el oído corporal. Así también lo que nos dice la fe, que es la sustancia entendida, es por el oído espiritual."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO CF 1R 19,13,12,2.Co 12,4b"
+      },
+      {
+        "t": "verso",
+        "x": "R. Elías se cubrió el rostro con el manto y salio a la boca de la cueva,"
+      },
+      {
+        "t": "verso",
+        "x": "*Cuando escucho un silbo de aire delgado."
+      },
+      {
+        "t": "verso",
+        "x": "V. Y oyó palabras secretas que al hombre no es licito hablar."
+      },
+      {
+        "t": "verso",
+        "x": "*Cuando escucho."
+      },
+      {
+        "t": "estrofa",
+        "x": "-----------------------------------------------------------"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Sal y aguarda al Señor en el monte, que el Señor va a pasar."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico I Jeremías 17, 7-8"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito quien confía en el Señor\ny pone en el Señor su confianza."
+      },
+      {
+        "t": "estrofa",
+        "x": "Será un árbol plantado junto al agua,\nque junto a la corriente echa raíces;"
+      },
+      {
+        "t": "estrofa",
+        "x": "cuando llegue el estío no lo sentirá,\nsu hoja estará verde;"
+      },
+      {
+        "t": "estrofa",
+        "x": "en un año de sequía no se inquieta,\nno deja de dar fruto."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico II Si 14,22ª. 23b. 24b; 15,3.4.6"
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Feliz el hombre que se ocupa de la sabiduría y el que razona con inteligencia,\nel que reflexiona sobre los caminos de la sabiduría y penetra en sus secretos!\nLo alimentará con el pan de la inteligencia y le hará beber el agua de la sabiduría.\nÉl se apoyará en ella, y no vacilará, se unirá a ella, y no quedará confundido.\nElla lo exaltará por encima de sus compañeros.\nRecibirá en herencia un nombre perdurable."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico III Si51,1-3ab. 4ª 7c. 11. 14ab. 13"
+      },
+      {
+        "t": "estrofa",
+        "x": "Quiero darte gracias, Señor y Rey, y alabarte, Dios, mi salvador.\nYo doy gracias a tu Nombre, porque tú has sido mi protector y mi ayuda, y has librado mi cuerpo de la perdición, del lazo de la lengua calumniadora y de los labios que traman mentiras. Entonces, me acordé de tu misericordia, Señor, y de tus acciones desde los tiempos remotos. Invoqué al Señor, padre de mi Señor:\n\"No me abandones en el día de la aflicción, en el tiempo de los orgullosos, cuando estoy desamparado. Alabaré tu Nombre sin cesar y te cantare‚ en acción de gracias\". Y mi plegaria fue escuchada."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Sal y aguarda al Señor en el monte, que el Señor va a pasar."
+      },
+      {
+        "t": "estrofa",
+        "x": "EVANGELIO Mt. 17,1-8"
+      },
+      {
+        "t": "estrofa",
+        "x": "Seis días después, Jesús tomó a Pedro, a Santiago y a su hermano Juan, y los llevó aparte a un monte elevado.\nAllí se transfiguró en presencia de ellos: su rostro resplandecía como el sol y sus vestiduras se volvieron blancas como la luz.\nDe pronto se les aparecieron Moisés y Elías, hablando con Jesús.\nPedro dijo a Jesús:\n-\"Señor, ¡qué bien estamos aquí! Si quieres, levantaré aquí mismo tres carpas, una para ti, otra para Moisés y otra para Elías\".\nTodavía estaba hablando, cuando una nube luminosa los cubrió con su sombra y se oyó una voz que decía desde la nube:\n-\"Este es mi Hijo muy querido, en quien tengo puesta mi predilección: escúchenlo\".\nAl oír esto, los discípulos cayeron con el rostro en tierra, llenos de temor.\nJesús se acercó a ellos y, tocándolos, les dijo:\n-\"Levántense, no tengan miedo\".\nCuando alzaron los ojos, no vieron a nadie más que a Jesús solo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno Te Deum"
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, oh Dios, te alabamos,\na ti, Señor, te reconocemos."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, eterno Padre,\nte venera toda la creación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los Ángeles todos,\nlos cielos y todas las potestades te honran."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los querubines y serafines\nte cantan sin cesar:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Santo, Santo, Santo es el Señor,\nDios del Universo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los cielos y la tierra están llenos\nde la majestad de tu gloria."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti te ensalza\nel glorioso coro de los apóstoles,\nla multitud admirable de los profetas,\nel blanco ejército de los mártires."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti la Iglesia santa,\nextendida por toda la tierra,\nte proclama:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Padre de inmensa majestad,\nHijo único y verdadero, digno de adoración,\nEspíritu Santo, Defensor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Rey de la gloria, Cristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Hijo único del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, para liberar al hombre,\naceptaste la condición humana\nsin deseñar el seno de la Virgen."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, rotas las cadenas de la muerte,\nabriste a los creyentes el reino del cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú te sientas a la derecha de Dios\nen la gloria del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Creemos que un día\nhas de venir como juez."
+      },
+      {
+        "t": "estrofa",
+        "x": "Te rogamos, pues,\nque vengas en ayuda de tus siervos,\na quienes redimiste con tu preciosa sangre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Haz que en la gloria eterna\nnos asociemos a tus santos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Lo que sigue puede omitirse"
+      },
+      {
+        "t": "verso",
+        "x": "V. Salva a tu pueblo, Señor, y bendice tu heredad."
+      },
+      {
+        "t": "verso",
+        "x": "R. Sé su pastor y ensálzalo eternamente."
+      },
+      {
+        "t": "verso",
+        "x": "V. Día tras día te bendecimos"
+      },
+      {
+        "t": "verso",
+        "x": "R. y alabamos tu nombre para siempre, por eternidad de eternidades."
+      },
+      {
+        "t": "verso",
+        "x": "V. Dígnate, Señor, en este día guárdanos del pecado."
+      },
+      {
+        "t": "verso",
+        "x": "R. Ten piedad de nosotros, Señor, ten piedad de nosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "de ti."
+      },
+      {
+        "t": "verso",
+        "x": "R. En ti, Señor, confié, no me veré defraudado para siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios de nuestros padres en la fe, que concediste al profeta Elías vivir siempre en tu presencia, inflamado por el celo de tu gloria; concédenos buscar siempre tu rostro y ser en el mundo testigos de tu amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.\n--------------------------------------------------------------------------------"
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Profeta de la llama y de la altura,\ntestigo del Dios vivo y transparente,\nque hace brotar una agua de ternura\ny un huracán de fuego incandescente."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sobre la cima del Carmelo, ilesa\nsube en brisa y cristal la nubecilla.\nse abre una lluvia fértil de promesa\ny se esboza una Rosa sin mancilla."
+      },
+      {
+        "t": "estrofa",
+        "x": "Y adora Elías el azul vestigio\nde una Virgen y Madre. De la bruma\ndel poderoso mar subió el prodigio\nhecho maternidad desde la espuma."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por el rostro de fuego del Profeta\ncruzó un viento de sueño y profecía.\nLa llanura del mar, amarga y quieta,\nalumbró el limpio gozo de María. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salmos y cántico del domingo de la semana I"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 ¡Vive el Señor Dios de Israel a quien sirvo!"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Sal y aguarda al Señor en el monte, que el Señor va a pasar"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.3 Siento pasión por el Señor Dios de los ejércitos."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE 2P1,79-20"
+      },
+      {
+        "t": "estrofa",
+        "x": "Esto nos confirma la palabra de los profetas, y hacéis muy bien en prestarle atención, como a una lámpara que brilla en un lugar oscuro, hasta que despunte el día y el lucero nazca en vuestros corazones. Ante todo, tened presente que ninguna predicción de la Escritura esta a merced de interpretaciones personales; porque ninguna predicción antigua aconteció por designio humano; hombres como eran, hablaron de parte de Dios, movidos por el Espíritu Santo."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Me saciare, Señor,*Cuando aparezca tu gloria. Me saciare."
+      },
+      {
+        "t": "verso",
+        "x": "V. Me saciare de tu semblante.*Cuando aparezca tu gloria."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre. Me saciare, Señor."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus ¡Señor Dios de Abraham, Isaac e Israel! Que se vea hoy que tu eres el Dios de Israel y yo tu siervo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus ¡Señor Dios de Abraham, Isaac e Israel!"
+      },
+      {
+        "t": "estrofa",
+        "x": "Que se vea hoy que tu eres el Dios de Israel y yo tu siervo."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Roguemos a Dios, nuestro Padre, que antiguamente hablo por los profetas y hoy nos habla por su Hijo, lazo de unión entre Dios y los hombres, y digámosle confiadamente:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor atráenos hacia ti."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, que te revelaste al profeta Elías en el silencio y la soledad,\n-haz que, apartados de cuanto nos impide la escucha de tu voz,\nte busquemos sin tregua hasta encontrarte."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, que proporcionaste a Elías agua reconfortadora en el torrente Carit,\n-concédenos beber en los manantiales de la caridad y de la contemplación..."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, que vigorizaste al profeta Elías en su andadura hacia el monte Horeb,\n-haz que, robustecidos con el cuerpo y la sangre de Cristo, caminemos sin desfallecer hacia tu encuentro."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, que te manifestaste a Elías en el silbo del aire delgado,\n-enséñanos a acoger todas las inspiraciones del Espíritu Santo en silencio reflexivo y con alegre disponibilidad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, que suscitaste a Elías como una tea ardiente y lo hiciste abrasado promotor de tu gloria.\n-enciéndenos en el fuego de tu amor, para que sirvamos hoy a la Iglesia y a nuestros hermanos con solicitud."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro.........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios de nuestros padres en la fe, que concediste al profeta Elías vivir siempre en tu presencia, inflamado por el celo de tu gloria; concédenos buscar siempre tu rostro y ser en el mundo testigos de tu amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.\n---------------------------------------------------------------------------------------"
+      }
+    ],
+    "intermedia": [
+      {
+        "t": "rubrica",
+        "x": "Tercia"
+      },
+      {
+        "t": "estrofa",
+        "x": "(Ant. Invoco al Señor Elías, y el Señor escucho su suplica)"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Hb. 12,1-2"
+      },
+      {
+        "t": "estrofa",
+        "x": "Por tanto, también nosotros, teniendo en torno nuestro tan gran nube de testigos, sacudamos todo lastre y el pecado que nos asedia, y corramos con fortaleza la prueba que se nos propone, fijos los ojos en Jesús, el que inicia y consuma la fe, el cual, en lugar del gozo que se le proponía, soportó la cruz sin miedo a la ignominia y = está sentado a la diestra del trono de Dios."
+      },
+      {
+        "t": "verso",
+        "x": "V. He buscado tu rostro, Señor."
+      },
+      {
+        "t": "verso",
+        "x": "R. Tu rostro buscare, Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "--------------------------------------------------------------------"
+      },
+      {
+        "t": "rubrica",
+        "x": "SEXTA"
+      },
+      {
+        "t": "estrofa",
+        "x": "(Ant. Elías, por su ardiente celo de la ley, fue arrebatado al cielo.)"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Hb. 4,12"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ciertamente, es viva la Palabra de Dios y eficaz, y más cortante que espada alguna de dos filos. Penetra hasta las fronteras entre el alma y el espíritu, hasta las junturas y médulas; y escruta los sentimientos y pensamientos del corazón."
+      },
+      {
+        "t": "verso",
+        "x": "V. En mi corazón escondo tus consignas"
+      },
+      {
+        "t": "verso",
+        "x": "R. Así no pecare contra ti."
+      },
+      {
+        "t": "estrofa",
+        "x": "-------------------------------------------------------------------"
+      },
+      {
+        "t": "rubrica",
+        "x": "NONA"
+      },
+      {
+        "t": "estrofa",
+        "x": "(Ant. El Señor envió un rayo que abraso la victima de Elías)"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Hb 12,28-29"
+      },
+      {
+        "t": "estrofa",
+        "x": "Por eso, nosotros que recibimos un reino inconmovible, hemos de mantener la gracia y, mediante ella, ofrecer a Dios un culto que le sea grato, con religiosa piedad y reverencia, pues nuestro = Dios es fuego devorador."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tu promesa es acrisolada, Señor."
+      },
+      {
+        "t": "verso",
+        "x": "R. Y tu siervo la ama."
+      },
+      {
+        "t": "estrofa",
+        "x": "----------------------------------------------------------------------------------"
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "El Tabor y el Carmelo. Dos cimas de blancura\nPara el hombre de Dios, temblor contemplativo\nQue congrego en la noche abismal de su altura\nLa presencia encendida, gozosa del Dios vivo.\nLa cima del Carmelo supo su fuego ardiente,\nSu palabra de llama, su voz de lejanía.\nLa esperanza cruzaba su aire levemente\nEn un azul milagro de nube y profecía."
+      },
+      {
+        "t": "estrofa",
+        "x": "Testigo de la gloria y el amor inefable,\nEn triunfal estallido de hermosura y de nieve.\nEl Tabor atesora toda la luz amable\nDe un cielo desbordado que sobre el suelo llueve."
+      },
+      {
+        "t": "estrofa",
+        "x": "Y atónito contempla Elías la belleza\nDe un Dios que transfigura su carne redentora.\nCiego de luz y nieve, el tuvo la certeza\nDe un sol esplendoroso que vislumbro en\nLa Aurora. Amen"
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Surgió Elías, un profeta como fuego, cuyas palabras"
+      },
+      {
+        "t": "estrofa",
+        "x": "eran horno encendido."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 110"
+      },
+      {
+        "t": "estrofa",
+        "x": "Doy gracias al Señor de todo corazón,\nen compañía de los rectos, en la asamblea.\nGrandes son las obras del Señor,\ndignas de estudio para los que las aman."
+      },
+      {
+        "t": "estrofa",
+        "x": "Esplendor y belleza son su obra,\nsu generosidad dura por siempre;\nha hecho maravillas memorables,\nel Señor es piadoso y clemente."
+      },
+      {
+        "t": "estrofa",
+        "x": "El da alimento a sus fieles,\nrecordando siempre su alianza;\nmostró a su pueblo la fuerza de su obrar,\ndándoles la heredad de los gentiles."
+      },
+      {
+        "t": "estrofa",
+        "x": "Justicia y verdad son las obras de sus manos,\ntodos sus preceptos merecen confianza:\nson estables para siempre jamás,\nse han de cumplir con verdad y rectitud."
+      },
+      {
+        "t": "estrofa",
+        "x": "Envió la redención a su pueblo,\nratificó para siempre su alianza,\nsu nombre es sagrado y temible."
+      },
+      {
+        "t": "estrofa",
+        "x": "Primicia de la sabiduría es el temor del Señor,\ntienen buen juicio los que lo practican;\nla alabanza del Señor dura por siempre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Surgió Elías, un profeta como fuego, cuyas palabras"
+      },
+      {
+        "t": "estrofa",
+        "x": "eran horno encendido."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Si el Señor es el verdadero Dios, seguidlo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 113 B"
+      },
+      {
+        "t": "estrofa",
+        "x": "No a nosotros, Señor, no a nosotros,\nsino a tu nombre da la gloria,\npor tu bondad, por tu lealtad."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Por qué ha de decir las naciones:\n\"Dónde está su Dios?\""
+      },
+      {
+        "t": "estrofa",
+        "x": "Nuestro Dios está en el cielo,\nlo que quiere lo hace.\nSus ídolos, en cambio, son plata y oro,\nhechura de manos humanas:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tienen boca, y no hablan;\ntienen ojos, y no ven;\ntienen orejas, y no oyen;\ntienen nariz, y no huelen;"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tienen manos, y no tocan;\ntienen pies, y no andan;\nno tiene voz su garganta:\nque sean igual los que los hacen,\ncuantos confían en ellos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Israel confía en el Señor:\nEl es su auxilio y su escudo.\nLa casa de Aarón confía en el Señor:\nEl es su auxilio y su escudo.\nLos fieles del Señor confían en el Señor:\nEl su auxilio y su escudo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Que el Señor se acuerde de nosotros y nos bendiga,\nbendiga a la casa de Israel,\nbendiga a la casa de Aarón;\nbendiga a los fieles del Señor,\npequeños y grandes."
+      },
+      {
+        "t": "estrofa",
+        "x": "Que el Señor os acreciente,\na vosotros y a vuestros hijos;\nbendito seáis del Señor,\nque hizo el cielo y la tierra.\nEl cielo pertenece al Señor,\nla tierra se le ha dado a los hombres."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los muertos ya no alaban al Señor,\nni los que bajan al silencio.\nNosotros, sí, bendeciremos al Señor\nahora y por siempre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Si el Señor es el verdadero Dios, seguidlo."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 El Señor dará el galardón a sus siervos los profetas"
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico Ap. 11, 17-18;12,10b-12ª"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gracias te damos, Señor Dios omnipotente,\nel que eres y el que eras,\nporque has asumido el gran poder\ny comenzaste a reinar."
+      },
+      {
+        "t": "estrofa",
+        "x": "Se encolerizaron las gentes,\nllegó tu cólera,\ny el tiempo de que sean juzgados los muertos,\ny de dar el galardón a tus siervos, los profetas,\ny a los santos y a los que temen tu nombre,\ny a los pequeños y a los grandes,\ny de arruinar a los que arruinaron la tierra."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ahora se estableció la salud y el poderío,\ny el reinado de nuestro Dios,\ny la potestad de su Cristo;\nporque fue precipitado\nel acusador de nuestros hermanos,\nel que los acusaba ante nuestro Dios día y noche."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ellos le vencieron en virtud de la sangre del Cordero\ny por la palabra del testimonio que dieron,\ny no amaron tanto su vida que temieran la muerte.\nPor esto, estad alegres, cielos,\ny los que moráis en sus tiendas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 El Señor dará el galardón a sus siervos los profetas"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE St5,16c-18"
+      },
+      {
+        "t": "estrofa",
+        "x": "Mucho puede hacer la oración intensa del justo. Elías, que era un hombre de la misma condición que nosotros, oro fervorosamente para que no lloviese; y no llovió sobre la tierra durante tres años y seis meses. Luego volvió a orar, y el cielo derramo lluvia y la tierra produjo frutos."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Dichosos*Aquellos que te vieron. Dichosos."
+      },
+      {
+        "t": "verso",
+        "x": "V. Y que durmieron en el amor*Aquellos que te vieron."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre. Dichosos"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnifica: Hablo Dios antiguamente a nuestros padres por los profetas. Ahora, en esta etapa final, nos ha hablado por el Hijo, al que ha nombrado heredero de todo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnifica: Hablo Dios antiguamente a nuestros padres por los profetas. Ahora, en esta etapa final, nos ha hablado por el Hijo, al que ha nombrado heredero de todo."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Aclamemos al Dios vivo y verdadero, que escogió a Elías\npor heraldo de su poder y su misericordia, y pidámosle diciendo:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Haznos, Señor, testigos de tu amor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que miraste con ojos propicios el holocausto de Elías,\nConsumiéndolo con fuego celestial,\n-dígnate aceptar nuestro sacrificio vespertino de alabanza\npara bien de tu Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que enviaste una lluvia salvadora, mientras oraba Elías\nen el Carmelo,\n-infúndenos a los carmelitas el espíritu de oración,\npara que podamos atraer sobre el mundo la lluvia de la gracia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que hiciste al profeta Elías ministro de la reconciliación\nde los padres con los hijos,\n-enséñanos a ser mensajeros y artífices de la paz de Cristo\nen medio de los hombres."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que suscitaste a Elías como defensor de tu justicia y de tu culto,\n-aviva en nosotros la sed de justicia, para que sirviéndote a ti primero,\nnos demos también al servicio evangélico de nuestros hermanos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que arrebataste a Elías en un torbellino de fuego,\n-acoge a nuestros hermanos difuntos en tus brazos de Padre para siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios de nuestros padres en la fe, que concediste al profeta Elías vivir siempre en tu presencia, inflamado por el celo de tu gloria; concédenos buscar siempre tu rostro y ser en el mundo testigos de tu amor. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

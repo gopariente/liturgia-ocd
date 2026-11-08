@@ -48,5 +48,57 @@
       "x": "V. Yo soy el Señor, vuestro Dios; santificaos y sed santos porque yo soy santo. * Como el."
     }
   ],
-  "oracion": "Oh Dios, que otorgaste a San Rafael, presbítero, espíritu de fortaleza en las adversidades y extraordinario celo de caridad para promover la unidad de la Iglesia; concedenos, por su intercesión, ser fuertes en la fe y amarnos los unos a los otros para colaborar generosamente en la unión de todos los fieles en Cristo. Que vive y reina."
+  "oracion": "Oh Dios, que otorgaste a San Rafael, presbítero, espíritu de fortaleza en las adversidades y extraordinario celo de caridad para promover la unidad de la Iglesia; concedenos, por su intercesión, ser fuertes en la fe y amarnos los unos a los otros para colaborar generosamente en la unión de todos los fieles en Cristo. Que vive y reina.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las Exhortaciones de san Rafael, presbítero"
+      },
+      {
+        "t": "estrofa",
+        "x": "Nada se recomienda tan encarecidamente en la Sagrada Escritura como la vida perfecta y santa y el cabal y esmerado cumplimiento de los deberes propios de cada uno. Dios, nuestro Señor, en el Antiguo Testamento, mando pedagógicamente a su pueblo: Sed santos, porque yo soy santo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Nuestro Señor Jesucristo, que nos fue dado por el Padre eterno como formador, maestro y guía, ratifico de manera categórica esa consigna del Antiguo Testamento, cuando nos propuso la imitación de la santidad misma del Padre: por tanto sed perfectos como nuestro Padre celestial es perfecto."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ahora bien, ¿qué se requiere para llegar uno a ser santo y perfecto? A esto responden los doctores de la Iglesia, guías de almas y maestros del espíritu:”Si quieres hacerte perfecto y santo, cumple tus deberes con fidelidad”. Cierto día, un padre del antiguo yermo a un joven que le preguntaba por los libros de obligada lectura para el camino de la santidad, le contesto: “Por lo que a mi respecta, solo conozco dos libros:\nEl Evangelio, que leo por la mañana, y la regla, que leo por la tarde. El primero me enseña el modo de proceder para convertirme en discípulo de nuestro Señor Jesucristo; el segundo, el comportamiento para ser buen religioso. Esto me basta”."
+      },
+      {
+        "t": "estrofa",
+        "x": "Apliquémonos, pues, a la lectura de las leyes de Dios, con el fin de ajustar a ellas nuestra conducta. Cuando camines, te guiaran: cuando descanses: te guardaran: cuando despiertes, te hablaran. A todo lo largo de nuestro recorrido, esas leyes nos acompañaran orientando nuestros pasos. Que ellas estén a nuestro lado durante el sueño, y nos ocupen la mente al despertar. Así su voz reconfortante, resonara invitando a levantarnos. Con ellas triunfaremos de nuestras indecisiones y nos sacudiremos las resistencias y la morosidad de la naturaleza siempre enemiga del esfuerzo, opuesta al sacrificio y esclava del regalo."
+      },
+      {
+        "t": "estrofa",
+        "x": "La “ley de vida” nos ayudara a superar el miedo frente a los peligros y a seguir el camino de la obediencia con alegre disponibilidad. Que esa ley nos asiste siempre con su consejo, para que podamos dar a Dios una respuesta leal con magnanimidad y decisión."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1P1, 13.15;Lv11,4"
+      },
+      {
+        "t": "verso",
+        "x": "R. Estad interiormente preparados para la acción; el que os llamo es santo. * Como el, sed también vosotros santos en toda vuestra conducta."
+      },
+      {
+        "t": "verso",
+        "x": "V. Yo soy el Señor, vuestro Dios; santificaos y sed santos porque yo soy santo. * Como el."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que otorgaste a San Rafael, presbítero, espíritu de fortaleza en las adversidades y extraordinario celo de caridad para promover la unidad de la Iglesia; concedenos, por su intercesión, ser fuertes en la fe y amarnos los unos a los otros para colaborar generosamente en la unión de todos los fieles en Cristo. Que vive y reina."
+      }
+    ]
+  }
 }

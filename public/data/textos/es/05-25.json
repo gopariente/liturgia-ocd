@@ -5,5 +5,101 @@
   "lectura": [],
   "oracion": "Señor Dios, tú que amas la virginidad, has enriquecido con dones celestiales a tu virgen Santa María Magdalena de Pazzi, cuyo corazón se abrasaba en tu amor; concede a cuantos celebramos hoy su fiesta imitar los ejemplos de su caridad y su pureza. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "El amor de Dios ha sido derramado en nuestros corazones con el Espíritu Santo que se nos ha dado. (T. P. Aleluya)",
-  "ant_magnificat": "La Palabra se hizo carne y acampo entre nosotros para atraer a todos los hombres hacia si. (T. P. Aleluya)"
+  "ant_magnificat": "La Palabra se hizo carne y acampo entre nosotros para atraer a todos los hombres hacia si. (T. P. Aleluya)",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Este es el tiempo en que llegas.\nEsposo, tan de repente,\nque invitas a los que velas\ny olvidas a los que duermen"
+      },
+      {
+        "t": "estrofa",
+        "x": "Salen cantando a tu encuentro\ndoncellas con ramos verdes\ny lámparas que guardaron\ncopioso y claro aceite."
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Como golpean las necias\nlas puertas de tu banquete!\n¡Y como lloran a oscuras\nlos ojos que no han de verte!"
+      },
+      {
+        "t": "estrofa",
+        "x": "Mira que estamos alerta,\nEsposo, por si vinieres,\ny esta el corazón velando\nmientras los ojos se duermen."
+      },
+      {
+        "t": "estrofa",
+        "x": "Danos un puesto en tu mesa,\nAmor que a la noche vienes,\nantes que la noche acabe\ny que la puerta se cierre. Ame."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Esta mujer no quiso\ntomar varón ni darle su ternura,\nsello su compromiso\ncon otro amor que dura\nsobre el amor de toda criatura."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Quién acuso a la esposa,\nsi fiel a su Señor, de ser esquiva,\nsi esta por amorosa\nde voluntad cautiva\ny ardiendo por amor en llama viva?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y tanto se apresura\na zaga de la huella del Amado,\nque en el se transfigura,\ny el cuerpo anonadado\nya esta por el amor resucitado."
+      },
+      {
+        "t": "estrofa",
+        "x": "Aquí la Iglesia canta\nla condición futura de la historia,\ny el cuerpo se adelanta\nen esta humilde gloria\na la consumación de su victoria."
+      },
+      {
+        "t": "estrofa",
+        "x": "Mirad los regocijos\nde la que por esteril sollozaba\ny se lleno de hijos,\nporque el Señor miraba\nla pequeñez humilde de su esclava. Ame."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus. El amor de Dios ha sido derramado en nuestros corazones con el Espíritu Santo que se nos ha dado. (T. P. Aleluya)"
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios, tú que amas la virginidad, has enriquecido con dones celestiales a tu virgen Santa María Magdalena de Pazzi, cuyo corazón se abrasaba en tu amor; concede a cuantos celebramos hoy su fiesta imitar los ejemplos de su caridad y su pureza. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichosa tu que, entre todas,\nfuiste por Dios sorprendida\ncon tu lámpara encendida\npara el banquete de bodas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Con el abrazo inocente\nde un hondo pacto amoroso,\nvienes a unirte al Esposo\npor virgen y por prudente."
+      },
+      {
+        "t": "estrofa",
+        "x": "Enséñanos a vivir.\nAyúdenos tu oración.\nDanos en la tentación\nla gracia de resistir."
+      },
+      {
+        "t": "estrofa",
+        "x": "Maria pureza en vuelo.\nVirgen de vírgenes, danos\nla gracia de ser humanos\nsin olvidarnos del cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Honor a la Trinidad\npor esta limpia victoria\nY gloria por esta gloria\nque alegra la Cristiandad. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat. La Palabra se hizo carne y acampo entre nosotros para atraer a todos los hombres hacia si. (T. P. Aleluya)"
+      }
+    ]
+  }
 }
