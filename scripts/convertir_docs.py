@@ -50,7 +50,13 @@ MARCAS = [
     ("benedictus", r"^(ant(ifona)?\.? ?(del )?bened)"),
     ("magnificat", r"^(ant(ifona)?\.? ?(del )?magn)"),
     ("comun", r"^del comun"),
+    # Partes que no se cargan (himnos, salmos, lecturas bíblicas: textos de otras ediciones)
+    ("otro", r"^(himno|salmodia|salmo \d|cantico|primera lectura|lectura breve|responsorio breve|preces|"
+             r"invitatorio|te deum|hora intermedia|tercia|sexta|nona|completas|evangelio|oficio de vigilia|"
+             r"misa|antifona de entrada|antifona de comunion|lecturas?\b|o bien|todo,? como)"),
 ]
+FIN_ORACION = re.compile(r"(por nuestro se[nñ]or|por jesucristo|por cristo|que vive y reina|por los siglos de los siglos)", re.I)
+PREFIJO_ANT = re.compile(r"^ant(?:[ií]fona)?\.?\s*(?:del\s+)?(?:bened\w*|magn\w*)\.?\s*[:.]?\s*", re.I)
 
 
 def canonizar(texto: str, nombre: str) -> str:
@@ -72,6 +78,7 @@ def canonizar(texto: str, nombre: str) -> str:
 def convertir(path: Path, cel: dict) -> dict:
     lineas = [l.strip() for l in leer(path)]
     estado, buf = "encabezado", []
+    hechos = set()
     datos = {"fecha": cel["fecha"], "vida": "", "comun": "", "lectura": [], "oracion": ""}
     partes = {"encabezado": [], "vida": [], "segunda": [], "responsorio": [], "oracion": [], "benedictus": [], "magnificat": []}
 
@@ -80,20 +87,48 @@ def convertir(path: Path, cel: dict) -> dict:
             continue
         n = norm(l)
         marca = next((k for k, rx in MARCAS if re.match(rx, n)), None)
+        if re.match(r"^(responsorio breve|benedictus$|magnificat$|nunc dimittis)", n) or \
+                (marca == "oracion" and re.search(r"\bcomo en\b|\bdel comun\b|\bpropia\b", n)):
+            marca = "otro"
         if marca == "comun":
             datos["comun"] = l
             estado = "post"
             continue
-        if marca in ("lectura", "laudes", "visperas"):
+        if marca == "lectura":
+            # A veces la segunda lectura sigue sin su propio título: se toma provisoriamente.
+            if "segunda" not in hechos:
+                estado, partes["segunda"] = "segunda", []
+            else:
+                estado = "otro"
+            continue
+        if marca in ("laudes", "visperas"):
             estado = "post"
             continue
+        if marca == "otro":
+            estado = "otro"
+            continue
         if marca:
+            # Solo se toma la primera segunda lectura, el primer responsorio y la primera oración.
+            if marca in ("segunda", "responsorio", "oracion") and marca in hechos:
+                estado = "otro"
+                continue
+            if marca == "segunda":
+                partes["segunda"] = []
             estado = marca
-            resto = re.split(r"[:.]", l, maxsplit=1)
-            if marca in ("benedictus", "magnificat") and len(resto) > 1:
-                partes[marca].append(resto[1].strip())
+            hechos.add(marca)
+            if marca in ("benedictus", "magnificat"):
+                resto = PREFIJO_ANT.sub("", l).strip()
+                if resto and not partes[marca]:
+                    partes[marca].append(resto)
+                estado = "otro"
             elif marca == "responsorio":
                 partes[marca].append("§" + l[len("responsorio"):].strip())
+            continue
+        if estado == "responsorio" and (re.match(r"^(ant\b|gloria al padre)", n) or len(partes["responsorio"]) >= 7):
+            estado = "otro"
+            continue
+        if estado == "oracion" and partes["oracion"] and FIN_ORACION.search(partes["oracion"][-1]):
+            estado = "otro"
             continue
         if estado == "encabezado":
             # Las primeras líneas en mayúsculas (fecha, nombre, título) se descartan.

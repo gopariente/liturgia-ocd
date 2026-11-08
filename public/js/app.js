@@ -104,9 +104,11 @@
   }
   async function cargarDatos() {
     if (!estado.base) {
-      const [ocd, general, regiones] = await Promise.all([json('data/calendario-propio-ocd.json'), json('data/calendario-general.json'), json('data/regiones.json')]);
+      const [ocd, general, regiones, santos] = await Promise.all([json('data/calendario-propio-ocd.json'), json('data/calendario-general.json'),
+        json('data/regiones.json'), json('data/santos.json').catch(() => ({ retratos: {} }))]);
       estado.base = { ocd, general };
       estado.regiones = regiones;
+      estado.retratos = santos.retratos || {};
     }
     if (!estado.datos || estado.datos.pais !== pref.pais) {
       if (!estado.regiones.paises[pref.pais]) pref.pais = 'general';
@@ -198,7 +200,7 @@
         tituloDia, ...alternativas, ...omitidasOCD,
         ...r.notas.map((n) => h('p', { class: 'nota' }, n)),
         !esHoy ? h('a', { class: 'boton claro', href: '#/hoy' }, tx('volverHoy')) : null),
-      h('section', { class: 'seccion', 'aria-labelledby': 'rezar' }, h('h2', { class: 'etiqueta', id: 'rezar' }, tx('rezar')), horas),
+      h('section', { class: 'seccion', 'aria-labelledby': 'rezar' }, h('h2', { class: 'etiqueta', id: 'rezar' }, tx('rezar')), horas, puenteOficial(true)),
       h('section', { class: 'seccion', 'aria-labelledby': 'prox' }, h('h2', { class: 'etiqueta', id: 'prox' }, tx('proximas')), ...prox)
     );
   }
@@ -278,7 +280,7 @@
 
     pintar(
       h('div', { class: 'cabecera-simple' }, h('a', { class: 'icono-boton', href: '#/calendario/' + mmdd.slice(0, 2), 'aria-label': 'Volver al calendario' }, icono('atras'))),
-      h('div', { class: 'retrato', 'aria-hidden': 'true' }, h('div', { class: 'marco' }, iniciales || '✝')),
+      retrato(claveTexto(c), c.nombre, iniciales),
       h('div', { class: 'titulo-santo' },
         h('span', { class: 'etiqueta' }, d + ' de ' + L.MESES[m - 1] + ' · ' + GR[c.grado]),
         h('h1', {}, c.nombre),
@@ -297,6 +299,13 @@
         salida,
         botonesSuscripcion())
     );
+  }
+  function retrato(clave, nombre, iniciales) {
+    const r = estado.retratos[clave];
+    if (!r) return h('div', { class: 'retrato', 'aria-hidden': 'true' }, h('div', { class: 'marco' }, iniciales || '✝'));
+    return h('figure', { class: 'retrato con-foto' },
+      h('div', { class: 'marco' }, h('img', { src: r.imagen, alt: r.descripcion || nombre, loading: 'lazy', width: 150, height: 188 })),
+      h('figcaption', { class: 'credito' }, r.credito || ''));
   }
   function proximaFecha(m, d) {
     const hoy = L.hoyLocal();
@@ -339,6 +348,22 @@
     return h('div', { class: 'dos' },
       https ? h('a', { class: 'boton punteado', href: 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + archivo }, tx('suscribirme')) : null,
       h('a', { class: 'boton punteado', href: archivo, download: archivo }, tx('descargarIcs')));
+  }
+
+  // ---------- Puente con la app oficial de la conferencia episcopal ----------
+  // Solo enlaza a la app oficial para los textos comunes; no copia textos protegidos.
+  function puenteOficial(compacto) {
+    const app = estado.regiones && estado.regiones.apps_oficiales && estado.regiones.apps_oficiales[pref.pais];
+    if (!app) return null;
+    const ios = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) && 'ontouchend' in document;
+    const principal = ios ? app.ios : app.android;
+    const otro = ios ? app.android : app.ios;
+    return h('div', { class: 'tarjeta secundaria puente' },
+      h('span', { class: 'grado' }, tx('puenteTitulo')),
+      compacto ? null : h('span', { class: 'detalle' }, tx('puenteTexto').replace('{app}', app.nombre).replace('{titular}', app.titular)),
+      h('div', { class: 'dos' },
+        h('a', { class: 'boton', href: principal, target: '_blank', rel: 'noopener noreferrer' }, tx('puenteAbrir').replace('{app}', app.nombre)),
+        h('a', { class: 'boton claro', href: otro, target: '_blank', rel: 'noopener noreferrer' }, ios ? 'Android' : 'iPhone')));
   }
 
   // ---------- Vista: Oficio ----------
@@ -454,7 +479,7 @@
           h('h2', {}, p.nombre),
           propio && propio.comun ? h('p', { class: 'indicacion' }, propio.comun) : null,
           elegido && r.principal.nombre !== elegido.nombre ? h('p', { class: 'indicacion' }, 'Ese día la liturgia celebra ' + r.principal.nombre + '. Este oficio propio queda para el rezo privado.') : null),
-        ...inicio, ...cuerpo)
+        puenteOficial(false), ...inicio, ...cuerpo)
     );
   }
   function cambiarTexto(delta) {
@@ -504,7 +529,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.4.1'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.5'))
     );
   }
 

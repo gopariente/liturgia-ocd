@@ -35,5 +35,8 @@
   "enGeneral": "en el calendario general, el",
   "privacidad": "Privacidad",
   "acerca": "Acerca de",
-  "version": "Versión"
+  "version": "Versión",
+  "puenteTitulo": "Salmos y lecturas del día",
+  "puenteTexto": "Los textos comunes (salterio, lecturas, himnos) están en la app oficial «{app}» de la {titular}. Aquí rezás lo propio del Carmelo.",
+  "puenteAbrir": "Abrir «{app}»"
 }

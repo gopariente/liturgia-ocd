@@ -1,64 +1,334 @@
 {
   "fuente": "Variantes «en las casas de…» y Apéndice del Calendario propio OCD (Prot. 600/23, 62/24, 36/25). Calendarios nacionales: parciales, a completar con cada conferencia episcopal.",
   "paises": {
-    "general":   {"nombre": "Calendario general de la Orden", "grupos": []},
-    "ar":        {"nombre": "Argentina", "grupos": []},
-    "bo":        {"nombre": "Bolivia", "grupos": []},
-    "br":        {"nombre": "Brasil", "grupos": []},
-    "cl":        {"nombre": "Chile", "grupos": ["chile"]},
-    "co":        {"nombre": "Colombia", "grupos": []},
-    "cr":        {"nombre": "Costa Rica", "grupos": []},
-    "ec":        {"nombre": "Ecuador", "grupos": []},
-    "mx":        {"nombre": "México", "grupos": []},
-    "py":        {"nombre": "Paraguay", "grupos": []},
-    "pe":        {"nombre": "Perú", "grupos": []},
-    "uy":        {"nombre": "Uruguay", "grupos": []},
-    "ve":        {"nombre": "Venezuela", "grupos": []},
-    "us":        {"nombre": "Estados Unidos", "grupos": []},
-    "es":        {"nombre": "España", "grupos": ["europa", "espana"]},
-    "pt":        {"nombre": "Portugal", "grupos": ["europa", "portugal"]},
-    "fr":        {"nombre": "Francia", "grupos": ["europa", "francia"], "ascension_jueves": true},
-    "it":        {"nombre": "Italia", "grupos": ["europa", "italia"]},
-    "de":        {"nombre": "Alemania", "grupos": ["europa", "austria_alemania"], "ascension_jueves": true, "corpus_jueves": true},
-    "at":        {"nombre": "Austria", "grupos": ["europa", "austria", "austria_alemania"], "ascension_jueves": true, "corpus_jueves": true},
-    "nl":        {"nombre": "Países Bajos", "grupos": ["europa", "paises_bajos"], "ascension_jueves": true},
-    "pl":        {"nombre": "Polonia", "grupos": ["europa", "polonia"], "corpus_jueves": true},
-    "gb":        {"nombre": "Reino Unido", "grupos": ["europa", "reino_unido_irlanda"]},
-    "ie":        {"nombre": "Irlanda", "grupos": ["europa", "reino_unido_irlanda"]},
-    "in":        {"nombre": "India", "grupos": ["india"]},
-    "id":        {"nombre": "Indonesia", "grupos": ["indonesia"]}
+    "general": {
+      "nombre": "Calendario general de la Orden",
+      "grupos": []
+    },
+    "ar": {
+      "nombre": "Argentina",
+      "grupos": []
+    },
+    "bo": {
+      "nombre": "Bolivia",
+      "grupos": []
+    },
+    "br": {
+      "nombre": "Brasil",
+      "grupos": []
+    },
+    "cl": {
+      "nombre": "Chile",
+      "grupos": [
+        "chile"
+      ]
+    },
+    "co": {
+      "nombre": "Colombia",
+      "grupos": []
+    },
+    "cr": {
+      "nombre": "Costa Rica",
+      "grupos": []
+    },
+    "ec": {
+      "nombre": "Ecuador",
+      "grupos": []
+    },
+    "mx": {
+      "nombre": "México",
+      "grupos": []
+    },
+    "py": {
+      "nombre": "Paraguay",
+      "grupos": []
+    },
+    "pe": {
+      "nombre": "Perú",
+      "grupos": []
+    },
+    "uy": {
+      "nombre": "Uruguay",
+      "grupos": []
+    },
+    "ve": {
+      "nombre": "Venezuela",
+      "grupos": []
+    },
+    "us": {
+      "nombre": "Estados Unidos",
+      "grupos": []
+    },
+    "es": {
+      "nombre": "España",
+      "grupos": [
+        "europa",
+        "espana"
+      ]
+    },
+    "pt": {
+      "nombre": "Portugal",
+      "grupos": [
+        "europa",
+        "portugal"
+      ]
+    },
+    "fr": {
+      "nombre": "Francia",
+      "grupos": [
+        "europa",
+        "francia"
+      ],
+      "ascension_jueves": true
+    },
+    "it": {
+      "nombre": "Italia",
+      "grupos": [
+        "europa",
+        "italia"
+      ]
+    },
+    "de": {
+      "nombre": "Alemania",
+      "grupos": [
+        "europa",
+        "austria_alemania"
+      ],
+      "ascension_jueves": true,
+      "corpus_jueves": true
+    },
+    "at": {
+      "nombre": "Austria",
+      "grupos": [
+        "europa",
+        "austria",
+        "austria_alemania"
+      ],
+      "ascension_jueves": true,
+      "corpus_jueves": true
+    },
+    "nl": {
+      "nombre": "Países Bajos",
+      "grupos": [
+        "europa",
+        "paises_bajos"
+      ],
+      "ascension_jueves": true
+    },
+    "pl": {
+      "nombre": "Polonia",
+      "grupos": [
+        "europa",
+        "polonia"
+      ],
+      "corpus_jueves": true
+    },
+    "gb": {
+      "nombre": "Reino Unido",
+      "grupos": [
+        "europa",
+        "reino_unido_irlanda"
+      ]
+    },
+    "ie": {
+      "nombre": "Irlanda",
+      "grupos": [
+        "europa",
+        "reino_unido_irlanda"
+      ]
+    },
+    "in": {
+      "nombre": "India",
+      "grupos": [
+        "india"
+      ]
+    },
+    "id": {
+      "nombre": "Indonesia",
+      "grupos": [
+        "indonesia"
+      ]
+    }
   },
   "variantes_ocd": [
-    {"grupo": "espana", "fecha": "05-04", "grado": "M"},
-    {"grupo": "espana", "fecha": "06-07", "grado": "M"},
-    {"grupo": "espana", "fecha": "09-11", "grado": "M"},
-    {"grupo": "espana", "fecha": "07-24", "nombre": "Beatas María Pilar de San Francisco de Borja Martínez García, Teresa del Niño Jesús y de San Juan de la Cruz García y García y María de los Ángeles de San José Voltierra Tordesillas, vírgenes y mártires"},
-    {"grupo": "espana", "agregar": true, "fecha": "08-16", "nombre": "Beata María Sagrario de San Luis Gonzaga Moragas Cantarero, virgen y mártir", "grado": "ML", "doc": "16_de_agosto.doc"},
-    {"grupo": "chile", "fecha": "07-13", "grado": "F"},
-    {"grupo": "india", "fecha": "01-04", "grado": "M"},
-    {"grupo": "india", "fecha": "11-29", "grado": "M"},
-    {"grupo": "indonesia", "fecha": "11-29", "grado": "M"},
-    {"grupo": "italia", "fecha": "01-09", "grado": "M"},
-    {"grupo": "italia", "fecha": "09-01", "grado": "F"},
-    {"grupo": "francia", "fecha": "04-18", "grado": "M"},
-    {"grupo": "francia", "fecha": "07-28", "grado": "M"},
-    {"grupo": "francia", "fecha": "10-01", "grado": "S"},
-    {"grupo": "francia", "fecha": "08-25", "mover_a": "08-30"},
-    {"grupo": "reino_unido_irlanda", "fecha": "05-16", "grado": "M"},
-    {"grupo": "polonia", "fecha": "06-12", "grado": "M"},
-    {"grupo": "polonia", "fecha": "04-23", "mover_a": "04-24"},
-    {"grupo": "polonia", "fecha": "08-26", "mover_a": "08-30"},
-    {"grupo": "polonia", "fecha": "11-19", "mover_a": "11-20"},
-    {"grupo": "portugal", "fecha": "11-06", "grado": "M"},
-    {"grupo": "europa", "fecha": "08-09", "grado": "F", "nota": "Patrona de Europa"},
-    {"grupo": "europa", "fecha": "07-23", "mover_a": "07-07"},
-    {"grupo": "paises_bajos", "fecha": "08-09", "mover_a": "08-02", "grado": "F"},
-    {"grupo": "austria", "fecha": "11-15", "mover_a": "11-16"},
-    {"grupo": "austria_alemania", "fecha": "11-19", "mover_a": "11-23"}
+    {
+      "grupo": "espana",
+      "fecha": "05-04",
+      "grado": "M"
+    },
+    {
+      "grupo": "espana",
+      "fecha": "06-07",
+      "grado": "M"
+    },
+    {
+      "grupo": "espana",
+      "fecha": "09-11",
+      "grado": "M"
+    },
+    {
+      "grupo": "espana",
+      "fecha": "07-24",
+      "nombre": "Beatas María Pilar de San Francisco de Borja Martínez García, Teresa del Niño Jesús y de San Juan de la Cruz García y García y María de los Ángeles de San José Voltierra Tordesillas, vírgenes y mártires"
+    },
+    {
+      "grupo": "espana",
+      "agregar": true,
+      "fecha": "08-16",
+      "nombre": "Beata María Sagrario de San Luis Gonzaga Moragas Cantarero, virgen y mártir",
+      "grado": "ML",
+      "doc": "16_de_agosto.doc"
+    },
+    {
+      "grupo": "chile",
+      "fecha": "07-13",
+      "grado": "F"
+    },
+    {
+      "grupo": "india",
+      "fecha": "01-04",
+      "grado": "M"
+    },
+    {
+      "grupo": "india",
+      "fecha": "11-29",
+      "grado": "M"
+    },
+    {
+      "grupo": "indonesia",
+      "fecha": "11-29",
+      "grado": "M"
+    },
+    {
+      "grupo": "italia",
+      "fecha": "01-09",
+      "grado": "M"
+    },
+    {
+      "grupo": "italia",
+      "fecha": "09-01",
+      "grado": "F"
+    },
+    {
+      "grupo": "francia",
+      "fecha": "04-18",
+      "grado": "M"
+    },
+    {
+      "grupo": "francia",
+      "fecha": "07-28",
+      "grado": "M"
+    },
+    {
+      "grupo": "francia",
+      "fecha": "10-01",
+      "grado": "S"
+    },
+    {
+      "grupo": "francia",
+      "fecha": "08-25",
+      "mover_a": "08-30"
+    },
+    {
+      "grupo": "reino_unido_irlanda",
+      "fecha": "05-16",
+      "grado": "M"
+    },
+    {
+      "grupo": "polonia",
+      "fecha": "06-12",
+      "grado": "M"
+    },
+    {
+      "grupo": "polonia",
+      "fecha": "04-23",
+      "mover_a": "04-24"
+    },
+    {
+      "grupo": "polonia",
+      "fecha": "08-26",
+      "mover_a": "08-30"
+    },
+    {
+      "grupo": "polonia",
+      "fecha": "11-19",
+      "mover_a": "11-20"
+    },
+    {
+      "grupo": "portugal",
+      "fecha": "11-06",
+      "grado": "M"
+    },
+    {
+      "grupo": "europa",
+      "fecha": "08-09",
+      "grado": "F",
+      "nota": "Patrona de Europa"
+    },
+    {
+      "grupo": "europa",
+      "fecha": "07-23",
+      "mover_a": "07-07"
+    },
+    {
+      "grupo": "paises_bajos",
+      "fecha": "08-09",
+      "mover_a": "08-02",
+      "grado": "F"
+    },
+    {
+      "grupo": "austria",
+      "fecha": "11-15",
+      "mover_a": "11-16"
+    },
+    {
+      "grupo": "austria_alemania",
+      "fecha": "11-19",
+      "mover_a": "11-23"
+    }
   ],
   "nacionales": {
-    "ar": [{"fecha": "05-08", "nombre": "Nuestra Señora de Luján, patrona de la Argentina", "grado": "S", "rango": 3, "color": "blanco"}],
-    "es": [{"fecha": "07-25", "nombre": "Santiago, apóstol, patrono de España", "grado": "S", "rango": 3, "color": "rojo"}],
-    "mx": [{"fecha": "12-12", "nombre": "Nuestra Señora de Guadalupe", "grado": "S", "rango": 3, "color": "blanco"}]
+    "ar": [
+      {
+        "fecha": "05-08",
+        "nombre": "Nuestra Señora de Luján, patrona de la Argentina",
+        "grado": "S",
+        "rango": 3,
+        "color": "blanco"
+      }
+    ],
+    "es": [
+      {
+        "fecha": "07-25",
+        "nombre": "Santiago, apóstol, patrono de España",
+        "grado": "S",
+        "rango": 3,
+        "color": "rojo"
+      }
+    ],
+    "mx": [
+      {
+        "fecha": "12-12",
+        "nombre": "Nuestra Señora de Guadalupe",
+        "grado": "S",
+        "rango": 3,
+        "color": "blanco"
+      }
+    ]
+  },
+  "apps_oficiales": {
+    "_nota": "Apps oficiales de cada conferencia episcopal para los textos comunes (salterio, lecturas). Solo se enlazan; no se copian textos.",
+    "ar": {
+      "nombre": "Liturgia de las Horas CEA",
+      "titular": "Conferencia Episcopal Argentina",
+      "android": "https://play.google.com/store/apps/details?id=ar.conferencia.episcopal.argentina.liturgia",
+      "ios": "https://apps.apple.com/app/id6447620599"
+    },
+    "es": {
+      "nombre": "Liturgia de las Horas CEE",
+      "titular": "Conferencia Episcopal Española",
+      "android": "https://play.google.com/store/apps/details?id=es.conferencia.episcopal.liturgia",
+      "ios": "https://apps.apple.com/app/id1528941726"
+    }
   }
 }
