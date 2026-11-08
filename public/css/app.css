@@ -102,7 +102,7 @@ main { max-width: 640px; margin: 0 auto; outline: none; }
 .retrato .marco { width: 150px; height: 180px; margin-bottom: -40px; border-radius: 75px 75px 12px 12px; background: #6B4329; border: 6px solid var(--fondo); display: flex; align-items: center; justify-content: center; color: var(--crema-texto); font-family: var(--serif); font-size: 44px; font-weight: 700; }
 .retrato.con-foto { margin: 0; flex-direction: column; align-items: center; height: auto; padding-top: 24px; }
 .retrato.con-foto .marco { overflow: hidden; padding: 0; margin-bottom: 0; }
-.retrato.con-foto .marco img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.retrato.con-foto .marco img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
 .retrato .credito { color: var(--crema-suave); font-size: 11px; padding: 6px 16px 8px; text-align: center; max-width: 320px; }
 .puente .dos { margin-top: 8px; }
 .oficio .puente { font-family: var(--sans); }

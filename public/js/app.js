@@ -555,7 +555,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.5'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.6'))
     );
   }
 
