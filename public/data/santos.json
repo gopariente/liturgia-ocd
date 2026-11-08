@@ -1,4 +1,210 @@
 {
   "_nota": "Retratos de los santos y beatos. Clave: fecha MM-DD del calendario general (la misma que data/textos). Usar solo imágenes de dominio público o con permiso, con su crédito. Ver public/img/santos/LEEME.md.",
-  "retratos": {}
+  "retratos": {
+    "01-04": {
+      "imagen": "img/santos/01-04.jpg",
+      "descripcion": "San Ciriaco Elías de la Sagrada Familia Chavara, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "01-08": {
+      "imagen": "img/santos/01-08.jpg",
+      "descripcion": "San Pedro Tomás, obispo",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "01-09": {
+      "imagen": "img/santos/01-09.jpg",
+      "descripcion": "San Andrés Corsini, obispo",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "01-27": {
+      "imagen": "img/santos/01-27.jpg",
+      "descripcion": "San Enrique de Ossó y Cervelló, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "02-24": {
+      "imagen": "img/santos/02-24.jpg",
+      "descripcion": "Beata Josefa Naval Girbés, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "04-17": {
+      "imagen": "img/santos/04-17.jpg",
+      "descripcion": "Beato Bautista Spagnoli, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "04-18": {
+      "imagen": "img/santos/04-18.jpg",
+      "descripcion": "Beata María de la Encarnación Avrillot, religiosa",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "04-23": {
+      "imagen": "img/santos/04-23.jpg",
+      "descripcion": "Beata Teresa María de la Cruz Manetti, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "05-16": {
+      "imagen": "img/santos/05-16.jpg",
+      "descripcion": "San Simón Stock, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "05-22": {
+      "imagen": "img/santos/05-22.jpg",
+      "descripcion": "Santa Joaquina de Vedruna, religiosa",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "05-25": {
+      "imagen": "img/santos/05-25.jpg",
+      "descripcion": "Santa María Magdalena del Verbo Encarnado de' Pazzi, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "06-07": {
+      "imagen": "img/santos/06-07.jpg",
+      "descripcion": "Beata Ana de San Bartolomé, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-12": {
+      "imagen": "img/santos/07-12.jpg",
+      "descripcion": "Santos Luis Martin y María Celia Guérin, esposos",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-13": {
+      "imagen": "img/santos/07-13.jpg",
+      "descripcion": "Santa Teresa de Jesús (de los Andes) Fernández Solar, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-16": {
+      "imagen": "img/santos/07-16.jpg",
+      "descripcion": "Bienaventurada Virgen María del Monte Carmelo, Patrona y Titular de la Orden",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-17": {
+      "imagen": "img/santos/07-17.jpg",
+      "descripcion": "Santas Teresa de San Agustín Lidoine y compañeras, vírgenes y mártires",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-20": {
+      "imagen": "img/santos/07-20.jpg",
+      "descripcion": "San Elías, Padre nuestro, profeta",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-24": {
+      "imagen": "img/santos/07-24.jpg",
+      "descripcion": "Beatas María Pilar de San Francisco de Borja Martínez García, María Sagrario de San Luis Gonzaga Moragas Cantarero y compañeras, vírgenes y mártires",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-27": {
+      "imagen": "img/santos/07-27.jpg",
+      "descripcion": "San Tito Brandsma, presbítero y mártir",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "07-28": {
+      "imagen": "img/santos/07-28.jpg",
+      "descripcion": "Beato Juan Soreth, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-07": {
+      "imagen": "img/santos/08-07.jpg",
+      "descripcion": "San Alberto de Trápani, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-09": {
+      "imagen": "img/santos/08-09.jpg",
+      "descripcion": "Santa Teresa Benedicta de la Cruz Stein, virgen y mártir",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-16": {
+      "imagen": "img/santos/08-16.jpg",
+      "descripcion": "Beata María Sagrario de San Luis Gonzaga Moragas Cantarero, virgen y mártir",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-18": {
+      "imagen": "img/santos/08-18.jpg",
+      "descripcion": "Beatos Leonardo Duverneuil, Miguel Luis Brulard, Huberto de San Claudio Cagnot, presbíteros, y compañeros, mártires",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-25": {
+      "imagen": "img/santos/08-25.jpg",
+      "descripcion": "Santa María de Jesús Crucificado Baouardy, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "08-26": {
+      "imagen": "img/santos/08-26.jpg",
+      "descripcion": "Transverberación del corazón de santa Teresa de Jesús, madre nuestra",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "09-01": {
+      "imagen": "img/santos/09-01.jpg",
+      "descripcion": "Santa Teresa Margarita del Sagrado Corazón de Jesús Redi, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "09-11": {
+      "imagen": "img/santos/09-11.jpg",
+      "descripcion": "Beata María de Jesús López de Rivas, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "09-17": {
+      "imagen": "img/santos/09-17.jpg",
+      "descripcion": "San Alberto de Jerusalén, obispo y legislador de la Orden",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "10-01": {
+      "imagen": "img/santos/10-01.jpg",
+      "descripcion": "Santa Teresa del Niño Jesús, virgen y doctora de la Iglesia",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "10-15": {
+      "imagen": "img/santos/10-15.jpg",
+      "descripcion": "Santa Teresa de Jesús, Madre nuestra, virgen y doctora de la Iglesia",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-06": {
+      "imagen": "img/santos/11-06.jpg",
+      "descripcion": "San Nuño de Santa María Álvares Pereira, religioso",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-07": {
+      "imagen": "img/santos/11-07.jpg",
+      "descripcion": "Beato Francisco de Jesús María José Palau y Quer, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-08": {
+      "imagen": "img/santos/11-08.jpg",
+      "descripcion": "Santa Isabel de la Santísima Trinidad Catez, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-14": {
+      "imagen": "img/santos/11-14.jpg",
+      "descripcion": "Todos los Santos de la Orden",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-15": {
+      "imagen": "img/santos/11-15.jpg",
+      "descripcion": "Conmemoración de todos los difuntos de la Orden",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-19": {
+      "imagen": "img/santos/11-19.jpg",
+      "descripcion": "San Rafael de San José Kalinowski, presbítero",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "11-29": {
+      "imagen": "img/santos/11-29.jpg",
+      "descripcion": "Beatos Dionisio de la Natividad, presbítero, y Redento de la Cruz, religioso, mártires",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "12-11": {
+      "imagen": "img/santos/12-11.jpg",
+      "descripcion": "Santa María Maravillas de Jesús Pidal y Chico de Guzmán, virgen",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "12-14": {
+      "imagen": "img/santos/12-14.jpg",
+      "descripcion": "San Juan de la Cruz, Padre nuestro, presbítero y doctor de la Iglesia",
+      "credito": "Imagen del propio de la Orden"
+    },
+    "12-16": {
+      "imagen": "img/santos/12-16.jpg",
+      "descripcion": "Beata María de los Ángeles Fontanella, virgen",
+      "credito": "Imagen del propio de la Orden"
+    }
+  }
 }
