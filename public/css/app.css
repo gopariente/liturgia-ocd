@@ -126,6 +126,7 @@ main { max-width: 640px; margin: 0 auto; outline: none; }
 .oficio .estrofa { white-space: pre-line; }
 .oficio .centro { text-align: center; }
 .oficio .chips { justify-content: center; font-family: var(--sans); }
+.oficio .referencia b { color: var(--marron); }
 .oficio .pendiente { font-family: var(--sans); font-size: 14px; color: var(--suave); border: 1px dashed var(--linea); border-radius: 10px; padding: 12px 14px; }
 .herramientas { display: flex; gap: 6px; }
 
