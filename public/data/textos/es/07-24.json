@@ -52,5 +52,53 @@
       "x": "V. Mejor es padecer haciendo el bien, si tal es la voluntad de Dios, que padecer haciendo el mal.*Y estad siempre prontos."
     }
   ],
-  "oracion": "Oh Dios, fortaleza de los humildes, que de modo admirable infundiste a las Beatas María Pilar, Teresa y María Ángeles, vírgenes, constancia en su martirio, concédenos, por su intercesión, que, así como ellas derramaron con generosidad gozosa la sangre por Cristo Rey, también nosotros mantengamos la lealtad a ti y a tu Iglesia hasta la muerte. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+  "oracion": "Oh Dios, fortaleza de los humildes, que de modo admirable infundiste a las Beatas María Pilar, Teresa y María Ángeles, vírgenes, constancia en su martirio, concédenos, por su intercesión, que, así como ellas derramaron con generosidad gozosa la sangre por Cristo Rey, también nosotros mantengamos la lealtad a ti y a tu Iglesia hasta la muerte. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "Del Cántico espiritual de san Juan de la Cruz, presbítero y doctor de la Iglesia.\n(red. B, can. 30, 7-9ª;B.A.C.,15(1960),940)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Las flores de la virginidad y del martirio."
+      },
+      {
+        "t": "estrofa",
+        "x": "Haremos las guirnaldas en tu amor floridas y en un cabello mío entretejidas.\nEste versillo se entiende harto propiamente de la Iglesia y de Cristo, en el cual la Iglesia, esposa suya, habla con el, diciendo: Haremos las guirnaldas; entendiendo por guirnaldas todas las almas santas engendradas por Cristo en la Iglesia, que cada una de ellas es como guirnalda de flores y de virtudes y dones, y todas ellas juntas son una guirnalda para la cabeza del Esposo Cristo. Y también se puede entender por las hermosas guirnaldas, que por otro nombre se llaman laureolas, hechas también en Cristo y la Iglesia, las cuales son de tres maneras. La primera,\nde hermosas y blancas flores de todas las vírgenes, cada una con su laureola de virginidad: y todas ellas juntas serán una laureola para poner en la cabeza del Esposo Cristo. La segunda laureola, de las resplandecientes flores de santos doctores; y todos juntos serán una laureola para sobreponer en la de las vírgenes en la cabeza de Cristo. La tercera, de los encarnados claveles de los mártires, cada uno también con su laureola de mártir; y todos ellos juntos serán una laureola para remate de la laureola del Esposo Cristo. Con las cuales tres guirnaldas estarán Cristo Esposo tan hermoseado y gracioso de ver en el cielo…."
+      },
+      {
+        "t": "estrofa",
+        "x": "(Haremos, pues, dice, estas guirnaldas) en tu amor. La flor que tienen las obras y virtudes es la gracia y virtud que del amor de Dios tienen, sin el cual no solamente no estarían floridas, pero todas ellas serian secas y sin valor delante de Dios, aunque humanamente fuesen perfectas. Pero, porque el da su gracia y amor, son las obras floridas en su amor, y en un cabello mío entretejidas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Este cabello suyo es su voluntad de ella y amor que tiene al Amado; el cual amor tiene y hace el oficio que el hilo en la guirnalda, porque, así como el hilo enlaza y ase las flores en la guirnalda, así el amor del alma enlaza y ase las virtudes en el alma y las sustenta en ella. Porque, como dice san Pablo, es la caridad vinculo y atadura de la perfección."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1.P.3 14-15.17"
+      },
+      {
+        "t": "verso",
+        "x": "R. Dichosos vosotros si tenéis que sufrir por causa de la justicia; no tengáis miedo, ni os amedrentéis. Glorificad en vuestros corazones a Cristo Señor.*Y estad siempre prontos para dar razón de vuestra esperanza a todo el que os la pidiere."
+      },
+      {
+        "t": "verso",
+        "x": "V. Mejor es padecer haciendo el bien, si tal es la voluntad de Dios, que padecer haciendo el mal.*Y estad siempre prontos."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, fortaleza de los humildes, que de modo admirable infundiste a las Beatas María Pilar, Teresa y María Ángeles, vírgenes, constancia en su martirio, concédenos, por su intercesión, que, así como ellas derramaron con generosidad gozosa la sangre por Cristo Rey, también nosotros mantengamos la lealtad a ti y a tu Iglesia hasta la muerte. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

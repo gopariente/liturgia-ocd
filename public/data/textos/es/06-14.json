@@ -48,5 +48,53 @@
       "x": "R/ El que come este pan vivirá para siempre."
     }
   ],
-  "oracion": "dios todopoderoso y eterno, que, con el soplo del espíritu santo, inspiraste a la beata maría cándida, la contemplación de las riquezas de la eucaristía. concédenos por su intercesión, que ofreciendo con gratitud el sacrificio del cuerpo y de la sangre de cristo, en comunión con la bienaventurada virgen maría te glorifiquemos siempre en este sacramento. por nuestro señor jesucristo…"
+  "oracion": "dios todopoderoso y eterno, que, con el soplo del espíritu santo, inspiraste a la beata maría cándida, la contemplación de las riquezas de la eucaristía. concédenos por su intercesión, que ofreciendo con gratitud el sacrificio del cuerpo y de la sangre de cristo, en comunión con la bienaventurada virgen maría te glorifiquemos siempre en este sacramento. por nuestro señor jesucristo…",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "Segunda lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "De los escritos de la Madre María Cándida de la Eucaristía\n(L’Eucaristía, Edizione OCD, 1999, pág. 105-108)\nDesde la contemplación de la presencia a la comunión eucarística"
+      },
+      {
+        "t": "estrofa",
+        "x": "Contemplar con fe redoblada a nuestro amado en el sacramento, vivir de Él que viene cada día, permanecer con Él en lo íntimo de nuestra alma, ¡he aquí nuestra vida! Cuanto más intensa sea esta vida interior, tanto más seremos nosotras Carmelitas y avanzaremos hacia la perfección. Este contacto, esta unión con Jesús es todo: ¡cuántos frutos de virtud se derivan de ello! Hay que hacer la experiencia. Vivir con Jesús es vivir con sus mismas virtudes, es escuchar su dulcísima voz, su amorosísima voluntad y obedecer enseguida ¡complacerlo enseguida! Nuestros ojos que se cierran, con el ansia amorosa de encontrarlo, de contemplarlo en el fondo de nuestro corazón: ¿no es acaso la necesidad que nos ha dejado la santísima comunión por la mañana? ¿No es la atracción de Él que nos ha quedado y que allí vive? El ciborio de santo tabernáculo y el ciborio de nuestro corazón ¡yo no sabría dividirlos! ¡Oh cuántas veces, aún encontrándonos en el coro ante Él sacramentado, aunque esté expuesto, nosotros experimentamos la gran necesidad de adentrarnos en nosotros mismos, y de encontrar allí y permanecer con nuestro Jesús!\n¡Qué misterio de amor esta intimidad con nuestro Amado! Yo reflexiono en ello, a veces, conmovida, prorrumpiendo en alabanzas al Amor! Y conmovida vuelvo a mirarlo. Todo lo de aquí abajo nos ha desaparecido, segregadas, lejos de quien tanto nos amó; nuestros ojos bienaventurados no ven ya nada: y no obstante se cierran todavía para abstraerse en el mismo santo ambiente, se cierran ansiosos para encontrarlo, ¡para ver a Jesús! ¡Misterio de amor, tiernísimo encanto! Él se deja encontrar por el corazón que lo busca, pro el alma que sabe menospreciar tantas cosas por el amor a Él.\nEstar junto a nuestro Dios sacramentado, como los bienaventurados están en el cielo, en la visión del sumo Bien, es lo que tenemos que hacer, según nuestra Santa Madre Teresa. Siete veces al día, estamos alrededor del trono de nuestro Bien, el sagrado tabernáculo, recitando las alabanzas divinas: ¡qué grande fe merece tan alta acción, que anonadamiento! ¡Que la adoración, el amor acompañe y embellezca todo!"
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio"
+      },
+      {
+        "t": "verso",
+        "x": "R/ Yo soy el pan vivo bajado del cielo y el pan que yo daré es mi carne para la vida del mundo * El que come de este pan vivirá para siempre."
+      },
+      {
+        "t": "verso",
+        "x": "V/ Quien come mi carne y bebe mi sangre permanece en mí y yo en él."
+      },
+      {
+        "t": "verso",
+        "x": "R/ El que come este pan vivirá para siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "oremos:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios todopoderoso y eterno, que, con el soplo del Espíritu Santo, inspiraste a la Beata María Cándida, la contemplación de las riquezas de la Eucaristía, concédenos por su intercesión, que ofreciendo con gratitud el sacrificio del Cuerpo y de la Sangre de Cristo, en comunión con la Bienaventurada Virgen María te glorifiquemos siempre en este Sacramento. Por Nuestro Señor Jesucristo…"
+      },
+      {
+        "t": "estrofa",
+        "x": "Congregación para el culto divino y disciplina de los sacramentos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Prot N. 633/04/L"
+      }
+    ]
+  }
 }

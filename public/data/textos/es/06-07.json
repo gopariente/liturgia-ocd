@@ -70,5 +70,81 @@
   ],
   "oracion": "Señor, tu que revelas tu grandeza en la humildad de tus siervos, nos has dado en la beata Ana un ejemplo de caridad y de paciencia; concédenos, por sus meritos, que imitando la vida de Cristo y amando a nuestros hermanos, vivamos según tu beneplácito. Por nuestro Señor.",
   "ant_benedictus": "Con la modestia va la sabiduría;",
-  "ant_magnificat": "Dios ha elegido a los pobres del mundo"
+  "ant_magnificat": "Dios ha elegido a los pobres del mundo",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De Las Moradas de santa Teresa de Jesús, virgen y doctora de la Iglesia."
+      },
+      {
+        "t": "estrofa",
+        "x": "(5M3,8-9.11.12;B.A.C. 212 (1962),381-382)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Obras quiere el Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "La más cierta señal que, a mi parecer, hay de si guardamos estas dos cosas, es guardando bien la del amor del prójimo; porque si amamos a Dios no se puede saber, aunque hay indicios grandes para entender que le amamos; mas el amor del prójimo, sí. Y estad ciertas que mientras más en éste os viereis aprovechadas, más lo estáis en el amor de Dios; porque es tan grande el que Su Majestad nos tiene, que en pago del que tenemos al prójimo hará que crezca el que tenemos a Su Majestad por mil maneras. En esto yo no puedo dudar.\nImpórtanos mucho andar con gran advertencia cómo andamos en esto, que si es con mucha perfección, todo lo tenemos hecho; porque creo yo que según es malo nuestro natural, que si no es naciendo de raíz del amor de Dios, que no llegaremos a tener con perfección el del prójimo. Pues tanto nos importa esto, hermanas, procuremos irnos entendiendo en cosas aun menudas, y no haciendo caso de unas muy grandes, que así por junto vienen en la oración, de parecer que haremos y aconteceremos por los prójimos y por sola un alma que se salve; porque si no vienen después conformes las obras, no hay para qué creer que lo haremos.\nObras quiere el Señor, y que si ves una enferma a quien puedes dar algún alivio, no se te de nada de perder esa devoción y te compadezcas de ella; y si tiene algún dolor, te duela a ti, y si fuere menester, lo ayunes porque ella lo coma, no tanto por ella como porque sabes que tu Señor quiere aquello; esta es la verdadera unión con su voluntad.\nPedid a nuestro Señor que os de con perfección este amor del prójimo y dejad hacer a su Majestad, que el os dará mas que sepáis desear, como vosotras os esforcéis y procuréis en todo lo que pudiereis esto, y forzar vuestra voluntad para que se haga en todo la de las hermanas, aunque perdáis de vuestro derecho, y olvidar vuestro bien por el suyo, aunque mas contradicción os haga el natural, y procurar tomar trabajo por quitarle al prójimo, cuando se ofreciere.\nNo penséis que no ha de costar algo y que os lo habéis de hallar hecho. Mirad lo que costo a nuestro Esposo el amor que nos tuvo, que por librarnos de la muerte la murió tan penosa como muerte de cruz."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Mt 25,34b.36b.40b."
+      },
+      {
+        "t": "verso",
+        "x": "R. Venid vosotros, benditos de mi Padre;"
+      },
+      {
+        "t": "estrofa",
+        "x": "heredad el reino preparado para vosotros\ndesde la creación del mundo *\nPorque estuve enfermo y me visitasteis. (T.P. Aleluya)"
+      },
+      {
+        "t": "verso",
+        "x": "V. Os aseguro que cada vez que lo hicisteis con uno"
+      },
+      {
+        "t": "estrofa",
+        "x": "de estos humildes hermanos, conmigo lo hicisteis."
+      },
+      {
+        "t": "verso",
+        "x": "*Porque estuve."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Bened. Con la modestia va la sabiduría;"
+      },
+      {
+        "t": "estrofa",
+        "x": "la sabiduría yergue la cabeza del humilde. (T.P. Aleluya)"
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, tu que revelas tu grandeza en la humildad de tus siervos,\nnos has dado en la beata Ana un ejemplo de caridad y de\npaciencia; concédenos, por sus meritos, que imitando la vida de\nCristo y amando a nuestros hermanos, vivamos según tu beneplácito.\nPor nuestro Señor."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat. Dios ha elegido a los pobres del mundo"
+      },
+      {
+        "t": "estrofa",
+        "x": "para hacerlos ricos en la fe y herederos del reino que\nprometió a los que le aman. (T.P. Aleluya)"
+      }
+    ]
+  }
 }

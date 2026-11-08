@@ -54,5 +54,57 @@
   ],
   "oracion": "Señor, tú has hecho surgir en la Iglesia a Santa Joaquina de Vedruna para la educación cristiana de la juventud y el alivio de los enfermos; haz que sepamos imitar sus ejemplos y dediquemos nuestra vida a servirte con amor en nuestros hermanos. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "La señal por la que conocerán que sois discípulos míos, será que os amáis unos a otros (T. P. Aleluya)",
-  "ant_magnificat": "Cada vez que lo hicisteis con uno de estos mis humildes hermanos, conmigo lo hicisteis, dice el Señor. (T. P. Aleluya)"
+  "ant_magnificat": "Cada vez que lo hicisteis con uno de estos mis humildes hermanos, conmigo lo hicisteis, dice el Señor. (T. P. Aleluya)",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": ".e las Cartas de santa Joaquina Vedruna\n.Epistolario, Victoria.1969,pags. 275-276.246.260.297.254-255.297.37)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y por encima de todo esto el amor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ojala estuviéramos todas abrasadas en el amor del mismo Señor, y así inflamadas anunciáramos y publicáramos amor y mas amor, de manera que pudiéramos encender todo el mundo. A todas os lo digo: tengamos grandes deseos, y el Señor nos otorgara lo que mas nos convenga.\nProcuremos desechar de nuestros corazones todo cuanto pueda impedir el puro amor de nuestro enamorado Jesús, que es todo amor y quiere comunicarse a nosotras por medio del amor. El buen Jesús nos llama sin cesar, y ¿nosotras nos haremos siempre las sordas? Procuremos tener nuestros corazones muy bien dispuestos: que nuestra voluntad sea toda para Jesús, todas nuestras potencias y sentidos sean para el Señor.\nNo ha de haber en nuestro corazón apego alguno, sino amor y mas amor, porque el amor nunca dice basta ni sosiega hasta abrasar, y abrasando nuestro corazón el puro amor de Jesús, arrojara de el cuanto de opone a que todo sea amor.\nNo durmamos; amemos a Dios sin cesar. Solamente al Señor, creador de cielos y tierra, ha de ser nuestro descanso y nuestro consuelo. Solo el amor de Dios se encuentra siempre; lo demás todo pasa.\nEn fin, amor, amor y más amor, que nunca dice basta. Cuanto más amemos a Dios, mas quisiéramos amarlo. Busquemos a Jesús, porque si lo tenemos en nuestro corazón, lo tendremos todo."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Jn 15.9b; 1 Jn 4, 16b; Ef 5, 2 a"
+      },
+      {
+        "t": "verso",
+        "x": "R. Permaneced en mi amor. *Quien permanece en el amor permanece en Dios, y Dios en el. (T.P. Aleluya)"
+      },
+      {
+        "t": "verso",
+        "x": "V. Vivid en el amor, como Cristo nos amo y se entrego por nosotros. *Quien permanece."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus: La señal por la que conocerán que sois discípulos míos, será que os amáis unos a otros (T. P. Aleluya)"
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, tú has hecho surgir en la Iglesia a Santa Joaquina de Vedruna para la educación cristiana de la juventud y el alivio de los enfermos; haz que sepamos imitar sus ejemplos y dediquemos nuestra vida a servirte con amor en nuestros hermanos. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant Magnificat: Cada vez que lo hicisteis con uno de estos mis humildes hermanos, conmigo lo hicisteis, dice el Señor. (T. P. Aleluya)"
+      }
+    ]
+  }
 }

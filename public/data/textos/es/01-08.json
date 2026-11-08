@@ -46,5 +46,65 @@
   ],
   "oracion": "Señor Dios nuestro, que concediste al obispo carmelita Pedro Tomás la fuerza de tu Espíritu para promover la paz y la unidad de los cristianos; por su ejemplo y su intercesión, haz que vivamos con lealtad nuestra fe y trabajemos sin descanso para conseguir la paz verdadera. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "Yo soy el buen Pastor y doy mi vida por las ovejas, y habrá un solo rebaño y un solo Pastor.",
-  "ant_magnificat": "La paz de Cristo actúe de arbitro en vuestros corazones; a ella habéis sido convocados, en un solo cuerpo."
+  "ant_magnificat": "La paz de Cristo actúe de arbitro en vuestros corazones; a ella habéis sido convocados, en un solo cuerpo.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Institución de los primeros monjes\n(Lib. 1, cap. 6;ed.AnOC3 (1914-1916) 356-357)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Amaras a tu prójimo como a ti mismo"
+      },
+      {
+        "t": "estrofa",
+        "x": "El que sabe mis mandamientos y los guarda, ese me ama. El primero de todos los mandamientos esta formulado en aquellas palabras: Escucha, Israel: El Señor nuestro Dios es solamente uno. Amaras al Señor tu Dios con todo el corazón, contada el alma, con todas las fuerzas. Este mandamiento es el principal y primero. Ahora bien, como resulta imposible cumplir este precepto sin el amor del prójimo, pues quien no ama a su hermano, al que ve, no puede amar a Dios, al que no ve, de ahí que el segundo mandamiento sea semejante al primero: Amaras a tu prójimo como a ti mismo, es decir, le amaras en lo que y por lo que te has de amar a ti mismo. Se cae de su peso que debes amarte en lo bueno, y no en lo malo. Si te amases en lo malo mas que amarte, te odiarías, pues, quien ama la maldad, a si mismo se aborrece."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por consiguiente, has de amar a tu hermano ayudándole con tus obras a hacerse bueno, si aun es malo, y a perseverar en el bien, si ya es bueno. Por lo demás, la razón de amarte no has de ser tu mismo, sino Dios, pues lo que se ama por razón de si mismo constituye la meta ultima del gozo y la bienaventuranza, cuya esperanzada consecución nos consuela en la presente vida temporal. Pero claro esta que no debes poner la esperanza de la felicidad verdadera ni en tu persona, ni en otra alguna, pues maldito el que confiá en el hombre y en la carne busca su fuerza, apartando su corazón de Yahvé. Por tanto, en el Señor has de fijar la meta de tu gozo y en el has de cifrar la bienaventuranza, conforme a las palabras del apóstol: Ahora, en cambio, emancipados del pecado y hechos esclavos de Dios, producís frutos que llevan a la santidad y acaban en vida eterna, por medio de Cristo Jesús, Señor nuestro. La consecuencia, si bien se mira, resulta meridiana: estas obligado a amar a Dios por si mismo, y a ti, no por ti mismo, sino por Dios."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ya que debes amar al prójimo como a ti mismo, lo has de amar no por el ni por ti, sino por Dios, lo que en otras palabras, equivale a decir que has de amar a Dios en la persona del prójimo. Ha escrito el apóstol san Juan: En esto conocemos que amamos a los hijos de Dios: si amamos a Dios y cumplimos sus mandamientos. Y estas dispuesto a guardarlos todos, cuando amas a Dios por si mismo y al prójimo como a ti mismo por Dios; que estos dos mandamientos sostienen la ley entera y los Profetas."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1Ts2,8;Ga.4.19"
+      },
+      {
+        "t": "verso",
+        "x": "R. Deseábamos entregaros no solo el Evangelio de Dios, sino nuestras propias personas,*Porque os habías ganado nuestro amor."
+      },
+      {
+        "t": "verso",
+        "x": "V. ¡Hijos míos!, por quienes sufro de nuevo dolores de parto, hasta ver a Cristo formado en vosotros. * Porque os habíais."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus: Yo soy el buen Pastor y doy mi vida por las ovejas, y habrá un solo rebaño y un solo Pastor."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que concediste al obispo carmelita Pedro Tomás la fuerza de tu Espíritu para promover la paz y la unidad de los cristianos; por su ejemplo y su intercesión, haz que vivamos con lealtad nuestra fe y trabajemos sin descanso para conseguir la paz verdadera. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat: La paz de Cristo actúe de arbitro en vuestros corazones; a ella habéis sido convocados, en un solo cuerpo."
+      }
+    ]
+  }
 }

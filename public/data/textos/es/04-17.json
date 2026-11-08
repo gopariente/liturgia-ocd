@@ -46,5 +46,27 @@
   ],
   "oracion": "Señor, Dios nuestro, que hiciste del Beato Bautista Mantuano, fiel servidor de María, un modelo de reflexión y predicación de tu palabra; concédenos, por su intercesión, meditar, como la Virgen, las divinas Escrituras y, como ella, proclamar tus grandezas con nuestra vida. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "La Boca del justo es fuente de vida; los labios del justo enseñan a muchos. Aleluya",
-  "ant_magnificat": "Tus leyes eran mi canción en tierra extranjera, porque son la alegría de mi corazón. Aleluya."
+  "ant_magnificat": "Tus leyes eran mi canción en tierra extranjera, porque son la alegría de mi corazón. Aleluya.",
+  "horas": {
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Bened. La Boca del justo es fuente de vida; los labios del justo enseñan a muchos. Aleluya"
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Dios nuestro, que hiciste del Beato Bautista Mantuano, fiel servidor de María, un modelo de reflexión y predicación de tu palabra; concédenos, por su intercesión, meditar, como la Virgen, las divinas Escrituras y, como ella, proclamar tus grandezas con nuestra vida. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant Magnif. Tus leyes eran mi canción en tierra extranjera, porque son la alegría de mi corazón. Aleluya."
+      }
+    ]
+  }
 }

@@ -60,5 +60,69 @@
       "x": "V. Has inscrito, por añadidura, con amor solicito mi nombre en el libro de la vida. * Que hasta los ángeles."
     }
   ],
-  "oracion": "Señor Dios nuestro, que suscitaste a san  Ciriaco Elías, presbítero, para consolidar la unidad de la Iglesia, concédenos, por su intercesión, que, iluminados por el Espíritu Santo, podemos reconocer con discernimiento los signos de los tiempos y difundir de palabra y de obra el mensaje evangélico entre los hombres. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+  "oracion": "Señor Dios nuestro, que suscitaste a san  Ciriaco Elías, presbítero, para consolidar la unidad de la Iglesia, concédenos, por su intercesión, que, iluminados por el Espíritu Santo, podemos reconocer con discernimiento los signos de los tiempos y difundir de palabra y de obra el mensaje evangélico entre los hombres. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De una breve nota redactada por el padre Leopoldo Beccaro, misionero carmelita, director espiritual (1864-1871) de san Ciriaco Elías."
+      },
+      {
+        "t": "estrofa",
+        "x": "Lucho sin descanso contra la propagación del cisma."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hoy, martes 3 de enero de 1871, a las siete y cuarto de la mañana, el padre Ciriaco Elías de la Sagrada Familia, primer prior, ha fallecido, después de una vida de singular inocencia. Pudo declarar, antes de la muerte, que nunca en la vida había perdido la gracia bautismal.\nCultivo con ahínco las virtudes, especialmente la sencillez de corazón, la fe viva, la obediencia entrañable, así como la devoción al Santísimo Sacramento, a la bienaventurada Virgen y a san José."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hubo de pasar muchas penalidades por el bien de los cristianos de Malabar, principalmente con ocasión del cisma del Mar Rokos. Fue entonces cuando, designado vicario general de la Iglesia siro-malabar, demostró su extraordinaria devoción a la Santa Sede. Lucho sin descanso contra la difusión de aquel cisma; y así pudo salvar de la escisión eclesial a no menos de cuarenta comunidades parroquiales. Por ese motivo el Romano Pontífice, sumamente complacido, le escribió una carta de felicitación firmada de su puño y letra."
+      },
+      {
+        "t": "estrofa",
+        "x": "Fue el fundador y primer prior de los Carmelitas Terciarios de Malabar. Erigió también un instituto religioso femenino tras sobreponerse a enormes dificultades."
+      },
+      {
+        "t": "estrofa",
+        "x": "Debido a las virtudes que lo adornaron, a sus conocimientos científicos y al dominio de la lengua siríaca, gozo de notable ascendiente en el pueblo siro-malabar, incluidos los nestorianos y gentiles."
+      },
+      {
+        "t": "estrofa",
+        "x": "Soporto durante dos años una enfermedad incurable con espíritu de total abnegación, o mas bien, con alegría cristiana. No sentía afición desordenada a las cosas de la tierra, desapego que se hizo patente a las claras al final de sus días."
+      },
+      {
+        "t": "estrofa",
+        "x": "Después de recibir los sacramentos con una piedad y devoción fuera de lo común, exhalo su último suspiro, irradiando una especie de gozo celestial, en medio de las lagrimas de sus hijos espirituales allí presentes y sobre todo de las mías (yo lo conocía como a mi propia persona). Tenia 65años de edad. Recibió sepultura en la iglesia de santa Filomena de Koonammavu."
+      },
+      {
+        "t": "estrofa",
+        "x": "Alma santa y hermosa, ruega por mí."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO B. Ciriaco Elías, Atmanurthapam v.23:cf.Is61,10;Ap21,27"
+      },
+      {
+        "t": "verso",
+        "x": "R. Me has adornado el alma de tantas gracias,* Que hasta los ángeles se gozan en ella con regocijo desbordante."
+      },
+      {
+        "t": "verso",
+        "x": "V. Has inscrito, por añadidura, con amor solicito mi nombre en el libro de la vida. * Que hasta los ángeles."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Dios nuestro, que suscitaste a san Ciriaco Elías, presbítero, para consolidar la unidad de la Iglesia, concédenos, por su intercesión, que, iluminados por el Espíritu Santo, podemos reconocer con discernimiento los signos de los tiempos y difundir de palabra y de obra el mensaje evangélico entre los hombres. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

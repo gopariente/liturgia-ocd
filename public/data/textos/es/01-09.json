@@ -42,5 +42,61 @@
   ],
   "oracion": "Señor, tú que dijiste que cuantos trabajasen por la paz serían llamados hijos de Dios; por la intercesión de San Andrés Corsini, admirable artífice de la concordia entre los pueblos, concédenos entregarnos sin descanso a instaurar en el mundo la única justicia que puede garantizar a  los hombres una paz firme y verdadera. Tú que vives y reinas por los siglos de los siglos. Amén.",
   "ant_benedictus": "Dichosos los que trabajan por la paz, porque ellos se llamaran los hijos de Dios, dice el Señor.",
-  "ant_magnificat": "El reino de Dios es justicia y paz y alegría en el Espíritu Santo; el que en esto sirve a Cristo es grato a Dios y aprobado por los hombres."
+  "ant_magnificat": "El reino de Dios es justicia y paz y alegría en el Espíritu Santo; el que en esto sirve a Cristo es grato a Dios y aprobado por los hombres.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Regla pastoral de san Gregorio Magno, papa\n(P:I: cap. 10 ; PL 77,23 A)"
+      },
+      {
+        "t": "estrofa",
+        "x": "Imagen del Buen Pastor"
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Quién ha de ser puesto a toda costa, aun contra su voluntad, al frente del rebaño para apacentarlo con su ejemplo de vida? El que, muerto ya a las tendencias de la carne, vive según el espíritu. El que tiene en nada la prosperidad terrena, afronta sin temor la adversidad y ambiciona exclusivamente las riquezas del mundo interior. El que se halla dotado para la empresa gracias a un cuerpo lo bastante vigoroso y a un espíritu poco impresionable ante las ofensas. El que, lejos de sentirse arrastrado por la codicia de lo ajeno, reparte a manos llenas de lo suyo. El que a impulsos de una entrañable piedad, se inclina al pronto perdón, pero sin desviarse de la justicia con una indulgencia mas allá de lo razonable. El que no comete pecado y, en cambio, llora las culpas ajenas como propias. El que se conduele cordialmente de la flaqueza del prójimo y se congratula de su bien como si se tratara del provecho personal. El que en todas sus obras predica con el ejemplo sin tener de que avergonzarse, al menos por lo que al pasado se refiere. El que emplea la vida en regar con el caudal de su doctrina los corazones resecos de sus hermanos. El que, mediante la asidua practica de la oración, ha llegado a comprobar por experiencia que puede alcanzar del Señor cuanto pidiere, considerando como dirigidas a el las palabras del profeta: Aun no habrás acabado de hablar, cuando te responderé: Aquí me tienes."
+      },
+      {
+        "t": "estrofa",
+        "x": "Supongamos que se nos presentara por las buenas un individuo con la pretensión de que mediásemos a favor suyo ante un poderoso enfadado con el. De no conocer a ese potentado, le responderíamos sin mas: “Dispensa, pero mal pudiera hablar por ti a un señor de quien ni soy amigo, ni siquiera conocido”. Ahora bien, si uno rehuye hacer de conciliador ante un semejante por el hecho de no gozar de su confianza, ¿con que cara se arroga el oficio de mediador entre Dios y su pueblo quien no se sabe en la amistad divina con una vida santa? O ¿cómo se atreve a implorar del Señor misericordia para los demás quien ignora si esta en paz con el?"
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Ef4,32;5,1P5,2.3"
+      },
+      {
+        "t": "verso",
+        "x": "R. Sed buenos, comprensivos, perdonándoos unos a otros como Dios os perdono en Cristo.*Sed imitadores de Dios, como hijos queridos."
+      },
+      {
+        "t": "verso",
+        "x": "V Sed pastores del rebaño de Dios a vuestro cargo, gobernándolo no a la fuerza, sino de buena gana como Dios quiere.*Sed imitadores."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "verso",
+        "x": "Ant. Benedict Dichosos los que trabajan por la paz, porque ellos se llamaran los hijos de Dios, dice el Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, tú que dijiste que cuantos trabajasen por la paz serían llamados hijos de Dios; por la intercesión de San Andrés Corsini, admirable artífice de la concordia entre los pueblos, concédenos entregarnos sin descanso a instaurar en el mundo la única justicia que puede garantizar a los hombres una paz firme y verdadera. Tú que vives y reinas por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat. El reino de Dios es justicia y paz y alegría en el Espíritu Santo; el que en esto sirve a Cristo es grato a Dios y aprobado por los hombres."
+      }
+    ]
+  }
 }

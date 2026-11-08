@@ -49,5 +49,69 @@
     }
   ],
   "oracion": "Oh Dios, que aceptaste complacido la oblación que te hizo de sí misma, la Beata Elías de San Clemente, virgen de nuestra Orden, concédenos por su intercesión, que, alimentados con el Pan Eucarístico, cumplamos fielmente tu voluntad. Por nuestro Señor Jesucristo, tu Hijo…",
-  "ant_magnificat": "Tu amor ¡oh Dios! me ha consumido como fuego en la hoguera ardiente de tu Corazón."
+  "ant_magnificat": "Tu amor ¡oh Dios! me ha consumido como fuego en la hoguera ardiente de tu Corazón.",
+  "horas": {
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "Segunda lectura"
+      },
+      {
+        "t": "estrofa",
+        "x": "De los escritos de la Beata Elías de San Clemente"
+      },
+      {
+        "t": "estrofa",
+        "x": "¡Oh dulce escondimiento!, quiero pasar mis días a tu sombra y consumir así mi existencia, por amor de mi dulce Señor… Algunas veces, pensando en aquellas eternas recompensas, tan desproporcionadas a los triviales sacrificios de esta vida, mi alma queda totalmente sorprendida y, arrebatada de un ardiente anhélito, se lanza hacia Dios, exclamando: “¡Oh mi buen Jesús! Quiero llegar hasta la meta, cueste lo que cueste, al puerto de salvación. No me niegues nada, dame sufrimiento. Que éste sea el martirio más íntimo de mi pobre corazón, oculto a toda mirada humana: yo te pido una cruz desnuda. Reclinada en ella, quiero pasar mis días en esta vida”."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cuando se sufre con Jesús, el padecer es gozar; me consumo por sufrir amando, fuera de esto no quiero ya nada."
+      },
+      {
+        "t": "estrofa",
+        "x": "Amado mío ¿Quién podrá separarme de Ti jamás? ¿Quién será capaz de romper estas fuertes cadenas que tienen atado mi corazón al tuyo? ¿Tal vez el abandono de las criaturas? Precisamente es esto lo que une el alma a su Creador… ¿Tal vez las tribulaciones, las penas, las cruces? Son a través de estas espinas cuando el canto del alma que te ama se hace más libre y más ligero. ¿Tal vez la muerte? Pero ésta no será sino el principio de la verdadera felicidad para el alma… nada, nada podrá separar, ni tan siquiera por breves instantes, esta alma de Ti. Ella fue creada para Ti y está fuera de su centro si no vive abandonada en Ti."
+      },
+      {
+        "t": "estrofa",
+        "x": "Mi vida es amor: este néctar suave me rodea, este amor misericordioso me penetra, me purifica, me renueva y siento que me consume. El grito de mi corazón es: “Amor de mi Dios, mi alma te busca solamente a Ti. Alma mía, sufre y calla; ama y espera; inmólate y esconde tu inmolación bajo una sonrisa, y siempre adelante… quiero pasar mi vida en un profundo silencio para escuchar en lo íntimo del alma la delicada voz de mi dulce Jesús."
+      },
+      {
+        "t": "estrofa",
+        "x": "Buscaré almas para lanzarlas al mar del Amor Misericordioso: almas de pecadores, peros sobre todo almas de sacerdotes y religiosos. Con esta finalidad mi existencia se apagará lentamente, consumándose como el aceite de la lámpara que arde junto al Tabernáculo”. Siento la vastedad de mi alma, su infinita grandeza, que no basta la inmensidad de este mundo a contenerla: ella fue creada para perderse en Ti, Dios mío, porque Tú sólo eres grande, infinito y por tanto Tú sólo la puedes hacer plenamente feliz."
+      },
+      {
+        "t": "rubrica",
+        "x": "Responsorio 1 Cor. 7,34; Sal. 72,26"
+      },
+      {
+        "t": "verso",
+        "x": "R/ La roca de mi corazón es Dios, Dios es mi porción para siempre * fuera de Ti, en nada me complazco sobre la tierra."
+      },
+      {
+        "t": "verso",
+        "x": "V/ Una virgen se preocupa de las cosas del Señor, para ser santa en el cuerpo y el espíritu:"
+      },
+      {
+        "t": "verso",
+        "x": "R/ fuera de Ti, en nada me complazco sobre la tierra."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración colecta:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que aceptaste complacido la oblación que te hizo de sí misma, la Beata Elías de San Clemente, virgen de nuestra Orden, concédenos por su intercesión, que, alimentados con el Pan Eucarístico, cumplamos fielmente tu voluntad. Por nuestro Señor Jesucristo, tu Hijo…"
+      },
+      {
+        "t": "estrofa",
+        "x": "Antífona Bendictus: ¡Cuán suave, Señor es tu amor! Perdida en Ti, vivo feliz para siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Antífona Magníficat: Tu amor ¡oh Dios! me ha consumido como fuego en la hoguera ardiente de tu Corazón."
+      }
+    ]
+  }
 }

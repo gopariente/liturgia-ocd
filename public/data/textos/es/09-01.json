@@ -66,5 +66,371 @@
   ],
   "oracion": "Señor, Padre Santo, que concediste a Santa Teresa Margarita sacar de las fuentes del Salvador tesoros incalculables de humildad y caridad; otórganos, por su intercesión, que jamás nos separemos del amor de Jesucristo. Que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "Yo soy el camino, y la verdad,",
-  "ant_magnificat": "Como el Padre me ha amado,"
+  "ant_magnificat": "Como el Padre me ha amado,",
+  "horas": {
+    "invitatorio": [
+      {
+        "t": "verso",
+        "x": "Ant. Venid, adoremos al Cordero, al Esposo acompañado por el cortejo de vírgenes.."
+      }
+    ],
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Teresa Margarita,\nceleste hermana,\nal ritmo del latido\nde la plegaria,\nte cantamos unánimes\nnuestra alabanza"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios Amor ha prendido\nen ti la hoguera\nde caridad divina,\npor eso anhelas\ncon tu fuego de cielo\nquemar la tierra."
+      },
+      {
+        "t": "estrofa",
+        "x": "En la vida común\n-dulce martirio-,\ntu amor a las hermanas\nse hace servicio,\nque en ellas tu fe viva\ndescubre a Cristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "“Padecer y callar”\nes tu sendero,\nque habló Dios su Palabra\nen el silencio,\ny el Verbo se hizo carne\nde sufrimiento."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gozosos en tu día,\nrendimos gloria\nal Dios uno en esencia,\ntrino en Personas,\nque en el alma del justo\npor gracia mora. Amén."
+      },
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De las Actas de canonización\n(Dec. “Super tuto” AAS 26 (1934), 105-106)"
+      },
+      {
+        "t": "estrofa",
+        "x": "El amor de Cristo nos apremia"
+      },
+      {
+        "t": "estrofa",
+        "x": "Podría afirmarse que la vida entera de Teresa Margarita, enmarcada en tan breve espacio de años, fue una continua escalada de su angelical corazón hacia Dios.\nSu alma candorosa buscaba a Dios como por instinto, convencida de que únicamente en ‘el podía hallar descanso.\nTeresa Margarita supo hermanar la pureza interior con una profunda humildad, deseando de veras ser desconocida y despreciada, y soportando la humillación no solo con paciencia, sino con alegría. En alas de su limpieza de corazón y humildad de espíritu, mereció remontarse a un altísimo grado de amor que pronto la abraso en ardores seráficos. Había llegado así a no poder apenas hablar de Dios, sin que se le encendiese de resplandor el rostro. Apremiada por esa caridad divina, amaba también entrañablemente a todos los hombres, en especial a los desventurados pecadores, por quienes se había ofrecido a Dios en holocausto generoso. Servia a sus hermanas de comunidad, sobre todo a las enfermas, con tan humilde delicadeza y total desprendimiento, que parecía un ángel de caridad. Alimentaba la llama de ese amor principalmente con el pan eucarístico, del que tan viva hambre sentía, y con un culto peculiar al Sacratísimo Corazón de Jesús, precisamente en una época en que el contagio jansenista, propagado por distintos puntos de Toscaza, atacaba tan provechosa devoción. Veneraba además con tierno amor filial a la Madre de Dios, como modelo y abogada de su pureza virginal. Favorecida con la gracia de una alta contemplación, se uni9a cada vez mas estrechamente a Dios, como reflejando ya la luz del alba de la cercana eternidad.\nSolo faltaba a Teresa Margarita, ante la inminencia de su partida, reproducir mas al vivo en si misma la imagen de su esposo crucificado con el martirio místico de su alma, como correspondía a una hija autentica de santa Teresa y a una fiel discípula de san Jun de la Cruz. E iba a ser la misma violencia del amor la raíz de este martirio. En efecto, cuanto mas ardiente es la caridad, tanto mas urge al alma a amar; ahora bien estando ella incapacitada para abarcar la infinita amabilidad de Dios con su amor, se siente extrañamente atormentada por el insaciable anhelo de un amor mas intenso y, envuelta en una especie de noche oscura, se cree como abandonada de Dios; que el amor cuanto mas grande es, tanto mas pequeño aparece a sus propios ojos. Sin embargo, un alma clavada en la cruz con Cristo, mediante ese supremo martirio del corazón, adquiere para si y para los otros unos frutos de redención más copiosos. Precisamente las almas que llegan en la Iglesia a una pureza de mas quilates y a una espiritualidad de mas altura son las que con su apostolado oculto del sufrimiento, el amor y la oración contribuyen como nadie al bien de todos los hombres."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Dt 6, 4-5;4,24"
+      },
+      {
+        "t": "verso",
+        "x": "R. Escucha Israel: El Señor nuestro Dios es solamente uno."
+      },
+      {
+        "t": "verso",
+        "x": "* Amaras al Señor tu Dios con todo el corazón, con toda el alma,"
+      },
+      {
+        "t": "estrofa",
+        "x": "con todas las fuerzas."
+      },
+      {
+        "t": "verso",
+        "x": "V. El Señor tu Dios es un fuego devorador, un Dios celoso."
+      },
+      {
+        "t": "verso",
+        "x": "* Amaras al Señor tu Dios con todo el corazón, con toda el alma,"
+      },
+      {
+        "t": "estrofa",
+        "x": "con todas las fuerzas."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Hoy, Teresa Margarita,\nsol del Carmen de Florencia.\nla mañana resucita\ncon la luz de tu presencia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Logras tu anhelo: ser rosa\ndel vergel carmelitano,\nque tu alma solo rebosa\nde amor a Dios y al hermano."
+      },
+      {
+        "t": "estrofa",
+        "x": "Acudes sedienta al pozo\nabierto en el Corazón\nde Cristo, y sacas con gozo\nlas aguas de salvación."
+      },
+      {
+        "t": "estrofa",
+        "x": "La noche oscura te asalta,\ny te abrazas a la cruz,\ncompletando lo que falta\na la pasión de Jesús."
+      },
+      {
+        "t": "estrofa",
+        "x": "Mientras vamos de camino.\nqueremos vivir, en pos\nde ti, con gesto paulino:\n“ocultos con Cristo en Dios”."
+      },
+      {
+        "t": "estrofa",
+        "x": "La fe de amor encendida\nalabe a la Trinidad,\nPadre-origen, Verbo-vida\ny Espíritu-caridad. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE"
+      },
+      {
+        "t": "estrofa",
+        "x": "Ya que habéis resucitado con Cristo, buscad los bienes de allá arriba, donde esta Cristo, sentado a la derecha de Dios; aspirad a los bienes de arriba, no a los de la tierra. Porque habéis muerto; y vuestra vida esta con Cristo escondida en Dios. Cuando aparezca Cristo, vida nuestra, entonces también vosotros apareceréis, juntamente con el, en la gloria."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Oigo en mi corazón:"
+      },
+      {
+        "t": "verso",
+        "x": "*Buscad mi rostro. Oigo."
+      },
+      {
+        "t": "verso",
+        "x": "V. Tu rostro buscare, Señor."
+      },
+      {
+        "t": "verso",
+        "x": "*Buscad mi rostro. Gloria al Padre. Oigo."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus Yo soy el camino, y la verdad,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y la vida. Nadie va al Padre sino por mi."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus Yo soy el camino, y la verdad,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y la vida. Nadie va al Padre sino por mi."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Adoremos a Cristo, puerta franca de los secretos del Padre,\ny digámosle con fe:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor; muéstranos al Padre"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, que eres el camino, y la verdad, y la vida,\n-sé nuestra senda para subir al Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú que eres la luz del mundo y el resplandor de la gloria de Dios,\n-alumbra la noche oscura de nuestra fe mientras vamos de camino\nhacia el Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, Palabra increada hecha carne, que llamaste a Teresa\nMargarita a imitar por la fe tu actitud frente al Padre.\n-Concédenos perseverar siempre en una vida escondida\ncontigo en Dios."
+      },
+      {
+        "t": "estrofa",
+        "x": "Jesús, espejo y corona de la humildad, que viniste,\nno a ser servido, sino a servir,\n-enséñanos a realizar en la oscuridad de la vida ordinaria\ntodo cuanto agrada al Padre que ve en lo secreto."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, Palabra de Dios, que te hiciste pasible y paciente\nentre los hombres,\n-aliéntanos a seguir tus huellas de crucificado, como Teresa\nMargarita, entregándonos por la Iglesia que es tu cuerpo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Jesús, que tanto amaste a Maria, tu compañera singularmente\ngenerosa en la obra de la salvación,\n-haznos, por intercesión de tu Madre, prontos al amoroso\ncumplimiento de la voluntad del Padre celestial."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro.........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Padre Santo, que concediste a Santa Teresa Margarita sacar de las fuentes del Salvador tesoros incalculables de humildad y caridad; otórganos, por su intercesión, que jamás nos separemos del amor de Jesucristo. Que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichosa tu que, entre todas,\nfuiste por Dios sorprendida\ncon tu lámpara encendida\npara el banquete de bodas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Con el abrazo inocente\nde un hondo pacto amoroso,\nvienes a unirte al Esposo\npor virgen y por prudente."
+      },
+      {
+        "t": "estrofa",
+        "x": "Enséñanos a vivir.\nAyúdenos tu oración.\nDanos en la tentación\nla gracia de resistir."
+      },
+      {
+        "t": "estrofa",
+        "x": "Maria, pureza en vuelo,\nVirgen de vírgenes, danos\nla gracia de ser humanos\nsin olvidarnos del cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Honor a la Trinidad\npor esta limpia victoria.\nY gloria por esta gloria\nque alegra a la Cristiandad. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE 1 Jn. 4, 16b"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dios es amor, y quien permanece en el amor permanece\nen Dios, y Dios en el."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Las aguas torrenciales"
+      },
+      {
+        "t": "verso",
+        "x": "* No podrán apagar el amor. Las aguas."
+      },
+      {
+        "t": "verso",
+        "x": "V. Ni anegarlo los ríos. *"
+      },
+      {
+        "t": "estrofa",
+        "x": "No podrán apagar el amor. Gloria al Padre. Las aguas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Como el Padre me ha amado,"
+      },
+      {
+        "t": "estrofa",
+        "x": "así os he amado yo; permaneced en mi amor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat Como el Padre me ha amado,"
+      },
+      {
+        "t": "estrofa",
+        "x": "así os he amado yo; permaneced en mi amor."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Alabemos a Cristo, que nos dejo en el amor de Dios\ny del prójimo su mandamiento supremo, y supliquémosle:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Concédenos tu amor, Señor Jesús."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, que en tu corazón nos revelaste la eterna caridad del Padre,\n- Haznos mensaje viviente del amor divino."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, que viniste a traer fuego a la tierra,\n-inflámanos en la hoguera de amor, en que se abraso Teresa Margarita."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que nos enseñaste a hacer siempre a los ojos del Padre lo que a el le agrada,\n-Concédenos que nuestra vida sea un constante homenaje de amor filial y de obediencia al Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que nos dejaste en el prójimo como un sacramento de tu presencia,\n-ayúdanos a descubrirte de continuo en nuestros hermanos y a servirte\nCon amor el ellos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que llamaste tempranamente a tu presencia a Teresa Margarita\ndevorada por el fuego de tu caridad,\n-date prisa en recibir a nuestros hermanos difuntos en el reino eterno de tu amor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, Padre Santo, que concediste a Santa Teresa Margarita sacar de las fuentes del Salvador tesoros incalculables de humildad y caridad; otórganos, por su intercesión, que jamás nos separemos del amor de Jesucristo. Que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }

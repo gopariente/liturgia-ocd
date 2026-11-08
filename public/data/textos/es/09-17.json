@@ -66,5 +66,973 @@
   ],
   "oracion": "Oh Dios, que por medio de San Alberto diste al Carmelo una regla de vida evangélica para alcanzar la perfección de la caridad; concédenos, por su intercesión, vivir siempre en obsequio de Jesucristo y servirle fielmente hasta la muerte. Que vive y reina por los siglos de los siglos. Amén.",
   "ant_benedictus": "El que sienta celo por la ley que me siga; y muchos bajaron al desierto, porque deseaban vivir santamente según la ley.",
-  "ant_magnificat": "La palabra de Cristo habite entre nosotros"
+  "ant_magnificat": "La palabra de Cristo habite entre nosotros",
+  "horas": {
+    "invitatorio": [
+      {
+        "t": "verso",
+        "x": "Ant. Venid, adoremos al Señor, Legislador supremo."
+      }
+    ],
+    "lectura": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "rubrica",
+        "x": "I"
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde que mi voluntad\nesta a la vuestra rendida,\nconozco yo la medida\nde la mejor libertad.\nVenid, Señor, y tomad\nlas riendas de mi albedrío,\nde vuestra mano me fío\ny a vuestra mano me entrego,\nque es poco lo que me niego\nsi yo soy vuestro y vos mío."
+      },
+      {
+        "t": "estrofa",
+        "x": "A fuerza de amor humano\nme abraso en amor divino.\nLa santidad es camino\nque va de mi hacia mi hermano.\nMe di sin tender la mano\npara cobrar el favor;\nme di en salud y en dolor\na todos, y de tal suerte\nque me he encontrado en la muerte\nsin nada mas que el amor. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "II"
+      },
+      {
+        "t": "estrofa",
+        "x": "Puerta de Dios en el redil humano\nfue Cristo el buen Pastor que al mundo vino;\nglorioso va delante del rebaño,\nguiando su marchar por buen camino."
+      },
+      {
+        "t": "estrofa",
+        "x": "Madero de la cruz es su cayado,\nsu voz es la verdad que a todos llama,\nsu amor es el del Padre, que le ha dado\nel espíritu de Dios que a todos ama.\n¨\nPastores del Señor son los ungidos,\nnuevos cristos de Dios, son enviados\na los pueblos del mundo redimidos;\ndel único Pastor siervos amados."
+      },
+      {
+        "t": "estrofa",
+        "x": "La cruz de su Señor es su cayado,\nla voz de su verdad es su llamada,\nlos pastos de su amor, fecundo prado,\nson vida del Señor que nos es dada. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 El gozo del justo es la ley del Señor, y en ella medita día y noche."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo I"
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 20, 2-8.14"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, el rey se alegra por su fuerza,\n¡y cuanto goza con tu victoria!\nLe has concedido el deseo de su corazón,\nno le has negado lo que pedían sus labios."
+      },
+      {
+        "t": "estrofa",
+        "x": "Te adelantaste a bendecirlo con el éxito,\ny has puesto en su cabeza una corona de oro fino.\nTe pidió vida, y se la has concedido,\naños que se prolongan sin termino."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu victoria a engrandecido su fama,\nlo has vestido de honor y majestad.\nLe concedes bendiciones incesantes,\nlo colmas de gozo en tu presencia;\nporque el rey confía en el Señor\ny con la gracia del Altísimo no fracasara."
+      },
+      {
+        "t": "estrofa",
+        "x": "Levántate, Señor, con tu fuerza,\ny al son de instrumentos cantaremos tu poder."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 El gozo del justo es la ley del Señor, y en ella medita día y noche."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Tened siempre en los labios la ley del Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 91"
+      },
+      {
+        "t": "rubrica",
+        "x": "I"
+      },
+      {
+        "t": "estrofa",
+        "x": "Es bueno dar gracias al Señor\ny tocar para tu nombre, oh Altísimo,\nproclamar por la mañana tu misericordia\ny de noche u fidelidad,\ncon arpas de diez cuerdas y laudes\nsobre arpegios de citaras."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tus acciones, Señor, son mi alegría,\ny mi jubilo, las obras de tus manos.\n¡Que magnificas son tus obras, Señor,\nque profundos tus designios!\nEl ignorante no los entiende\nni el necio se da cuenta."
+      },
+      {
+        "t": "estrofa",
+        "x": "Aunque germinen como hierba los malvados\ny florezcan los malhechores,\nserán destruidos para siempre.\nTu, en cambio, Señor,\neres excelso por los siglos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Tened siempre en los labios la ley del Señor."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.3 El que medita la ley del Señor da fruto en su sazón."
+      },
+      {
+        "t": "estrofa",
+        "x": "Porque tus enemigos, Señor, perecerán,\nlos malhechores serán dispersados;\npero a mi me das la fuerza de un búfalo\ny me unges con aceite nuevo.\nMis ojos despreciaran a mis enemigos,\nmis oídos escucharan su derrota."
+      },
+      {
+        "t": "estrofa",
+        "x": "El justo crecerá como una palmera,\nse alzara como un cedro del Líbano:\nplantado en la casa del Señor,\ncrecerá en los atrios de nuestro Dios;"
+      },
+      {
+        "t": "estrofa",
+        "x": "en la vejez seguirá dando fruto\ny estará lozano y frondoso,\npara proclamar que el Señor es justo,\nque en mi Roca no existe la maldad."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.3 El que medita la ley del Señor da fruto en su sazón."
+      },
+      {
+        "t": "verso",
+        "x": "V. Recibe la ley de sus labios."
+      },
+      {
+        "t": "verso",
+        "x": "R. Acoge sus palabras en tus labios."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRIMERA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Carta del apóstol san Pablo a los Efesios\n6,5-8.10-18,23-24"
+      },
+      {
+        "t": "estrofa",
+        "x": "Poneos las armas que Dios os da"
+      },
+      {
+        "t": "estrofa",
+        "x": "Esclavos, obedezcan a sus patrones con temor y respeto, sin ninguna clase de doblez, como si sirvieran a Cristo; 6 no con una obediencia fingida que trata de agradar a los hombres, sino como servidores de Cristo, cumpliendo de todo corazón la voluntad de Dios. Sirvan a sus dueños de buena gana, como si se tratara del Señor y no de los hombres, teniendo en cuenta que el Señor retribuirá a cada uno el bien que haya hecho, sea un esclavo o un hombre libre.\nPor lo demás, fortalézcanse en el Señor con la fuerza de su poder. Revístanse con la armadura de Dios, para que puedan resistir las insidias del demonio. Porque nuestra lucha no es contra enemigos de carne y sangre, sino contra los Principados y Potestades, contra los Soberanos de este mundo de tinieblas, contra los espíritus del mal que habitan en el espacio.\nPor lo tanto, tomen la armadura de Dios, para que puedan resistir en el día malo y mantenerse firmes después de haber superado todos los obstáculos.\nPermanezcan de pie, ceñidos con el cinturón de la verdad y vistiendo la justicia como coraza. Calcen sus pies con el celo para propagar la Buena Noticia de la paz. Tengan siempre en la mano el escudo de la fe, con el que podrán apagar todas las flechas encendidas del Maligno. Tomen el casco de la salvación, y la espada del Espíritu, que es la Palabra de Dios. Eleven constantemente toda clase de oraciones y súplicas, animados por el Espíritu. Dedíquense con perseverancia incansable a interceder por todos los hermanos, y también por mí, a fin de que encuentre palabras adecuadas para anunciar resueltamente el misterio del Evangelio, del cual yo soy embajador en medio de mis cadenas. ¡Así podré hablar libremente de él, como debo hacerlo!\nLlegue a todos los hermanos la paz, el amor y la fe, que proceden de Dios, el Padre, y del Señor Jesucristo. La gracia permanezca con todos los que aman a nuestro Señor Jesucristo con un amor incorruptible."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO CF.Ef.4.1;2Co 10.5;Sal1,2;1p4,7c"
+      },
+      {
+        "t": "verso",
+        "x": "R. Os pido que andéis como, pide la vocación a la que habéis sido convocados,* Viviendo en obsequio de Jesucristo."
+      },
+      {
+        "t": "verso",
+        "x": "V. Meditad día y noche la ley del Señor y velad en oración. * Viviendo"
+      },
+      {
+        "t": "rubrica",
+        "x": "SEGUNDA LECTURA"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la Regla dada por san Alberto a los hermanos del monte Carmelo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Normas y exhortaciones varias"
+      },
+      {
+        "t": "estrofa",
+        "x": "Alberto, llamado a ser Patriarca de la Iglesia de Jerusalén por la gracia de Dios, a los amados hijos en Cristo Brocardo y demás ermitaños, que viven bajo su obediencia junto a la fuente de Elías, en el Monte Carmelo, salud en el Señor y bendición del Espíritu Santo.\nEn distintas ocasiones y de muchas maneras (cf Hb 1,1) los santos Padres dejaron establecido el modo cómo cada uno (sea cual fuere su estado o el género de vida religiosa que abrazó) ha de vivir \"en obsequio\" de Jesucristo (cf 2Co 10,5), sirviéndole lealmente con corazón puro y buena conciencia (cf 1Tm 1,5).\nPero, como nos pedís que os demos una fórmula de vida adecuada a vuestro proyecto común, para guardarla obligatoriamente en lo sucesivo: Disponemos, en primer lugar, que tengáis a uno de vosotros como prior; el cual será elegido para el cargo por unanimidad o, al menos, por acuerdo de la mayoría más grave. A él prometerá obediencia cada uno de los demás y tratará de cumplirla de veras con las obras (cf Jn 3,18),\nPermanezca cada uno en su celda, o en las proximidades, meditando día y noche la ley del Señor (cfr 1P 4,7), a no ser que se halle justificadamente ocupado en otros quehaceres.\nConstruid, si ello es posible sin mayor incomodidad, en medio de las celdas el oratorio, donde habéis de reuniros cada mañana para participar en la celebración de la misa, cuando resulte fácil en la práctica.\nEmpleaos en algún trabajo, para que el diablo os halle siempre ocupados; no sea que, por culpa de la ociosidad, descubra el maligno brecha por donde penetrar en vuestras almas.\nCualquiera que (desempeñe) el cargo de prior, recordad siempre y poned puntualmente por obra la máxima del Señor en el Evangelio: \"El que quiera ser grande entre vosotros, que sea vuestro servidor, y el que quiera ser primero entre vosotros, que sea vuestro esclavo\" (Mt 20,26-27; cf Mc 10,43-44).\nPor vuestra parte, los demás hermanos, tratad con deferencia y humildad a vuestro prior, fijándoos, más que en su persona, en la de Cristo, que os lo puso como superior, y que afirma a propósito de los pastores de la Iglesia: \"Quien a vosotros os escucha, a mí me escucha; quien a vosotros os rechaza, a mí me rechaza\" (Lc 10,16). Hacedlo así, para que no os condenen en el juicio por menosprecio de la autoridad; antes bien, os recompensen con la vida eterna, en pago de vuestra obediencia.\nEn las breves páginas de este escrito os dictamos la norma de vida, a la que habéis de ajustar vuestra conducta. Si alguno rebasare el estricto cumplimiento de la misma, el Señor, a su vuelta, se lo retribuirá. Procédase, sin embargo, con discreción, ya que ella atempera la práctica de las virtudes."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO 1M2,64;Sal18,8"
+      },
+      {
+        "t": "verso",
+        "x": "R. Vosotros, hijos míos, sed valientes en defender la ley. * Que ella será vuestra gloria."
+      },
+      {
+        "t": "verso",
+        "x": "V. La ley del Señor es perfecta, y es descanso del alma, e instruye al ignorante. * Que ella será."
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien"
+      },
+      {
+        "t": "estrofa",
+        "x": "De la regla dada por San Alberto a los hermanos del monte Carmelo"
+      },
+      {
+        "t": "estrofa",
+        "x": "Exhortaciones sobre la vida espiritual"
+      },
+      {
+        "t": "estrofa",
+        "x": "Puesto que la vida del hombre en este mundo es tiempo de prueba (cf Jb 7,1), y todo el que se propone vivir como buen cristiano sufre persecución (cf 2Tm 3,12), y vuestro enemigo, el diablo, como león rugiente, ronda buscando a quien devorar (cf 1P 5,8), procurad con toda solicitud poneros las armas que Dios os da para poder resistir a las estratagemas del diablo (cf Ef 6,11).\nAbrochaos el ceñidor de la castidad (cf Ef 6,14). Protegeos con el peto de piadosas consideraciones, pues escrito está: \"El pensamiento santo te guardará\" (Pr 2,11,según los LXX). Por coraza vestíos la justicia (cf Ef 6,14), a fin de amar al Señor, vuestro Dios, con todo el corazón, con toda el alma, con todas las fuerzas (cf Dt 6,5), y al prójimo como a vosotros mismos.\nTened siempre embrazado el escudo de la fe, que os permitirá apagar las flechas incendiarias del malo (cf Ef 6,16); pues sin fe es imposible agradar a Dios (cf Hb 11,6). Tomad por casco la salvación (cf Ef 6,17), confiando en el único Salvador que libera a su pueblo de los pecados (cf Mt 1,21).\nQue la espada del Espíritu, toda palabra de Dios (cf Ef 6,17), os pueble colmadamente (cf Col 3,16) los labios y el corazón (cf Rm 10,8). Y cuanto hagáis, realizadlo por la palabra del Señor (cf Col 3,17; 1Co 10,31).\nValora el Apóstol el silencio, por el hecho de imponerlo en el trabajo (cf 2Ts 3,12). Y como afirma el Profeta: Obra de la justicia es el silencio (cf Is 32,17). Y en otro lugar: \"Vuestra fuerza estriba en callar y confiar\" (Is 30,15). Por tanto, ordenamos que guardéis silencio desde la terminación de completas hasta después del rezo de prima del día siguiente. Fuera de este tiempo, aunque la práctica del silencio no sea tan estricta, evitad cuidadosamente la charlatanería; pues, como enseña la Escritura y lo abona la experiencia: \"En el mucho hablar no faltará pecado\" (Pr 10,199. Y: \"Quien suelta los labios, marcha a la ruina\" (Pr 13,3). Y también: \"El locuaz se hace odioso\" (Si 20,8). El Señor, a su vez, advierte en el Evangelio: \"De toda palabra ociosa que hablen los hombres darán cuenta en el día del juicio\" (Mt 12,36). Por consiguiente, que cada uno haga balanza y pesas para sus palabras, y puerta y cerrojo para su boca (no sea que resbale a causa de la lengua y caiga, y su caída resulte mortal sin remedio) (cf Si 28,29-30), vigilando su proceder, conforme al aviso del Profeta, a fin de que no se le vaya la lengua (cf Sal 38,2). Que cada cual se afane con todos sus cinco sentidos por guardar el silencio, obra de la justicia (cf Is 32,17)."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO Flp. 4,9;Pr4,1ª.2ª"
+      },
+      {
+        "t": "verso",
+        "x": "R. Todo cuanto habéis aprendido y recibido de mi, ponedlo por obra,*Y el Dios de la paz estará con vosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Escuchad, hijos, la instrucción de vuestro padre, porque es buena la doctrina que os enseño.* Y el Dios."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Tened ceñida la cintura y encendidas las lámparas."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico I Jr. 17,7-8"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito quien confía en el Señor,\ny pone en el Señor su confianza;\nserá un árbol plantado junto al agua,\nque junto a la corriente echa sus raíces;"
+      },
+      {
+        "t": "estrofa",
+        "x": "cuando llegue el estío no lo sentirá,\nsu hoja estará verde;\nen un año de sequía no se inquieta,\nno deja de dar fruto."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico II Si 14,20.21:15,3.4.6b"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichoso el hombre que se ejercita en la sabiduría,\nY que en su inteligencia reflexiona,\nQue medita sus caminos en su corazón,\nY sus secretos considera."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ella lo alimentara con pan de sensatez\nY le dará a beber agua de prudencia,\nApoyado en ella no vacilara\nY confiado en ella no fracasara;\nLo ensalzara sobre sus compañeros."
+      },
+      {
+        "t": "estrofa",
+        "x": "Le dará un nombre perdurable\nEl Señor, nuestro Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico III Si 31, 8-11"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichoso el hombre que se conserva integro\nY no se pervierte por la riqueza;\n¿Quién es? Vamos a felicitarlo,\nporque ha hecho algo admirable en su pueblo."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Quién en la prueba se acredito?\nTendrá paz y tendrá honor."
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Quién pudiendo desviarse no se desvió,\npudiendo hacer el mal no lo hizo?"
+      },
+      {
+        "t": "estrofa",
+        "x": "Su bondad esta confirmada,\nY la asamblea contara sus alabanzas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Tened ceñida la cintura y encendidas las lámparas."
+      },
+      {
+        "t": "estrofa",
+        "x": "EVANGELIO Mt. 20,25-28"
+      },
+      {
+        "t": "estrofa",
+        "x": "En aquel tiempo, Jesús, reuniendo a sus discípulos, les dijo:\n-Sabéis que los jefes de los pueblos los tiranizan y que los grandes los oprimen.\nNo será así entre vosotros: el que quiera ser grande entre vosotros, que sea vuestro servidor, y el que quiera ser primero entre vosotros, que sea vuestro esclavo.\nIgual que el Hijo del Hombre no ha venido para que le sirvan, sino para dar su vida en rescate por muchos."
+      },
+      {
+        "t": "rubrica",
+        "x": "Himno Te Deum"
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, oh Dios, te alabamos,\na ti, Señor, te reconocemos."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti, eterno Padre,\nte venera toda la creación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los Ángeles todos,\nlos cielos y todas las potestades te honran."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los querubines y serafines\nte cantan sin cesar:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Santo, Santo, Santo es el Señor,\nDios del Universo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Los cielos y la tierra están llenos\nde la majestad de tu gloria."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti te ensalza\nel glorioso coro de los apóstoles,\nla multitud admirable de los profetas,\nel blanco ejército de los mártires."
+      },
+      {
+        "t": "estrofa",
+        "x": "A ti la Iglesia santa,\nextendida por toda la tierra,\nte proclama:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Padre de inmensa majestad,\nHijo único y verdadero, digno de adoración,\nEspíritu Santo, Defensor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Rey de la gloria, Cristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú eres el Hijo único del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, para liberar al hombre,\naceptaste la condición humana\nsin deseñar el seno de la Virgen."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú, rotas las cadenas de la muerte,\nabriste a los creyentes el reino del cielo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tú te sientas a la derecha de Dios\nen la gloria del Padre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Creemos que un día\nhas de venir como juez."
+      },
+      {
+        "t": "estrofa",
+        "x": "Te rogamos, pues,\nque vengas en ayuda de tus siervos,\na quienes redimiste con tu preciosa sangre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Haz que en la gloria eterna\nnos asociemos a tus santos"
+      },
+      {
+        "t": "estrofa",
+        "x": "Lo que sigue puede omitirse"
+      },
+      {
+        "t": "verso",
+        "x": "V. Salva a tu pueblo, Señor, y bendice tu heredad."
+      },
+      {
+        "t": "verso",
+        "x": "R. Sé su pastor y ensálzalo eternamente."
+      },
+      {
+        "t": "verso",
+        "x": "V. Día tras día te bendecimos"
+      },
+      {
+        "t": "verso",
+        "x": "R. y alabamos tu nombre para siempre, por eternidad de eternidades."
+      },
+      {
+        "t": "verso",
+        "x": "V. Dígnate, Señor, en este día guárdanos del pecado."
+      },
+      {
+        "t": "verso",
+        "x": "R. Ten piedad de nosotros, Señor, ten piedad de nosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Que tu misericordia, Señor, venga sobre nosotros, como lo esperamos"
+      },
+      {
+        "t": "estrofa",
+        "x": "de ti."
+      },
+      {
+        "t": "verso",
+        "x": "R. En ti, Señor, confié, no me veré defraudado para siempre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que por medio de San Alberto diste al Carmelo una regla de vida evangélica para alcanzar la perfección de la caridad; concédenos, por su intercesión, vivir siempre en obsequio de Jesucristo y servirle fielmente hasta la muerte. Que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "laudes": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cristo, cabeza rey de los pastores,\nEl pueblo entero, convocado a fiesta,\nCanta a la gloria de su sacerdote\nHimnos sagrados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Con abundancia de sagrado crisma\nLa unción profunda de tu Santo Espíritu\nLe armo guerrero y le nombro en la Iglesia\nJefe del pueblo."
+      },
+      {
+        "t": "estrofa",
+        "x": "El fue pastor y forma del rebaño,\nLuz para el ciego, báculo del pobre,\nPadre común, presencia providente,\nTodo de todos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu, que coronas sus merecimientos,\nDanos la gracia de imitar su vida\nY al fin, sumisos a su magisterio,\nDanos la gloria. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 Vosotros sois la luz del mundo. No se puede ocultar"
+      },
+      {
+        "t": "estrofa",
+        "x": "una ciudad puesta en lo alto de un monte."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 62,2-9"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, tú eres mi Dios, por ti madrugo,\nmi alma está sedienta de ti;\nmi carne tiene ansia de ti,\ncomo tierra reseca, agostada, sin agua.\n¡Cómo te contemplaba en el santuario\nviendo tu fuerza y tu gloria!\nTu gracia vale más que la vida,\nte alabarán mis labios.\nToda mi vida te bendeciré\ny alzaré las manos invocándote.\nMe saciaré como de enjundia y de manteca,\ny mis labios te alabarán jubilosos.\nEn el lecho me acuerdo de ti\ny velando medito en ti,\nporque fuiste mi auxilio,\ny a la sombra de tus alas canto con júbilo;\nmi alma está unida a ti,\ny tu diestra me sostiene."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.1 Vosotros sois la luz del mundo. No se puede ocultar"
+      },
+      {
+        "t": "estrofa",
+        "x": "una ciudad puesta en lo alto de un monte"
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Alumbre así vuestra luz a los hombres para que vean"
+      },
+      {
+        "t": "estrofa",
+        "x": "Vuestras obras y den gloria a vuestro Padre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico Dn 3, 57-88.56"
+      },
+      {
+        "t": "estrofa",
+        "x": "Toda la creación alabe al Señor"
+      },
+      {
+        "t": "estrofa",
+        "x": "Criaturas todas del Señor, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Angeles del Señor, bendecid al Señor;\ncielos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Aguas del espacio, bendecid al Señor;\nejércitos del Señor, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sol y luna, bendecid al Señor;\nastros del cielo, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Lluvia y rocío, bendecid al Señor;\nvientos todos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Fuego y calor, bendecid al Señor;\nfríos y heladas, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Rocíos y nevadas, bendecid al Señor;\ntémpanos y hielos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Escarchas y nieves, bendecid al Señor;\nnoche y día, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Luz y tinieblas, bendecid al Señor;\nrayos y nubes, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendiga la tierra al Señor,\nensálcelo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Montes y cumbres, bendecid al Señor;\ncuanto germina en la tierra, bendiga al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Manantiales, bendecid al Señor;\nmares y ríos, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Cetáceos y peces, bendecid al Señor;\naves del cielo, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Fieras y ganados, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Hijos de los hombres, bendecid al Señor;\nbendiga Israel al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sacerdotes del Señor, bendecid al Señor;\nsiervos del Señor, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Almas y espíritus justos, bendecid al Señor;\nsantos y humildes de corazón, bendecid al Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Ananías, Azarías y Misael, bendecid al Señor,\nensalzadlo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendigamos al Padre y al Hijo con el Espíritu Santo,\nensalcémoslo con himnos por los siglos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito el Señor en la bóveda del cielo,\nalabado y glorioso y ensalzado por los siglos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant.2 Alumbre asi vuestra luz a los hombres para que vean"
+      },
+      {
+        "t": "estrofa",
+        "x": "Vuestras obras y den gloria a vuestro Padre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 La palabra de Dios es viva y eficaz,"
+      },
+      {
+        "t": "estrofa",
+        "x": "mas tajante que espada de doble filo."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 149"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cantad al Señor un cántico nuevo,\nresuene su alabanza en la asamblea de los fieles;\nque se alegre Israel por su Creador,\nlos hijos de Sión por su Rey.\nAlabad su nombre con danzas,\ncantadle con tambores y cítaras;\nporque el Señor ama a su pueblo\ny adorna con la victoria a los humildes.\nQue los fieles festejen su gloria\ny canten jubilosos en filas:\ncon vítores a Dios en la boca\ny espadas de dos filos en las manos:\npara tomar venganza de los pueblos\ny aplicar el castigo a las naciones,\nsujetando a los reyes con argollas,\na los nobles con esposas de hierro.\nEjecutar la sentencia dictada\nes un honor para todos sus fieles."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 La palabra de Dios es viva y eficaz,"
+      },
+      {
+        "t": "estrofa",
+        "x": "mas tajante que espada de doble filo."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Hb 13,7-9a"
+      },
+      {
+        "t": "estrofa",
+        "x": "Acordaos de vuestros dirigentes, que os anunciaron la palabra de Dios; fijaos en el desenlace de su vida e imitad su fe. Jesucristo es el mismo ayer y hoy y siempre. No os dejéis arrastrar por doctrinas complicadas y extrañas."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Sobre tus murallas, Jerusalén, * He colocado centinelas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Sobre tus murallas"
+      },
+      {
+        "t": "verso",
+        "x": "V. Ni de día ni de noche dejaran de anunciar tu nombre."
+      },
+      {
+        "t": "verso",
+        "x": "* He colocado. Gloria al Padre. Sobre tus murallas."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus. El que sienta celo por la ley que me siga; y muchos bajaron al desierto, porque deseaban vivir santamente según la ley."
+      },
+      {
+        "t": "rubrica",
+        "x": "Benedictus"
+      },
+      {
+        "t": "estrofa",
+        "x": "Bendito sea el Señor, Dios de Israel,\nporque ha visitado y redimido a su pueblo,\nsuscitándonos una fuerza de salvación\nen la casa de David, su siervo,\nsegún lo había predicho desde antiguo\npor boca de sus santos profetas."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es la salvación que nos libra de nuestros enemigos\ny de la mano de todos los que nos odian;\nha realizado así la misericordia que tuvo con\nnuestros padres, recordando su santa alianza\ny el juramento que juró a nuestro padre Abraham."
+      },
+      {
+        "t": "estrofa",
+        "x": "Para concedernos que, libres de temor,\narrancados de la mano de los enemigos,\nle sirvamos con santidad y justicia,\nen su presencia, todos nuestros días"
+      },
+      {
+        "t": "estrofa",
+        "x": "Y a ti, niño, te llamarán profeta del Altísimo,\nporque irás delante del Señor\na preparar sus caminos,\nanunciando a su pueblo la salvación,\nel perdón de sus pecados."
+      },
+      {
+        "t": "estrofa",
+        "x": "Por la entrañable misericordia de nuestro Dios,\nnos visitará el sol que nace de lo alto,\npara iluminar a los que viven en tiniebla\ny en sombra de muerte, para guiar nuestros\nPasos por el camino de la paz"
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en un principio, ahora y siempre,\npor los siglos de los siglos. Amén."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Benedictus. El que sienta celo por la ley que me siga; y muchos bajaron al desierto, porque deseaban vivir santamente según la ley."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Alabemos a Cristo, pastor y guardián de nuestras vidas, que ama a su pueblo santo, y supliquémosle confiadamente, diciendo:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Protege a tu pueblo, Señor."
+      },
+      {
+        "t": "estrofa",
+        "x": "Recibe, Señor, nuestros anhelos y proyectos,\n-como primicias de este nuevo día."
+      },
+      {
+        "t": "estrofa",
+        "x": "Embuyenos, Señor, en el espíritu de nuestra Regla,\n-para que seamos testigos de tu amor ante los hombres."
+      },
+      {
+        "t": "estrofa",
+        "x": "Concédenos amarte hasta conseguir nuestra transformación en ti,\n-y obrar el bien para que nuestra vida te glorifique."
+      },
+      {
+        "t": "estrofa",
+        "x": "Haz, Señor, que nosotros, tus hijos, aceptemos tu ley de corazón,\n-y la cumplamos con lealtad."
+      },
+      {
+        "t": "estrofa",
+        "x": "Guíanos por el camino que lleva a la cima del Carmelo,\n-para que te sirvamos con vida irreprochable."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro.........."
+      },
+      {
+        "t": "rubrica",
+        "x": "Oración"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que por medio de San Alberto diste al Carmelo una regla de vida evangélica para alcanzar la perfección de la caridad; concédenos, por su intercesión, vivir siempre en obsequio de Jesucristo y servirle fielmente hasta la muerte. Que vive y reina por los siglos de los siglos. Amén."
+      }
+    ],
+    "intermedia": [
+      {
+        "t": "rubrica",
+        "x": "Tercia"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Lv. 20,7-8"
+      },
+      {
+        "t": "estrofa",
+        "x": "Santificaos y sed santos; porque yo soy el Señor vuestro Dios. Guardad mis preceptos y cumplidlos. Yo soy el Señor, el que os santifico."
+      },
+      {
+        "t": "verso",
+        "x": "V. Cuanto debéis hacer."
+      },
+      {
+        "t": "verso",
+        "x": "R. Realizadlo por la palabra del Señor."
+      },
+      {
+        "t": "rubrica",
+        "x": "SEXTA"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Cf. 2Tm3,12.14-15"
+      },
+      {
+        "t": "estrofa",
+        "x": "Todo el que se proponga vivir como buen cristiano será perseguido. Pero tu permanece en lo que has aprendido y se te ha confiado; sabiendo de quien lo aprendiste y que conoces la Sagrada Escritura; ella puede darte la sabiduría que por la fe en Cristo Jesús conduce a la salvación."
+      },
+      {
+        "t": "verso",
+        "x": "V. Ten delante la visión que yo te di con mis palabras sensatas."
+      },
+      {
+        "t": "verso",
+        "x": "R. Y vive con fe y amor en Cristo Jesús."
+      },
+      {
+        "t": "rubrica",
+        "x": "NONA"
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE Flp.4,8-9"
+      },
+      {
+        "t": "estrofa",
+        "x": "Hermanos, todo lo que es verdadero, noble, justo, puro, amable, laudable; todo lo que es virtud o merito, tenedlo en cuenta. Y lo que aprendisteis, recibisteis, oísteis, y visteis en mí, ponedlo por obra. Y el Dios de la paz estará con vosotros."
+      },
+      {
+        "t": "verso",
+        "x": "V. Dichosos los que trabajan por la paz."
+      },
+      {
+        "t": "verso",
+        "x": "R. Porque ellos se llamaran los hijos de Dios."
+      }
+    ],
+    "visperas": [
+      {
+        "t": "rubrica",
+        "x": "HIMNO"
+      },
+      {
+        "t": "estrofa",
+        "x": "El mismo de Laúdes"
+      },
+      {
+        "t": "rubrica",
+        "x": "O bien:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Cantemos al Señor con alegría,\nUnidos a la voz del pastor santo;\nDemos gracias a Dios, que es luz y guía,\nSolicito pastor de su rebaño."
+      },
+      {
+        "t": "estrofa",
+        "x": "Es su voz y su amor el que nos llama\nEn la voz del pastor que el ha elegido,\nEs su amor infinito el que nos ama\nEn la entrega y amor de este otro cristo."
+      },
+      {
+        "t": "estrofa",
+        "x": "Conociendo en la fe su fiel presencia,\nHambrientos de verdad y luz divina,\nSigamos al pastor que es providencia\nDe pastos abundantes que son vida."
+      },
+      {
+        "t": "estrofa",
+        "x": "Apacienta, Señor, guarda a tus hijos,\nManda siempre a tu mies trabajadores;\nCada aurora, a la puerta del aprisco,\nNos aguarde el amor de tus pastores. Amen."
+      },
+      {
+        "t": "rubrica",
+        "x": "SALMODIA"
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Soy ministro del Evangelio por el don de la gracia de Dios."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 14"
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor, ¿quién puede hospedarse en tu tienda\ny habitar en tu monte santo?\nEl que procede honradamente\ny práctica la justicia,\nel que tiene intenciones leales\ny no calumnia con su lengua,\nel que no hace mal a su prójimo\nni difama al vecino,\nel que considera despreciable al impío\ny honra a los que temen al Señor,\nel que no retracta lo que juró\naún en daño propio,\nel que no presta dinero a usura\nni acepta soborno contra el inocente.\nEl que así obra nunca fallará."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 1 Soy ministro del Evangelio por el don de la gracia de Dios."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Administrador fiel y solicito a quien el amo"
+      },
+      {
+        "t": "estrofa",
+        "x": "ha puesto al frente de su servidumbre."
+      },
+      {
+        "t": "rubrica",
+        "x": "Salmo 111"
+      },
+      {
+        "t": "estrofa",
+        "x": "Dichoso quien teme al Señor\ny ama de corazón sus mandatos.\nSu linaje será poderoso en la tierra,\nla descendencia del justo será bendita.\nEn su casa habrá riquezas y abundancia,\nsu caridad es constante, sin falta.\nEn las tinieblas brilla como una luz\nel que es justo, clemente y compasivo.\nDichoso el que se apiada y presta,\ny administra rectamente sus asuntos.\nEl justo jamás vacilará,\nsu recuerdo será perpetuo.\nNo temerá las malas noticias,\nsu corazón está firme en el Señor.\nSu corazón está seguro, sin temor,\nhasta que vea derrotados a sus enemigos.\nReparte limosna a los pobres;\nsu caridad es constante, sin falta,\ny alzará la frente con dignidad.\nEl malvado, al verlo, se irritará,\nrechinará los dientes hasta consumirse.\nLa ambición del malvado fracasará."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 2 Administrador fiel y solicito a quien el amo"
+      },
+      {
+        "t": "estrofa",
+        "x": "ha puesto al frente de su servidumbre."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Mis ovejas escucharan mi voz,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y habrá un solo rebaño, un solo Pastor."
+      },
+      {
+        "t": "rubrica",
+        "x": "Cántico Ap. 15,3-4"
+      },
+      {
+        "t": "estrofa",
+        "x": "Grandes y maravillosas son tus obras,\nSeñor, Dios omnipotente;\nJustos y verdaderos tus caminos,\n¡oh Rey de los siglos!"
+      },
+      {
+        "t": "estrofa",
+        "x": "¿Quien no temerá, Señor,\ny glorificara tu nombre?\nPorque tu solo eres santo,\nPorque vendrán las naciones\nY se postraran en tu acatamiento,\nPorque tus juicios se hicieron manifiestos."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. 3 Mis ovejas escucharan mi voz,"
+      },
+      {
+        "t": "estrofa",
+        "x": "y habrá un solo rebaño, un solo Pastor."
+      },
+      {
+        "t": "rubrica",
+        "x": "LECTURA BREVE St 1, 22-25"
+      },
+      {
+        "t": "estrofa",
+        "x": "Llevad la palabra a la practica y no os limiteis a escucharla, engañándoos a vosotros mismos, pues quien escucha la palabra y no la pone en practica, se parece a aquel que se miraba la cara en el espejo, y apenas se miraba, daba media vuelta y se olvidaba de cómo era. Pero el que se concentra en la ley perfecta, la de la libertad, y es constante, no para oír y olvidarse, sino para ponerla por obra, este será dichoso en practicarla."
+      },
+      {
+        "t": "rubrica",
+        "x": "RESPONSORIO BREVE"
+      },
+      {
+        "t": "verso",
+        "x": "R. Este es el que ama a sus hermanos,"
+      },
+      {
+        "t": "verso",
+        "x": "* El que ora mucho por su pueblo. Este es."
+      },
+      {
+        "t": "verso",
+        "x": "V. El que entrego su vida por sus hermanos."
+      },
+      {
+        "t": "verso",
+        "x": "* El que ora. Gloria al Padre. Este es."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat La palabra de Cristo habite entre nosotros"
+      },
+      {
+        "t": "estrofa",
+        "x": "en toda su riqueza; cantad a Dios, dadle gracias de corazón."
+      },
+      {
+        "t": "rubrica",
+        "x": "Magnificat"
+      },
+      {
+        "t": "estrofa",
+        "x": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios mi Salvador,\nporque ha mirado la humillación de su esclava."
+      },
+      {
+        "t": "estrofa",
+        "x": "Desde ahora me felicitarán todas las generaciones\nporque el Poderoso ha hecho obras grandes por mí.\nSu nombre es Santo y su misericordia llega a sus\nfieles de generación en generación."
+      },
+      {
+        "t": "estrofa",
+        "x": "Él hace proezas con su brazo, dispersa a los soberbios\nde corazón. Derriba del trono a los poderosos y\nenaltece a los humildes. A los hambrientos los\ncolma de bienes y a los ricos despide vacíos."
+      },
+      {
+        "t": "estrofa",
+        "x": "Auxilia a Israel su siervo, acordándose de su santa\nalianza según lo había prometido a nuestros padres\nen favor de Abrahán y su descendencia por siempre."
+      },
+      {
+        "t": "estrofa",
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+      },
+      {
+        "t": "verso",
+        "x": "Ant. Magnificat La palabra de Cristo habite entre nosotros"
+      },
+      {
+        "t": "estrofa",
+        "x": "en toda su riqueza; cantad a Dios, dadle gracias de corazón."
+      },
+      {
+        "t": "rubrica",
+        "x": "PRECES"
+      },
+      {
+        "t": "estrofa",
+        "x": "Glorifiquemos a Cristo, nuestra Paz, de quien San Alberto\nfue embajador, y pidámosle, diciendo:"
+      },
+      {
+        "t": "estrofa",
+        "x": "Acuérdate, Señor, de esta tu familia."
+      },
+      {
+        "t": "estrofa",
+        "x": "Señor Jesucristo, en cuyo obsequio hemos abrazado la vida consagrada,\n- concédenos servirte fielmente con corazón puro y conciencia recta."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que nos has dado servidores de tu palabra,\n-haz que escuchemos y pongamos por obra su mensaje"
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que nos has llamado a vivir meditando día y noche tu ley,\n-haz que tu palabra habite entre nosotros en toda su riqueza."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que nos recomiendas el silencio lleno de tu presencia,\n-llévanos al convencimiento de que nuestra fortaleza estriba en callar y esperar."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que llamaste a prueba a la vida del hombre en este mundo,\n-alienta a los cobardes, levanta a los caídos, colma a todos de tu Espíritu."
+      },
+      {
+        "t": "estrofa",
+        "x": "Tu que abriste a los creyentes el reino del cielo,\n-acoge en tu gloria a todos los difuntos de la familia carmelitana."
+      },
+      {
+        "t": "rubrica",
+        "x": "Padre nuestro........."
+      },
+      {
+        "t": "rubrica",
+        "x": "ORACION"
+      },
+      {
+        "t": "estrofa",
+        "x": "Oh Dios, que por medio de San Alberto diste al Carmelo una regla de vida evangélica para alcanzar la perfección de la caridad; concédenos, por su intercesión, vivir siempre en obsequio de Jesucristo y servirle fielmente hasta la muerte. Que vive y reina por los siglos de los siglos. Amén."
+      }
+    ]
+  }
 }
