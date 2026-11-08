@@ -1,5 +1,5 @@
 /* Modo sin conexión: guarda la app y los datos ya consultados. */
-const VERSION = 'liturgia-ocd-v0.3';
+const VERSION = 'liturgia-ocd-v0.4';
 const BASE = [
   './', 'index.html', 'css/app.css', 'js/liturgia.js', 'js/app.js', 'manifest.webmanifest',
   'img/escudo.svg', 'img/icono.svg', 'img/icono-192.png', 'data/calendario-propio-ocd.json', 'data/calendario-general.json', 'data/regiones.json', 'i18n/es.json', 'data/salterio/es/complementaria.json', 'data/salterio/es/laudes-domingo-1.json'
@@ -18,8 +18,12 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
+  // Siempre pregunta al servidor si hay versión nueva (sin usar la caché del navegador).
+  const pedido = e.request.mode === 'navigate'
+    ? new Request(e.request.url, { cache: 'no-cache', credentials: 'same-origin' })
+    : new Request(e.request, { cache: 'no-cache' });
   e.respondWith(
-    fetch(e.request).then((r) => {
+    fetch(pedido).then((r) => {
       if (r.ok) { const copia = r.clone(); caches.open(VERSION).then((c) => c.put(e.request, copia)); }
       return r;
     }).catch(() => caches.match(e.request).then((r) => r || caches.match('index.html')))

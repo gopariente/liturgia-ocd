@@ -9,7 +9,24 @@
   // ---------- Preferencias (solo en este dispositivo) ----------
   const PREF = 'liturgia-ocd:pref';
   // País por defecto según el idioma del navegador (es-AR → ar); si no coincide, calendario general.
+  // País por defecto: primero la zona horaria del dispositivo (más fiable), después el idioma del navegador.
+  const ZONAS = [
+    [/^America\/(Argentina\/|Buenos_Aires|Cordoba|Mendoza)/, 'ar'], [/^America\/(Santiago|Punta_Arenas)|^Pacific\/Easter/, 'cl'],
+    [/^America\/(Mexico_City|Monterrey|Merida|Cancun|Chihuahua|Tijuana|Hermosillo|Mazatlan|Matamoros|Bahia_Banderas)/, 'mx'],
+    [/^America\/Bogota/, 'co'], [/^America\/Lima/, 'pe'], [/^America\/Montevideo/, 'uy'], [/^America\/Asuncion/, 'py'],
+    [/^America\/La_Paz/, 'bo'], [/^America\/Caracas/, 've'], [/^America\/Guayaquil|^Pacific\/Galapagos/, 'ec'],
+    [/^America\/Costa_Rica/, 'cr'], [/^America\/(Sao_Paulo|Fortaleza|Recife|Bahia|Belem|Manaus|Cuiaba|Porto_Velho|Rio_Branco|Maceio|Araguaina|Campo_Grande|Boa_Vista|Santarem|Noronha)/, 'br'],
+    [/^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Indiana|Kentucky|Boise)|^Pacific\/Honolulu/, 'us'],
+    [/^(Europe\/Madrid|Atlantic\/Canary|Africa\/Ceuta)/, 'es'], [/^(Europe\/Lisbon|Atlantic\/(Azores|Madeira))/, 'pt'],
+    [/^Europe\/Paris/, 'fr'], [/^Europe\/Rome/, 'it'], [/^Europe\/(Berlin|Busingen)/, 'de'], [/^Europe\/Vienna/, 'at'],
+    [/^Europe\/Amsterdam/, 'nl'], [/^Europe\/Warsaw/, 'pl'], [/^Europe\/London/, 'gb'], [/^Europe\/Dublin/, 'ie'],
+    [/^Asia\/(Kolkata|Calcutta)/, 'in'], [/^Asia\/(Jakarta|Pontianak|Makassar|Jayapura)/, 'id']
+  ];
   function paisPorDefecto() {
+    let zona = '';
+    try { zona = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) { /* sin Intl */ }
+    const z = ZONAS.find(([rx]) => rx.test(zona));
+    if (z) return z[1];
     const m = (navigator.language || '').toLowerCase().match(/-([a-z]{2})$/);
     return m ? m[1] : 'general';
   }
@@ -478,7 +495,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.3'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.4'))
     );
   }
 
@@ -520,7 +537,16 @@
   cargarIdioma().catch(() => {}).then(rutear);
 
   // ---------- Modo sin conexión ----------
+  // Al publicarse una versión nueva, el modo sin conexión se actualiza y la página se recarga sola una vez.
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    const habiaControlador = !!navigator.serviceWorker.controller;
+    let recargado = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (habiaControlador && !recargado) { recargado = true; location.reload(); }
+    });
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then((reg) => {
+      reg.update().catch(() => {});
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+    }).catch(() => {});
   }
 })();
