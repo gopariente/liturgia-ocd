@@ -166,6 +166,12 @@
     for (const c of datos.ocd.celebraciones) {
       if (c.fecha === k) lista.push(Object.assign({ origen: 'ocd', rango: RANGO_OCD[c.grado] }, c));
     }
+    // El propio de la Orden desplaza a las memorias del calendario general del mismo día.
+    if (lista.some((c) => c.origen === 'ocd')) {
+      for (let i = lista.length - 1; i >= 0; i--) {
+        if (lista[i].origen === 'general' && (lista[i].grado === 'M' || lista[i].grado === 'ML')) lista.splice(i, 1);
+      }
+    }
     // Conmemoración de los difuntos de la Orden: si cae en domingo pasa al lunes.
     if (k === '11-16' && dow(fecha) === 1) {
       const c = datos.ocd.celebraciones.find((x) => x.fecha === '11-15');
@@ -234,6 +240,18 @@
     };
   }
 
+  // Vísperas de la tarde: si mañana es solemnidad o domingo y tiene precedencia, se rezan sus I Vísperas.
+  function visperas(fecha, datos) {
+    const hoy = resolver(fecha, datos);
+    const manana = sumar(fecha, 1);
+    const m = resolver(manana, datos);
+    const pm = m.principal;
+    const esDomingo = dow(manana) === 0;
+    const tienePrimeras = pm.grado === 'S' || (esDomingo && (pm.origen === 'tiempo' || pm.rango <= 5));
+    if (tienePrimeras && pm.rango < hoy.principal.rango) return { primeras: true, dia: m, fecha: manana };
+    return { primeras: false, dia: hoy, fecha };
+  }
+
   // Aplica las variantes de un país sobre los calendarios base (sin modificar los originales).
   function aplicarRegion(base, regiones, pais) {
     const info = (regiones && regiones.paises[pais]) || { grupos: [] };
@@ -273,6 +291,6 @@
 
   root.Liturgia = {
     GRADOS, MESES, DIAS, f, sumar, dif, dow, mmdd, iso, desdeISO, hoyLocal, romano,
-    pascua, adviento1, bautismo, sagradaFamilia, moviles, tiempo, resolver, proximasOCD, aplicarRegion
+    pascua, adviento1, bautismo, sagradaFamilia, moviles, tiempo, resolver, proximasOCD, aplicarRegion, visperas
   };
 })(typeof window !== 'undefined' ? window : globalThis);

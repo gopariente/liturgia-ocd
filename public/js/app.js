@@ -175,9 +175,11 @@
       h('p', { class: 'nota' }, 'Este año no se celebra: ' + c.nombre + ' (' + GR[c.grado].toLowerCase() + '), por coincidir con ' + p.nombre + '.'));
 
     const actual = esHoy ? horaActual() : null;
+    const vsp = L.visperas(fecha, datos);
     const horas = h('div', { class: 'horas' }, HORAS.map((x) =>
       h('a', { class: 'hora' + (x.id === actual ? ' actual' : ''), href: '#/oficio/' + r.fecha + '/' + x.id },
-        h('b', {}, x.nombre), h('span', {}, x.id === actual ? 'Ahora · ' + x.sub : x.sub))));
+        h('b', {}, x.id === 'visperas' && vsp.primeras ? 'I ' + x.nombre : x.nombre),
+        h('span', {}, (x.id === actual ? 'Ahora · ' : '') + (x.id === 'visperas' && vsp.primeras ? vsp.dia.principal.nombre : x.sub)))));
 
     const prox = L.proximasOCD(fecha, datos, 3).map((x) => {
       const d = x.dia;
@@ -374,9 +376,12 @@
 
   async function vistaOficio(fechaISO, horaId, forzado) {
     const datos = await cargarDatos();
-    const fecha = L.desdeISO(fechaISO);
-    const r = L.resolver(fecha, datos);
     const hora = HORAS.find((x) => x.id === horaId) || HORAS[1];
+    // A la tarde de la víspera de una solemnidad o domingo se rezan sus I Vísperas.
+    const V = hora.id === 'visperas' && !forzado ? L.visperas(L.desdeISO(fechaISO), datos) : null;
+    const primeras = !!(V && V.primeras);
+    const fecha = primeras ? V.fecha : L.desdeISO(fechaISO);
+    const r = primeras ? V.dia : L.resolver(fecha, datos);
     // Desde la ficha de un santo se puede abrir su oficio propio aunque ese día no se celebre.
     const elegido = forzado ? celebracionOCD(forzado)[0] : null;
     const p = elegido ? Object.assign({ origen: 'ocd' }, elegido) : r.principal;
@@ -468,7 +473,7 @@
       R('Antífona final de la Virgen'), pend('Salve u otra antífona mariana. En preparación.'));
     else if (hora.id === 'laudes' || hora.id === 'visperas') cuerpo.push(R('Conclusión'), h('p', {}, 'El Señor nos bendiga, nos guarde de todo mal y nos lleve a la vida eterna.'), verso('R. Amén.'));
 
-    const propioHora = propio && propio.horas && propio.horas[hora.id];
+    const propioHora = propio && propio.horas && (primeras ? propio.horas.primeras_visperas : propio.horas[hora.id]);
     const completo = propioHora && propioHora.some((b) => b.t === 'rubrica' && /^himno/i.test(b.x));
     if (completo && hora.id !== 'intermedia') {
       const nodos = bloquesHora(propioHora);
@@ -496,12 +501,12 @@
     pintar(
       h('div', { class: 'cabecera-simple' },
         h('a', { class: 'icono-boton', href: '#/dia/' + fechaISO, 'aria-label': 'Volver' }, icono('atras')),
-        h('h1', {}, hora.nombre, h('span', { class: 'sub' }, mayus(r.fechaTexto))), herramientas),
+        h('h1', {}, primeras ? 'I ' + hora.nombre : hora.nombre, h('span', { class: 'sub' }, mayus(L.resolver(L.desdeISO(fechaISO), datos).fechaTexto))), herramientas),
       h('nav', { class: 'pestanas', 'aria-label': 'Horas' }, HORAS.map((x) =>
         h('a', { href: '#/oficio/' + fechaISO + '/' + x.id + (elegido ? '/' + forzado : ''), 'aria-current': x.id === hora.id ? 'page' : null }, x.nombre))),
       h('article', { class: 'oficio' },
         h('header', {},
-          h('span', { class: 'rubrica' }, (p.grado ? GR[p.grado] : t.nombre) + (p.origen === 'ocd' ? ' · Propio OCD' : '')),
+          h('span', { class: 'rubrica' }, (primeras ? 'I Vísperas · ' : '') + (p.grado ? GR[p.grado] : t.nombre) + (p.origen === 'ocd' ? ' · Propio OCD' : '')),
           h('h2', {}, p.nombre),
           propio && propio.comun ? h('p', { class: 'indicacion' }, propio.comun) : null,
           elegido && r.principal.nombre !== elegido.nombre ? h('p', { class: 'indicacion' }, 'Ese día la liturgia celebra ' + r.principal.nombre + '. Este oficio propio queda para el rezo privado.') : null),
@@ -555,7 +560,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.6'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.7'))
     );
   }
 

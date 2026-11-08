@@ -34,6 +34,11 @@ const casos = [
   ['2027-03-28', 'Domingo de Pascua de la Resurrección del Señor'],
   ['2025-12-08', 'Inmaculada Concepción de la Virgen María'],
   ['2030-12-09', 'Inmaculada Concepción de la Virgen María'],
+  // Memorias del calendario general
+  ['2026-11-11', 'San Martín de Tours, obispo'],
+  ['2026-11-12', 'San Josafat, obispo y mártir'],
+  ['2027-08-07', 'San Alberto de Trápani, presbítero'],
+  ['2026-03-17', 'Martes de la IV semana de Cuaresma'],
   // Versiones por país
   ['2026-07-13', 'Santa Teresa de Jesús (de los Andes) Fernández Solar, virgen', { pais: 'cl', grado: 'F' }],
   ['2027-06-07', 'Beata Ana de San Bartolomé, virgen', { pais: 'es', grado: 'M' }],

@@ -13,7 +13,7 @@
     },
     {
       "t": "titulo",
-      "x": "(Red.A,canc.2,2-4.9.12.8;B:A:C:,15(1960),1007-100.1011.1012.1010)"
+      "x": "(Red. A, canc.2,2-4.9.12.8;B:A:C:,15(1960),1007-100.1011.1012.1010)"
     },
     {
       "t": "texto",
@@ -57,7 +57,7 @@
     }
   ],
   "oracion": "Señor Dios nuestro, que abrasaste de un modo maravilloso el corazón de nuestra madre Santa Teresa con el fuego de tu Espíritu Santo, para fortalecerla en las empresas que por tu nombre había de realizar en la Iglesia; concédenos, por su intercesión, experimentar la fuerza de tu amor y trabajar con generosidad por la venida de tu reino. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
-  "ant_benedictus": "Había en mi corazón como un fuego ardiente, prendido en mis huesos, y aunque yo intentaba ahogarlo,  no podía.",
+  "ant_benedictus": "Había en mi corazón como un fuego ardiente, prendido en mis huesos, y aunque yo intentaba ahogarlo, no podía.",
   "ant_magnificat": "Se alegra mi corazón en tu Salvador; cantare al Señor por el bien que me ha hecho.",
   "horas": {
     "invitatorio": [
@@ -89,7 +89,7 @@
       },
       {
         "t": "estrofa",
-        "x": "De la Llama de amor viva de san Juan de la Cruz, presbítero y doctor de la Iglesia.\n(Red.A,canc.2,2-4.9.12.8;B:A:C:,15(1960),1007-100.1011.1012.1010)"
+        "x": "De la Llama de amor viva de san Juan de la Cruz, presbítero y doctor de la Iglesia.\n(Red. A, canc.2,2-4.9.12.8;B:A:C:,15(1960),1007-100.1011.1012.1010)"
       },
       {
         "t": "estrofa",
@@ -135,7 +135,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Yo ya no quiero otro amor,\npues a mi Dios me he entregado,\ny mi Amado es para mí,\ny yo soy para mi Amado. Amen"
+        "x": "Yo ya no quiero otro amor,\npues a mi Dios me he entregado,\ny mi Amado es para mí,\ny yo soy para mi Amado. Amén"
       },
       {
         "t": "rubrica",
@@ -235,7 +235,7 @@
       },
       {
         "t": "rubrica",
-        "x": "ORACION"
+        "x": "ORACIÓN"
       },
       {
         "t": "estrofa",
@@ -313,7 +313,7 @@
       },
       {
         "t": "estrofa",
-        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amen."
+        "x": "Gloria al Padre y al Hijo y al Espíritu Santo como\nera en principio ahora y siempre por los siglos de\nlos siglos. Amén."
       },
       {
         "t": "verso",
@@ -361,7 +361,7 @@
       },
       {
         "t": "rubrica",
-        "x": "ORACION"
+        "x": "ORACIÓN"
       },
       {
         "t": "estrofa",
