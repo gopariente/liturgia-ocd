@@ -393,6 +393,63 @@
     const R = (txt) => h('p', { class: 'rubrica' }, txt);
     const ind = (txt) => h('p', { class: 'indicacion' }, txt);
     const pend = (txt) => h('p', { class: 'pendiente' }, txt);
+
+    // ---- Dónde encontrar cada parte que la app todavía no tiene (según la Ordenación General) ----
+    const DIA = mayus(L.DIAS[L.dow(fecha)]);
+    const HN = primeras ? 'I Vísperas' : hora.nombre;
+    const semanaSal = t.salterio ? 'Salterio · semana ' + L.romano(t.salterio) + ' · ' + DIA : 'Propio del ' + t.nombre;
+    const tiempoFuerte = ['adviento', 'navidad', 'cuaresma', 'santa', 'pascua', 'triduo'].includes(t.clave);
+    const propioTiempo = 'Propio del tiempo · ' + t.nombre + (t.semana ? ' · semana ' + L.romano(t.semana) : '') + ' · ' + DIA;
+    const esCelebracion = p.origen !== 'tiempo';
+    const solemne = p.grado === 'S' || p.grado === 'F';
+    const delSenor = /Señor|Cristo|Trinidad|Corazón de Jesús|Sagrada Familia|Epifanía|Pentecostés|Santa Cruz|Ángeles|Arcángeles/i.test(p.nombre || '') && !(propio && propio.comun);
+    const fijaGeneral = (datos.general.fijas || []).some((c) => c.nombre === p.nombre);
+    const comun = (() => {
+      if (propio && propio.comun) return propio.comun.replace(/^del?\s+/i, '').replace(/[.:]\s*$/, '').replace(/^c/, 'C');
+      const n = p.nombre || '';
+      if (/Virgen María|Nuestra Señora|Madre de Dios|Madre de la/i.test(n)) return 'Común de Santa María Virgen';
+      if (delSenor) return null;
+      if (/apóstol|evangelista/i.test(n)) return 'Común de apóstoles';
+      if (/mártires/i.test(n)) return 'Común de varios mártires';
+      if (/mártir/i.test(n)) return 'Común de un mártir';
+      if (/doctor/i.test(n)) return 'Común de doctores de la Iglesia';
+      if (/papa|obispo|presbítero/i.test(n)) return 'Común de pastores';
+      if (/virgen/i.test(n)) return 'Común de vírgenes';
+      return 'Común de santos varones o de santas mujeres';
+    })();
+    const fuenteSanto = p.origen === 'ocd' ? 'Propio de la Orden'
+      : delSenor && !fijaGeneral ? 'Propio del tiempo · ' + p.nombre
+      : /^\d\d-\d\d$/.test(p.fecha || '') ? 'Propio de los santos · ' + Number(p.fecha.slice(3)) + ' de ' + L.MESES[Number(p.fecha.slice(0, 2)) - 1]
+      : 'Propio del tiempo · ' + p.nombre;
+    function donde(sec) {
+      if (hora.id === 'completas' && sec !== 'mariana') sec = 'completas';
+      const oComun = comun ? ' o ' + comun : '';
+      if (sec === 'teDeum') return 'Ordinario · Himno Te Deum';
+      if (sec === 'mariana') return 'Ordinario · Antífonas finales de la Santísima Virgen (Salve u otra)';
+      if (sec === 'completas') {
+        const v = L.visperas(L.desdeISO(fechaISO), datos);
+        if (v.primeras) return 'Completas · después de las I Vísperas del domingo';
+        if (esDomingo || p.grado === 'S') return 'Completas · después de las II Vísperas del domingo';
+        return 'Completas · ' + DIA;
+      }
+      if (sec === 'invitatorio') return 'Ordinario · Salmo 94 (o 99, 66 o 23) · antífona: '
+        + (esCelebracion ? (solemne || !comun ? fuenteSanto + oComun : comun) : (tiempoFuerte ? propioTiempo : semanaSal));
+      if (!esCelebracion) {
+        if (sec === 'salmodia') return semanaSal + ' · ' + HN;
+        if (sec === 'primera' || sec === 'segunda') return propioTiempo + ' · Oficio de lectura';
+        if (sec === 'oracion') return tiempoFuerte ? propioTiempo
+          : hora.id === 'lectura' ? 'Propio del tiempo · Domingo ' + L.romano(t.semana) + ' del Tiempo Ordinario' : semanaSal + ' · ' + HN;
+        return (tiempoFuerte ? propioTiempo : semanaSal) + ' · ' + HN;
+      }
+      if (sec === 'salmodia') return solemne ? (hora.id === 'laudes' ? 'Salterio · domingo I · Laudes' : (comun || fuenteSanto) + ' · ' + HN) : semanaSal + ' · ' + HN;
+      if (sec === 'primera') return solemne ? fuenteSanto + oComun + ' · Oficio de lectura' : propioTiempo + ' · Oficio de lectura';
+      if (sec === 'segunda') return fuenteSanto + ' · Oficio de lectura';
+      if (sec === 'oracion') return fuenteSanto;
+      if (hora.id === 'intermedia' && !solemne) return semanaSal + ' · Hora intermedia';
+      if (!comun) return fuenteSanto + ' · ' + HN;
+      return (p.origen === 'ocd' || solemne ? fuenteSanto + ' o, si no lo tiene, ' : '') + comun + ' · ' + HN;
+    }
+    const ref = (sec) => h('p', { class: 'pendiente referencia' }, h('b', {}, 'Dónde encontrarlo: '), donde(sec));
     const verso = (txt) => {
       const m = txt.match(/^(R\.|V\.|R\/|V\/|Ant\.)\s*(.*)$/);
       return h('p', { class: 'verso' }, m ? [h('b', {}, m[1]), ' ' + m[2]] : txt);
@@ -408,7 +465,7 @@
     }
     const inicio = (hora.id === 'lectura' || hora.id === 'laudes')
       ? [R('Invitatorio (si es la primera hora del día)'), verso('V. Señor, ábreme los labios.'), verso('R. Y mi boca proclamará tu alabanza.'),
-        ...(propio && propio.horas && propio.horas.invitatorio ? bloquesHora(propio.horas.invitatorio) : [pend('Salmo invitatorio y antífona: en preparación.')]),
+        ...(propio && propio.horas && propio.horas.invitatorio ? bloquesHora(propio.horas.invitatorio) : [ref('invitatorio')]),
         R('Si no se dijo el invitatorio'),
         verso('V. Dios mío, ven en mi auxilio.'), verso('R. Señor, date prisa en socorrerme.'), h('p', {}, GLORIA + (aleluya ? ' Aleluya.' : ''))]
       : [verso('V. Dios mío, ven en mi auxilio.'), verso('R. Señor, date prisa en socorrerme.'), h('p', {}, GLORIA + (aleluya ? ' Aleluya.' : ''))];
@@ -435,42 +492,41 @@
     } else if (hora.id === 'laudes' && (p.grado === 'S' || p.grado === 'F' || (esDomingo && t.salterio === 1))) {
       const ld = await json('data/salterio/' + pref.idioma + '/laudes-domingo-1.json');
       const ants = (propio && propio.ant_laudes) || [];
-      cuerpo = [R('Himno'), pend('Himno ' + (propio ? (propio.comun ? 'del común' : 'propio') : 'del domingo I') + '. En preparación.'),
-        R('Salmodia · domingo I'), ants.length ? null : ind('Antífonas del propio o del común (en preparación).'),
+      cuerpo = [R('Himno'), ref('himno'),
+        R('Salmodia · domingo I'), ants.length ? null : ref('ant'),
         ...ld.salmos.flatMap((s, i) => salmo(s, ants[i]))];
     } else {
-      cuerpo = [R('Himno'), pend('Himno — ' + (propio ? (propio.comun || 'del común').replace(/\.$/, '') : 'del salterio') + '. En preparación.'),
-        R('Salmodia'),
-        pend('Los salmos de hoy (' + salterio + ') todavía no están cargados en la app. Los salmos completos ya disponibles están en la Hora intermedia y, en solemnidades y fiestas, en Laudes.'),
+      cuerpo = [R('Himno'), ref('himno'),
+        R('Salmodia'), ref('salmodia'),
         h('a', { class: 'boton claro', href: '#/oficio/' + fechaISO + '/intermedia' + (forzado ? '/' + forzado : '') }, tx('hora_intermedia'))];
     }
 
     if (hora.id === 'lectura') {
-      cuerpo.push(R('Primera lectura'), pend('Lectura bíblica del propio del tiempo. En preparación.'));
+      cuerpo.push(R('Primera lectura'), ref('primera'));
       if (propio && propio.lectura && propio.lectura.length) cuerpo.push(...bloques(propio.lectura));
-      else cuerpo.push(R('Segunda lectura'), pend('Lectura del propio del tiempo. En preparación.'));
-      if (L.dow(fecha) === 0 || p.grado === 'S' || p.grado === 'F') cuerpo.push(R('Te Deum'), pend('Himno Te Deum. En preparación.'));
+      else cuerpo.push(R('Segunda lectura'), ref('segunda'));
+      if (L.dow(fecha) === 0 || p.grado === 'S' || p.grado === 'F') cuerpo.push(R('Te Deum'), ref('teDeum'));
     } else if (hora.id === 'laudes' || hora.id === 'visperas') {
       const esL = hora.id === 'laudes';
       const ant = propio && (esL ? propio.ant_benedictus : propio.ant_magnificat);
-      cuerpo.push(R('Lectura breve y responsorio'), pend('Del ' + (propio ? 'común' : 'salterio') + '. En preparación.'),
+      cuerpo.push(R('Lectura breve y responsorio'), ref('lecturaBreve'),
         R(esL ? 'Cántico evangélico · Benedictus (Lc 1, 68-79)' : 'Cántico evangélico · Magníficat (Lc 1, 46-55)'),
-        ant ? verso('Ant. ' + ant) : ind('Antífona del día (en preparación).'),
+        ant ? verso('Ant. ' + ant) : ref('ant'),
         ...parrafos(esL ? BENEDICTUS : MAGNIFICAT), h('p', {}, GLORIA),
-        R('Preces'), pend('Preces del día. En preparación.'),
+        R('Preces'), ref('preces'),
         R('Padre nuestro'), h('p', {}, PADRENUESTRO));
     } else if (hora.id === 'intermedia') {
-      cuerpo.push(R('Lectura breve'), pend('Lectura breve y versículo del día. En preparación.'));
+      cuerpo.push(R('Lectura breve y versículo'), ref('lecturaBreve'));
     } else {
-      cuerpo.push(R('Lectura breve, responsorio y cántico de Simeón'), pend('En preparación.'));
+      cuerpo.push(R('Salmodia, lectura breve, responsorio y cántico de Simeón'), ref('completas'));
     }
 
     cuerpo.push(R('Oración'));
     if (propio && propio.oracion && hora.id !== 'completas') cuerpo.push(h('p', {}, propio.oracion), verso('R. Amén.'));
-    else cuerpo.push(pend('Oración ' + (hora.id === 'completas' ? 'de Completas' : 'del día') + '. En preparación.'));
+    else cuerpo.push(hora.id === 'completas' ? ref('completas') : ref('oracion'));
 
     if (hora.id === 'completas') cuerpo.push(R('Bendición'), h('p', {}, 'El Señor todopoderoso nos conceda una noche tranquila y una santa muerte. Amén.'),
-      R('Antífona final de la Virgen'), pend('Salve u otra antífona mariana. En preparación.'));
+      R('Antífona final de la Virgen'), ref('mariana'));
     else if (hora.id === 'laudes' || hora.id === 'visperas') cuerpo.push(R('Conclusión'), h('p', {}, 'El Señor nos bendiga, nos guarde de todo mal y nos lleve a la vida eterna.'), verso('R. Amén.'));
 
     const propioHora = propio && propio.horas && (primeras ? propio.horas.primeras_visperas : propio.horas[hora.id]);
@@ -560,7 +616,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.7'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.8'))
     );
   }
 
