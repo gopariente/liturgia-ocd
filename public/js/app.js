@@ -195,7 +195,7 @@
           h('a', { class: 'icono-boton', href: '#/dia/' + anterior, 'aria-label': 'Día anterior' }, icono('atras')),
           h('span', { class: 'fecha' }, r.fechaTexto),
           h('a', { class: 'icono-boton', href: '#/dia/' + siguiente, 'aria-label': 'Día siguiente' }, icono('adelante'))),
-        h('img', { src: 'img/escudo.svg', alt: 'Escudo de la Orden de los Carmelitas Descalzos', width: 112, height: 146 }),
+        h('img', { src: 'img/escudo.svg', alt: 'Escudo de la Orden de los Carmelitas Descalzos', width: 112, height: 164 }),
         h('h1', {}, tx('titulo')),
         h('span', { class: 'orden' }, tx('orden'))),
       h('section', { class: 'seccion' },
@@ -616,7 +616,7 @@
       h('section', { class: 'seccion' },
         h('h2', { class: 'etiqueta' }, tx('acerca')),
         h('p', { class: 'nota' }, 'Calendario: Calendario propio de la Orden de los Hermanos Descalzos de la B. V. M. del Monte Carmelo (Curia General OCD). El cálculo del día sigue las normas universales; ante la duda prevalece el Ordo de la Orden.'),
-        h('p', { class: 'nota' }, tx('version') + ' 0.8'))
+        h('p', { class: 'nota' }, tx('version') + ' 0.9'))
     );
   }
 

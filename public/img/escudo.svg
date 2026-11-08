@@ -1,32 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 260" role="img" aria-label="Escudo de la Orden de los Carmelitas Descalzos">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 352" role="img" aria-label="Escudo de la Orden de los Carmelitas Descalzos">
   <title>Escudo del Carmelo Descalzo</title>
   <defs>
-    <polygon id="st" points="0,-10 2.2,-3.1 9.5,-3.1 3.6,1.2 5.9,8.1 0,3.8 -5.9,8.1 -3.6,1.2 -9.5,-3.1 -2.2,-3.1"/>
+    <polygon id="st" points="0,-10 2.35,-3.24 9.51,-3.09 3.8,1.24 5.88,8.09 0,4 -5.88,8.09 -3.8,1.24 -9.51,-3.09 -2.35,-3.24"/>
+    <path id="escudo" d="M50 152 H190 V228 Q190 284 120 310 Q50 284 50 228 Z"/>
+    <clipPath id="recorte"><use xlink:href="#escudo" href="#escudo"/></clipPath>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2D592"/><stop offset="1" stop-color="#C99A4B"/>
+    </linearGradient>
+    <linearGradient id="acero" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFDF8"/><stop offset="1" stop-color="#CFC3B0"/>
+    </linearGradient>
+    <linearGradient id="llama" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#C8552B"/><stop offset=".6" stop-color="#E9963A"/><stop offset="1" stop-color="#F7D27A"/>
+    </linearGradient>
   </defs>
-  <g fill="#E6C27A">
-    <use xlink:href="#st" href="#st" transform="translate(15.4 64.2) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(24.3 46.4) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(36.9 30.8) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(52.6 18.5) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(70.6 9.9) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(90 5.5) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(110 5.5) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(129.4 9.9) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(147.4 18.5) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(163.1 30.8) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(175.7 46.4) scale(.55)"/>
-    <use xlink:href="#st" href="#st" transform="translate(184.6 64.2) scale(.55)"/>
+
+  <!-- Doce estrellas (Ap 12,1) -->
+  <g fill="url(#oro)">
+    <use xlink:href="#st" href="#st" transform="translate(9.1 117.6) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(20.7 94.2) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(37.2 73.9) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(57.8 57.7) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(81.4 46.5) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(106.9 40.7) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(133.1 40.7) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(158.6 46.5) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(182.2 57.7) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(202.8 73.9) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(219.3 94.2) scale(.62)"/>
+    <use xlink:href="#st" href="#st" transform="translate(230.9 117.6) scale(.62)"/>
   </g>
-  <path d="M100 20 C108 30 96 36 104 44 C109 51 99 56 100 62 C93 55 102 49 96 42 C90 34 102 28 100 20 Z" fill="#D9963B"/>
-  <rect x="98.5" y="24" width="3" height="40" fill="#F4ECDF"/>
-  <rect x="90" y="60" width="20" height="3.5" rx="1.5" fill="#E6C27A"/>
-  <path d="M93 78 L96 64 L106 64 L109 78 Z" fill="#8A5A38"/>
-  <path d="M62 94 L57 72 L72 82 L86 66 L100 78 L114 66 L128 82 L143 72 L138 94 Z" fill="#E6C27A"/>
-  <path d="M40 98 H160 V172 Q160 226 100 246 Q40 226 40 172 Z" fill="#FFFDF8" stroke="#E6C27A" stroke-width="3"/>
-  <path d="M100 132 Q72 180 46 214 Q66 236 100 246 Q134 236 154 214 Q128 180 100 132 Z" fill="#6B4329"/>
-  <rect x="97" y="104" width="6" height="30" fill="#6B4329"/>
-  <rect x="89" y="112" width="22" height="5.5" fill="#6B4329"/>
-  <use xlink:href="#st" href="#st" transform="translate(68 146) scale(1.05)" fill="#6B4329"/>
-  <use xlink:href="#st" href="#st" transform="translate(132 146) scale(1.05)" fill="#6B4329"/>
-  <use xlink:href="#st" href="#st" transform="translate(100 206) scale(1.05)" fill="#FFFDF8"/>
+
+  <!-- Espada flamígera de Elías -->
+  <g fill="url(#llama)">
+    <path d="M120 14 C126 24 119 30 124 38 C128 45 123 50 124 58 C119 52 121 46 117 40 C113 33 121 26 120 14 Z"/>
+    <path d="M116 44 C110 50 114 56 110 62 C108 66 111 70 112 74 C115 68 113 62 117 58 Z" opacity=".85"/>
+    <path d="M124 48 C130 54 126 60 130 66 C132 70 129 74 128 78 C125 72 127 66 123 62 Z" opacity=".85"/>
+  </g>
+  <path d="M120 30 L123.2 42 L123.2 88 L116.8 88 L116.8 42 Z" fill="url(#acero)" stroke="#9C8B74" stroke-width=".6"/>
+  <line x1="120" y1="40" x2="120" y2="87" stroke="#B5A68F" stroke-width=".8"/>
+  <rect x="104" y="87" width="32" height="5" rx="2.5" fill="url(#oro)"/>
+  <circle cx="104" cy="89.5" r="3" fill="url(#oro)"/>
+  <circle cx="136" cy="89.5" r="3" fill="url(#oro)"/>
+
+  <!-- Corona -->
+  <g fill="url(#oro)" stroke="#A9803F" stroke-width=".8" stroke-linejoin="round">
+    <path d="M62 146 L58 124 L74 134 L82 120 L92 132 L100 118 L108 130 L132 130 L140 118 L148 132 L158 120 L166 134 L182 124 L178 146 Z"/>
+    <rect x="60" y="140" width="120" height="10" rx="2"/>
+  </g>
+  <g fill="#FFFDF8"><circle cx="58" cy="123" r="3"/><circle cx="82" cy="119" r="3"/><circle cx="100" cy="117" r="3"/><circle cx="140" cy="117" r="3"/><circle cx="158" cy="119" r="3"/><circle cx="182" cy="123" r="3"/></g>
+  <g fill="#8E3A2A"><circle cx="78" cy="145" r="2.2"/><circle cx="162" cy="145" r="2.2"/></g>
+  <g fill="#3E6B5A"><rect x="96" y="142.6" width="6" height="5" rx="1"/><rect x="138" y="142.6" width="6" height="5" rx="1"/></g>
+  <circle cx="120" cy="145" r="2.6" fill="#8E3A2A"/>
+
+  <!-- Brazo que empuña la espada, saliendo de la corona -->
+  <path d="M129 139 C131 126 129 112 125 100 L115 100 C111 112 109 126 111 139 Z" fill="#6B4329" stroke="url(#oro)" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M112 101 Q117 104 120 103 Q123 104 128 101" fill="none" stroke="url(#oro)" stroke-width="1.6"/>
+  <path d="M113 91 Q112 99 115 101 L125 101 Q128 99 127 91 Q120 88 113 91 Z" fill="#E8C9A6" stroke="#A47A55" stroke-width=".8"/>
+  <path d="M114.5 94.5 H125.5 M114.5 97.5 H125.5" stroke="#A47A55" stroke-width=".6"/>
+
+  <!-- Escudo: campo de plata mantelado de pardo, con la cruz del Carmelo Descalzo -->
+  <use xlink:href="#escudo" href="#escudo" fill="#FFFDF8"/>
+  <g clip-path="url(#recorte)">
+    <path d="M120 194 C104 226 78 262 36 300 L36 330 L204 330 L204 300 C162 262 136 226 120 194 Z" fill="#6B4329"/>
+  </g>
+  <rect x="117" y="162" width="6" height="34" fill="#6B4329"/>
+  <rect x="108" y="171" width="24" height="6" fill="#6B4329"/>
+  <use xlink:href="#st" href="#st" transform="translate(80 214) scale(1.15)" fill="#6B4329"/>
+  <use xlink:href="#st" href="#st" transform="translate(160 214) scale(1.15)" fill="#6B4329"/>
+  <use xlink:href="#st" href="#st" transform="translate(120 266) scale(1.15)" fill="#FFFDF8"/>
+  <use xlink:href="#escudo" href="#escudo" fill="none" stroke="url(#oro)" stroke-width="3.5"/>
+
+  <!-- Lema -->
+  <path d="M28 314 L12 322 L20 332 L12 340 L36 336 Z" fill="#C99A4B"/>
+  <path d="M212 314 L228 322 L220 332 L228 340 L204 336 Z" fill="#C99A4B"/>
+  <path id="cinta" d="M26 312 Q120 342 214 312 L214 330 Q120 360 26 330 Z" fill="url(#oro)" stroke="#A9803F" stroke-width=".8"/>
+  <path id="lema" d="M32 324 Q120 352 208 324" fill="none"/>
+  <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="7.4" font-weight="700" fill="#3B2618">
+    <textPath xlink:href="#lema" href="#lema" startOffset="50%" textLength="178" lengthAdjust="spacingAndGlyphs">ZELO ZELATUS SUM PRO DOMINO DEO EXERCITUUM</textPath>
+  </text>
 </svg>
