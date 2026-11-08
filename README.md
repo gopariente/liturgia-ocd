@@ -79,6 +79,8 @@ repositorio público los textos propios de la Orden y los que se publiquen con a
 - Salterio de cuatro semanas, Ordinario, Completas y propio del tiempo.
 - Memorias del calendario romano general (hoy solo solemnidades y fiestas).
 - Comunes (vírgenes, pastores, mártires) para completar los oficios propios.
+- Retratos de los santos (ver `public/img/santos/LEEME.md`).
+- Textos sin cargar: 25 de mayo y 15 de noviembre no tienen segunda lectura propia en los documentos; 24 de julio B (Mercedes Prat) no figura en el calendario OCD.
 - Traslados de solemnidades impedidas.
 
 > El cálculo del día sigue las normas universales, simplificadas. Ante la duda, prevalece el *Ordo* de la Orden.

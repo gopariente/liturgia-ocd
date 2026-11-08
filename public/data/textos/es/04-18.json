@@ -1,0 +1,58 @@
+{
+  "fecha": "04-18",
+  "vida": "Nació en París, el 1 de febrero de 1566. A los dieciséis años contrajo matrimonio con Pedro Acarie, con el que tuvo siete hijos. En medio de los quehaceres domésticos y de las penalidades, coronó las más altas cumbres de la vida mística.  Movida por la lectura de las obras de Santa Teresa y por sus celestiales avisos se sintió inspirada para introducir en Francia el Carmen descalzo femenino. Muerto su esposo en 1613 y habiendo educado a sus hijos, solicitó su admisión entre las hijas de Santa Teresa como “hermana de velo blanco”, consagrándose a Dios con los santos votos en el Monasterio de Amiens donde vistió el hábito el 7 de abril de 1614. Fue objeto de singular respeto y aprecio por parte de los hombres más insignes de su tiempo, entre los que cabe citar a San Francisco de Sales. Sobresalió por su espíritu de oración y su celo apostólico por la propagación de la fe. Enviada a Pontoise muere en el Señor, el 18 de abril de 1618. El 5 de junio de 1791 fue beatificada de Pio VI.",
+  "comun": "Del Común de santas para los religiosos.",
+  "lectura": [
+    {
+      "t": "rubrica",
+      "x": "Segunda lectura"
+    },
+    {
+      "t": "fuente",
+      "x": "Del Camino de perfección de santa Teresa de Jesús, virgen y doctora de la Iglesia."
+    },
+    {
+      "t": "titulo",
+      "x": "(Cod. V.I.1.2.; 4.5.;3.6; B.A:C:212 (1962) 185-186.193)"
+    },
+    {
+      "t": "texto",
+      "x": "Fin apostólico del Carmelo Teresiano"
+    },
+    {
+      "t": "texto",
+      "x": "Al principio que se comenzó este monasterio a fundar, no era mi intención hubiese tanta aspereza en lo exterior."
+    },
+    {
+      "t": "texto",
+      "x": "En este tiempo vinieron a mi noticia los daños de Francia y el estrago que habían hecho estos Luteranos, y cuanto iba en crecimiento esta desventurada secta. Diome gran fatiga, y como si yo pudiera algo o fuera algo, lloraba con el Señor y suplicaba remediase tanto mal. Pareciame que mil vidas pusiera yo para remedio de un alma de las muchas que allí se perdían; y como me vi mujer y ruin, e imposibilitada de aprovechar en lo que yo quisiera en el servicio del Señor, y toda mi ansia era, y aun es que, pues tiene tantos enemigos y tan pocos amigos, que esos fueses buenos, determine a hacer eso poquito que era en mi, que es seguir los consejos evangélicos con toda perfección que yo pudiese, y procurar que estas poquitas que están aquí hiciesen lo mismo, confiada en la gran bondad de Dios que nunca falta de ayudar a quien por el se determina a dejarlo todo, y que siendo tales cuales yo las pintaba en mis deseos, entre sus virtudes no tendrían fuerza mis faltas y podría yo contentar en algo al Seño, y que todas ocupadas en oración por los que son defendedores de la Iglesia, y predicadores y letrados que la defienden, ayudásemos en lo que pudiésemos a este Señor mío, que tan apretado le traen a los que ha hecho tanto bien, que parece le querrían tornar ahora a la cruz estos traidores y que no tuviese adonde reclinar la cabeza."
+    },
+    {
+      "t": "texto",
+      "x": "No me deja de quebrar el corazón ver tantas almas como se pierden; mas, del mal no tanto, quería no ver perder mas cada día."
+    },
+    {
+      "t": "texto",
+      "x": "¡Oh hermanas mías en Cristo!, ayudadme a suplicar esto al Señor, que para eso os junto aquí; este es vuestro llamamiento; estos han de ser vuestros negocios; estos han de ser vuestros deseos; aquí vuestras lagrimas; estas vuestras peticiones. Estase ardiendo el mundo, quieren tornar a sentenciar a Cristo, como dicen, pues le levantan mil testimonios; quieren poner su Iglesia por el suelo."
+    },
+    {
+      "t": "texto",
+      "x": "Así que os pido, por amor del Señor, pidáis a su Majestad nos oiga en esto; yo, aunque miserable, lo pido a su majestad, pues es para gloria suya y bien de su Iglesia, que aquí van mis deseos."
+    },
+    {
+      "t": "rubrica",
+      "x": "Responsorio · C.F. 1Tm2, 1.4.3"
+    },
+    {
+      "t": "verso",
+      "x": "R. Haced oraciones, plegarias, suplicas, acciones de gracias por todos los que están en el mundo al Señor. * Que quiere que todos los hombres se salven y lleguen al conocimiento de la verdad. Aleluya."
+    },
+    {
+      "t": "verso",
+      "x": "V. Esto es bueno y grato ante los ojos de nuestro Salvador, Dios. *Que quiere."
+    }
+  ],
+  "oracion": "Señor, tú concediste a la Beata María de la Encarnación, insigne propagadora del Carmelo Teresiano, una fortaleza singular para servirte en los diversos estados de la vida cristiana y superar todas las dificultades; haz que también nosotros sepamos vencer todo obstáculo y nos mantengamos fieles en tu servicio, amándote con corazón sincero. Por nuestro Señor Jesucristo que vive y reina por los siglos de los siglos. Amén.",
+  "ant_benedictus": "Si pedís algo al Padre en mi nombre, os lo dará, dice el Señor, Aleluya.",
+  "ant_magnificat": "Mirad que no he trabajado para mi solo, sino para todos los que buscan la verdad. Aleluya."
+}
